@@ -1,9 +1,9 @@
 ---
-layout: post
-title: Welcome to Jekyll!
-author: dan_urbanowicz
-date: '2018-07-03 12:00:00'
-categories: misc
+layout: blog
+title: Nadpis
+date: 2019-03-15T19:40:43.447Z
+thumbnail: /images/uploads/20181231_122648.jpg
+rating: 5
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
