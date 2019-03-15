@@ -1,12 +1,24 @@
+<!-- ---
+layout: compress
 ---
----
+ -->
+<!DOCTYPE html>
+<html data-current="{{ page.section }}" lang="en">
 
-{% include header.html %}
+  {% include head.html %}
 
-<div
-  class="bg-teal flex h-screen items-center justify-center text-white w-full"
->
-  {{ content }}
-</div>
+  <body class="bg-grey-lightest">
 
-{% include footer.html %}
+    {% include header.html %}
+
+    <main class="max-w-3xl mx-auto bg-white rounded shadow p-8">
+
+      {{ content }}
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>  

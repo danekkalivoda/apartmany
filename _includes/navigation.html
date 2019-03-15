@@ -1,0 +1,11 @@
+{% assign navurl = page.url | remove: 'index.html' %}
+<ul class="list-reset flex flex-row justify-end">
+{% for item in include.navigation %}
+  <li class="flex p-4">
+    <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %}>{{ item.text }}</a>
+    {% if item.subitems %}
+      {% include navigation.html navigation=item.subitems %}
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>

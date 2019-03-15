@@ -1,12 +1,8 @@
-<!doctype html>
-<html class="no-js" lang="">
+<header class="flex max-w-3xl mx-auto">
+  <a href="{{ "/" | relative_url }}" class="flex-shrink p-4">{{ site.title | escape }}</a>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Test formu skrz jekyll</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-</head>
+  <nav class="flex-auto">
+    {% include navigation.html navigation=site.data.navigation %}
+  </nav>
 
-<body>
+</header>
