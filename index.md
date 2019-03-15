@@ -1,4 +1,5 @@
 ---
+layout: home
 title: homepage
 text: tady sem doma
 ---
