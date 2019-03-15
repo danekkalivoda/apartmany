@@ -1,5 +1,6 @@
 ---
 title: Welcome
+intro_paragraph: text paragrafu
 text: >-
   Jekyll Netlify Boilerplate provides the basics to get a fast, static website
   deployed on Netlify. Features [Netlify
