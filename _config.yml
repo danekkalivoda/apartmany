@@ -1,7 +1,8 @@
 title: Tailwind Jekyll Starter Kit
 description: A starter kit for using Tailwind with Jekyll
+
 baseurl: ""
-# url: "https://objective-perlman-ff907b.netlify.com/"
+url: "https://objective-perlman-ff907b.netlify.com/"
 
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:title/
@@ -11,7 +12,7 @@ permalink: /blog/:title/
 section: true
 
 # set to 'true' to enable Netlify CMS (/admin) in production builds
-netlifycms: true
+netlifycms: false
 
 # Compress HTML (in liquid via layouts/compress.html)
 compress_html:

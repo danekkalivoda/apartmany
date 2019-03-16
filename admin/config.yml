@@ -18,9 +18,9 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "Pages"
     name: "pages"
-    folder: 'pages'
+    folder: ''
     create: true
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Intro, name: intro, widget: markdown}
-      - {label: Text, name: text, widget: markdown}
+      - {label: "Body", name: "body", widget: "markdown"}
