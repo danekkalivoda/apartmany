@@ -15,52 +15,57 @@ layout: compress
 </head>
 
 
-  <body class="bg-grey-lightest">
+  <body class="bg-grey-lightest mt-16 pt-8">
 
-    <header class="flex max-w-3xl mx-auto bg-white shadow mt-8">
-  <a href="/" class="flex-shrink p-4 text-2xl font-bold self-center no-underline text-black">Tailwind &amp; Jekyll rocks!</a>
+    <header class="fixed pin-t pin-l w-full bg-white shadow">
+	<nav class="flex items-center justify-between flex-wrap py-4 px-8 max-w-3xl mx-auto">
+	  <div class="flex items-center flex-no-shrink text-green mr-6">
+	    <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+	    <span class="font-semibold text-xl tracking-tight">Tailwind & Jekyll</span>
+	  </div>
+	  <div class="block lg:hidden">
+	    <button class="flex items-center px-3 py-2 border rounded text-grey-darker border-grey-dark hover:text-white hover:border-white">
+	      <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+	    </button>
+	  </div>
+	  <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+	    <div class="text-sm lg:flex-grow lg:text-right">
+			
 
-  <nav class="flex flex-auto flex-row items-center justify-end">
+
+    <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-green hover:text-green-darkest lg:ml-4">Home</a>
     
-<ul class="list-reset flex flex-row pr-2">
 
-  <li class="flex py-2">
-    <a href="/" class="block p-4 text-grey-darker no-underline font-light rounded hover:bg-grey-lighter">Home</a>
+    <a href="/pages/about/" data-current="current page" class="block mt-4 lg:inline-block lg:mt-0 text-green hover:text-green-darkest lg:ml-4">About</a>
     
-  </li>
 
-  <li class="flex py-2">
-    <a href="/pages/about/" data-current="current page" class="block p-4 text-grey-darker no-underline font-light rounded hover:bg-grey-lighter">About</a>
+    <a href="/pages/contact" class="block mt-4 lg:inline-block lg:mt-0 text-green hover:text-green-darkest lg:ml-4">Contact</a>
     
-  </li>
 
-  <li class="flex py-2">
-    <a href="/pages/contact" class="block p-4 text-grey-darker no-underline font-light rounded hover:bg-grey-lighter">Contact</a>
+    <a href="/blog/" class="block mt-4 lg:inline-block lg:mt-0 text-green hover:text-green-darkest lg:ml-4">Blog</a>
     
-  </li>
 
-  <li class="flex py-2">
-    <a href="/blog/" class="block p-4 text-grey-darker no-underline font-light rounded hover:bg-grey-lighter">Blog</a>
-    
-  </li>
 
-</ul>
-
-  </nav>
-
+	    </div>
+	  </div>
+	</nav>
 </header>
 
-	<section class="bg-white mt-8 py-8 border-t border-b border-grey-light">
-	    <main class="max-w-3xl mx-auto px-4">
+  	<section class="max-w-3xl mx-auto px-8 mb-8">
+  <h1>About</h1>
+</section>
+<section class="max-w-3xl mx-auto p-8 bg-white rounded shadow mb-4">
+  <main class="leading-normal">
+    
 
-	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+	</main>
+</section>
 
-	    </main>
-    </section>
 
     <footer>
-	<div class="max-w-3xl mx-auto py-4 text-grey-light shadow bg-white p-4 my-8">
+	<div class="max-w-3xl mx-auto py-4 px-8 text-grey mb-4">
 		Patička
 	</div>
 </footer>

@@ -1,6 +1,5 @@
 ---
-layout: default
+layout: page
 title: Contact
-intro: intro
 ---
 tady je text stránka

@@ -547,6 +547,26 @@ table {
  * @import "components/forms";
  */
 
+h1 {
+  font-weight: 300;
+}
+
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-bottom: 1rem;
+}
+
+h2:last-of-type,
+h3:last-of-type,
+h4:last-of-type,
+h5:last-of-type,
+p:last-of-type {
+  margin-bottom: 0;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.

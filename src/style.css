@@ -35,6 +35,15 @@
  * @import "components/buttons";
  * @import "components/forms";
  */
+h1{
+	@apply font-light;
+}
+h2, h3, h4, h5, p{
+	@apply mb-4;
+	&:last-of-type{
+		@apply mb-0
+	}
+}
 
 /**
  * This injects all of Tailwind's utility classes, generated based on your

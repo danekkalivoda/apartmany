@@ -1,33 +1,33 @@
 ---
 layout: default
 ---
+<section class="max-w-3xl mx-auto px-8 mb-8">
+  <h1>{{ page.title }}</h1>
+</section>
 
-<h2>{{ page.title }}</h2>
+<section class="max-w-3xl mx-auto p-8 bg-white rounded shadow mb-4">
+  <main class="leading-normal">
+    {% include page-intro.html %}
+    {{ content }}
 
-{% include page-intro.html %}
+    <h3>Posts</h3>
 
-{{ content }}
-
-<section>
-
-  <h3>Posts</h3>
-
-  <ul>
-    {% for post in site.posts %}
-    {% assign author = site.data.authors[post.author] %}
-      <li>
-        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-        <time datetime="{{ post.date }}">
-          <small>
-            <strong>{{ post.date | date_to_string }}</strong>
-            {% if author %}
-              by {{ author.name }}
-            {% endif %}
-          </small>
-        </time>
-        {{ post.excerpt | strip_newlines | truncate: 180 }}
-      </li>
-    {% endfor %}
-  </ul>
-
+    <ul>
+      {% for post in site.posts %}
+      {% assign author = site.data.authors[post.author] %}
+        <li>
+          <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+          <time datetime="{{ post.date }}">
+            <small>
+              <strong>{{ post.date | date_to_string }}</strong>
+              {% if author %}
+                by {{ author.name }}
+              {% endif %}
+            </small>
+          </time>
+          {{ post.excerpt | strip_newlines | truncate: 180 }}
+        </li>
+      {% endfor %}
+    </ul>
+  </main>
 </section>

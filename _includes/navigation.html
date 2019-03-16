@@ -1,11 +1,8 @@
 {% assign navurl = page.url | remove: 'index.html' %}
-<ul class="list-reset flex flex-row pr-2">
+
 {% for item in include.navigation %}
-  <li class="flex py-2">
-    <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %} class="block p-4 text-grey-darker no-underline font-light rounded hover:bg-grey-lighter">{{ item.text }}</a>
+    <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %} class="block mt-4 lg:inline-block lg:mt-0 text-green hover:text-green-darkest lg:ml-4">{{ item.text }}</a>
     {% if item.subitems %}
       {% include navigation.html navigation=item.subitems %}
     {% endif %}
-  </li>
 {% endfor %}
-</ul>

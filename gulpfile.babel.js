@@ -9,6 +9,8 @@ import purgecss from "gulp-purgecss";
 import sourcemaps from "gulp-sourcemaps";
 import atimport from "postcss-import";
 import tailwindcss from "tailwindcss";
+import postcssPresetEnv from "postcss-preset-env";
+
 
 const rawStylesheet = "src/style.css";
 const siteRoot = "_site";
@@ -46,7 +48,7 @@ task("processStyles", done => {
   browserSync.notify("Compiling styles...");
 
   return src(rawStylesheet)
-    .pipe(postcss([atimport(), tailwindcss(tailwindConfig)]))
+    .pipe(postcss([atimport(), postcssPresetEnv({stage: 0}), tailwindcss(tailwindConfig)]))
     .pipe(gulpif(devBuild, sourcemaps.init()))
     .pipe(
       gulpif(

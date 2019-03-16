@@ -21,7 +21,6 @@ collections:
     folder: 'pages'
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
-      - {label: Layout, name: layout, widget: string}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: Intro, name: intro, widget: markdown}
       - {label: "Body", name: "body", widget: "markdown"}

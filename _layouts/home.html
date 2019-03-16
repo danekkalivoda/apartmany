@@ -1,19 +1,21 @@
 ---
 layout: default
 ---
+<section class="max-w-3xl mx-auto px-8 mb-8">
+  <h1>{{ page.title }}</h1>
+</section>
+<section class="max-w-3xl mx-auto p-8 bg-white rounded shadow mb-4">
+  <main class="leading-normal">
+    {% include page-intro.html %}
+    {{ content }}
+  </main>
+</section>
 
-<h2>{{ page.title }}</h2>
 
-  {% include page-intro.html %}
-
-  {{ page.text }}
-  
-  {{ content }}
-
-  <section>
-
+{% assign psize = site.posts | size %}
+{% if psize != 0 %} 
+  <section class="max-w-3xl mx-auto px-4 mb-4">
     <h3>Recent posts from the blog</h3>
-
     <ul>
       {% for post in site.posts limit:3 %}
         <li>
@@ -21,5 +23,5 @@ layout: default
         </li>
       {% endfor %}
     </ul>
-
-  </section>
+</section>
+{% endif %}
