@@ -22,5 +22,6 @@ collections:
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: Intro, name: intro, widget: markdown}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Intro", name: "intro", widget: markdown}
       - {label: "Body", name: "body", widget: "markdown"}
