@@ -12,7 +12,7 @@ permalink: /blog/:title/
 section: true
 
 # set to 'true' to enable Netlify CMS (/admin) in production builds
-netlifycms: false
+netlifycms: true
 
 # Compress HTML (in liquid via layouts/compress.html)
 compress_html:
