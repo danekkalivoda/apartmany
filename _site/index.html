@@ -17,7 +17,7 @@ layout: compress
 
   <body class="bg-grey-lightest mt-16 pt-8">
 
-    <header class="fixed pin-t pin-l w-full bg-white shadow">
+    <header class="fixed pin-t pin-l w-full bg-white shadow z-30">
 	<nav class="flex items-center justify-between flex-wrap py-4 px-8 max-w-3xl mx-auto">
 	  <div class="flex items-center flex-no-shrink text-green mr-6">
 	    <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
@@ -51,11 +51,49 @@ layout: compress
 	</nav>
 </header>
 
-  	<section class="max-w-3xl mx-auto px-8 mb-8">
-  <h1>Tailwind & jekyll base template</h1>
+  	<div class="w-full py-24 px-6 bg-cover bg-no-repeat bg-center relative z-10 -mt-8 mb-8" style="background-image: url('http://placehold.it/1800x800');">
+    
+  <div class="container max-w-xl mx-auto text-center">
+    <h1 class="text-2xl md:text-4xl text-center text-grey-lightest mb-3 ">Tailwind & jekyll base template</h1>
+    <p class="text-md md:text-lg text-center text-white ">Ut enim ad minim veniam, quis nostrud exercitation</p>
+
+    <a href="/register" class="mt-6 rounded-full inline-block bg-white text-black no-underline px-4 py-3 shadow-lg">Find out more</a>
+  </div>
+
+</div>
+<section class="max-w-3xl mx-auto px-8 mb-8">
+  <h1 class="text-center">Tailwind & jekyll base template</h1>
 </section>
-<section class="max-w-3xl mx-auto p-8 bg-white rounded shadow mb-4">
-  <main class="leading-normal">
+<section class="mb-4 mx-4">
+  <section class="font-sans container m-auto text-center pb-8">
+    <hr class="border-b w-8 m-auto my-2">
+    <div class="flex flex-wrap justify-between items-start">
+      <div class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4">
+        <div class="w-14 h-14 rounded-full mr-4 bg-grey-light" alt=""></div>
+        <h2 class="my-4 font-medium">Cras ornare tristique elit.</h2>
+        <p class="leading-normal mb-4 mt-4 text-grey-dark">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4">
+        <div class="w-14 h-14 rounded-full mr-4 bg-grey-light" alt=""></div>
+        <h2 class="my-4 font-medium">Vivamus vestibulum ntulla nec ante.</h2>
+        <p class="leading-normal mb-4 mt-4 text-grey-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4">
+        <div class="w-14 h-14 rounded-full mr-4 bg-grey-light" alt=""></div>
+        <h2 class="my-4 font-medium">Praesent placerat risus quis eros.</h2>
+        <p class="leading-normal mb-4 mt-4 text-grey-dark">Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4">
+        <div class="w-14 h-14 rounded-full mr-4 bg-grey-light" alt=""></div>
+        <h2 class="my-4 font-medium">Fusce pellentesque suscipit nibh.</h2>
+        <p class="leading-normal mb-4 mt-4 text-grey-dark">Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+      </div>
+    </div>
+  </section>
+  <section class="text-center -mb-6">
+    <a href="/pages/contact/" class="inline-block bg-green hover:bg-green-dark text-white no-underline rounded-full px-6 py-4">CTA button</a>
+  </section>
+  <main class="leading-normal max-w-lg mx-auto bg-white rounded shadow p-8 pt-12">
     
 
     <p>Another post in here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -75,7 +113,70 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 </section>
 
 
-
+ 
+  <section class="max-w-3xl mx-auto mb-4">
+    <h2 class="font-normal text-center">Novinky</h2>
+    <div class="md:flex">
+      
+      <div class="w-full md:w-1/3 p-4">
+        <div class="rounded bg-white overflow-hidden shadow">
+          <a href="/blog/nadpis-%C4%8Dl%C3%A1nku/" class="block relative aspect-ratio-16/9">
+            <img class="w-full h-full absolute pin-t pin-l object-cover" src="https://lh3.googleusercontent.com/31MigdB1K7cnykfcw9_MfxG1_HwwEiBhrwU0Y6Bb-hc0tc76vlll5VSgf6BUj3yCoiIOkD-Ge8LiTpW3DzjlAg7UOkmTLVTKqNGI-nYkxOci-IC7PBk5xxw7xfcppYqb5ZRNs04QJ8LgwWKfobQcPtgnZRrPZQZ-aVTZd_gbXvHwCf6nANzRhXVb6TZlCSTMFhFcj--dVkvktAL91QePdDGoTNNkyLpXvqUbpH53vjHRfsCB0UpapP1q-KYdpVCPvo1mHLt4JNozR9Y6kf_yJAzHP0rymVyABW_NuGQWPcWPnUjQq0Ih-5jCUTjPFFkmUsarIzdPy-89XGjjLTSEREjfFakMGVyuxUA1z6jLEY2gA0mRCbT5WTeMZNggDRbxIVxd777X3mP953Jhb5h_Fnus_cAn5G9G7Qf2glIwUA7rkgqyx7_K4B8rN3MO9JR_O074SCDr49_jCl2RCSFNe_J6TiXw9jo3IIPNRCXXpaHxUono4b7rY8GwHvFXbjsUCrqQBp_-VgtUsGOEnjgpsEDyDePz5SKcGoWCnvQZTFqrXmezm6oAxU_p-y-EAqlt3uv_UUPdJIx77ZLVFiKiVH4Det2SjKrGc_vmvXq1ABGe6Q2_Wo99SQVPa_Nk1m7ac2bIpykaltBz8wDufGQj23KsOyMla8_-=w400" alt="Nadpis článku">
+          </a>
+          <div class="px-8 py-6">
+            <h3 class="font-bold text-xl mb-2"><a href="/blog/nadpis-%C4%8Dl%C3%A1nku/" class="block text-green hover:no-underline font-medium sm:text-lg mb-4">Nadpis článku</a></h3>
+            <p class="text-grey-darker text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit nibh, laoreet sed mi vel, consectetur sollicitudin dui. Praesent a molestie ipsum, si...
+            </p>
+          </div>
+          <div class="px-6 py-4">
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#winter</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w-full md:w-1/3 p-4">
+        <div class="rounded bg-white overflow-hidden shadow">
+          <a href="/blog/nadpis-%C4%8Dl%C3%A1nku-3/" class="block relative aspect-ratio-16/9">
+            <img class="w-full h-full absolute pin-t pin-l object-cover" src="https://lh3.googleusercontent.com/31MigdB1K7cnykfcw9_MfxG1_HwwEiBhrwU0Y6Bb-hc0tc76vlll5VSgf6BUj3yCoiIOkD-Ge8LiTpW3DzjlAg7UOkmTLVTKqNGI-nYkxOci-IC7PBk5xxw7xfcppYqb5ZRNs04QJ8LgwWKfobQcPtgnZRrPZQZ-aVTZd_gbXvHwCf6nANzRhXVb6TZlCSTMFhFcj--dVkvktAL91QePdDGoTNNkyLpXvqUbpH53vjHRfsCB0UpapP1q-KYdpVCPvo1mHLt4JNozR9Y6kf_yJAzHP0rymVyABW_NuGQWPcWPnUjQq0Ih-5jCUTjPFFkmUsarIzdPy-89XGjjLTSEREjfFakMGVyuxUA1z6jLEY2gA0mRCbT5WTeMZNggDRbxIVxd777X3mP953Jhb5h_Fnus_cAn5G9G7Qf2glIwUA7rkgqyx7_K4B8rN3MO9JR_O074SCDr49_jCl2RCSFNe_J6TiXw9jo3IIPNRCXXpaHxUono4b7rY8GwHvFXbjsUCrqQBp_-VgtUsGOEnjgpsEDyDePz5SKcGoWCnvQZTFqrXmezm6oAxU_p-y-EAqlt3uv_UUPdJIx77ZLVFiKiVH4Det2SjKrGc_vmvXq1ABGe6Q2_Wo99SQVPa_Nk1m7ac2bIpykaltBz8wDufGQj23KsOyMla8_-=w400" alt="Nadpis článku 3">
+          </a>
+          <div class="px-8 py-6">
+            <h3 class="font-bold text-xl mb-2"><a href="/blog/nadpis-%C4%8Dl%C3%A1nku-3/" class="block text-green hover:no-underline font-medium sm:text-lg mb-4">Nadpis článku 3</a></h3>
+            <p class="text-grey-darker text-base">
+              Nulla eleifend, augue nec bibendum malesuada, orci elit fringilla purus, ac elementum erat sapien at nunc. Proin bibendum non tortor fringilla aliquet. U...
+            </p>
+          </div>
+          <div class="px-6 py-4">
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#winter</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w-full md:w-1/3 p-4">
+        <div class="rounded bg-white overflow-hidden shadow">
+          <a href="/blog/nadpis-%C4%8Dl%C3%A1nku-2/" class="block relative aspect-ratio-16/9">
+            <img class="w-full h-full absolute pin-t pin-l object-cover" src="https://lh3.googleusercontent.com/31MigdB1K7cnykfcw9_MfxG1_HwwEiBhrwU0Y6Bb-hc0tc76vlll5VSgf6BUj3yCoiIOkD-Ge8LiTpW3DzjlAg7UOkmTLVTKqNGI-nYkxOci-IC7PBk5xxw7xfcppYqb5ZRNs04QJ8LgwWKfobQcPtgnZRrPZQZ-aVTZd_gbXvHwCf6nANzRhXVb6TZlCSTMFhFcj--dVkvktAL91QePdDGoTNNkyLpXvqUbpH53vjHRfsCB0UpapP1q-KYdpVCPvo1mHLt4JNozR9Y6kf_yJAzHP0rymVyABW_NuGQWPcWPnUjQq0Ih-5jCUTjPFFkmUsarIzdPy-89XGjjLTSEREjfFakMGVyuxUA1z6jLEY2gA0mRCbT5WTeMZNggDRbxIVxd777X3mP953Jhb5h_Fnus_cAn5G9G7Qf2glIwUA7rkgqyx7_K4B8rN3MO9JR_O074SCDr49_jCl2RCSFNe_J6TiXw9jo3IIPNRCXXpaHxUono4b7rY8GwHvFXbjsUCrqQBp_-VgtUsGOEnjgpsEDyDePz5SKcGoWCnvQZTFqrXmezm6oAxU_p-y-EAqlt3uv_UUPdJIx77ZLVFiKiVH4Det2SjKrGc_vmvXq1ABGe6Q2_Wo99SQVPa_Nk1m7ac2bIpykaltBz8wDufGQj23KsOyMla8_-=w400" alt="Nadpis článku 2">
+          </a>
+          <div class="px-8 py-6">
+            <h3 class="font-bold text-xl mb-2"><a href="/blog/nadpis-%C4%8Dl%C3%A1nku-2/" class="block text-green hover:no-underline font-medium sm:text-lg mb-4">Nadpis článku 2</a></h3>
+            <p class="text-grey-darker text-base">
+              Nulla eleifend, augue nec bibendum malesuada, orci elit fringilla purus, ac elementum erat sapien at nunc. Proin bibendum non tortor fringilla aliquet. U...
+            </p>
+          </div>
+          <div class="px-6 py-4">
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#winter</span>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+</section>
 
 
 

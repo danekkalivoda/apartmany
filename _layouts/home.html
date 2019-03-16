@@ -1,27 +1,79 @@
 ---
 layout: default
 ---
+<div class="w-full py-24 px-6 bg-cover bg-no-repeat bg-center relative z-10 -mt-8 mb-8" style="background-image: url('http://placehold.it/1800x800');">
+    
+  <div class="container max-w-xl mx-auto text-center">
+    <h1 class="text-2xl md:text-4xl text-center text-grey-lightest mb-3 ">{{ page.title }}</h1>
+    <p class="text-md md:text-lg text-center text-white ">Ut enim ad minim veniam, quis nostrud exercitation</p>
+
+    <a href="/register" class="mt-6 rounded-full inline-block bg-white text-black no-underline px-4 py-3 shadow-lg">Find out more</a>
+  </div>
+
+</div>
 <section class="max-w-3xl mx-auto px-8 mb-8">
-  <h1>{{ page.title }}</h1>
+  <h1 class="text-center">{{ page.title }}</h1>
 </section>
-<section class="max-w-3xl mx-auto p-8 bg-white rounded shadow mb-4">
-  <main class="leading-normal">
+<section class="mb-4 mx-4">
+  <section class="font-sans container m-auto text-center pb-8">
+    <hr class="border-b w-8 m-auto my-2">
+    <div class="flex flex-wrap justify-between items-start">
+      <div class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4">
+        <div class="w-14 h-14 rounded-full mr-4 bg-grey-light" alt=""></div>
+        <h2 class="my-4 font-medium">Cras ornare tristique elit.</h2>
+        <p class="leading-normal mb-4 mt-4 text-grey-dark">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4">
+        <div class="w-14 h-14 rounded-full mr-4 bg-grey-light" alt=""></div>
+        <h2 class="my-4 font-medium">Vivamus vestibulum ntulla nec ante.</h2>
+        <p class="leading-normal mb-4 mt-4 text-grey-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4">
+        <div class="w-14 h-14 rounded-full mr-4 bg-grey-light" alt=""></div>
+        <h2 class="my-4 font-medium">Praesent placerat risus quis eros.</h2>
+        <p class="leading-normal mb-4 mt-4 text-grey-dark">Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4">
+        <div class="w-14 h-14 rounded-full mr-4 bg-grey-light" alt=""></div>
+        <h2 class="my-4 font-medium">Fusce pellentesque suscipit nibh.</h2>
+        <p class="leading-normal mb-4 mt-4 text-grey-dark">Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+      </div>
+    </div>
+  </section>
+  <section class="text-center -mb-6">
+    <a href="/pages/contact/" class="inline-block bg-green hover:bg-green-dark text-white no-underline rounded-full px-6 py-4">CTA button</a>
+  </section>
+  <main class="leading-normal max-w-lg mx-auto bg-white rounded shadow p-8 pt-12">
     {% include page-intro.html %}
     {{ content }}
   </main>
 </section>
 
-
 {% assign psize = site.posts | size %}
 {% if psize != 0 %} 
-  <section class="max-w-3xl mx-auto px-4 mb-4">
-    <h3>Recent posts from the blog</h3>
-    <ul>
+  <section class="max-w-3xl mx-auto mb-4">
+    <h2 class="font-normal text-center">Novinky</h2>
+    <div class="md:flex">
       {% for post in site.posts limit:3 %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
+      <div class="w-full md:w-1/3 p-4">
+        <div class="rounded bg-white overflow-hidden shadow">
+          <a href="{{ post.url }}" class="block relative aspect-ratio-16/9">
+            <img class="w-full h-full absolute pin-t pin-l object-cover" src="{{ post.thumbnail }}" alt="{{ post.title }}">
+          </a>
+          <div class="px-8 py-6">
+            <h3 class="font-bold text-xl mb-2"><a href="{{ post.url }}" class="block text-green hover:no-underline font-medium sm:text-lg mb-4">{{ post.title }}</a></h3>
+            <p class="text-grey-darker text-base">
+              {{ post.content | strip_html | strip_newlines | truncate: 156}}
+            </p>
+          </div>
+          <div class="px-6 py-4">
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#winter</span>
+          </div>
+        </div>
+      </div>
       {% endfor %}
-    </ul>
+    </div>
 </section>
 {% endif %}

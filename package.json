@@ -20,7 +20,9 @@
     "gulp-sourcemaps": "^2.6.4",
     "postcss-import": "^11.1.0",
     "postcss-preset-env": "^6.6.0",
-    "tailwindcss": "^0.7.3"
+    "tailwindcss": "^0.7.3",
+    "tailwindcss-aspect-ratio": "^1.0.1",
+    "tailwindcss-responsive-embed": "^0.2.2"
   },
   "scripts": {
     "build": "NODE_ENV=production gulp",
