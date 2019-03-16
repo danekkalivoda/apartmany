@@ -1,7 +1,7 @@
-<header class="flex max-w-3xl mx-auto">
-  <a href="{{ "/" | relative_url }}" class="flex-shrink p-4">{{ site.title | escape }}</a>
+<header class="flex max-w-3xl mx-auto bg-white shadow mt-8">
+  <a href="{{ "/" | relative_url }}" class="flex-shrink p-4 text-2xl font-bold self-center no-underline text-black">{{ site.title | escape }}</a>
 
-  <nav class="flex-auto">
+  <nav class="flex flex-auto flex-row items-center justify-end">
     {% include navigation.html navigation=site.data.navigation %}
   </nav>
 

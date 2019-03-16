@@ -17,30 +17,30 @@ layout: compress
 
   <body class="bg-grey-lightest">
 
-    <header class="flex max-w-3xl mx-auto">
-  <a href="/" class="flex-shrink p-4">Tailwind Jekyll Starter Kit</a>
+    <header class="flex max-w-3xl mx-auto bg-white shadow mt-8">
+  <a href="/" class="flex-shrink p-4 text-2xl font-bold self-center no-underline text-black">Tailwind &amp; Jekyll rocks!</a>
 
-  <nav class="flex-auto">
+  <nav class="flex flex-auto flex-row items-center justify-end">
     
-<ul class="list-reset flex flex-row justify-end">
+<ul class="list-reset flex flex-row pr-2">
 
-  <li class="flex p-4">
-    <a href="/" data-current="current page">Home</a>
-    
-  </li>
-
-  <li class="flex p-4">
-    <a href="/pages/about/">About</a>
+  <li class="flex py-2">
+    <a href="/" data-current="current page" class="block p-4 text-grey-darker no-underline font-light rounded hover:bg-grey-lighter">Home</a>
     
   </li>
 
-  <li class="flex p-4">
-    <a href="/pages/contact">Contact</a>
+  <li class="flex py-2">
+    <a href="/pages/about/" class="block p-4 text-grey-darker no-underline font-light rounded hover:bg-grey-lighter">About</a>
     
   </li>
 
-  <li class="flex p-4">
-    <a href="/blog/">Blog</a>
+  <li class="flex py-2">
+    <a href="/pages/contact" class="block p-4 text-grey-darker no-underline font-light rounded hover:bg-grey-lighter">Contact</a>
+    
+  </li>
+
+  <li class="flex py-2">
+    <a href="/blog/" class="block p-4 text-grey-darker no-underline font-light rounded hover:bg-grey-lighter">Blog</a>
     
   </li>
 
@@ -50,9 +50,10 @@ layout: compress
 
 </header>
 
-    <main class="max-w-3xl mx-auto bg-white rounded shadow p-8">
+	<section class="bg-white mt-8 py-8 border-t border-b border-grey-light">
+	    <main class="max-w-3xl mx-auto px-4">
 
-      <h2>homepage</h2>
+	      <h2>homepage</h2>
 
   
 
@@ -79,25 +80,18 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
     <ul>
       
-        <li>
-          <a href="/blog/nadpis/">Nadpis</a>
-        </li>
-      
-        <li>
-          <a href="/blog/a-simple-post/">A simple blog post</a>
-        </li>
-      
     </ul>
 
   </section>
 
 
-    </main>
+	    </main>
+    </section>
 
-    <footer class="max-w-3xl mx-auto">
-
-  Patička
-
+    <footer>
+	<div class="max-w-3xl mx-auto py-4 text-grey-light shadow bg-white p-4 my-8">
+		Patička
+	</div>
 </footer>
 
 
