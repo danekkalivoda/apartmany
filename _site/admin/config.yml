@@ -11,10 +11,10 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Nadpis", name: "title", widget: "string"}
+      - {label: "Datum", name: "date", widget: "datetime"}
+      - {label: "Aktivní", name: "draft", widget: "boolean", default: true}
       - {label: "Featured Image", name: "thumbnail", widget: "string"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "Pages"
     name: "pages"
@@ -23,5 +23,5 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Intro", name: "intro", widget: markdown}
+      - {label: "Aktivní", name: "draft", widget: "boolean", default: true}
       - {label: "Body", name: "body", widget: "markdown"}
