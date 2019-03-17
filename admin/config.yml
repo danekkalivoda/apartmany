@@ -25,7 +25,6 @@ collections:
       - {label: "Hlavní text", name: "body", widget: "markdown"}
   - label: "Stránky"
     name: "pages"
-    folder: ''
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
