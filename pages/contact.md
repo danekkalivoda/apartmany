@@ -1,5 +1,6 @@
 ---
 layout: page
 title: Contact
+draft: true
 ---
-tady je text stránka
+tady je text stránka kontaktů
