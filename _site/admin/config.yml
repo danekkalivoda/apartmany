@@ -5,7 +5,7 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
+    label: "Články" # Used in the UI
     folder: "_posts/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -13,15 +13,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Nadpis", name: "title", widget: "string"}
       - {label: "Datum", name: "date", widget: "datetime"}
-      - {label: "Aktivní", name: "draft", widget: "boolean", default: true}
+      - {label: "Aktivní", name: "active", widget: "boolean", default: false}
       - {label: "Featured Image", name: "thumbnail", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - label: "Pages"
+      - {label: "Hlavní text", name: "body", widget: "markdown"}
+  - label: "Stránky"
     name: "pages"
     folder: 'pages'
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Aktivní", name: "draft", widget: "boolean", default: true}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Nadpis", name: "title", widget: "string"}
+      - {label: "Aktivní", name: "active", widget: "boolean", default: false}
+      - {label: "Hlavní text", name: "body", widget: "markdown"}

@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Contact
-draft: true
+active: true
 ---
 tady je text stránka kontaktů

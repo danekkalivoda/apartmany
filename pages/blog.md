@@ -1,6 +1,6 @@
 ---
 layout: blog
 title: The Blog
-draft: true
+active: true
 ---
 Stránka blogu...
