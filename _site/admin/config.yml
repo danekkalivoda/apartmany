@@ -32,3 +32,7 @@ collections:
       - {label: "Nadpis", name: "title", widget: "string"}
       - {label: "Aktivní", name: "active", widget: "boolean", default: false}
       - {label: "Hlavní text", name: "body", widget: "markdown"}
+      - label: "Gallery"
+        name: "galleryImages"
+        widget: "list"
+        field: {label: Image, name: image, widget: image}
