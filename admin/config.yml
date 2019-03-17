@@ -4,6 +4,13 @@ backend:
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
+  - label: "Menu"
+    name: "menus"
+    folder: 'menus'
+    create: true
+    fields:
+      - {label: Název odkazu, name: link-name, widget: string}
+      - {label: Url, name: link-url, widget: string}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Články" # Used in the UI
     folder: "_posts/blog" # The path to the folder where the documents are stored
