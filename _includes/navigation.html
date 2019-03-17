@@ -6,3 +6,12 @@
       {% include navigation.html navigation=item.subitems %}
     {% endif %}
 {% endfor %}
+
+{{site.menus}}
+
+{% for item in include.navigation %}
+    <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %} class="block mt-4 lg:inline-block lg:mt-0 text-green hover:text-green-darkest lg:ml-4">{{ item.text }}</a>
+    {% if item.subitems %}
+      {% include navigation.html navigation=item.subitems %}
+    {% endif %}
+{% endfor %}
