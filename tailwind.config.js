@@ -45,6 +45,7 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 
 let colors = {
   'transparent': 'transparent',
+  'black-opacity-50': 'rgba(0, 0, 0, 0.5)',
 
   'black': '#22292f',
   'grey-darkest': '#3d4852',
