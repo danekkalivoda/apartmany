@@ -1,10 +1,10 @@
 # specify main menu items here
 
-- text: Home
+- text: Úvod
   url: /
-- text: About
-  url: /about/
-- text: Contact
-  url: /contact/
+- text: O projektu
+  url: /o-projektu/
+- text: Kontakt
+  url: /kontakt/
 - text: Blog
   url: /blog/

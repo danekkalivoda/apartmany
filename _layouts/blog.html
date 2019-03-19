@@ -23,6 +23,7 @@ layout: default
               {% if author %}
                 by {{ author.name }}
               {% endif %}
+              {{post.slug | slugify}}
             </small>
           </time>
           {{ post.excerpt | strip_newlines | truncate: 180 }}
