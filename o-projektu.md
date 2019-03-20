@@ -8,7 +8,7 @@ sections-above:
         header: Nadpis bloku
         mobile-width-class: '24'
         tablet-width-class: '24'
-        text: text
+        text: text test
     type: text-blocks
   - header: Carousel
     images:
