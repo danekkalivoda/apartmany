@@ -26,29 +26,36 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Nadpis", name: "title", widget: "string"}
       - {label: "Aktivní", name: "active", widget: "boolean", default: false}
-      - {label: "Hlavní text", name: "body", widget: "markdown"}
-      - label: "Gallery"
-        name: "galleryImages"
-        widget: "list"
-        field: {label: Image, name: image, widget: image}
-      - label: "Home Section"
-        name: "sections"
+      - label: "Sekce nad hlavním obsahem"
+        name: "sections-above"
         widget: "list"
         types:
           - label: "Carousel"
             name: "carousel"
             widget: object
             fields:
-              - {label: Header, name: header, widget: string, default: "Image Gallery"}
-              - {label: Template, name: template, widget: string, default: "carousel.html"}
+              - {label: Nadpis, name: header, widget: string, default: "Image Gallery"}
+              - {label: Template, name: template, widget: string, default: "carousel.html", required: false}
               - label: Images
                 name: images
                 widget: list
                 field: {label: Image, name: image, widget: image}
-          - label: "Spotlight"
-            name: "spotlight"
+          - label: "Textové bloky"
+            name: "text-blocks"
             widget: object
             fields:
-              - {label: Header, name: header, widget: string, default: "Spotlight"}
-              - {label: Template, name: template, widget: string, default: "spotlight.html"}
-              - {label: Text, name: text, widget: text, default: "Hello World"}
+              - {label: Template, name: template, widget: string, default: "blocks.html", required: false}
+              - label: "Bloky"
+                name: "blocks"
+                widget: list
+                fields:
+                  - {label: Nadpis, name: header, widget: string, default: "Blocks"}
+                  - {label: Text, name: text, widget: text, default: "Hello World"}
+                  - {label: Desktop - šířka, name: "desktop-width-class", widget: "select", options: ["6", "12", "16", "24"]}
+                  - {label: Tablet - šířka, name: "tablet-width-class", widget: "select", options: ["6", "12", "16", "24"]}
+                  - {label: Mobile - šířka, name: "mobile-width-class", widget: "select", options: ["6", "12", "16", "24"]}
+      - {label: "Hlavní text", name: "body", widget: "markdown"}
+      - label: "Gallery"
+        name: "galleryImages"
+        widget: "list"
+        field: {label: Image, name: image, widget: image}
