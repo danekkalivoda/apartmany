@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: O projektu
 active: true
 sections-above:
   - header: Carousel
