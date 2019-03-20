@@ -3,6 +3,13 @@ layout: page
 title: O projektu
 active: true
 sections-above:
+  - blocks:
+      - desktop-width-class: '24'
+        header: Nadpis bloku
+        mobile-width-class: '24'
+        tablet-width-class: '24'
+        text: text
+    type: text-blocks
   - header: Carousel
     images:
       - /images/uploads/12a6997f-3757-4a18-ab3c-57713e56990c.png
