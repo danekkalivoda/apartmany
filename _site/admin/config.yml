@@ -49,6 +49,22 @@ collections:
             widget: object
             fields:
               - {label: Nadpis, name: header, widget: string, required: false}
+              - label: Nadpis - zarovnání
+                name: header-alignment
+                required: false
+                widget: select
+                options:
+                  - { label: "Levá", value: "text-left" }
+                  - { label: "Střed", value: "text-center" }
+                  - { label: "Pravá", value: "text-right" }
+              - label: Styl bloků
+                name: block-style
+                required: false
+                widget: select
+                options:
+                  - { label: "Žádný", value: "" }
+                  - { label: "Podbarvený", value: "bg-grey rounded" }
+                  - { label: "Orámovaný", value: "border border-grey-lighter rounded" }
               - label: Bloky
                 name: blocks
                 widget: list

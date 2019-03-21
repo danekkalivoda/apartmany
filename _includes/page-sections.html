@@ -1,0 +1,28 @@
+{% for section in page.sections-above %}
+
+    {% if section.header and section.header != '' %}
+      <h2 class="{{ section.header-alignment }} text-green pb-4">
+        {{ section.header }}
+      </h2>
+    {% endif %}
+
+    {% if section.images and section.images != '' %}
+      {% for image in section.images %}
+        <img src="/static{{ image }}">
+      {% endfor %}
+    {% endif %}
+
+    {% if section.blocks and section.blocks != '' %}
+      <div class="flex flex-wrap justify-center -mx-10">
+        {% for block in section.blocks %}
+          <div class="flex flex-col px-2 w-{{ block.mobile-width-class }} md:w-{{ block.tablet-width-class }} lg:w-{{ block.desktop-width-class }}">
+            <div class="p-8 mb-4 {{ section.block-style }}">
+              <h3>{{ block.header }}</h3>
+              <p>{{ block.text }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+{% endfor %}
