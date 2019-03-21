@@ -1,7 +1,7 @@
 title: Tailwind & Jekyll rocks!
 description: A starter kit for using Tailwind with Jekyll
 
-plugins: [./_plugins/post.rb, ./_plugins/page.rb]
+plugins: [./_plugins/post.rb, ./_plugins/page.rb, ./_plugins/debug.rb]
 
 baseurl: ""
 url: "https://objective-perlman-ff907b.netlify.com/"

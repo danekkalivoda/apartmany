@@ -41,7 +41,7 @@ h1{
 h2, h3, h4, h5, p{
 	@apply mb-4;
 	&:last-of-type{
-		@apply mb-0
+		@apply mb-0;
 	}
 }
 
