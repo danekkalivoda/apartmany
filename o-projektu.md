@@ -3,7 +3,7 @@ layout: page
 title: O projektu
 active: true
 sections-above:
-  - block-style: border border-grey-lighter rounded
+  - block-style: bg-grey-lighter rounded
     blocks:
       - desktop-width-class: 1/3
         header: Nadpis bloku 1
