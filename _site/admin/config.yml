@@ -63,8 +63,8 @@ collections:
                 widget: select
                 options:
                   - { label: "Žádný", value: "" }
-                  - { label: "Podbarvený", value: "bg-grey-lighter rounded" }
-                  - { label: "Orámovaný", value: "border border-grey-lighter rounded" }
+                  - { label: "Podbarvený", value: "bg-gray-300 rounded" }
+                  - { label: "Orámovaný", value: "border border-gray-300 rounded" }
               - label: Bloky
                 name: blocks
                 widget: list
