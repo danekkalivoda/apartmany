@@ -30,7 +30,7 @@ sections-above:
           euismod id nibh ac posuere. Quisque vel libero condimentum lectus
           pharetra gravida.
     header: Moje bloky
-    header-alignment: text-left
+    header-alignment: text-center
     type: text-blocks
 contact-form: '1'
 ---
