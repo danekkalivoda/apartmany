@@ -4,10 +4,10 @@ title: O projektu
 active: true
 sections-above:
   - blocks:
-      - desktop-width-class: '24'
+      - desktop-width-class: 1/2
         header: Nadpis bloku
-        mobile-width-class: '24'
-        tablet-width-class: '24'
+        mobile-width-class: full
+        tablet-width-class: 2/3
         text: text test
     header: ''
     type: text-blocks
@@ -18,26 +18,26 @@ sections-above:
       - /images/uploads/7ec72b94-ce0a-43d0-a55e-8206a58e9ab1.png
     type: carousel
   - blocks:
-      - desktop-width-class: '6'
+      - desktop-width-class: 1/3
         header: Nadpis 1
-        mobile-width-class: '24'
-        tablet-width-class: '12'
+        mobile-width-class: full
+        tablet-width-class: 1/3
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
           viverra, purus eget fermentum sollicitudin, velit massa sollicitudin
           risus, ac imperdiet nunc enim ac tellus.
-      - desktop-width-class: '6'
+      - desktop-width-class: 1/3
         header: Nadpis 2
-        mobile-width-class: '24'
-        tablet-width-class: '12'
+        mobile-width-class: full
+        tablet-width-class: 1/3
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
           viverra, purus eget fermentum sollicitudin, velit massa sollicitudin
           risus, ac imperdiet nunc enim ac tellus.
-      - desktop-width-class: '6'
+      - desktop-width-class: 1/3
         header: Nadpis 3
-        mobile-width-class: '24'
-        tablet-width-class: '12'
+        mobile-width-class: full
+        tablet-width-class: 1/3
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
           viverra, purus eget fermentum sollicitudin, velit massa sollicitudin
