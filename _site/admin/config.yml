@@ -36,12 +36,6 @@ collections:
             widget: object
             fields:
               - {label: Nadpis, name: header, widget: string, default: "Image Gallery"}
-              - label: Typ galerie 
-                name: type
-                widget: select
-                options:
-                  - { label: "Carousel", value: "carousel" }
-                  - { label: "Výpis", value: "list" }
               - label: Fotky
                 name: images
                 widget: list
