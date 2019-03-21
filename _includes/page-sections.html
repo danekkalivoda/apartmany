@@ -15,7 +15,7 @@
     {% if section.blocks and section.blocks != '' %}
       <div class="flex flex-wrap justify-center -mx-4">
         {% for block in section.blocks %}
-          <div class="flex flex-col sm:px-4 w-{{ block.mobile-width-class }} md:w-{{ block.tablet-width-class }} lg:w-{{ block.desktop-width-class }}">
+          <div class="flex flex-col sm:px-4 w-{{ block.mobile-width-class }} md:w-{{ block.tablet-width-class }} xl:w-{{ block.desktop-width-class }}">
             <div class="p-8 mb-4 sm:mb-8 {{ section.block-style }}">
               <h3 class="text-md">{{ block.header }}</h3>
               <p class="text-sm">{{ block.text }}</p>
