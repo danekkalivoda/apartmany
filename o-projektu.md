@@ -2,41 +2,5 @@
 layout: page
 title: O projektu
 active: true
-sections-above:
-  - blocks:
-      - desktop-width-class: 1/2
-        header: Nadpis bloku
-        mobile-width-class: full
-        tablet-width-class: 2/3
-        text: text test
-    header: ''
-    type: text-blocks
-  - blocks:
-      - desktop-width-class: 1/3
-        header: Nadpis 1
-        mobile-width-class: full
-        tablet-width-class: 1/3
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-          viverra, purus eget fermentum sollicitudin, velit massa sollicitudin
-          risus, ac imperdiet nunc enim ac tellus.
-      - desktop-width-class: 1/3
-        header: Nadpis 2
-        mobile-width-class: full
-        tablet-width-class: 1/3
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-          viverra, purus eget fermentum sollicitudin, velit massa sollicitudin
-          risus, ac imperdiet nunc enim ac tellus.
-      - desktop-width-class: 1/3
-        header: Nadpis 3
-        mobile-width-class: full
-        tablet-width-class: 1/3
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-          viverra, purus eget fermentum sollicitudin, velit massa sollicitudin
-          risus, ac imperdiet nunc enim ac tellus.
-    header: ''
-    type: text-blocks
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

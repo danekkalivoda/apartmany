@@ -35,7 +35,11 @@ collections:
             name: gallery
             widget: object
             fields:
-              - {label: Nadpis, name: header, widget: string, default: "Image Gallery"}
+              - label: Nadpis
+                name: header
+                widget: string
+                required: false
+              - {label: Text, name: text, widget: markdown, required: false}
               - label: Fotky
                 name: images
                 widget: list
@@ -44,7 +48,7 @@ collections:
             name: text-blocks
             widget: object
             fields:
-              - {label: Nadpis, name: header, widget: string, default: "Bloky", required: false}
+              - {label: Nadpis, name: header, widget: string, required: false}
               - label: Bloky
                 name: blocks
                 widget: list
