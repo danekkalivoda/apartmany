@@ -32,6 +32,21 @@ sections-above:
     header: Moje bloky
     header-alignment: text-center
     type: text-blocks
+  - block-style: bg-white shadow rounded
+    blocks:
+      - desktop-width-class: 2/3
+        header: Blok 4
+        mobile-width-class: full
+        tablet-width-class: 3/4
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          efficitur tellus vel odio luctus, sagittis dapibus neque bibendum.
+          Orci varius natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. In faucibus fringilla velit, sed ullamcorper
+          risus tincidunt ac. Nulla id orci ipsum.
+    header: ''
+    header-alignment: text-center
+    type: text-blocks
 contact-form: '1'
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
