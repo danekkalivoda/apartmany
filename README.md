@@ -1,3 +1,8 @@
+---
+title: Project - readme
+active: true
+contact-form: '1'
+---
 # Tailwind Jekyll Starter
 A starter kit for using [Tailwind](https://tailwindcss.com) (v0.7.3) with [Jekyll](https://jekyllrb.com/) that includes:
 * A barebones Jekyll starter theme
