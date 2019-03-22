@@ -62,7 +62,7 @@ sections-above:
     header: Nadpis
     header-alignment: text-center
     margin-y: false
-    section-background: bg-gray-800
+    section-background: none
     type: text-blocks
   - block-style: bg-gray-300 rounded
     blocks:
