@@ -86,7 +86,7 @@ sections-above:
         mobile-width-class: full
         tablet-width-class: 1/4
         text: testik
-    margin-y: false
+    margin-y: true
     section-background: bg-white
     type: text-blocks
 contact-form: '1'
