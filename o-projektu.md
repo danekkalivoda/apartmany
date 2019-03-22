@@ -51,7 +51,7 @@ sections-above:
       - desktop-width-class: 2/3
         header: Blok 4
         mobile-width-class: full
-        tablet-width-class: 3/4
+        tablet-width-class: 2/3
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
           efficitur tellus vel odio luctus, sagittis dapibus neque bibendum.
