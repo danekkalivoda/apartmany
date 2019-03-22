@@ -31,6 +31,7 @@ sections-above:
           pharetra gravida.
     header: Moje bloky
     header-alignment: text-center
+    section-background: 'bg-white pt-4 md:pt-8'
     type: text-blocks
   - block-style: bg-white shadow rounded
     blocks:
