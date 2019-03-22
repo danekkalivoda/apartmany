@@ -6,7 +6,7 @@ sections-above:
   - block-style: null
     blocks:
       - desktop-width-class: 1/2
-        header: Nadpis
+        header: ''
         mobile-width-class: full
         tablet-width-class: 2/3
         text: >-
