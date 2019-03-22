@@ -46,9 +46,9 @@ collections:
                 widget: select
                 options:
                   - { label: "Nepřipojovat", value: "none" }
-                  - { label: "Světlé", value: "bg-white pt-4 md:pt-8 mb-4 md:mb-8" }
-                  - { label: "Primární barva", value: "bg-green-700 pt-4 md:pt-8 mb-4 md:mb-8" }
-                  - { label: "Tmavé", value: "bg-grey-700 pt-4 md:pt-8 mb-4 md:mb-8" }
+                  - { label: "Světlé", value: "bg-white pt-4 md:pt-8" }
+                  - { label: "Primární barva", value: "bg-green-700 pt-4 md:pt-8" }
+                  - { label: "Tmavé", value: "bg-grey-700 pt-4 md:pt-8" }
               - label: Fotky
                 name: images
                 widget: list
@@ -72,9 +72,9 @@ collections:
                 widget: select
                 options:
                   - { label: "Nepřipojovat", value: "none" }
-                  - { label: "Světlé", value: "bg-white pt-4 md:pt-8 mb-4 md:mb-8" }
-                  - { label: "Primární barva", value: "bg-green-700 pt-4 md:pt-8 mb-4 md:mb-8" }
-                  - { label: "Tmavé", value: "bg-grey-700 pt-4 md:pt-8 mb-4 md:mb-8" }
+                  - { label: "Světlé", value: "bg-white pt-4 md:pt-8" }
+                  - { label: "Primární barva", value: "bg-green-700 pt-4 md:pt-8" }
+                  - { label: "Tmavé", value: "bg-grey-700 pt-4 md:pt-8" }
               - label: Styl bloků
                 name: block-style
                 required: false
