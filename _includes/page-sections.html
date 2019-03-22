@@ -1,8 +1,6 @@
 {% for section in page.sections-above %}
 
-{% if section.section-background != "none" %}
-<section class="{{section.section-background}}">
-{% endif %}
+<section class="{{section.section-background}} pt-4 sm:pt-8">
 
   <div class="max-w-6xl mx-auto px-8">
     {% if section.header and section.header != '' %}
@@ -31,8 +29,6 @@
     {% endif %}
   </div>
 
-{% if section.section-background != "none" %}
 </section>
-{% endif %}
 
 {% endfor %}
