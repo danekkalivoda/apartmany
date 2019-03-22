@@ -78,7 +78,7 @@ sections-above:
     header: Nadpis
     header-alignment: text-center
     margin-y: true
-    section-background: bg-gray-700
+    section-background: bg-gray-800
     type: text-blocks
 contact-form: '1'
 ---
