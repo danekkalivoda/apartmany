@@ -3,6 +3,18 @@ layout: page
 title: O projektu
 active: true
 sections-above:
+  - block-style: null
+    blocks:
+      - desktop-width-class: 1/2
+        header: Nadpis
+        mobile-width-class: full
+        tablet-width-class: 2/3
+        text: >-
+          Mauris porta luctus mattis. Nullam diam mauris, bibendum ut elit eu,
+          porta lacinia augue. Fusce odio felis, tempus eu imperdiet sit amet,
+          euismod vitae felis.
+    section-background: none
+    type: text-blocks
   - block-style: bg-gray-300 rounded
     blocks:
       - desktop-width-class: 1/3
