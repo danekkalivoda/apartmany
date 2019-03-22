@@ -54,7 +54,7 @@ module.exports = {
         800: '#975a16',
         900: '#744210',
       },
-      green: {
+      teal: {
         100: '#f0fff4',
         200: '#c6f6d5',
         300: '#9ae6b4',
@@ -76,7 +76,7 @@ module.exports = {
         800: '#285e61',
         900: '#234e52',
       },
-      blue: {
+      teal: {
         100: '#ebf8ff',
         200: '#bee3f8',
         300: '#90cdf4',
@@ -87,7 +87,7 @@ module.exports = {
         800: '#2c5282',
         900: '#2a4365',
       },
-      indigo: {
+      teal: {
         100: '#ebf4ff',
         200: '#c3dafe',
         300: '#a3bffa',
@@ -98,7 +98,7 @@ module.exports = {
         800: '#434190',
         900: '#3c366b',
       },
-      purple: {
+      teal: {
         100: '#faf5ff',
         200: '#e9d8fd',
         300: '#d6bcfa',

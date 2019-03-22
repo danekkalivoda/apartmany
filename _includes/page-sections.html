@@ -4,7 +4,10 @@
 
   <div class="max-w-6xl mx-auto px-8">
     {% if section.header and section.header != '' %}
-      <h2 class="{{ section.header-alignment }}{% unless section.margin-y %} pt-4 sm:út-8{% endunless %} text-green-500 pb-4">
+      <h2 class="
+        {{ section.header-alignment }}
+        {% unless section.margin-y %} pt-4 sm:út-8{% endunless %}
+        text-teal-500 pb-4 text-lg font-bold">
         {{ section.header }}
       </h2>
     {% endif %}
@@ -19,9 +22,9 @@
       <div class="flex flex-wrap justify-center -mx-4">
         {% for block in section.blocks %}
           <div class="flex flex-col sm:px-4 w-{{ block.mobile-width-class }} md:w-{{ block.tablet-width-class }} lg:w-{{ block.desktop-width-class }}">
-            <div class="p-4 md:p-8 mb-4 sm:mb-8 {{ section.block-style }}">
+            <div class="mb-4 sm:mb-8 px-4 md:px-8 {{ section.block-style }}{% if section.header-alignment %} py-4 md:py-8{% endif %}">
               {% if block.header and block.header != '' %}
-                <h3 class="text-md">{{ block.header }}</h3>
+                <h3 class="text-md font-medium">{{ block.header }}</h3>
               {% endif %}
               {% if block.text and block.text != '' %}
                 <p class="text-sm">{{ block.text }}</p>
