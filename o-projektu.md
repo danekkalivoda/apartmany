@@ -14,7 +14,7 @@ sections-above:
           porta lacinia augue. Fusce odio felis, tempus eu imperdiet sit amet,
           euismod vitae felis.
     margin-y: true
-    section-background: bg-gray-800
+    section-background: bg-white
     type: text-blocks
   - block-style: border border-gray-300 rounded
     blocks:
@@ -88,7 +88,7 @@ sections-above:
         tablet-width-class: 1/4
         text: testik
     margin-y: true
-    section-background: bg-gray-800
+    section-background: none
     type: text-blocks
 contact-form: '1'
 ---
