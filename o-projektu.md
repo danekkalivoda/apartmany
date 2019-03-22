@@ -47,6 +47,7 @@ sections-above:
           risus tincidunt ac. Nulla id orci ipsum.
     header: ''
     header-alignment: text-center
+    section-background: none
     type: text-blocks
   - block-style: border border-gray-300 rounded
     blocks:
@@ -60,6 +61,7 @@ sections-above:
           Orci varius natoque penatibus et magnis dis parturient montes,
           nascetur ridiculus mus. In faucibus fringilla velit, sed ullamcorper
           risus tincidunt ac. Nulla id orci ipsum.
+    section-background: 'bg-grey-700 pt-4 md:pt-8'
     type: text-blocks
 contact-form: '1'
 ---
