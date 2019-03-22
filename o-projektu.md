@@ -78,7 +78,7 @@ sections-above:
           risus tincidunt ac. Nulla id orci ipsum.
     header: Nadpis
     header-alignment: text-center
-    margin-y: true
+    margin-y: false
     section-background: none
     type: text-blocks
   - block-style: none
