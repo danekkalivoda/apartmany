@@ -1,10 +1,10 @@
 {% for section in page.sections-above %}
 
-<section class="{{section.section-background}} pt-4 sm:pt-8">
+<section class="{{section.section-background}}{% if section.margin-y %} pt-4 sm:pt-8{% endif %}">
 
   <div class="max-w-6xl mx-auto px-8">
     {% if section.header and section.header != '' %}
-      <h2 class="{{ section.header-alignment }} text-green-500 pb-4">
+      <h2 class="{{ section.header-alignment }}{% unless section.margin-y %} mt-4 sm:mt-8{% endunless %} text-green-500 pb-4">
         {{ section.header }}
       </h2>
     {% endif %}
