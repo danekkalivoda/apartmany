@@ -87,7 +87,7 @@ sections-above:
         tablet-width-class: 1/4
         text: testik
     margin-y: false
-    section-background: bg-white
+    section-background: none
     type: text-blocks
 contact-form: '1'
 ---
