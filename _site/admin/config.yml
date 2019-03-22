@@ -87,7 +87,7 @@ collections:
                 required: false
                 widget: select
                 options:
-                  - { label: "Žádný", value: "" }
+                  - { label: "Žádný", value: "none" }
                   - { label: "Podbarvený - světle šedá", value: "bg-gray-300 rounded" }
                   - { label: "Podbarvený - bílá", value: "bg-white shadow rounded" }
                   - { label: "Orámovaný", value: "border border-gray-300 rounded" }
