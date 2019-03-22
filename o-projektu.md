@@ -15,7 +15,7 @@ sections-above:
           euismod vitae felis.
     section-background: none
     type: text-blocks
-  - block-style: bg-gray-300 rounded
+  - block-style: border border-gray-300 rounded
     blocks:
       - desktop-width-class: 1/3
         header: Nadpis bloku 1
@@ -44,7 +44,7 @@ sections-above:
     header: Moje bloky
     header-alignment: text-center
     margin-y: false
-    section-background: none
+    section-background: bg-gray-800
     type: text-blocks
   - block-style: bg-white shadow rounded
     blocks:
@@ -61,7 +61,7 @@ sections-above:
     header: Nadpis
     header-alignment: text-center
     margin-y: false
-    section-background: none
+    section-background: bg-gray-800
     type: text-blocks
   - block-style: bg-gray-300 rounded
     blocks:
