@@ -3,7 +3,7 @@ layout: page
 title: O projektu
 active: true
 sections-above:
-  - block-style: border border-grey-lighter rounded
+  - block-style: bg-gray-300 rounded
     blocks:
       - desktop-width-class: 1/3
         header: Nadpis bloku 1
@@ -31,7 +31,7 @@ sections-above:
           pharetra gravida.
     header: Moje bloky
     header-alignment: text-center
-    section-background: bg-white
+    section-background: bg-gray-700
     type: text-blocks
   - block-style: bg-white shadow rounded
     blocks:
@@ -45,7 +45,7 @@ sections-above:
           Orci varius natoque penatibus et magnis dis parturient montes,
           nascetur ridiculus mus. In faucibus fringilla velit, sed ullamcorper
           risus tincidunt ac. Nulla id orci ipsum.
-    header: ''
+    header: Nadpis
     header-alignment: text-center
     section-background: bg-gray-700
     type: text-blocks
@@ -61,6 +61,8 @@ sections-above:
           Orci varius natoque penatibus et magnis dis parturient montes,
           nascetur ridiculus mus. In faucibus fringilla velit, sed ullamcorper
           risus tincidunt ac. Nulla id orci ipsum.
+    header: Nadpis
+    header-alignment: text-center
     section-background: none
     type: text-blocks
 contact-form: '1'
