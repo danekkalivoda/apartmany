@@ -24,10 +24,10 @@
           <div class="flex flex-col sm:px-4 w-{{ block.mobile-width-class }} md:w-{{ block.tablet-width-class }} lg:w-{{ block.desktop-width-class }}">
             <div class="mb-4 sm:mb-8 px-4 md:px-8 {{ section.block-style }}{% if section.header-alignment %} py-4 md:py-8{% endif %}">
               {% if block.header and block.header != '' %}
-                <h3 class='text-md font-medium {% if section.section-background and section.section-background == "bg-gray-700" %} text-white{% endif %}'>{{ block.header }}</h3>
+                <h3 class='text-md font-medium {% if section.section-background and section.section-background == "bg-gray-800" %} text-white{% endif %}'>{{ block.header }}</h3>
               {% endif %}
               {% if block.text and block.text != '' %}
-                <p class='text-sm{% if section.section-background and section.section-background == "bg-gray-700" %} text-gray-400{% endif %}'>{{ block.text }}</p>
+                <p class='text-sm{% if section.section-background and section.section-background == "bg-gray-800" %} text-gray-400{% endif %}'>{{ block.text }}</p>
               {% endif %}
             </div>
           </div>
