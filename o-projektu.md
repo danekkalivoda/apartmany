@@ -13,6 +13,7 @@ sections-above:
           Mauris porta luctus mattis. Nullam diam mauris, bibendum ut elit eu,
           porta lacinia augue. Fusce odio felis, tempus eu imperdiet sit amet,
           euismod vitae felis.
+    margin-y: true
     section-background: bg-white
     type: text-blocks
   - block-style: border border-gray-300 rounded
