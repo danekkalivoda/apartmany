@@ -44,7 +44,7 @@ sections-above:
     header: Moje bloky
     header-alignment: text-center
     margin-y: false
-    section-background: none
+    section-background: bg-gray-800
     type: text-blocks
   - block-style: bg-white shadow rounded
     blocks:
@@ -61,7 +61,7 @@ sections-above:
     header: Nadpis
     header-alignment: text-center
     margin-y: false
-    section-background: none
+    section-background: bg-gray-800
     type: text-blocks
   - block-style: bg-gray-300 rounded
     blocks:
@@ -78,7 +78,7 @@ sections-above:
     header: Nadpis
     header-alignment: text-center
     margin-y: true
-    section-background: none
+    section-background: bg-gray-800
     type: text-blocks
   - block-style: none
     blocks:
@@ -87,7 +87,7 @@ sections-above:
         tablet-width-class: 1/4
         text: testik
     margin-y: false
-    section-background: none
+    section-background: bg-gray-800
     type: text-blocks
 contact-form: '1'
 ---
