@@ -31,6 +31,7 @@ sections-above:
           pharetra gravida.
     header: Moje bloky
     header-alignment: text-center
+    margin-y: true
     section-background: bg-gray-700
     type: text-blocks
   - block-style: bg-white shadow rounded
@@ -47,6 +48,7 @@ sections-above:
           risus tincidunt ac. Nulla id orci ipsum.
     header: Nadpis
     header-alignment: text-center
+    margin-y: true
     section-background: bg-gray-700
     type: text-blocks
   - block-style: border border-gray-300 rounded
@@ -63,7 +65,7 @@ sections-above:
           risus tincidunt ac. Nulla id orci ipsum.
     header: Nadpis
     header-alignment: text-center
-    section-background: bg-gray-700
+    section-background: bg-white
     type: text-blocks
 contact-form: '1'
 ---
