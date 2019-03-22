@@ -44,7 +44,7 @@ sections-above:
     header: Moje bloky
     header-alignment: text-center
     margin-y: false
-    section-background: none
+    section-background: bg-white
     type: text-blocks
   - block-style: bg-white shadow rounded
     blocks:
