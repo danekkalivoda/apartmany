@@ -9,8 +9,8 @@
           <a href="{{ post.url }}" class="block relative aspect-ratio-16/9">
             <img class="w-full h-full absolute top-0 left-0 object-cover" src="{{ post.thumbnail }}" alt="{{ post.title }}">
           </a>
-          <div class="px-8 py-6">
-            <h3 class="font-bold text-xl mb-2"><a href="{{ post.url }}" class="block text-green-500 hover:no-underline font-medium sm:text-lg mb-4">{{ post.title }}</a></h3>
+          <div class="p-4 md:p-8">
+            <h3 class="font-bold text-xl mb-2"><a href="{{ post.url }}" class="block text-green-500 hover:no-underline font-medium sm:text-lg mb-2 md:mb-4">{{ post.title }}</a></h3>
             <p class="text-gray-700 text-base">
               {{ post.content | strip_html | strip_newlines | truncate: 156}}
             </p>
