@@ -61,7 +61,7 @@ sections-above:
           Orci varius natoque penatibus et magnis dis parturient montes,
           nascetur ridiculus mus. In faucibus fringilla velit, sed ullamcorper
           risus tincidunt ac. Nulla id orci ipsum.
-    section-background: 'bg-grey-700 pt-4 md:pt-8'
+    section-background: 'bg-green-700 pt-4 md:pt-8 mb-4 md:mb-8'
     type: text-blocks
 contact-form: '1'
 ---
