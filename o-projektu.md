@@ -3,7 +3,7 @@ layout: page
 title: O projektu
 active: true
 sections-above:
-  - block-style: null
+  - block-style: none
     blocks:
       - desktop-width-class: 1/2
         header: ''
