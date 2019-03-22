@@ -80,7 +80,7 @@ sections-above:
     margin-y: true
     section-background: bg-gray-800
     type: text-blocks
-  - block-style: null
+  - block-style: none
     blocks:
       - desktop-width-class: 1/4
         mobile-width-class: full
