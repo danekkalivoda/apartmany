@@ -65,6 +65,7 @@ sections-above:
           risus tincidunt ac. Nulla id orci ipsum.
     header: Nadpis
     header-alignment: text-center
+    margin-y: true
     section-background: bg-white
     type: text-blocks
 contact-form: '1'
