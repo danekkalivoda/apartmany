@@ -48,8 +48,8 @@ sections-above:
           risus tincidunt ac. Nulla id orci ipsum.
     header: Nadpis
     header-alignment: text-center
-    margin-y: true
-    section-background: bg-gray-700
+    margin-y: false
+    section-background: none
     type: text-blocks
   - block-style: border border-gray-300 rounded
     blocks:
@@ -66,7 +66,7 @@ sections-above:
     header: Nadpis
     header-alignment: text-center
     margin-y: true
-    section-background: bg-white
+    section-background: bg-gray-700
     type: text-blocks
 contact-form: '1'
 ---
