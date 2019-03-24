@@ -10,8 +10,9 @@ sections-above:
     blocks:
       - desktop-width-class: 1/2
         mobile-width-class: full
-        tablet-width-class: 1/2
+        tablet-width-class: 2/3
         text: Kontaktní formluář byl **úspěšně odeslán.**
+        text-alignment: text-center
     type: text-blocks
 ---
 
