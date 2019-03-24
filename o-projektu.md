@@ -89,9 +89,9 @@ sections-above:
   - block-margin-bottom: false
     block-style: none
     blocks:
-      - desktop-width-class: 1/4
+      - desktop-width-class: 3/4
         mobile-width-class: full
-        tablet-width-class: 1/4
+        tablet-width-class: 3/4
         text: testik
     light-texts: false
     margin-y: false
