@@ -3,7 +3,7 @@ layout: page
 title: O projektu
 active: true
 margin-top: true
-margin-bottom: true
+margin-bottom: false
 sections-above:
   - block-style: none
     blocks:
