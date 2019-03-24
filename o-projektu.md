@@ -15,9 +15,8 @@ sections-above:
         mobile-width-class: full
         tablet-width-class: 1/2
         text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          euismod id nibh ac posuere. Quisque vel libero condimentum lectus
-          pharetra gravida.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. **Curabitur
+          euismod**
       - desktop-width-class: 1/3
         font-size: text-xl
         header: Nadpis bloku 2
