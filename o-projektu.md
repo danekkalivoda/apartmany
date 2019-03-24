@@ -2,7 +2,8 @@
 layout: page
 title: O projektu
 active: true
-location: '{"type":"Point","coordinates":[15.6796789,50.0759398]}'
+margin-top: true
+margin-bottom: true
 sections-above:
   - block-style: none
     blocks:
