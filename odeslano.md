@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Odeslano
+title: Odeslaný formulář
 active: true
 '': false
 margin-top: false
