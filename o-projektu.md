@@ -56,7 +56,7 @@ sections-above:
   - block-margin-bottom: false
     block-style: bg-gray-300 rounded
     blocks:
-      - desktop-width-class: 3/4
+      - desktop-width-class: 2/3
         header: Ještě jeden test
         mobile-width-class: full
         tablet-width-class: null
