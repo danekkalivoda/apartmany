@@ -17,7 +17,8 @@ sections-above:
     margin-y: false
     section-background: none
     type: text-blocks
-  - block-style: border border-gray-300 rounded
+  - block-margin-bottom: true
+    block-style: border border-gray-300 rounded
     blocks:
       - desktop-width-class: 1/3
         header: Nadpis bloku 1
@@ -47,7 +48,7 @@ sections-above:
     header-alignment: text-center
     light-texts: true
     margin-y: false
-    padding-top: true
+    padding-top: false
     section-background: bg-gray-800
     type: text-blocks
   - block-style: bg-white shadow rounded
@@ -84,7 +85,8 @@ sections-above:
     margin-y: false
     section-background: none
     type: text-blocks
-  - block-style: none
+  - block-margin-bottom: true
+    block-style: none
     blocks:
       - desktop-width-class: 1/4
         mobile-width-class: full
@@ -92,6 +94,7 @@ sections-above:
         text: testik
     light-texts: true
     margin-y: false
+    padding-top: true
     section-background: bg-gray-800
     type: text-blocks
 contact-form: '1'
