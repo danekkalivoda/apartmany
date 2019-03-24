@@ -3,18 +3,20 @@ layout: default
 ---
 
 {% if page.active %}
-<section class="max-w-6xl mx-auto px-8 sm:px-4 leading-normal">
-  <h1 class="text-center text-3xl">{{ page.title }}</h1>
-  <hr class="border-b border-teal-500 w-8 m-auto mt-8">
-  {% include page-intro.html %}
-</section>
-{% include page-sections.html %}
-<section class="bg-white mb-8">
-  <div class="max-w-6xl mx-auto flex flex-wrap justify-center">
-      <main class="flex flex-col w-full md:w-3/4 lg:w-2/3 p-8 leading-normal">
-        {{ content }}
-      </main>
-    </div>
-</section>
-{% include articles-last.html %}
+  <section class="max-w-6xl mx-auto px-8 sm:px-4 leading-normal">
+    <h1 class="text-center text-4xl">{{ page.title }}</h1>
+    <hr class="border-b border-teal-500 w-8 m-auto mt-8">
+    {% include page-intro.html %}
+  </section>
+  {% if page.content %}
+    <section class="{{ page.background }}{% if page.margin-bottom %} mb-4 sm:mb-8{% endif %}{% if page.margin-top %} mt-4 sm:mt-8{% endif %}{% if page.light-texts %} text-white{% endif %}">
+      <div class="max-w-6xl mx-auto flex flex-wrap justify-center px-8">
+          <main class="flex-col w-full lg:w-3/4 py-8 sm:px-4 md:px-8 leading-normal">
+            {{ content }}
+          </main>
+      </div>
+    </section>
+  {% endif %}
+  {% include page-sections.html %}
+  {% include articles-last.html %}
 {% endif %}

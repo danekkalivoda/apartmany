@@ -7,7 +7,7 @@
       <h2 class="
         {{ section.header-alignment }}
         {% unless section.margin-y %} pt-4 sm:pt-8{% endunless %}
-        text-teal-500 pb-4 text-lg font-bold">
+        text-teal-500 pb-4 text-2xl font-medium">
         {{ section.header }}
       </h2>
     {% endif %}
@@ -24,15 +24,28 @@
           <div class="flex flex-col sm:px-4 w-{{ block.mobile-width-class }} md:w-{{ block.tablet-width-class }} lg:w-{{ block.desktop-width-class }}">
             <div class='p-4 md:p-8 {{ section.block-style }}{% if section.block-margin-bottom %} mb-4 sm:mb-8{% endif %}{% if section.light-texts%} border-gray-700{% endif %}'>
               {% if block.header and block.header != '' %}
-                <h3 class='text-md font-medium{% if section.light-texts%} text-white{% endif %}'>{{ block.header }}</h3>
+                <h3 class='{{block.font-size}} font-bold{% if section.light-texts%} text-white{% endif %}'>{{ block.header }}</h3>
               {% endif %}
               {% if block.text and block.text != '' %}
-                <p class='text-sm{% if section.light-texts%} text-gray-400{% endif %}'>{{ block.text }}</p>
+                <p class='{{block.font-size}}{% if section.light-texts%} text-gray-400{% endif %}{% if block.header and block.header != "" %} mt-2{% endif %}'>{{ block.text }}</p>
               {% endif %}
             </div>
           </div>
         {% endfor %}
       </div>
+    {% endif %}
+    {% if section.contact-form != '' %}
+      {% for form in section.contact-form %}
+        {% if form.form-type == "Běžný" %}
+          <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post">
+            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+            <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+            <!-- all your input fields here.... -->
+            <input type='text' name='test' />
+            <input type='submit' value='Test form' />
+          </form>
+        {% endif %}    
+      {% endfor %}
     {% endif %}
   </div>
 

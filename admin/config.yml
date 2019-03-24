@@ -28,6 +28,17 @@ collections:
       - {label: "Nadpis", name: "title", widget: "string"}
       - {label: "Aktivní", name: "active", widget: "boolean", default: false}
       - {label: "Hlavní text", name: "body", widget: "markdown", required: false}
+      - label: Pozadí obsahu
+        name: background
+        required: false
+        widget: select
+        options:
+          - { label: "Žádné", value: "none" }
+          - { label: "Světlé", value: "bg-white" }
+          - { label: "Tmavé", value: "bg-gray-800" }
+      - {label: "Světlé texty", name: "", widget: "boolean", default: false, required: false}
+      - {label: "Horní odsazení sekce", name: "margin-top", widget: "boolean", default: false, required: false}
+      - {label: "Dolní odsazení bloků", name: "margin-bottom", widget: "boolean", default: false, required: false}
       - label: "Sekce nad hlavním obsahem"
         name: "sections-above"
         widget: "list"
@@ -62,12 +73,16 @@ collections:
                 name: images
                 widget: list
                 field: {label: Image, name: image, widget: image}
+          - label: Mapa
+            name: map
+            widget: object
+            fields:
+              - {label: "Location", name: "location", widget: "map" }
           - label: Kontaktní formulář
             name: contact-form
-            widget: select
-            options:
-              - { label: "Nepřipojovat", value: "" }
-              - { label: "Běžný", value: "1" }
+            widget: list
+            fields:
+              - {label: Typ, name: form-type, required: false, widget: "select", options: ["Běžný"]}
           - label: Textové bloky
             name: text-blocks
             widget: object
@@ -87,6 +102,14 @@ collections:
                 fields:
                   - {label: Nadpis, name: header, widget: string, required: false}
                   - {label: Text, name: text, widget: markdown, required: false}
+                  - label: Velikost písma
+                    name: font-size
+                    required: false
+                    widget: select
+                    options:
+                      - { label: "Malé", value: "text-sm" }
+                      - { label: "Normální", value: "" }
+                      - { label: "Velké", value: "text-xl" }
                   - {label: Desktop - šířka, name: "desktop-width-class", widget: "select", required: false, options: ["1/4", "1/3", "1/2", "2/3", "3/4", "full"]}
                   - {label: Tablet - šířka, name: "tablet-width-class", widget: "select", required: false, options: ["1/4", "1/3", "1/2", "2/3", "3/4", "full"]}
                   - {label: Mobile - šířka, name: "mobile-width-class", widget: "select", options: ["1/4", "1/3", "1/2", "2/3", "3/4", "full"]}
