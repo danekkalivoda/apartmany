@@ -14,6 +14,8 @@ sections-above:
         tablet-width-class: 1/2
         text: Děkujeme za **odeslání formuláře.** Budeme Vás kontaktovat.
         text-alignment: text-center
+    header-padding-bottom: true
+    header-padding-top: true
     padding-top: true
     type: text-blocks
 ---
