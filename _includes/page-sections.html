@@ -22,7 +22,7 @@
       <div class="flex flex-wrap justify-center -mx-4">
         {% for block in section.blocks %}
           <div class="flex flex-col sm:px-4 w-{{ block.mobile-width-class }} md:w-{{ block.tablet-width-class }} lg:w-{{ block.desktop-width-class }}">
-            <div class='px-4 md:px-8 {{ section.block-style }}{% if section.block-margin-bottom %} mb-4 sm:mb-8{% endif %}{% if section.light-texts%} border-gray-700{% endif %}'>
+            <div class='p-4 md:p-8 {{ section.block-style }}{% if section.block-margin-bottom %} mb-4 sm:mb-8{% endif %}{% if section.light-texts%} border-gray-700{% endif %}'>
               {% if block.header and block.header != '' %}
                 <h3 class='text-md font-medium{% if section.light-texts%} text-white{% endif %}'>{{ block.header }}</h3>
               {% endif %}

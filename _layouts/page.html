@@ -4,12 +4,12 @@ layout: default
 
 {% if page.active %}
 <section class="max-w-6xl mx-auto px-8 sm:px-4 leading-normal">
-  <h1 class="text-center mb-8 text-3xl">{{ page.title }}</h1>
-  <hr class="border-b border-teal-500 w-8 m-auto mb-8 -mt-2">
+  <h1 class="text-center text-3xl">{{ page.title }}</h1>
+  <hr class="border-b border-teal-500 w-8 m-auto mt-8">
   {% include page-intro.html %}
 </section>
 {% include page-sections.html %}
-<section class="bg-white">
+<section class="bg-white mb-8">
   <div class="max-w-6xl mx-auto flex flex-wrap justify-center">
       <main class="flex flex-col w-full md:w-3/4 lg:w-2/3 p-8 leading-normal">
         {{ content }}
