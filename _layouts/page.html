@@ -8,7 +8,7 @@ layout: default
     <hr class="border-b border-teal-500 w-8 m-auto mt-8">
     {% include page-intro.html %}
   </section>
-  {% if page.content %}
+  {% if page.content and page.content != "" %}
     <section class="{{ page.background }}{% if page.margin-bottom %} mb-4 sm:mb-8{% endif %}{% if page.margin-top %} mt-4 sm:mt-8{% endif %}{% if page.light-texts %} text-white{% endif %}">
       <div class="max-w-6xl mx-auto flex flex-wrap justify-center px-8">
           <main class="flex-col w-full lg:w-3/4 py-8 sm:px-4 md:px-8 leading-normal">

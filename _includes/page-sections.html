@@ -2,13 +2,12 @@
 
 <section class="{{section.section-background}}{% if section.padding-top %} pt-4 sm:pt-8{% endif %}">
 
-  <div class="max-w-6xl mx-auto px-8 flex flex-col flex-wrap items-center">
+  <div class="max-w-6xl mx-auto px-8">
     {% if section.header and section.header != '' %}
       <h2 class="
         {{ section.header-alignment }}
         {% unless section.margin-y %} pt-4 sm:pt-8{% endunless %}
-        text-teal-500 pb-4 text-2xl font-medium
-        w-full md:w-1/2">
+        text-teal-500 pb-4 text-2xl font-medium">
         {{ section.header }}
       </h2>
     {% endif %}
@@ -22,13 +21,13 @@
     {% if section.blocks and section.blocks != '' %}
       <div class="flex flex-wrap justify-center -mx-4">
         {% for block in section.blocks %}
-          <div class="flex flex-col sm:px-4 w-{{ block.mobile-width-class }} md:w-{{ block.tablet-width-class }} lg:w-{{ block.desktop-width-class }}">
-            <div class='p-4 md:p-8 {{ section.block-style }}{% if section.block-margin-bottom %} mb-4 sm:mb-8{% endif %}{% if section.light-texts%} border-gray-700{% endif %}'>
+          <div class="flex flex-col items-stretch sm:px-4 w-{{ block.mobile-width-class }} md:w-{{ block.tablet-width-class }} lg:w-{{ block.desktop-width-class }}">
+            <div class='p-4 md:p-8 flex-grow {{block.text-alignment}} {{ section.block-style }}{% if section.block-margin-bottom %} mb-4 sm:mb-8{% endif %}{% if section.light-texts%} border-gray-700{% endif %}'>
               {% if block.header and block.header != '' %}
                 <h3 class='{{block.font-size}} font-bold{% if section.light-texts%} text-white{% endif %}'>{{ block.header }}</h3>
               {% endif %}
               {% if block.text and block.text != '' %}
-                <p class='{{block.font-size}}{% if section.light-texts%} text-gray-400{% endif %}{% if block.header and block.header != "" %} mt-2{% endif %}'>{{ block.text }}</p>
+                <div class='{{block.font-size}}{% if section.light-texts%} text-gray-400{% endif %}{% if block.header and block.header != "" %} mt-2{% endif %}'>{{ block.text | markdownify }}</div>
               {% endif %}
             </div>
           </div>
@@ -37,11 +36,10 @@
     {% endif %}
 
     {% if section.form-fields and section.form-fields != '' %}
-      <div class="w-full md:w-1/2">  
-        {{ section }}
+      <div class="mx-auto w-full md:w-1/2">  
         <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post" class="w-full">
           <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-          <input type='hidden' name='redirect_to' value='' />
+          <input type='hidden' name='redirect_to' value='{{ section.redirect-to }}' />
           {% for form-field in section.form-fields %}
               <label class="w-full block" for="{{ form-field.label | slugify: 'latin' }}">{{ form-field.label }}</label>
               <div class="flex flex-col items-stretch">
