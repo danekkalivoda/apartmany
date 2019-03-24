@@ -90,6 +90,7 @@ sections-above:
           Orci varius natoque penatibus et magnis dis parturient montes,
           nascetur ridiculus mus. In faucibus fringilla velit, sed ullamcorper
           risus tincidunt ac. Nulla id orci ipsum.
+        text-alignment: text-center
     header: Nadpis
     header-alignment: text-center
     header-padding-bottom: false
