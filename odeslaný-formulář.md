@@ -3,8 +3,8 @@ layout: page
 title: Odeslaný formulář
 active: true
 '': false
-margin-top: false
-margin-bottom: false
+margin-top: true
+margin-bottom: true
 sections-above:
   - block-style: bg-white shadow rounded
     blocks:
