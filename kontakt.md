@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact
+title: Kontakt
 active: true
-contact-form: '1'
+margin-top: true
 ---
 tady je text stránka kontaktů
