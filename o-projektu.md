@@ -101,7 +101,7 @@ sections-above:
     padding-top: true
     section-background: bg-white
     type: text-blocks
-  - block-margin-bottom: false
+  - block-margin-bottom: true
     block-style: none
     blocks:
       - desktop-width-class: 2/3
