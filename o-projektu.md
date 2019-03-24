@@ -36,6 +36,7 @@ sections-above:
           pharetra gravida.
     header: Moje bloky
     header-alignment: text-center
+    header-padding-bottom: true
     light-texts: true
     margin-y: false
     padding-top: true
@@ -73,6 +74,7 @@ sections-above:
           risus tincidunt ac. Nulla id orci ipsum.
     header: Nadpis
     header-alignment: text-center
+    header-padding-bottom: true
     margin-y: false
     padding-top: false
     section-background: none
