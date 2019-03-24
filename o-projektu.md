@@ -8,7 +8,7 @@ margin-top: false
 margin-bottom: false
 sections-above:
   - block-margin-bottom: true
-    block-style: border border-gray-300 rounded
+    block-style: 'border border-gray-300 rounded p-4 md:p-8'
     blocks:
       - desktop-width-class: 1/3
         header: Nadpis bloku 1
@@ -42,7 +42,7 @@ sections-above:
     section-background: bg-gray-800
     type: text-blocks
   - block-margin-bottom: false
-    block-style: bg-gray-300 rounded
+    block-style: 'bg-gray-300 rounded p-4 md:p-8'
     blocks:
       - desktop-width-class: 2/3
         header: Ještě jeden test
@@ -58,7 +58,7 @@ sections-above:
     padding-top: true
     type: text-blocks
   - block-margin-bottom: true
-    block-style: bg-white shadow rounded
+    block-style: 'bg-white shadow rounded p-4 md:p-8'
     blocks:
       - desktop-width-class: 2/3
         font-size: text-sm
@@ -77,7 +77,7 @@ sections-above:
     padding-top: false
     section-background: none
     type: text-blocks
-  - block-margin-bottom: false
+  - block-margin-bottom: true
     block-style: none
     blocks:
       - desktop-width-class: 2/3
@@ -96,7 +96,7 @@ sections-above:
     header-padding-bottom: false
     light-texts: false
     margin-y: false
-    padding-top: false
+    padding-top: true
     section-background: bg-white
     type: text-blocks
   - block-margin-bottom: false
