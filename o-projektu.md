@@ -31,6 +31,7 @@ sections-above:
           euismod id nibh ac posuere. Quisque vel libero condimentum lectus
           pharetra gravida.
       - desktop-width-class: 1/3
+        font-size: text-lg
         header: Nadpis bloku 2
         mobile-width-class: full
         tablet-width-class: 1/2
