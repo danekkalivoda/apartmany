@@ -56,10 +56,10 @@ sections-above:
   - block-margin-bottom: false
     block-style: bg-gray-300 rounded
     blocks:
-      - desktop-width-class: 1/3
+      - desktop-width-class: 3/4
         header: Ještě jeden test
         mobile-width-class: full
-        tablet-width-class: 1/2
+        tablet-width-class: null
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
