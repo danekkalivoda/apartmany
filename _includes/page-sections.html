@@ -6,8 +6,9 @@
     {% if section.header and section.header != '' %}
       <h2 class="
         {{ section.header-alignment }}
-        {% unless section.margin-y %} pt-4 sm:pt-8{% endunless %}
-        text-teal-500 pb-4 text-2xl font-medium">
+        {% if section.header-padding-top %}pt-4 sm:pt-8 {% endif %}
+        {% if section.header-padding-bottom %}pb-4 {% endif %}
+        text-teal-500 text-2xl font-medium">
         {{ section.header }}
       </h2>
     {% endif %}
@@ -22,7 +23,7 @@
       <div class="flex flex-wrap justify-center -mx-4">
         {% for block in section.blocks %}
           <div class="flex flex-col items-stretch sm:px-4 w-{{ block.mobile-width-class }} md:w-{{ block.tablet-width-class }} lg:w-{{ block.desktop-width-class }}">
-            <div class='p-4 md:p-8 flex-grow {{block.text-alignment}} {{ section.block-style }}{% if section.block-margin-bottom %} mb-4 sm:mb-8{% endif %}{% if section.light-texts%} border-gray-700{% endif %}'>
+            <div class='flex-grow {{block.text-alignment}} {{ section.block-style }}{% if section.block-margin-bottom %} mb-4 sm:mb-8{% endif %}{% if section.light-texts%} border-gray-700{% endif %}'>
               {% if block.header and block.header != '' %}
                 <h3 class='{{block.font-size}} font-bold{% if section.light-texts%} text-white{% endif %}'>{{ block.header }}</h3>
               {% endif %}

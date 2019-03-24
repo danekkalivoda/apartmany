@@ -111,6 +111,8 @@ collections:
                   - { label: "Levá", value: "text-left" }
                   - { label: "Střed", value: "text-center" }
                   - { label: "Pravá", value: "text-right" }
+              - {label: "Horní odsazení nadpisu", name: "header-padding-top", widget: "boolean", default: false, required: false}
+              - {label: "Dolní odsazení nadpisu", name: "header-padding-bottom", widget: "boolean", default: false, required: false}
               - label: Bloky
                 name: blocks
                 widget: list
@@ -150,9 +152,9 @@ collections:
                 widget: select
                 options:
                   - { label: "Žádný", value: "none" }
-                  - { label: "Podbarvený - světle šedá", value: "bg-gray-300 rounded" }
-                  - { label: "Podbarvený - bílá", value: "bg-white shadow rounded" }
-                  - { label: "Orámovaný", value: "border border-gray-300 rounded" }
+                  - { label: "Podbarvený - světle šedá", value: "bg-gray-300 rounded p-4 md:p-8" }
+                  - { label: "Podbarvený - bílá", value: "bg-white shadow rounded p-4 md:p-8" }
+                  - { label: "Orámovaný", value: "border border-gray-300 rounded p-4 md:p-8" }
               - {label: "Světlé texty", name: "light-texts", widget: "boolean", default: false, required: false}
               - {label: "Horní odsazení sekce", name: "padding-top", widget: "boolean", default: false, required: false}
               - {label: "Dolní odsazení bloků", name: "block-margin-bottom", widget: "boolean", default: false, required: false}
