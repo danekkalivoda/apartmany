@@ -7,10 +7,10 @@ margin-bottom: false
 sections-above:
   - block-style: none
     blocks:
-      - desktop-width-class: 1/2
+      - desktop-width-class: 2/3
         header: ''
         mobile-width-class: full
-        tablet-width-class: 2/3
+        tablet-width-class: 1/2
         text: >-
           Mauris porta luctus mattis. Nullam diam mauris, bibendum ut elit eu,
           porta lacinia augue. Fusce odio felis, tempus eu imperdiet sit amet,
