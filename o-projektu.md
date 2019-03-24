@@ -39,7 +39,7 @@ sections-above:
     light-texts: true
     margin-y: false
     padding-top: false
-    section-background: bg-gray-800
+    section-background: none
     type: text-blocks
   - block-margin-bottom: false
     block-style: bg-gray-300 rounded
