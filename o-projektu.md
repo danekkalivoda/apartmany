@@ -47,6 +47,7 @@ sections-above:
     header-alignment: text-center
     light-texts: true
     margin-y: false
+    padding-top: true
     section-background: bg-gray-800
     type: text-blocks
   - block-style: bg-white shadow rounded
