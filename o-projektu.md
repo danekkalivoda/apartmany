@@ -115,7 +115,7 @@ sections-above:
           risus tincidunt ac. Nulla id orci ipsum.
     light-texts: false
     margin-y: false
-    padding-top: false
+    padding-top: true
     section-background: none
     type: text-blocks
   - form-fields:
