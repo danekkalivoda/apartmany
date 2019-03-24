@@ -68,7 +68,7 @@ sections-above:
     margin-y: false
     section-background: none
     type: text-blocks
-  - block-margin-bottom: true
+  - block-margin-bottom: false
     block-style: bg-gray-300 rounded
     blocks:
       - desktop-width-class: 2/3
