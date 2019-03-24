@@ -53,9 +53,10 @@ collections:
                 required: false
                 widget: select
                 options:
-                  - { label: "Nepřipojovat", value: "none" }
+                  - { label: "Žádné", value: "none" }
                   - { label: "Světlé", value: "bg-white" }
                   - { label: "Tmavé", value: "bg-gray-800" }
+              - {label: "Světlé texty", name: "light-texts", widget: "boolean", default: false, required: false}
               - label: Fotky
                 name: images
                 widget: list
@@ -79,7 +80,7 @@ collections:
                 required: false
                 widget: select
                 options:
-                  - { label: "Nepřipojovat", value: "none" }
+                  - { label: "Žádné", value: "none" }
                   - { label: "Světlé", value: "bg-white" }
                   - { label: "Tmavé", value: "bg-gray-800" }
               - label: Styl bloků
@@ -91,6 +92,7 @@ collections:
                   - { label: "Podbarvený - světle šedá", value: "bg-gray-300 rounded" }
                   - { label: "Podbarvený - bílá", value: "bg-white shadow rounded" }
                   - { label: "Orámovaný", value: "border border-gray-300 rounded" }
+              - {label: "Světlé texty", name: "light-texts", widget: "boolean", default: false, required: false}
               - label: Bloky
                 name: blocks
                 widget: list
