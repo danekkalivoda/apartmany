@@ -2,6 +2,7 @@
 layout: page
 title: O projektu
 active: true
+background: bg-white
 margin-top: false
 margin-bottom: false
 sections-above:
