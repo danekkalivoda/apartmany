@@ -7,7 +7,7 @@ margin-bottom: false
 sections-above:
   - block-style: none
     blocks:
-      - desktop-width-class: 2/3
+      - desktop-width-class: 3/4
         header: ''
         mobile-width-class: full
         tablet-width-class: 1/2
