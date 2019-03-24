@@ -2,12 +2,13 @@
 
 <section class="{{section.section-background}}{% if section.padding-top %} pt-4 sm:pt-8{% endif %}">
 
-  <div class="max-w-6xl mx-auto px-8">
+  <div class="max-w-6xl mx-auto px-8 flex flex-col flex-wrap items-center">
     {% if section.header and section.header != '' %}
       <h2 class="
         {{ section.header-alignment }}
         {% unless section.margin-y %} pt-4 sm:pt-8{% endunless %}
-        text-teal-500 pb-4 text-2xl font-medium">
+        text-teal-500 pb-4 text-2xl font-medium
+        w-full md:w-1/2">
         {{ section.header }}
       </h2>
     {% endif %}
@@ -34,18 +35,27 @@
         {% endfor %}
       </div>
     {% endif %}
-    {% if section.contact-form != '' %}
-      {% for form in section.contact-form %}
-        {% if form.form-type == "Běžný" %}
-          <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post">
-            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-            <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
-            <!-- all your input fields here.... -->
-            <input type='text' name='test' />
-            <input type='submit' value='Test form' />
-          </form>
-        {% endif %}    
-      {% endfor %}
+
+    {% if section.form-fields and section.form-fields != '' %}
+      <div class="w-full md:w-1/2">  
+        {{ section }}
+        <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post" class="w-full">
+          <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+          <input type='hidden' name='redirect_to' value='' />
+          {% for form-field in section.form-fields %}
+              <label class="w-full block" for="{{ form-field.label | slugify: 'latin' }}">{{ form-field.label }}</label>
+              <div class="flex flex-col items-stretch">
+              {% if form-field.field-type == "Input text" %}
+                <input type="text" id="{{ form-field.label | slugify: 'latin' }}" name="{{ form-field.label | slugify: 'latin' }}">
+              {% endif%}
+              {% if form-field.field-type == "Textarea" %}
+                <textarea rows="5" id="{{ form-field.label | slugify: 'latin' }}" name="{{ form-field.label | slugify: 'latin' }}"></textarea>
+              {% endif%}
+              </div>
+          {% endfor %}
+          <input type='submit' value='Test form' />
+        </form>
+      </div>
     {% endif %}
   </div>
 

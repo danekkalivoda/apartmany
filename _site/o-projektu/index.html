@@ -70,12 +70,13 @@ layout: compress
 
 <section class="bg-gray-800">
 
-  <div class="max-w-6xl mx-auto px-8">
+  <div class="max-w-6xl mx-auto px-8 flex flex-col flex-wrap items-center">
     
       <h2 class="
         text-center
          pt-4 sm:pt-8
-        text-teal-500 pb-4 text-2xl font-medium">
+        text-teal-500 pb-4 text-2xl font-medium
+        w-full md:w-1/2">
         Moje bloky
       </h2>
     
@@ -120,8 +121,7 @@ layout: compress
         
       </div>
     
-    
-      
+
     
   </div>
 
@@ -131,7 +131,7 @@ layout: compress
 
 <section class=" pt-4 sm:pt-8">
 
-  <div class="max-w-6xl mx-auto px-8">
+  <div class="max-w-6xl mx-auto px-8 flex flex-col flex-wrap items-center">
     
 
     
@@ -152,8 +152,7 @@ layout: compress
         
       </div>
     
-    
-      
+
     
   </div>
 
@@ -163,12 +162,13 @@ layout: compress
 
 <section class="none">
 
-  <div class="max-w-6xl mx-auto px-8">
+  <div class="max-w-6xl mx-auto px-8 flex flex-col flex-wrap items-center">
     
       <h2 class="
         text-center
          pt-4 sm:pt-8
-        text-teal-500 pb-4 text-2xl font-medium">
+        text-teal-500 pb-4 text-2xl font-medium
+        w-full md:w-1/2">
         Nadpis
       </h2>
     
@@ -191,8 +191,7 @@ layout: compress
         
       </div>
     
-    
-      
+
     
   </div>
 
@@ -202,12 +201,13 @@ layout: compress
 
 <section class="bg-gray-800">
 
-  <div class="max-w-6xl mx-auto px-8">
+  <div class="max-w-6xl mx-auto px-8 flex flex-col flex-wrap items-center">
     
       <h2 class="
         text-center
          pt-4 sm:pt-8
-        text-teal-500 pb-4 text-2xl font-medium">
+        text-teal-500 pb-4 text-2xl font-medium
+        w-full md:w-1/2">
         Nadpis
       </h2>
     
@@ -230,8 +230,7 @@ layout: compress
         
       </div>
     
-    
-      
+
     
   </div>
 
@@ -241,7 +240,7 @@ layout: compress
 
 <section class="none">
 
-  <div class="max-w-6xl mx-auto px-8">
+  <div class="max-w-6xl mx-auto px-8 flex flex-col flex-wrap items-center">
     
 
     
@@ -260,8 +259,65 @@ layout: compress
         
       </div>
     
+
     
-      
+  </div>
+
+</section>
+
+
+
+<section class="">
+
+  <div class="max-w-6xl mx-auto px-8 flex flex-col flex-wrap items-center">
+    
+      <h2 class="
+        text-center
+         pt-4 sm:pt-8
+        text-teal-500 pb-4 text-2xl font-medium
+        w-full md:w-1/2">
+        Kontaktní formulář
+      </h2>
+    
+
+    
+
+    
+
+    
+      <div class="w-full md:w-1/2">  
+        {"form-fields"=>[{"field-type"=>"Input text", "label"=>"Jm\u00E9no"}, {"field-type"=>"Input text", "label"=>"P\u0159\u00EDjmen\u00ED"}, {"field-type"=>"Textarea", "label"=>"Zpr\u00E1va"}], "header"=>"Kontaktn\u00ED formul\u00E1\u0159", "header-alignment"=>"text-center", "type"=>"contact-forms"}
+        <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post" class="w-full">
+          <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+          <input type='hidden' name='redirect_to' value='' />
+          
+              <label class="w-full block" for="jmeno">Jméno</label>
+              <div class="flex flex-col items-stretch">
+              
+                <input type="text" id="jmeno" name="jmeno">
+              
+              
+              </div>
+          
+              <label class="w-full block" for="prijmeni">Příjmení</label>
+              <div class="flex flex-col items-stretch">
+              
+                <input type="text" id="prijmeni" name="prijmeni">
+              
+              
+              </div>
+          
+              <label class="w-full block" for="zprava">Zpráva</label>
+              <div class="flex flex-col items-stretch">
+              
+              
+                <textarea rows="5" id="zprava" name="zprava"></textarea>
+              
+              </div>
+          
+          <input type='submit' value='Test form' />
+        </form>
+      </div>
     
   </div>
 

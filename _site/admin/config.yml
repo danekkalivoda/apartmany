@@ -78,11 +78,26 @@ collections:
             widget: object
             fields:
               - {label: "Location", name: "location", widget: "map" }
-          - label: Kontaktní formulář
-            name: contact-form
-            widget: list
+          - label: Kontaktní formuláře
+            name: contact-forms
+            widget: object
             fields:
-              - {label: Typ, name: form-type, required: false, widget: "select", options: ["Běžný"]}
+              - {label: Nadpis, name: header, widget: string, required: false}
+              - label: Nadpis - zarovnání
+                name: header-alignment
+                required: false
+                widget: select
+                options:
+                  - { label: "Levá", value: "text-left" }
+                  - { label: "Střed", value: "text-center" }
+                  - { label: "Pravá", value: "text-right" }
+              - {label: Po odeslání přesměrovat, name: redirect-to, widget: string, required: false}
+              - label: Pole formuláře
+                name: form-fields
+                widget: list
+                fields:
+                  - {label: Popis, name: label, widget: string, required: false}
+                  - {label: Typ pole, name: "field-type", widget: "select", required: false, options: ["Input text", "Textarea"]}
           - label: Textové bloky
             name: text-blocks
             widget: object
