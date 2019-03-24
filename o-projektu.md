@@ -86,7 +86,7 @@ sections-above:
     margin-y: false
     section-background: none
     type: text-blocks
-  - block-margin-bottom: true
+  - block-margin-bottom: false
     block-style: none
     blocks:
       - desktop-width-class: 1/4
@@ -95,7 +95,7 @@ sections-above:
         text: testik
     light-texts: true
     margin-y: false
-    padding-top: true
+    padding-top: false
     section-background: bg-gray-800
     type: text-blocks
 contact-form: '1'
