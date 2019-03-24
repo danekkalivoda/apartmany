@@ -73,7 +73,7 @@ sections-above:
   - block-style: bg-white shadow rounded
     blocks:
       - desktop-width-class: 2/3
-        font-size: text-sm
+        font-size: text-xs
         header: Blok 4
         mobile-width-class: full
         tablet-width-class: 2/3
