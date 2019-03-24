@@ -92,8 +92,8 @@ collections:
                   - { label: "Podbarvený - bílá", value: "bg-white shadow rounded" }
                   - { label: "Orámovaný", value: "border border-gray-300 rounded" }
               - {label: "Světlé texty", name: "light-texts", widget: "boolean", default: false, required: false}
-              - {label: "Svislé odsazení sekce", name: "padding-top", widget: "boolean", default: false, required: false}
-              - {label: "Svislé odsazení bloků", name: "block-margin-bottom", widget: "boolean", default: false, required: false}
+              - {label: "Horní odsazení sekce", name: "padding-top", widget: "boolean", default: false, required: false}
+              - {label: "Dolní odsazení bloků", name: "block-margin-bottom", widget: "boolean", default: false, required: false}
               - label: Bloky
                 name: blocks
                 widget: list
