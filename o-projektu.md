@@ -41,7 +41,7 @@ sections-above:
     padding-top: false
     section-background: bg-gray-800
     type: text-blocks
-  - block-margin-bottom: false
+  - block-margin-bottom: true
     block-style: 'bg-gray-300 rounded p-4 md:p-8'
     blocks:
       - desktop-width-class: 2/3
