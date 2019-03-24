@@ -6,20 +6,6 @@ background: bg-white
 margin-top: false
 margin-bottom: false
 sections-above:
-  - block-style: none
-    blocks:
-      - desktop-width-class: 3/4
-        header: ''
-        mobile-width-class: full
-        tablet-width-class: 1/2
-        text: >-
-          Mauris porta luctus mattis. Nullam diam mauris, bibendum ut elit eu,
-          porta lacinia augue. Fusce odio felis, tempus eu imperdiet sit amet,
-          euismod vitae felis.
-    light-texts: false
-    margin-y: false
-    section-background: none
-    type: text-blocks
   - block-margin-bottom: true
     block-style: border border-gray-300 rounded
     blocks:
@@ -87,6 +73,7 @@ sections-above:
     header: Nadpis
     header-alignment: text-center
     margin-y: false
+    padding-top: false
     section-background: none
     type: text-blocks
   - block-margin-bottom: false
