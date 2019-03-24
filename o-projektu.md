@@ -76,7 +76,7 @@ sections-above:
     padding-top: false
     section-background: none
     type: text-blocks
-  - block-margin-bottom: true
+  - block-margin-bottom: false
     block-style: none
     blocks:
       - desktop-width-class: 2/3
@@ -93,7 +93,7 @@ sections-above:
     header-alignment: text-center
     light-texts: true
     margin-y: false
-    padding-top: true
+    padding-top: false
     section-background: bg-gray-800
     type: text-blocks
   - block-margin-bottom: false
