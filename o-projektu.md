@@ -18,7 +18,7 @@ sections-above:
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. **Curabitur
           euismod**
       - desktop-width-class: 1/3
-        font-size: text-xl
+        font-size: null
         header: Nadpis bloku 2
         mobile-width-class: full
         tablet-width-class: 1/2
