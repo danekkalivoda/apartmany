@@ -92,7 +92,12 @@ sections-above:
       - desktop-width-class: 3/4
         mobile-width-class: full
         tablet-width-class: 3/4
-        text: testik
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          efficitur tellus vel odio luctus, sagittis dapibus neque bibendum.
+          Orci varius natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. In faucibus fringilla velit, sed ullamcorper
+          risus tincidunt ac. Nulla id orci ipsum.
     light-texts: false
     margin-y: false
     padding-top: false
