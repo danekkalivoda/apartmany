@@ -62,7 +62,7 @@ sections-above:
     blocks:
       - desktop-width-class: 2/3
         font-size: text-sm
-        header: Blok 4
+        header: ''
         mobile-width-class: full
         tablet-width-class: 2/3
         text: >-
