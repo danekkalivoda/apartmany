@@ -57,7 +57,8 @@ sections-above:
           pariatur.
     padding-top: true
     type: text-blocks
-  - block-style: bg-white shadow rounded
+  - block-margin-bottom: true
+    block-style: bg-white shadow rounded
     blocks:
       - desktop-width-class: 2/3
         font-size: text-sm
