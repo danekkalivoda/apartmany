@@ -13,6 +13,7 @@ sections-above:
           Mauris porta luctus mattis. Nullam diam mauris, bibendum ut elit eu,
           porta lacinia augue. Fusce odio felis, tempus eu imperdiet sit amet,
           euismod vitae felis.
+    light-texts: false
     margin-y: false
     section-background: none
     type: text-blocks
@@ -44,6 +45,7 @@ sections-above:
           pharetra gravida.
     header: Moje bloky
     header-alignment: text-center
+    light-texts: true
     margin-y: false
     section-background: bg-gray-800
     type: text-blocks
@@ -87,8 +89,9 @@ sections-above:
         mobile-width-class: full
         tablet-width-class: 1/4
         text: testik
+    light-texts: true
     margin-y: false
-    section-background: none
+    section-background: bg-gray-800
     type: text-blocks
 contact-form: '1'
 ---
