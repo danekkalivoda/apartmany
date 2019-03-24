@@ -92,10 +92,10 @@ sections-above:
           risus tincidunt ac. Nulla id orci ipsum.
     header: Nadpis
     header-alignment: text-center
-    light-texts: true
+    light-texts: false
     margin-y: false
     padding-top: false
-    section-background: bg-gray-800
+    section-background: bg-white
     type: text-blocks
   - block-margin-bottom: false
     block-style: none
