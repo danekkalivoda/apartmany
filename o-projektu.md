@@ -92,6 +92,7 @@ sections-above:
           risus tincidunt ac. Nulla id orci ipsum.
     header: Nadpis
     header-alignment: text-center
+    header-padding-bottom: false
     light-texts: false
     margin-y: false
     padding-top: false
