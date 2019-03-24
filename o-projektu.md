@@ -3,6 +3,7 @@ layout: page
 title: O projektu
 active: true
 background: none
+'': false
 margin-top: false
 margin-bottom: false
 sections-above:
