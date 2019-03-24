@@ -17,6 +17,7 @@ sections-above:
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. **Curabitur
           euismod**
+        text-alignment: text-center
       - desktop-width-class: 1/3
         font-size: null
         header: Nadpis bloku 2
@@ -26,6 +27,7 @@ sections-above:
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
           euismod id nibh ac posuere. Quisque vel libero condimentum lectus
           pharetra gravida.
+        text-alignment: text-center
       - desktop-width-class: 1/3
         header: Nadpis bloku 3
         mobile-width-class: full
@@ -34,6 +36,7 @@ sections-above:
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
           euismod id nibh ac posuere. Quisque vel libero condimentum lectus
           pharetra gravida.
+        text-alignment: text-center
     header: Moje bloky
     header-alignment: text-center
     header-padding-bottom: true
