@@ -68,7 +68,8 @@ sections-above:
     margin-y: false
     section-background: none
     type: text-blocks
-  - block-style: bg-gray-300 rounded
+  - block-margin-bottom: true
+    block-style: bg-gray-300 rounded
     blocks:
       - desktop-width-class: 2/3
         header: Nadpis bloku 5
