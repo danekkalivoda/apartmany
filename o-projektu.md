@@ -96,7 +96,7 @@ sections-above:
     header-padding-top: false
     margin-y: false
     padding-top: true
-    section-background: none
+    section-background: bg-white
     type: blocks
   - form-fields:
       - field-type: Input text
