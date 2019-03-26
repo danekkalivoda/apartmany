@@ -39,9 +39,10 @@ sections-above:
   - block-margin-bottom: true
     block-style: 'bg-gray-300 rounded p-4 md:p-8'
     blocks:
-      - block-style: none
+      - block-style: null
         desktop-width-class: 2/3
         header: Nadpis
+        light-texts: true
         mobile-width-class: 1/2
         tablet-width-class: 1/2
         text: >-
