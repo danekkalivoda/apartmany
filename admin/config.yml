@@ -98,8 +98,8 @@ collections:
                 fields:
                   - {label: Popis, name: label, widget: string, required: false}
                   - {label: Typ pole, name: "field-type", widget: "select", required: false, options: ["Input text", "Textarea"]}
-          - label: Textové bloky
-            name: text-blocks
+          - label: Bloky
+            name: blocks
             widget: object
             fields:
               - {label: Nadpis, name: header, widget: string, required: false}

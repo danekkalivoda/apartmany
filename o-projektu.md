@@ -44,7 +44,7 @@ sections-above:
     margin-y: false
     padding-top: true
     section-background: bg-gray-800
-    type: text-blocks
+    type: blocks
   - block-margin-bottom: true
     block-style: 'bg-gray-300 rounded p-4 md:p-8'
     blocks:
@@ -60,7 +60,7 @@ sections-above:
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur.
     padding-top: true
-    type: text-blocks
+    type: blocks
   - block-margin-bottom: true
     block-style: 'bg-white shadow rounded p-4 md:p-8'
     blocks:
@@ -81,7 +81,7 @@ sections-above:
     margin-y: false
     padding-top: false
     section-background: none
-    type: text-blocks
+    type: blocks
   - block-margin-bottom: true
     block-style: none
     blocks:
@@ -103,7 +103,7 @@ sections-above:
     margin-y: false
     padding-top: true
     section-background: bg-white
-    type: text-blocks
+    type: blocks
   - block-margin-bottom: true
     block-style: none
     blocks:
@@ -120,7 +120,7 @@ sections-above:
     margin-y: false
     padding-top: true
     section-background: none
-    type: text-blocks
+    type: blocks
   - form-fields:
       - field-type: Input text
         label: Jméno
