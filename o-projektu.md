@@ -56,7 +56,8 @@ sections-above:
     header: ''
     header-alignment: null
     header-padding-bottom: false
-    padding-top: false
+    header-padding-top: false
+    padding-top: true
     section-background: null
     type: blocks
   - block-margin-bottom: true
@@ -74,6 +75,7 @@ sections-above:
         mobile-width-class: 1/3
         tablet-width-class: 1/4
         type: image
+    padding-top: true
     type: blocks
   - block-margin-bottom: true
     block-style: 'bg-white shadow rounded p-4 md:p-8'
