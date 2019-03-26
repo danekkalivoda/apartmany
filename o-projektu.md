@@ -52,7 +52,7 @@ sections-above:
     header: Nadpis bloku 2
     header-alignment: text-center
     header-padding-bottom: true
-    padding-top: true
+    padding-top: false
     section-background: bg-gray-800
     type: blocks
   - block-margin-bottom: true
