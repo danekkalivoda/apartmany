@@ -38,20 +38,7 @@ sections-above:
     type: blocks
   - block-margin-bottom: true
     block-style: 'bg-gray-300 rounded p-4 md:p-8'
-    blocks:
-      - block-style: null
-        desktop-width-class: 2/3
-        header: Nadpis
-        light-texts: true
-        mobile-width-class: 1/2
-        tablet-width-class: 1/2
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
-          neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
-          tempus felis augue, sed placerat libero suscipit eget.
-        type: texts
-      - image: /images/uploads/4e1bb0a5-4819-40e6-bd39-a9edd15e7561.png
-        type: image
+    blocks: []
     header: Nadpis bloku 2
     header-alignment: text-center
     header-padding-bottom: true
