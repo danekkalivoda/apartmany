@@ -45,10 +45,10 @@ sections-above:
         tablet-width-class: 1/3
         type: image
       - block-style: none
-        desktop-width-class: 1/2
+        desktop-width-class: 1/3
         light-texts: true
         mobile-width-class: 2/3
-        tablet-width-class: 1/2
+        tablet-width-class: 1/3
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
           neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
