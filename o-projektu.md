@@ -40,7 +40,7 @@ sections-above:
     block-style: 'bg-gray-300 rounded p-4 md:p-8'
     blocks:
       - block-style: 'bg-gray-300 rounded p-4 md:p-8'
-        desktop-width-class: 1/3
+        desktop-width-class: 2/3
         header: Nadpis
         mobile-width-class: 1/2
         tablet-width-class: 1/2
