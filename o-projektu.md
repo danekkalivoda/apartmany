@@ -41,14 +41,14 @@ sections-above:
     blocks:
       - desktop-width-class: 1/3
         image: /images/uploads/7ec72b94-ce0a-43d0-a55e-8206a58e9ab1.png
-        mobile-width-class: 1/4
+        mobile-width-class: 1/3
         tablet-width-class: 1/3
         type: image
       - block-style: none
-        desktop-width-class: 2/3
+        desktop-width-class: 1/2
         light-texts: true
-        mobile-width-class: 3/4
-        tablet-width-class: 2/3
+        mobile-width-class: 2/3
+        tablet-width-class: 1/2
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
           neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
