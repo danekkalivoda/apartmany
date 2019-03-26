@@ -60,7 +60,7 @@ sections-above:
     padding-top: true
     section-background: null
     type: blocks
-  - block-margin-bottom: true
+  - block-margin-bottom: false
     blocks:
       - desktop-width-class: 1/3
         mobile-width-class: 2/3
