@@ -39,6 +39,11 @@ sections-above:
   - block-margin-bottom: true
     block-style: 'bg-gray-300 rounded p-4 md:p-8'
     blocks:
+      - desktop-width-class: 1/3
+        image: /images/uploads/7ec72b94-ce0a-43d0-a55e-8206a58e9ab1.png
+        mobile-width-class: 1/4
+        tablet-width-class: 1/3
+        type: image
       - block-style: none
         desktop-width-class: 2/3
         light-texts: true
@@ -49,11 +54,6 @@ sections-above:
           neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
           tempus felis augue, sed placerat libero suscipit eget.
         type: texts
-      - desktop-width-class: 1/3
-        image: /images/uploads/7ec72b94-ce0a-43d0-a55e-8206a58e9ab1.png
-        mobile-width-class: 1/4
-        tablet-width-class: 1/3
-        type: image
     header: ''
     header-alignment: null
     header-padding-bottom: true
