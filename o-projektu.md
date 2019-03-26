@@ -42,14 +42,17 @@ sections-above:
       - block-style: none
         desktop-width-class: 2/3
         light-texts: true
-        mobile-width-class: full
+        mobile-width-class: 3/4
         tablet-width-class: 2/3
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
           neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
           tempus felis augue, sed placerat libero suscipit eget.
         type: texts
-      - image: /images/uploads/7ec72b94-ce0a-43d0-a55e-8206a58e9ab1.png
+      - desktop-width-class: 1/3
+        image: /images/uploads/7ec72b94-ce0a-43d0-a55e-8206a58e9ab1.png
+        mobile-width-class: 1/4
+        tablet-width-class: 1/3
         type: image
     header: ''
     header-alignment: null
