@@ -57,12 +57,23 @@ sections-above:
     type: blocks
   - block-margin-bottom: true
     block-style: 'bg-white shadow rounded p-4 md:p-8'
-    blocks: []
+    blocks:
+      - alignment: text-center
+        desktop-width-class: 3/4
+        font-size: text-sm
+        mobile-width-class: full
+        tablet-width-class: 3/4
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
+          neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
+          tempus felis augue, sed placerat libero suscipit eget.
+        type: texts
     header: Nadpis
     header-alignment: text-center
     header-padding-bottom: true
+    header-padding-top: false
     margin-y: false
-    padding-top: false
+    padding-top: true
     section-background: none
     type: blocks
   - block-margin-bottom: true
