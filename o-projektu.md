@@ -98,17 +98,6 @@ sections-above:
     padding-top: true
     section-background: none
     type: blocks
-  - block-margin-bottom: true
-    block-style: none
-    blocks: []
-    header: Nadpis
-    header-alignment: text-center
-    header-padding-bottom: false
-    light-texts: false
-    margin-y: false
-    padding-top: true
-    section-background: bg-white
-    type: blocks
   - form-fields:
       - field-type: Input text
         label: Jméno
