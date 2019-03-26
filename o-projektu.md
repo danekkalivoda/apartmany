@@ -50,6 +50,7 @@ sections-above:
           tempus felis augue, sed placerat libero suscipit eget.
         type: texts
     header: Nadpis bloku 2
+    header-alignment: text-center
     padding-top: true
     type: blocks
   - block-margin-bottom: true
