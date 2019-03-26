@@ -36,7 +36,7 @@ sections-above:
     padding-top: true
     section-background: bg-gray-800
     type: blocks
-  - block-margin-bottom: true
+  - block-margin-bottom: false
     block-style: 'bg-gray-300 rounded p-4 md:p-8'
     blocks:
       - desktop-width-class: 1/4
@@ -56,9 +56,25 @@ sections-above:
         type: texts
     header: ''
     header-alignment: null
-    header-padding-bottom: true
+    header-padding-bottom: false
     padding-top: false
-    section-background: bg-gray-800
+    section-background: null
+    type: blocks
+  - block-margin-bottom: true
+    blocks:
+      - desktop-width-class: 1/3
+        mobile-width-class: 2/3
+        tablet-width-class: 1/3
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
+          neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
+          tempus felis augue, sed placerat libero suscipit eget.
+        type: texts
+      - desktop-width-class: 1/4
+        image: /images/uploads/4e1bb0a5-4819-40e6-bd39-a9edd15e7561.png
+        mobile-width-class: 1/3
+        tablet-width-class: 1/4
+        type: image
     type: blocks
   - block-margin-bottom: true
     block-style: 'bg-white shadow rounded p-4 md:p-8'
