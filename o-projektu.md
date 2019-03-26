@@ -21,7 +21,7 @@ sections-above:
         desktop-width-class: 1/3
         header: Nadpis
         light-texts: true
-        mobile-width-class: full
+        mobile-width-class: 1/2
         tablet-width-class: 1/2
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
