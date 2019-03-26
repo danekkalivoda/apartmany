@@ -51,6 +51,7 @@ sections-above:
         type: texts
     header: Nadpis bloku 2
     header-alignment: text-center
+    header-padding-bottom: true
     padding-top: true
     type: blocks
   - block-margin-bottom: true
