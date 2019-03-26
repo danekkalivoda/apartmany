@@ -49,6 +49,8 @@ sections-above:
           neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
           tempus felis augue, sed placerat libero suscipit eget.
         type: texts
+      - image: /images/uploads/4e1bb0a5-4819-40e6-bd39-a9edd15e7561.png
+        type: image
     header: Nadpis bloku 2
     header-alignment: text-center
     header-padding-bottom: true
