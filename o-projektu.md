@@ -38,7 +38,18 @@ sections-above:
     type: blocks
   - block-margin-bottom: true
     block-style: 'bg-gray-300 rounded p-4 md:p-8'
-    blocks: []
+    blocks:
+      - block-style: 'bg-gray-300 rounded p-4 md:p-8'
+        desktop-width-class: 1/3
+        header: Nadpis
+        mobile-width-class: 1/2
+        tablet-width-class: 1/2
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
+          neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
+          tempus felis augue, sed placerat libero suscipit eget.
+        type: texts
+    header: Nadpis bloku 2
     padding-top: true
     type: blocks
   - block-margin-bottom: true
