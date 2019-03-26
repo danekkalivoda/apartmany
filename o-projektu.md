@@ -40,10 +40,10 @@ sections-above:
     block-style: 'bg-gray-300 rounded p-4 md:p-8'
     blocks:
       - block-style: 'bg-white shadow rounded p-4 md:p-8'
-        desktop-width-class: 1/2
+        desktop-width-class: 2/3
         light-texts: true
-        mobile-width-class: 1/2
-        tablet-width-class: 1/2
+        mobile-width-class: full
+        tablet-width-class: 2/3
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
           neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
