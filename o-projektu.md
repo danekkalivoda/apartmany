@@ -59,10 +59,10 @@ sections-above:
     block-style: 'bg-white shadow rounded p-4 md:p-8'
     blocks:
       - alignment: text-center
-        desktop-width-class: 3/4
+        desktop-width-class: 2/3
         font-size: text-sm
         mobile-width-class: full
-        tablet-width-class: 3/4
+        tablet-width-class: 2/3
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
           neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
