@@ -109,14 +109,6 @@ sections-above:
     padding-top: true
     section-background: bg-white
     type: blocks
-  - block-margin-bottom: true
-    block-style: none
-    blocks: []
-    light-texts: false
-    margin-y: false
-    padding-top: true
-    section-background: none
-    type: blocks
   - form-fields:
       - field-type: Input text
         label: Jméno
