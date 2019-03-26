@@ -46,6 +46,7 @@ sections-above:
         type: image
       - block-style: none
         desktop-width-class: 1/3
+        font-size: text-sm
         light-texts: false
         mobile-width-class: 2/3
         tablet-width-class: 1/3
@@ -63,6 +64,7 @@ sections-above:
   - block-margin-bottom: true
     blocks:
       - desktop-width-class: 1/3
+        font-size: text-sm
         mobile-width-class: 2/3
         tablet-width-class: 1/3
         text: >-
@@ -82,7 +84,7 @@ sections-above:
     blocks:
       - alignment: text-center
         desktop-width-class: 2/3
-        font-size: text-sm
+        font-size: null
         mobile-width-class: full
         tablet-width-class: 2/3
         text: >-
