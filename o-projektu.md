@@ -55,6 +55,7 @@ sections-above:
     header-alignment: text-center
     header-padding-bottom: true
     padding-top: true
+    section-background: bg-gray-800
     type: blocks
   - block-margin-bottom: true
     block-style: 'bg-white shadow rounded p-4 md:p-8'
