@@ -7,7 +7,7 @@ sections-above:
     block-style: 'border border-gray-300 rounded p-4 md:p-8'
     blocks:
       - block-style: 'border border-gray-300 rounded p-4 md:p-8'
-        desktop-width-class: 1/3
+        desktop-width-class: 1/2
         header: Nadpis
         light-texts: true
         mobile-width-class: full
@@ -18,7 +18,7 @@ sections-above:
           tempus felis augue, sed placerat libero suscipit eget.
         type: texts
       - block-style: 'border border-gray-300 rounded p-4 md:p-8'
-        desktop-width-class: 1/3
+        desktop-width-class: 1/2
         header: Nadpis
         light-texts: true
         mobile-width-class: full
