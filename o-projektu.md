@@ -39,7 +39,7 @@ sections-above:
   - block-margin-bottom: true
     block-style: 'bg-gray-300 rounded p-4 md:p-8'
     blocks:
-      - block-style: none
+      - block-style: null
         desktop-width-class: 1/2
         light-texts: true
         mobile-width-class: 1/2
