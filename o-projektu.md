@@ -126,7 +126,7 @@ sections-above:
         type: media
       - alignment: text-left
         desktop-width-class: 2/3
-        mobile-width-class: 3/4
+        mobile-width-class: 2/3
         tablet-width-class: 2/3
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
