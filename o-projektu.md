@@ -80,6 +80,7 @@ sections-above:
         mobile-width-class: 1/4
         tablet-width-class: 1/4
         type: media
+    header-padding-bottom: false
     padding-top: true
     type: blocks
     vertical-alignment: justify-center
