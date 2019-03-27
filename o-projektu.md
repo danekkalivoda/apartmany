@@ -114,7 +114,7 @@ sections-above:
     redirect-to: 'http://localhost:4000/odeslany-formular'
     type: contact-forms
 background: bg-gray-800
-'': false
+'': true
 margin-top: false
 margin-bottom: false
 ---
