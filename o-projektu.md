@@ -125,7 +125,7 @@ sections-above:
         tablet-width-class: 1/6
         type: media
       - alignment: text-left
-        desktop-width-class: 2/3
+        desktop-width-class: 1/2
         mobile-width-class: 2/3
         tablet-width-class: 2/3
         text: >-
