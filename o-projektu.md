@@ -117,7 +117,7 @@ sections-above:
     type: blocks
   - block-margin-bottom: true
     blocks:
-      - aspect-ratio: aspect-ratio-square
+      - aspect-ratio: aspect-ratio-4/3
         desktop-width-class: 1/6
         image: /images/uploads/257425.jpg
         mobile-width-class: 1/5
