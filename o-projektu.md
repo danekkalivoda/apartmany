@@ -96,7 +96,10 @@ sections-above:
           neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
           tempus felis augue, sed placerat libero suscipit eget.
         type: texts
-      - mobile-width-class: full
+      - alignment: null
+        desktop-width-class: 1/2
+        mobile-width-class: full
+        tablet-width-class: 1/2
         type: media
         video: >-
           <iframe width="560" height="315"
