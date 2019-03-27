@@ -41,7 +41,7 @@ sections-above:
     blocks:
       - alignment: text-right
         desktop-width-class: 1/4
-        image: /images/uploads/polaroid-portrait.svg
+        image: /images/uploads/business-contact-85.svg
         mobile-width-class: 1/4
         tablet-width-class: 1/4
         type: media
@@ -76,7 +76,7 @@ sections-above:
         type: texts
       - alignment: text-left
         desktop-width-class: 1/4
-        image: /images/uploads/img-stack.svg
+        image: /images/uploads/organic-2.svg
         mobile-width-class: 1/4
         tablet-width-class: 1/4
         type: media
