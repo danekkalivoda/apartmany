@@ -41,10 +41,10 @@ sections-above:
     blocks:
       - alignment: text-right
         desktop-width-class: 1/4
-        image: /images/uploads/img-stack.svg
-        mobile-width-class: 1/3
+        image: /images/uploads/polaroid-portrait.svg
+        mobile-width-class: 1/4
         tablet-width-class: 1/4
-        type: image
+        type: media
       - block-style: none
         desktop-width-class: 1/3
         font-size: text-sm
@@ -76,10 +76,10 @@ sections-above:
         type: texts
       - alignment: text-left
         desktop-width-class: 1/4
-        image: /images/uploads/polaroid-portrait.svg
-        mobile-width-class: 1/3
+        image: /images/uploads/img-stack.svg
+        mobile-width-class: 1/4
         tablet-width-class: 1/4
-        type: image
+        type: media
     padding-top: true
     type: blocks
     vertical-alignment: justify-center
