@@ -53,7 +53,7 @@ sections-above:
         tablet-width-class: 1/3
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
-          neque vehicula pellentesque.
+          neque **vehicula pellentesque.**
         type: texts
     header: ''
     header-alignment: null
@@ -71,8 +71,8 @@ sections-above:
         mobile-width-class: 2/3
         tablet-width-class: 1/3
         text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
-          neque vehicula pellentesque.
+          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**. Ut a odio
+          at neque vehicula pellentesque.
         type: texts
       - alignment: text-left
         desktop-width-class: 1/4
@@ -120,4 +120,4 @@ light-texts: false
 margin-top: false
 margin-bottom: false
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. **Ut enim ad minim veniam**, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in **reprehenderit in voluptate velit** esse cillum dolore eu fugiat nulla pariatur.
