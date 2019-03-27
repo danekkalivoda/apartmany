@@ -97,6 +97,7 @@ sections-above:
           tempus felis augue, sed placerat libero suscipit eget.
         type: texts
       - alignment: null
+        aspect-ratio: aspect-ratio-16/9
         desktop-width-class: 1/2
         mobile-width-class: full
         tablet-width-class: 1/2
