@@ -158,9 +158,9 @@ collections:
                 required: false
                 widget: select
                 options:
-                  - { label: "Levá", value: "text-left" }
-                  - { label: "Střed", value: "text-center" }
-                  - { label: "Pravá", value: "text-right" }
+                  - { label: "Nahoře", value: "justify-start" }
+                  - { label: "Střed", value: "justify-center" }
+                  - { label: "Dolů", value: "justify-end" }
               - label: Pozadí
                 name: section-background
                 required: false

@@ -22,7 +22,7 @@
     {% if section.blocks and section.blocks != '' %}
       <div class="flex flex-wrap justify-center -mx-2 sm:-mx-4">
         {% for block in section.blocks %}
-          <div class="flex flex-col items-stretch {{ block.vertical-alignment}} px-2 sm:px-4 w-{{ block.mobile-width-class }} md:w-{{ block.tablet-width-class }} lg:w-{{ block.desktop-width-class }}">
+          <div class="flex flex-col items-stretch {{ section.vertical-alignment}} px-2 sm:px-4 w-{{ block.mobile-width-class }} md:w-{{ block.tablet-width-class }} lg:w-{{ block.desktop-width-class }}">
             {% if block.type == "texts" %}
               <div class='{{block.alignment}} {{ block.block-style }}{% if section.block-margin-bottom %} mb-4 sm:mb-8{% endif %}{% if block.light-texts %} border-gray-700{% endif %}'>
                 {% if block.header and block.header != '' %}
