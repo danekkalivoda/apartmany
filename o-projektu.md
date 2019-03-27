@@ -120,12 +120,12 @@ sections-above:
       - aspect-ratio: aspect-ratio-square
         desktop-width-class: 1/6
         image: /images/uploads/257425.jpg
-        mobile-width-class: 2/3
+        mobile-width-class: 1/5
         tablet-width-class: 1/6
         type: media
       - alignment: text-left
         desktop-width-class: 2/3
-        mobile-width-class: 2/3
+        mobile-width-class: 3/4
         tablet-width-class: 2/3
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
