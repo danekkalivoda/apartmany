@@ -176,7 +176,7 @@ collections:
         options:
           - { label: "Světlé", value: "bg-white" }
           - { label: "Tmavé", value: "bg-gray-800" }
-      - {label: "Světlé texty", name: "", widget: "boolean", default: false, required: false}
+      - {label: "Světlé texty", name: "light-texts", widget: "boolean", default: false, required: false}
       - {label: "Horní odsazení sekce", name: "margin-top", widget: "boolean", default: false, required: false}
       - {label: "Dolní odsazení bloků", name: "margin-bottom", widget: "boolean", default: false, required: false}
   - label: "Nastavení"
