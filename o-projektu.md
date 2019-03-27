@@ -61,6 +61,7 @@ sections-above:
     padding-top: true
     section-background: null
     type: blocks
+    vertical-alignment: text-center
   - block-margin-bottom: true
     blocks:
       - desktop-width-class: 1/3
