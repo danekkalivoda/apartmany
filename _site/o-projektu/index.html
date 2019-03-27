@@ -10,6 +10,7 @@ layout: compress
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>O projektu</title>
   <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/app.js"></script>
   
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
@@ -60,7 +61,7 @@ layout: compress
     <section class="">
       <div class="max-w-6xl mx-auto flex flex-wrap justify-center px-4 sm:px-8 lg:px-24">
           <main class="flex-col w-full md:w-3/4 py-8 sm:px-4 md:px-8 leading-normal text-center">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <strong>Ut enim ad minim veniam</strong>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <strong>reprehenderit in voluptate velit</strong> esse cillum dolore eu fugiat nulla pariatur.</p>
 
           </main>
       </div>
@@ -88,7 +89,7 @@ layout: compress
         
           <div class="flex flex-col items-stretch  px-2 sm:px-4 w-full md:w-1/2 lg:w-1/2">
             
-              <div class=' border border-gray-300 rounded p-4 md:p-8 mb-4 sm:mb-8 border-gray-700'>
+              <div class='text-center  mb-4 sm:mb-8 border-gray-700'>
                 
                   <h3 class=' font-bold text-white'>Nadpis</h3>
                 
@@ -103,7 +104,7 @@ layout: compress
         
           <div class="flex flex-col items-stretch  px-2 sm:px-4 w-full md:w-1/2 lg:w-1/2">
             
-              <div class=' border border-gray-300 rounded p-4 md:p-8 mb-4 sm:mb-8 border-gray-700'>
+              <div class='text-center  mb-4 sm:mb-8 border-gray-700'>
                 
                   <h3 class=' font-bold text-white'>Nadpis</h3>
                 
@@ -141,10 +142,10 @@ layout: compress
             
               <div class="text-right">
                 
-                  <img src="/static/images/uploads/polaroid-portrait.svg" class="inline-block">
+                    <div class="inline-block">
+                      <img src="/static/images/uploads/business-contact-85.svg" class="inline-block">
+                    </div>
                  
-                
-                  
                  
               </div>
             
@@ -155,7 +156,7 @@ layout: compress
               <div class=' none'>
                 
                 
-                  <div class='text-sm'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at neque vehicula pellentesque.</p>
+                  <div class='text-sm'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at neque <strong>vehicula pellentesque.</strong></p>
 </div>
                 
               </div>
@@ -188,7 +189,7 @@ layout: compress
               <div class='text-right  mb-4 sm:mb-8'>
                 
                 
-                  <div class='text-sm'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at neque vehicula pellentesque.</p>
+                  <div class='text-sm'><p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Ut a odio at neque vehicula pellentesque.</p>
 </div>
                 
               </div>
@@ -201,10 +202,10 @@ layout: compress
             
               <div class="text-left mb-4 sm:mb-8">
                 
-                  <img src="/static/images/uploads/img-stack.svg" class="inline-block">
+                    <div class="inline-block">
+                      <img src="/static/images/uploads/organic-2.svg" class="inline-block">
+                    </div>
                  
-                
-                  
                  
               </div>
             
@@ -251,6 +252,20 @@ layout: compress
             
           </div>
         
+          <div class="flex flex-col items-stretch  px-2 sm:px-4 w-full md:w-1/2 lg:w-1/2">
+            
+            
+              <div class=" mb-4 sm:mb-8">
+                 
+                
+                  <div class="rounded embed-responsive aspect-ratio-16/9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xVKGstMFFFc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                 
+              </div>
+            
+          </div>
+        
       </div>
     
 
@@ -261,56 +276,46 @@ layout: compress
 
 
 
-<section class="">
+<section class=" pt-4 sm:pt-8">
 
   <div class="max-w-6xl mx-auto px-4 sm:px-8">
     
-      <h2 class="
-        text-center
+
+    
+
+    
+      <div class="flex flex-wrap justify-center -mx-2 sm:-mx-4">
         
+          <div class="flex flex-col items-stretch justify-center px-2 sm:px-4 w-1/4 md:w-1/4 lg:w-1/6">
+            
+            
+              <div class=" mb-4 sm:mb-8">
+                
+                    <div class=" block relative aspect-ratio-4/3">
+                      <img src="/static/images/uploads/257425.jpg" class="w-full h-full absolute top-0 left-0 object-cover rounded">
+                    </div>
+                 
+                 
+              </div>
+            
+          </div>
         
-        text-teal-500 text-2xl font-medium">
-        Kontaktní formulář
-      </h2>
-    
-
-    
-
-    
-
-    
-      <div class="mx-auto w-full md:w-1/2">  
-        <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post" class="w-full">
-          <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-          <input type='hidden' name='redirect_to' value='http://localhost:4000/odeslany-formular' />
-          
-              <label class="w-full block" for="jmeno">Jméno</label>
-              <div class="flex flex-col items-stretch">
-              
-                <input type="text" id="jmeno" name="jmeno">
-              
-              
+          <div class="flex flex-col items-stretch justify-center px-2 sm:px-4 w-full md:w-3/4 lg:w-1/2">
+            
+              <div class='text-left  mb-4 sm:mb-8'>
+                
+                
+                  <div class=''><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis tempus felis augue, sed placerat libero suscipit eget.</p>
+</div>
+                
               </div>
-          
-              <label class="w-full block" for="prijmeni">Příjmení</label>
-              <div class="flex flex-col items-stretch">
-              
-                <input type="text" id="prijmeni" name="prijmeni">
-              
-              
-              </div>
-          
-              <label class="w-full block" for="zprava">Zpráva</label>
-              <div class="flex flex-col items-stretch">
-              
-              
-                <textarea rows="5" id="zprava" name="zprava"></textarea>
-              
-              </div>
-          
-          <input type='submit' value='Test form' />
-        </form>
+            
+            
+          </div>
+        
       </div>
+    
+
     
   </div>
 

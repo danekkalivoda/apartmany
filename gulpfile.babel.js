@@ -10,11 +10,14 @@ import sourcemaps from "gulp-sourcemaps";
 import atimport from "postcss-import";
 import tailwindcss from "tailwindcss";
 import postcssPresetEnv from "postcss-preset-env";
+import concat from "gulp-concat"
 
 
 const rawStylesheet = "src/style.css";
+const rawJs = "src/app.js";
 const siteRoot = "_site";
 const cssRoot = `${siteRoot}/assets/css/`;
+const jsRoot = `${siteRoot}/assets/js/`;
 const tailwindConfig = "tailwind.config.js";
 
 const devBuild =
@@ -42,6 +45,12 @@ task("buildJekyll", () => {
   }
 
   return spawn("bundle", args, { stdio: "inherit" });
+});
+
+task("processJavascript", done => {
+  browserSync.notify("Compiling javascript...");
+  return src(rawJs)
+    .pipe(dest(jsRoot));
 });
 
 task("processStyles", done => {
@@ -98,7 +107,7 @@ task("startServer", () => {
   );
 });
 
-const buildSite = series("buildJekyll", "processStyles");
+const buildSite = series("buildJekyll", "processStyles", "processJavascript");
 
 exports.serve = series(buildSite, "startServer");
 exports.default = series(buildSite);
