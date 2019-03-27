@@ -69,7 +69,9 @@ sections-above:
         font-size: text-sm
         mobile-width-class: 2/3
         tablet-width-class: 1/3
-        text: Lorem ipsum dolor sit ame.
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
+          neque vehicula pellentesque.
         type: texts
       - desktop-width-class: 1/4
         image: /images/uploads/4e1bb0a5-4819-40e6-bd39-a9edd15e7561.png
