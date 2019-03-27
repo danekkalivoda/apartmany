@@ -115,7 +115,8 @@ sections-above:
     padding-top: true
     section-background: bg-white
     type: blocks
-  - blocks:
+  - block-margin-bottom: true
+    blocks:
       - aspect-ratio: aspect-ratio-square
         desktop-width-class: 1/3
         image: /images/uploads/257425.jpg
@@ -131,7 +132,9 @@ sections-above:
           neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
           tempus felis augue, sed placerat libero suscipit eget.
         type: texts
+    padding-top: true
     type: blocks
+    vertical-alignment: justify-center
 alignment: text-center
 light-texts: false
 margin-top: false
