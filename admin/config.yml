@@ -131,7 +131,6 @@ collections:
                         required: false
                         widget: select
                         options:
-                          - { label: "Žádný", value: "none" }
                           - { label: "Podbarvený - světle šedá", value: "flex-grow bg-gray-300 rounded p-4 md:p-8" }
                           - { label: "Podbarvený - bílá", value: "flex-grow bg-white shadow rounded p-4 md:p-8" }
                           - { label: "Orámovaný", value: "flex-grow border border-gray-300 rounded p-4 md:p-8" }
@@ -175,7 +174,6 @@ collections:
         required: false
         widget: select
         options:
-          - { label: "Žádné", value: "none" }
           - { label: "Světlé", value: "bg-white" }
           - { label: "Tmavé", value: "bg-gray-800" }
       - {label: "Světlé texty", name: "", widget: "boolean", default: false, required: false}
