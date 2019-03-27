@@ -121,7 +121,7 @@ sections-above:
       - aspect-ratio: aspect-ratio-4/3
         desktop-width-class: 1/6
         image: /images/uploads/257425.jpg
-        mobile-width-class: 1/5
+        mobile-width-class: 2/3
         tablet-width-class: 1/6
         type: media
       - alignment: text-left
