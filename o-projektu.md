@@ -40,7 +40,7 @@ sections-above:
     block-style: 'bg-gray-300 rounded p-4 md:p-8'
     blocks:
       - desktop-width-class: 1/4
-        image: /images/uploads/7ec72b94-ce0a-43d0-a55e-8206a58e9ab1.png
+        image: /images/uploads/img-stack.svg
         mobile-width-class: 1/3
         tablet-width-class: 1/4
         type: image
@@ -74,7 +74,7 @@ sections-above:
           neque vehicula pellentesque.
         type: texts
       - desktop-width-class: 1/4
-        image: /images/uploads/4e1bb0a5-4819-40e6-bd39-a9edd15e7561.png
+        image: /images/uploads/polaroid-portrait.svg
         mobile-width-class: 1/3
         tablet-width-class: 1/4
         type: image
