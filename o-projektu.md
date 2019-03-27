@@ -64,7 +64,8 @@ sections-above:
     vertical-alignment: justify-center
   - block-margin-bottom: true
     blocks:
-      - desktop-width-class: 1/3
+      - alignment: text-right
+        desktop-width-class: 1/3
         font-size: text-sm
         mobile-width-class: 2/3
         tablet-width-class: 1/3
