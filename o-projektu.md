@@ -96,6 +96,13 @@ sections-above:
           neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
           tempus felis augue, sed placerat libero suscipit eget.
         type: texts
+      - mobile-width-class: full
+        type: media
+        video: >-
+          <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/xVKGstMFFFc" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope;
+          picture-in-picture" allowfullscreen></iframe>
     header: Nadpis
     header-alignment: text-center
     header-padding-bottom: true
