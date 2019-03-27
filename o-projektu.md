@@ -68,10 +68,7 @@ sections-above:
         font-size: text-sm
         mobile-width-class: 2/3
         tablet-width-class: 1/3
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
-          neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
-          tempus felis augue, sed placerat libero suscipit eget.
+        text: Lorem ipsum dolor sit ame.
         type: texts
       - desktop-width-class: 1/4
         image: /images/uploads/4e1bb0a5-4819-40e6-bd39-a9edd15e7561.png
@@ -80,6 +77,7 @@ sections-above:
         type: image
     padding-top: true
     type: blocks
+    vertical-alignment: justify-center
   - block-margin-bottom: true
     block-style: 'bg-white shadow rounded p-4 md:p-8'
     blocks:
