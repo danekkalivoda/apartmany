@@ -113,7 +113,7 @@ sections-above:
     header-alignment: text-center
     redirect-to: 'http://localhost:4000/odeslany-formular'
     type: contact-forms
-background: none
+background: bg-gray-800
 '': false
 margin-top: false
 margin-bottom: false
