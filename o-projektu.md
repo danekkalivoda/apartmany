@@ -39,7 +39,8 @@ sections-above:
   - block-margin-bottom: false
     block-style: 'bg-gray-300 rounded p-4 md:p-8'
     blocks:
-      - desktop-width-class: 1/4
+      - alignment: text-right
+        desktop-width-class: 1/4
         image: /images/uploads/img-stack.svg
         mobile-width-class: 1/3
         tablet-width-class: 1/4
@@ -73,7 +74,8 @@ sections-above:
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
           neque vehicula pellentesque.
         type: texts
-      - desktop-width-class: 1/4
+      - alignment: text-left
+        desktop-width-class: 1/4
         image: /images/uploads/polaroid-portrait.svg
         mobile-width-class: 1/3
         tablet-width-class: 1/4
