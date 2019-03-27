@@ -115,6 +115,23 @@ sections-above:
     padding-top: true
     section-background: bg-white
     type: blocks
+  - blocks:
+      - aspect-ratio: aspect-ratio-square
+        desktop-width-class: 1/3
+        image: /images/uploads/257425.jpg
+        mobile-width-class: 3/4
+        tablet-width-class: 1/3
+        type: media
+      - alignment: text-left
+        desktop-width-class: 2/3
+        mobile-width-class: 3/4
+        tablet-width-class: 2/3
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a odio at
+          neque vehicula pellentesque. Morbi egestas eu ligula sed maximus. Duis
+          tempus felis augue, sed placerat libero suscipit eget.
+        type: texts
+    type: blocks
 alignment: text-center
 light-texts: false
 margin-top: false
