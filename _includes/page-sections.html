@@ -33,9 +33,14 @@
                 {% endif %}
               </div>
             {% endif %}
-            {% if block.type == "image" %}
-              <div class="{% if section.block-margin-bottom %} mb-4 sm:mb-8{% endif %}">
-                <img src="/static{{ block.image }}">
+            {% if block.type == "media" %}
+              <div class="{{block.alignment}}{% if section.block-margin-bottom %} mb-4 sm:mb-8{% endif %}">
+                {% if block.image != "" %}
+                  <img src="/static{{ block.image }}" class="inline-block">
+                {% endif %} 
+                {% if block.video != "" %}
+                  {{ block.video }}
+                {% endif %} 
               </div>
             {% endif %}
           </div>

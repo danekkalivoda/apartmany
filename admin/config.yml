@@ -138,14 +138,26 @@ collections:
                       - {label: Desktop - šířka, name: "desktop-width-class", widget: "select", required: false, options: ["1/4", "1/3", "1/2", "2/3", "3/4", "full"]}
                       - {label: Tablet - šířka, name: "tablet-width-class", widget: "select", required: false, options: ["1/4", "1/3", "1/2", "2/3", "3/4", "full"]}
                       - {label: Mobile - šířka, name: "mobile-width-class", widget: "select", options: ["1/4", "1/3", "1/2", "2/3", "3/4", "full"]}
-                  - label: Obrázek
-                    name: image
+                  - label: Obrázek / video
+                    name: media
                     widget: object
                     fields:
                       - label: Obrázek
                         name: image
                         widget: image
                         required: false
+                      - label: Youtube video
+                        name: video
+                        widget: string
+                        required: false
+                      - label: Zarovnání
+                        name: alignment
+                        required: false
+                        widget: select
+                        options:
+                          - { label: "Levá", value: "text-left" }
+                          - { label: "Střed", value: "text-center" }
+                          - { label: "Pravá", value: "text-right" }
                       - {label: Desktop - šířka, name: "desktop-width-class", widget: "select", required: false, options: ["1/4", "1/3", "1/2", "2/3", "3/4", "full"]}
                       - {label: Tablet - šířka, name: "tablet-width-class", widget: "select", required: false, options: ["1/4", "1/3", "1/2", "2/3", "3/4", "full"]}
                       - {label: Mobile - šířka, name: "mobile-width-class", widget: "select", options: ["1/4", "1/3", "1/2", "2/3", "3/4", "full"]}
@@ -176,6 +188,14 @@ collections:
         options:
           - { label: "Světlé", value: "bg-white" }
           - { label: "Tmavé", value: "bg-gray-800" }
+      - label: Zarovnání
+        name: alignment
+        required: false
+        widget: select
+        options:
+          - { label: "Levá", value: "text-left" }
+          - { label: "Střed", value: "text-center" }
+          - { label: "Pravá", value: "text-right" }
       - {label: "Světlé texty", name: "light-texts", widget: "boolean", default: false, required: false}
       - {label: "Horní odsazení sekce", name: "margin-top", widget: "boolean", default: false, required: false}
       - {label: "Dolní odsazení bloků", name: "margin-bottom", widget: "boolean", default: false, required: false}
