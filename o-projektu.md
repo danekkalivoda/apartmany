@@ -104,17 +104,6 @@ sections-above:
     padding-top: true
     section-background: bg-white
     type: blocks
-  - form-fields:
-      - field-type: Input text
-        label: Jméno
-      - field-type: Input text
-        label: Příjmení
-      - field-type: Textarea
-        label: Zpráva
-    header: Kontaktní formulář
-    header-alignment: text-center
-    redirect-to: 'http://localhost:4000/odeslany-formular'
-    type: contact-forms
 alignment: text-center
 light-texts: false
 margin-top: false
