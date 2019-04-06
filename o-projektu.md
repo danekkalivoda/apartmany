@@ -7,7 +7,7 @@ sections-above:
     block-style: 'border border-gray-300 rounded p-4 md:p-8'
     blocks:
       - alignment: text-center
-        block-style: null
+        block-style: 'flex-grow border border-gray-300 rounded p-4 md:p-8'
         desktop-width-class: 1/2
         header: Nadpis
         light-texts: true
