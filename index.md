@@ -40,6 +40,12 @@ sections-above:
           Není nic lepšího než spokojený klient, který odchází s pocitem
           naplnění, nadšením z tréninku a o něco zdravější a výkonnější.
         type: texts
+      - alignment: text-center
+        color: border-green-500
+        desktop-width-class: 1/6
+        mobile-width-class: 1/6
+        tablet-width-class: 1/6
+        type: horizontal-divider
     header: Kdo jsem
     header-alignment: text-center
     header-padding-top: true
