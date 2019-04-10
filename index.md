@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Tailwind & jekyll base template
+title: 'Ahoj, jsem Andy'
 active: true
 ---
 
