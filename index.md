@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Tailwind & jekyll base template
+title: Kdo jsem
 active: true
 ---
 
