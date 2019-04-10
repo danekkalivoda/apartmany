@@ -6,6 +6,9 @@ sections-above:
   - block-margin-bottom: true
     blocks:
       - mobile-width-class: 2/3
+        text: '## moje kariéra, moje sny…'
+        type: texts
+      - mobile-width-class: 2/3
         text: >-
           Zhruba do mých patnácti let u mě nikdo sportovní kariéru neočekával.
           Byla jsem typický teenager vysedávající ve fastfoodech věnující se ze
