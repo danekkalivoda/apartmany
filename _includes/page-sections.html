@@ -1,6 +1,6 @@
 {% for section in page.sections-above %}
 
-<section class="{{section.section-background}}{% if section.padding-top %} pt-4 sm:pt-8{% endif %}">
+<section class="{{section.section-background}}{% if section.padding-top %} pt-4 sm:pt-8{% endif %} sections-content">
 
   <div class="max-w-6xl mx-auto px-4 sm:px-8">
     {% if section.header and section.header != '' %}
