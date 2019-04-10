@@ -5,7 +5,8 @@ active: true
 sections-above:
   - block-margin-bottom: true
     blocks:
-      - mobile-width-class: 2/3
+      - alignment: text-center
+        mobile-width-class: 2/3
         text: '## moje kariéra, moje sny…'
         type: texts
       - mobile-width-class: 2/3
