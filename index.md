@@ -10,46 +10,18 @@ sections-above:
         mobile-width-class: 2/3
         text: 'moje kariéra, moje sny…'
         type: texts
-      - mobile-width-class: 3/4
-        text: >-
-          Zhruba do mých patnácti let u mě nikdo sportovní kariéru neočekával.
-          Byla jsem typický teenager vysedávající ve fastfoodech věnující se ze
-          sportů pouze jízdě na koni. S přibývajícími kily mi ale koně přestali
-          stačit a začala jsem se hýbat více. Od cvičení doma přes posilovnu,
-          běhání a překážkové běhy jsem se dostala až ke studiu tělesné výchovy
-          na vysoké škole.
-
-
-          Na fakultě tělesné výchovy jsem došla ke zjištění, že v některých
-          sportech vynikám, ale na některé jsem naopak naprosté dřevo. Trápení
-          se na hodinách atletiky a gymnastiky mě přivedlo k první návštěvě
-          CrossFitového gymu. Ihned na prvních hodinách mě CrossFit naprosto
-          pohltil a nadšení mi zůstalo do teď. A co se týče studia, má schopnost
-          učení se nových pohybů a vykonávání všemožných sportů se rapidně
-          zlepšila.
-
-
-          Co mám na CrossFitu nejraději? To, že člověka vede k lepšímu já a
-          zlepšuje jeho život v mnoha ohledech. To, že nás v pohybovém hledisku
-          připravuje komplexně a všestranně a trénink je pokaždé jiný. Skvělou
-          partu lidí v gymu.
-
-
-          Mým snem vždy bylo pomáhat lidem. Díky koučování nyní pomáhám lidem
-          hýbat se optimálně, cítit se zdravěji a lépe ve svém vlastním těle.
-          Není nic lepšího než spokojený klient, který odchází s pocitem
-          naplnění, nadšením z tréninku a o něco zdravější a výkonnější.
-        type: texts
+    header: Kdo jsem
+    header-alignment: text-center
+    header-padding-top: true
+    padding-top: true
+    type: blocks
+  - blocks:
       - alignment: text-center
         color: border-green-500
         desktop-width-class: 1/6
         mobile-width-class: 1/6
         tablet-width-class: 1/6
         type: horizontal-divider
-    header: Kdo jsem
-    header-alignment: text-center
-    header-padding-top: true
-    padding-top: true
     type: blocks
 ---
 
