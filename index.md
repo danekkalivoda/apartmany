@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Kdo jsem
+title: 'Ahoj, jsem Andy'
 active: true
 ---
 
