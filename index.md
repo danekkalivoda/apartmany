@@ -6,8 +6,9 @@ sections-above:
   - block-margin-bottom: true
     blocks:
       - alignment: text-center
+        font-size: text-xl
         mobile-width-class: 2/3
-        text: '**moje kariéra, moje sny…**'
+        text: 'moje kariéra, moje sny…'
         type: texts
       - mobile-width-class: 3/4
         text: >-
