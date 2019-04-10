@@ -7,7 +7,7 @@ sections-above:
     blocks:
       - alignment: text-center
         mobile-width-class: 2/3
-        text: '## moje kariéra, moje sny…'
+        text: '**moje kariéra, moje sny…**'
         type: texts
       - mobile-width-class: 3/4
         text: >-
