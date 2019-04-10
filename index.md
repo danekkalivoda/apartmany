@@ -9,7 +9,7 @@ sections-above:
         mobile-width-class: 2/3
         text: '## moje kariéra, moje sny…'
         type: texts
-      - mobile-width-class: 2/3
+      - mobile-width-class: 3/4
         text: >-
           Zhruba do mých patnácti let u mě nikdo sportovní kariéru neočekával.
           Byla jsem typický teenager vysedávající ve fastfoodech věnující se ze
@@ -45,6 +45,4 @@ sections-above:
     padding-top: true
     type: blocks
 ---
-Základní text stránky
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus ipsum at orci efficitur cursus. Phasellus eget imperdiet dui. Vivamus ultricies turpis non elementum dapibus. Cras velit magna, tincidunt non ante id, finibus ultrices lacus. Praesent semper, turpis quis porta tempor, felis lorem congue dolor, eu luctus neque eros ullamcorper nibh. Suspendisse potenti. Pellentesque egestas congue velit id dapibus. Praesent auctor augue et odio pulvinar lobortis. Nullam pretium lacinia imperdiet. Suspendisse eget sapien at dolor ornare pretium id sit amet justo. Pellentesque efficitur ex ut lacus efficitur, eget congue odio lobortis.
