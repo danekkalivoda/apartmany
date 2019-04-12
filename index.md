@@ -43,7 +43,7 @@ sections:
     subHeader: 'moje kariéra, moje sny…'
     type: blocks
   - blocks:
-      - posts-count: '4'
+      - posts-count: '3'
         type: blog-posts
     header: Z blogu
     header-alignment: text-center
