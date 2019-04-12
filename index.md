@@ -41,6 +41,10 @@ sections:
     header-padding-top: true
     subHeader: 'moje kariéra, moje sny…'
     type: blocks
+  - header: Z blogu
+    header-alignment: text-center
+    subHeader: Píšu a ráda...
+    type: blocks
 background: bg-gray-800
 light-texts: true
 active: true
