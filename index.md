@@ -5,8 +5,6 @@ sections-above: []
 active: true
 alignment: text-center
 ---
-### 
-
-### Nadpis h3 na střed
+### Nadpis H3 na střed
 
 Tady je obsah...
