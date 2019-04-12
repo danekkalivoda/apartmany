@@ -2,20 +2,7 @@
 layout: home
 title: 'Ahoj, jsem Andy'
 active: true
-sections-above:
-  - block-margin-bottom: true
-    blocks: []
-    header: Kdo jsem
-    header-alignment: text-center
-    header-padding-top: true
-    padding-top: true
-    type: blocks
+sections-above: []
 alignment: text-center
 ---
 Tady je obsah...
-
-dsadas
-
-- - -
-
-dasdas
