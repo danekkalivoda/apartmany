@@ -13,3 +13,5 @@ sections-above:
 alignment: text-center
 ---
 Tady je obsah...
+
+---
