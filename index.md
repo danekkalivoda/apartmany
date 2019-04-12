@@ -1,12 +1,12 @@
 ---
 layout: home
 title: 'Ahoj, jsem Andy'
-active: true
 sections-above: []
+active: true
 alignment: text-center
 ---
-### nadpis h3
+### 
+
+### Nadpis h3 na střed
 
 Tady je obsah...
-
-### Další nadpis h3
