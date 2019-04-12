@@ -50,6 +50,21 @@ sections:
     header-alignment: text-center
     subHeader: Píšu a ráda...
     type: blocks
+  - blocks:
+      - image: /images/uploads/business-contact-85.svg
+        light-texts: true
+        mobile-width-class: 1/5
+        type: media
+      - header: Crossfit
+        mobile-width-class: 4/5
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis
+          facilisis blandit. Cras vehicula sem vitae faucibus maximus.
+        type: texts
+    header: Moje sporty
+    header-alignment: text-center
+    subHeader: co mě baví a jak ti můžu pomoci
+    type: blocks
 background: bg-gray-800
 light-texts: true
 active: true
