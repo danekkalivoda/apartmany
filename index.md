@@ -10,5 +10,6 @@ sections-above:
     header-padding-top: true
     padding-top: true
     type: blocks
+alignment: text-center
 ---
 Tady je obsah...
