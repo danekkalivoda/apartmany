@@ -56,6 +56,7 @@ sections:
         mobile-width-class: 1/5
         type: media
       - header: Crossfit
+        light-texts: true
         mobile-width-class: 4/5
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis
