@@ -4,6 +4,6 @@ title: 'Ahoj, jsem Andy'
 sections-above: []
 active: true
 ---
-### Nadpis H3 na střed
+### Nadpis h3 na střed
 
 Tady je obsah...
