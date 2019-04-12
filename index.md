@@ -62,6 +62,26 @@ sections:
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis
           facilisis blandit. Cras vehicula sem vitae faucibus maximus.
         type: texts
+      - image: /images/uploads/organic-2.svg
+        mobile-width-class: 1/6
+        type: media
+      - header: Silový trening
+        light-texts: true
+        mobile-width-class: 1/6
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis
+          facilisis blandit. Cras vehicula sem vitae faucibus maximus.
+        type: texts
+      - image: /images/uploads/business-contact-85.svg
+        mobile-width-class: 1/6
+        type: media
+      - header: Kardio
+        light-texts: true
+        mobile-width-class: 1/6
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis
+          facilisis blandit. Cras vehicula sem vitae faucibus maximus.
+        type: texts
     header: Moje sporty
     header-alignment: text-center
     section-background: bg-gray-800
