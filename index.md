@@ -50,7 +50,8 @@ sections:
     header-alignment: text-center
     subHeader: Píšu a ráda...
     type: blocks
-  - blocks:
+  - block-margin-bottom: true
+    blocks:
       - image: /images/uploads/business-contact-85.svg
         light-texts: true
         mobile-width-class: 1/6
@@ -84,6 +85,7 @@ sections:
         type: texts
     header: Moje sporty
     header-alignment: text-center
+    padding-top: true
     section-background: bg-gray-800
     subHeader: co mě baví a jak ti můžu pomoci
     type: blocks
