@@ -53,11 +53,11 @@ sections:
   - blocks:
       - image: /images/uploads/business-contact-85.svg
         light-texts: true
-        mobile-width-class: 1/5
+        mobile-width-class: 1/6
         type: media
       - header: Crossfit
         light-texts: true
-        mobile-width-class: 4/5
+        mobile-width-class: 1/6
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis
           facilisis blandit. Cras vehicula sem vitae faucibus maximus.
