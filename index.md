@@ -43,7 +43,7 @@ sections:
     subHeader: 'moje kariéra, moje sny…'
     type: blocks
   - blocks:
-      - header: Novinky
+      - header: Novinky 4
         posts-count: '4'
         type: blog-posts
     header: Z blogu
