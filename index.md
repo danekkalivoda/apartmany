@@ -42,7 +42,10 @@ sections:
     header-padding-top: true
     subHeader: 'moje kariéra, moje sny…'
     type: blocks
-  - header: Z blogu
+  - blocks:
+      - posts-count: '6'
+        type: blog-posts
+    header: Z blogu
     header-alignment: text-center
     subHeader: Píšu a ráda...
     type: blocks
