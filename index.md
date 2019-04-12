@@ -2,7 +2,8 @@
 layout: home
 title: 'Ahoj, jsem Andy'
 sections:
-  - blocks:
+  - block-margin-bottom: true
+    blocks:
       - desktop-width-class: 2/3
         mobile-width-class: full
         tablet-width-class: 3/4
