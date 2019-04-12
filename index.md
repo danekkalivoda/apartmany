@@ -42,7 +42,8 @@ sections:
     header-padding-top: true
     subHeader: 'moje kariéra, moje sny…'
     type: blocks
-  - blocks:
+  - block-margin-bottom: true
+    blocks:
       - header: ''
         posts-count: '3'
         type: blog-posts
