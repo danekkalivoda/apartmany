@@ -1,7 +1,7 @@
 ---
 layout: home
 title: 'Ahoj, jsem Andy'
-sections-above: []
+light-texts: true
 active: true
 ---
 ### Nadpis h3 na střed
