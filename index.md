@@ -63,6 +63,7 @@ sections:
         type: texts
     header: Moje sporty
     header-alignment: text-center
+    section-background: bg-gray-800
     subHeader: co mě baví a jak ti můžu pomoci
     type: blocks
 background: bg-gray-800
