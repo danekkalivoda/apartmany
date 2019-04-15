@@ -54,10 +54,11 @@ sections:
   - block-margin-bottom: true
     blocks:
       - alignment: text-right
+        desktop-width-class: 1/10
         image: /images/uploads/sport-1.svg
         light-texts: true
         mobile-width-class: 1/6
-        tablet-width-class: 1/10
+        tablet-width-class: null
         type: media
       - desktop-width-class: 1/6
         header: Crossfit
@@ -69,9 +70,10 @@ sections:
           facilisis blandit. Cras vehicula sem vitae faucibus maximus.
         type: texts
       - alignment: text-right
+        desktop-width-class: 1/10
         image: /images/uploads/sport-2.svg
         mobile-width-class: 1/6
-        tablet-width-class: 1/10
+        tablet-width-class: null
         type: media
       - desktop-width-class: 1/6
         header: Silový trening
@@ -83,9 +85,10 @@ sections:
           facilisis blandit. Cras vehicula sem vitae faucibus maximus.
         type: texts
       - alignment: text-right
+        desktop-width-class: 1/10
         image: /images/uploads/sport-3.svg
         mobile-width-class: 1/6
-        tablet-width-class: 1/10
+        tablet-width-class: null
         type: media
       - desktop-width-class: 1/6
         header: Kardio
