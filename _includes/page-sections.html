@@ -1,4 +1,4 @@
-{% for section in page.sections-above %}
+{% for section in page.sections%}
 
 <section class="{{section.section-background}}{% if section.padding-top %} pt-4 sm:pt-8{% endif %} sections-content">
 
@@ -11,6 +11,12 @@
         text-green-500 text-2xl font-medium">
         {{ section.header }}
       </h2>
+    {% endif %}
+    {% if section.subHeader and section.subHeader != '' %}
+      <p class="{{ section.header-alignment }} font-normal text-lg text-gray-600">
+        {{ section.subHeader }}
+      </p>
+      <hr class="border-b border-green-500 w-10 my-6">
     {% endif %}
 
     {% if section.images and section.images != '' %}
@@ -46,6 +52,9 @@
                   </div>
                 {% endif %} 
               </div>
+            {% endif %}
+            {% if block.type == "blog-posts" %}
+              {% include section-articles.html %}
             {% endif %}
           </div>
         {% endfor %}

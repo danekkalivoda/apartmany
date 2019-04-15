@@ -8,36 +8,45 @@
 </head>
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script src="https://unpkg.com/netlify-cms@^2.9.2-beta.0/dist/netlify-cms.js"></script>
   <script>
     CMS.registerEditorComponent({
-      // Internal id of the component
-      id: "youtube",
-      // Visible label
-      label: "Youtube",
-      // Fields the user need to fill out when adding an instance of the component
-      fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
-      // Pattern to identify a block as being an instance of this component
-      pattern: /^youtube (\S+)$/,
-      // Function to extract data elements from the regexp match
+      id: 'header3',
+      label: 'NadpisH3',
+      // A bogus field so that the component doesn't look weird when rendered:
+      fields: [
+        {label: 'H3',  name: "headerText", widget: 'string'}
+      ],
+      // Never match anything so that the separator will be recognized as a horizontal rule when the document is reloaded:
+      pattern: /.^/,
       fromBlock: function(match) {
         return {
-          id: match[1]
+          headerText: match[1],
+          headerAlignment: match[2]
         };
       },
-      // Function to create a text block from an instance of this component
-      toBlock: function(obj) {
-        return 'youtube ' + obj.id;
+      toBlock(obj) {
+        return '### ' + obj.headerText;
       },
-      // Preview output for this component. Can either be a string or a React component
-      // (component gives better render performance)
-      toPreview: function(obj) {
-        return (
-          '<img src="http://img.youtube.com/vi/' + obj.id + '/maxresdefault.jpg" alt="Youtube Video"/>'
-        );
+      toPreview(obj) {
+        return '<h3>' + obj.headerText + '</h3>';
       }
     });
-    </script>
+    CMS.registerEditorComponent({
+      id: 'separator',
+      label: '---',
+      // A bogus field so that the component doesn't look weird when rendered:
+      fields: [{ label: 'Separator', widget: 'select', options: ['---'], default: '---' }],
+      // Never match anything so that the separator will be recognized as a horizontal rule when the document is reloaded:
+      pattern: /.^/,
+      toBlock(obj) {
+        return '---';
+      },
+      toPreview(obj) {
+        return '<hr>';
+      }
+    });
+  </script>
   <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
