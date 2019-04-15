@@ -58,7 +58,7 @@ sections:
         image: /images/uploads/sport-1.svg
         light-texts: true
         mobile-width-class: 1/6
-        tablet-width-class: null
+        tablet-width-class: 1/5
         type: media
       - desktop-width-class: 1/6
         header: Crossfit
@@ -73,7 +73,7 @@ sections:
         desktop-width-class: 1/10
         image: /images/uploads/sport-2.svg
         mobile-width-class: 1/6
-        tablet-width-class: null
+        tablet-width-class: 1/5
         type: media
       - desktop-width-class: 1/6
         header: Silový trening
@@ -88,7 +88,7 @@ sections:
         desktop-width-class: 1/10
         image: /images/uploads/sport-3.svg
         mobile-width-class: 1/6
-        tablet-width-class: null
+        tablet-width-class: 1/5
         type: media
       - desktop-width-class: 1/6
         header: Kardio
