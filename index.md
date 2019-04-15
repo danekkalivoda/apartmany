@@ -60,7 +60,7 @@ sections:
         type: media
       - header: Crossfit
         light-texts: true
-        mobile-width-class: 1/6
+        mobile-width-class: 1/5
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis
           facilisis blandit. Cras vehicula sem vitae faucibus maximus.
@@ -71,7 +71,7 @@ sections:
         type: media
       - header: Silový trening
         light-texts: true
-        mobile-width-class: 1/6
+        mobile-width-class: 1/5
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis
           facilisis blandit. Cras vehicula sem vitae faucibus maximus.
@@ -82,7 +82,7 @@ sections:
         type: media
       - header: Kardio
         light-texts: true
-        mobile-width-class: 1/6
+        mobile-width-class: 1/5
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis
           facilisis blandit. Cras vehicula sem vitae faucibus maximus.
