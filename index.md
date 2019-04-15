@@ -56,7 +56,7 @@ sections:
       - alignment: text-right
         image: /images/uploads/business-contact-85.svg
         light-texts: true
-        mobile-width-class: 1/6
+        mobile-width-class: 1/20
         type: media
       - header: Crossfit
         light-texts: true
@@ -67,7 +67,7 @@ sections:
         type: texts
       - alignment: text-right
         image: /images/uploads/organic-2.svg
-        mobile-width-class: 1/6
+        mobile-width-class: 1/20
         type: media
       - header: Silový trening
         light-texts: true
@@ -78,7 +78,7 @@ sections:
         type: texts
       - alignment: text-right
         image: /images/uploads/business-contact-85.svg
-        mobile-width-class: 1/6
+        mobile-width-class: 1/20
         type: media
       - header: Kardio
         light-texts: true
