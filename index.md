@@ -54,7 +54,7 @@ sections:
   - block-margin-bottom: true
     blocks:
       - alignment: text-right
-        image: /images/uploads/business-contact-85.svg
+        image: /images/uploads/sport-1.svg
         light-texts: true
         mobile-width-class: 1/10
         type: media
@@ -66,7 +66,7 @@ sections:
           facilisis blandit. Cras vehicula sem vitae faucibus maximus.
         type: texts
       - alignment: text-right
-        image: /images/uploads/organic-2.svg
+        image: /images/uploads/sport-2.svg
         mobile-width-class: 1/10
         type: media
       - header: Silový trening
@@ -77,7 +77,7 @@ sections:
           facilisis blandit. Cras vehicula sem vitae faucibus maximus.
         type: texts
       - alignment: text-right
-        image: /images/uploads/business-contact-85.svg
+        image: /images/uploads/sport-3.svg
         mobile-width-class: 1/10
         type: media
       - header: Kardio
