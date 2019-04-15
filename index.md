@@ -58,9 +58,11 @@ sections:
         light-texts: true
         mobile-width-class: 1/10
         type: media
-      - header: Crossfit
+      - desktop-width-class: 1/5
+        header: Crossfit
         light-texts: true
-        mobile-width-class: 1/5
+        mobile-width-class: 9/10
+        tablet-width-class: 1/4
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis
           facilisis blandit. Cras vehicula sem vitae faucibus maximus.
@@ -69,9 +71,11 @@ sections:
         image: /images/uploads/sport-2.svg
         mobile-width-class: 1/10
         type: media
-      - header: Silový trening
+      - desktop-width-class: 1/5
+        header: Silový trening
         light-texts: true
-        mobile-width-class: 1/5
+        mobile-width-class: 9/10
+        tablet-width-class: 1/4
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis
           facilisis blandit. Cras vehicula sem vitae faucibus maximus.
@@ -80,9 +84,10 @@ sections:
         image: /images/uploads/sport-3.svg
         mobile-width-class: 1/10
         type: media
-      - header: Kardio
+      - desktop-width-class: 1/5
+        header: Kardio
         light-texts: true
-        mobile-width-class: 1/5
+        mobile-width-class: 9/10
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis
           facilisis blandit. Cras vehicula sem vitae faucibus maximus.
