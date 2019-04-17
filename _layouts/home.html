@@ -2,15 +2,16 @@
 layout: default
 --- 
 
-<section class="pt-20 mb-8 bg-black bg-cover bg-center bg-top lg:bg-center" style="background-image: url(/static/images/uploads/andy-homepage.jpg)">
-  <div class="px-4 pt-64 sm:py-24 md:py-32 text-center sm:text-left max-w-6xl mx-auto">
+<section class="pt-20 mb-8 bg-black bg-cover bg-center bg-top lg:bg-center relative"  style="background-image: url(/static/images/uploads/andy-homepage.jpg)">
+  <div class="px-4 pt-64 sm:py-24 md:py-32 text-center sm:text-left max-w-6xl mx-auto relative z-10">
     <div class="max-w-xs mx-auto sm:mx-4">
       <h1 class="text-3xl md:text-4xl font-bold text-white mt-16">{{ page.title }}</h1>
       <p class="text-white md:text-xl">pomůžu ti být lepší, zdravější...</p>
       <p class="text-white text-xs md:text-sm xl:text-base pb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit nibh, laoreet sed mi vel, consectetur sollicitudin dui.</p>
-      <a href="#" class="mb-4 bg-transparent hover:bg-white text-white font-semibold text-sm md:text-base hover:text-green-500 py-2 px-4 border border-white hover:border-transparent rounded inline-block">Co klientům nabízím</a>
+      <a href="#" class="mb-16 sm:mb-4 bg-transparent hover:bg-white text-white font-semibold text-sm md:text-base hover:text-green-500 py-2 px-4 border border-white hover:border-transparent rounded inline-block">Co klientům nabízím</a>
     </div>
   </div>
+  <div class="absolute bottom-0 h-20 w-full -mb-10 z-0 -skew-y-1 bg-gray-100"></div>
 </section>
 
 {% include page-sections.html %}

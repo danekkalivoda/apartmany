@@ -7573,6 +7573,70 @@ p:last-of-type {
   transform: none;
 }
 
+.transform-t {
+  transform-origin: top;
+}
+
+.transform-tr {
+  transform-origin: top right;
+}
+
+.transform-r {
+  transform-origin: right;
+}
+
+.transform-br {
+  transform-origin: bottom right;
+}
+
+.transform-b {
+  transform-origin: bottom;
+}
+
+.transform-bl {
+  transform-origin: bottom left;
+}
+
+.transform-l {
+  transform-origin: left;
+}
+
+.transform-tl {
+  transform-origin: top left;
+}
+
+.skew-x-1 {
+  transform: skewX(1deg);
+}
+
+.skew-y-1 {
+  transform: skewY(1deg);
+}
+
+.skew-x-2 {
+  transform: skewX(2deg);
+}
+
+.skew-y-2 {
+  transform: skewY(2deg);
+}
+
+.-skew-x-1 {
+  transform: skewX(-1deg);
+}
+
+.-skew-y-1 {
+  transform: skewY(-1deg);
+}
+
+.-skew-x-2 {
+  transform: skewX(-2deg);
+}
+
+.-skew-y-2 {
+  transform: skewY(-2deg);
+}
+
 /**
  * Here you would add any custom utilities you need that don't come out of the
  * box with Tailwind.
@@ -14365,6 +14429,74 @@ p:last-of-type {
   .sm\:z-auto {
     z-index: auto;
   }
+
+  .sm\:transform-none {
+    transform: none;
+  }
+
+  .sm\:transform-t {
+    transform-origin: top;
+  }
+
+  .sm\:transform-tr {
+    transform-origin: top right;
+  }
+
+  .sm\:transform-r {
+    transform-origin: right;
+  }
+
+  .sm\:transform-br {
+    transform-origin: bottom right;
+  }
+
+  .sm\:transform-b {
+    transform-origin: bottom;
+  }
+
+  .sm\:transform-bl {
+    transform-origin: bottom left;
+  }
+
+  .sm\:transform-l {
+    transform-origin: left;
+  }
+
+  .sm\:transform-tl {
+    transform-origin: top left;
+  }
+
+  .sm\:skew-x-1 {
+    transform: skewX(1deg);
+  }
+
+  .sm\:skew-y-1 {
+    transform: skewY(1deg);
+  }
+
+  .sm\:skew-x-2 {
+    transform: skewX(2deg);
+  }
+
+  .sm\:skew-y-2 {
+    transform: skewY(2deg);
+  }
+
+  .sm\:-skew-x-1 {
+    transform: skewX(-1deg);
+  }
+
+  .sm\:-skew-y-1 {
+    transform: skewY(-1deg);
+  }
+
+  .sm\:-skew-x-2 {
+    transform: skewX(-2deg);
+  }
+
+  .sm\:-skew-y-2 {
+    transform: skewY(-2deg);
+  }
 }
 
 @media (min-width: 768px) {
@@ -21143,6 +21275,74 @@ p:last-of-type {
 
   .md\:z-auto {
     z-index: auto;
+  }
+
+  .md\:transform-none {
+    transform: none;
+  }
+
+  .md\:transform-t {
+    transform-origin: top;
+  }
+
+  .md\:transform-tr {
+    transform-origin: top right;
+  }
+
+  .md\:transform-r {
+    transform-origin: right;
+  }
+
+  .md\:transform-br {
+    transform-origin: bottom right;
+  }
+
+  .md\:transform-b {
+    transform-origin: bottom;
+  }
+
+  .md\:transform-bl {
+    transform-origin: bottom left;
+  }
+
+  .md\:transform-l {
+    transform-origin: left;
+  }
+
+  .md\:transform-tl {
+    transform-origin: top left;
+  }
+
+  .md\:skew-x-1 {
+    transform: skewX(1deg);
+  }
+
+  .md\:skew-y-1 {
+    transform: skewY(1deg);
+  }
+
+  .md\:skew-x-2 {
+    transform: skewX(2deg);
+  }
+
+  .md\:skew-y-2 {
+    transform: skewY(2deg);
+  }
+
+  .md\:-skew-x-1 {
+    transform: skewX(-1deg);
+  }
+
+  .md\:-skew-y-1 {
+    transform: skewY(-1deg);
+  }
+
+  .md\:-skew-x-2 {
+    transform: skewX(-2deg);
+  }
+
+  .md\:-skew-y-2 {
+    transform: skewY(-2deg);
   }
 }
 
@@ -27923,6 +28123,74 @@ p:last-of-type {
   .lg\:z-auto {
     z-index: auto;
   }
+
+  .lg\:transform-none {
+    transform: none;
+  }
+
+  .lg\:transform-t {
+    transform-origin: top;
+  }
+
+  .lg\:transform-tr {
+    transform-origin: top right;
+  }
+
+  .lg\:transform-r {
+    transform-origin: right;
+  }
+
+  .lg\:transform-br {
+    transform-origin: bottom right;
+  }
+
+  .lg\:transform-b {
+    transform-origin: bottom;
+  }
+
+  .lg\:transform-bl {
+    transform-origin: bottom left;
+  }
+
+  .lg\:transform-l {
+    transform-origin: left;
+  }
+
+  .lg\:transform-tl {
+    transform-origin: top left;
+  }
+
+  .lg\:skew-x-1 {
+    transform: skewX(1deg);
+  }
+
+  .lg\:skew-y-1 {
+    transform: skewY(1deg);
+  }
+
+  .lg\:skew-x-2 {
+    transform: skewX(2deg);
+  }
+
+  .lg\:skew-y-2 {
+    transform: skewY(2deg);
+  }
+
+  .lg\:-skew-x-1 {
+    transform: skewX(-1deg);
+  }
+
+  .lg\:-skew-y-1 {
+    transform: skewY(-1deg);
+  }
+
+  .lg\:-skew-x-2 {
+    transform: skewX(-2deg);
+  }
+
+  .lg\:-skew-y-2 {
+    transform: skewY(-2deg);
+  }
 }
 
 @media (min-width: 1280px) {
@@ -34701,6 +34969,74 @@ p:last-of-type {
 
   .xl\:z-auto {
     z-index: auto;
+  }
+
+  .xl\:transform-none {
+    transform: none;
+  }
+
+  .xl\:transform-t {
+    transform-origin: top;
+  }
+
+  .xl\:transform-tr {
+    transform-origin: top right;
+  }
+
+  .xl\:transform-r {
+    transform-origin: right;
+  }
+
+  .xl\:transform-br {
+    transform-origin: bottom right;
+  }
+
+  .xl\:transform-b {
+    transform-origin: bottom;
+  }
+
+  .xl\:transform-bl {
+    transform-origin: bottom left;
+  }
+
+  .xl\:transform-l {
+    transform-origin: left;
+  }
+
+  .xl\:transform-tl {
+    transform-origin: top left;
+  }
+
+  .xl\:skew-x-1 {
+    transform: skewX(1deg);
+  }
+
+  .xl\:skew-y-1 {
+    transform: skewY(1deg);
+  }
+
+  .xl\:skew-x-2 {
+    transform: skewX(2deg);
+  }
+
+  .xl\:skew-y-2 {
+    transform: skewY(2deg);
+  }
+
+  .xl\:-skew-x-1 {
+    transform: skewX(-1deg);
+  }
+
+  .xl\:-skew-y-1 {
+    transform: skewY(-1deg);
+  }
+
+  .xl\:-skew-x-2 {
+    transform: skewX(-2deg);
+  }
+
+  .xl\:-skew-y-2 {
+    transform: skewY(-2deg);
   }
 }
 
