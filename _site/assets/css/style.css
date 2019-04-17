@@ -686,6 +686,63 @@ p:last-of-type {
   margin-bottom: 0;
 }
 
+.menu-toggle {
+  font-size: .875em;
+  padding: 1em;
+}
+
+.menu-toggle:focus {
+  outline: thin dotted;
+  outline-offset: -2px;
+}
+
+/* Animate menu icon (lines). */
+
+.svg-menu-toggle .line {
+  opacity: 1;
+  -webkit-transform: rotate(0) translateY(0) translateX(0);
+          transform: rotate(0) translateY(0) translateX(0);
+  -webkit-transform-origin: 1em 1em;
+           transform-origin: 1em 1em;
+  transition: opacity .2s ease-in-out, -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, opacity .2s ease-in-out;
+  transition: transform .3s ease-in-out, opacity .2s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+.svg-menu-toggle .line-1 {
+  -webkit-transform-origin: 1em 2.5em;
+          transform-origin: 1em 2.5em;
+}
+
+.svg-menu-toggle .line-3 {
+  -webkit-transform-origin: 1em 4.5em;
+          transform-origin: 1em 4.5em;
+}
+
+.menu-toggle.opened .svg-menu-toggle .line-1 {
+  -webkit-transform: rotate(45deg) translateY(0) translateX(0);
+          transform: rotate(45deg) translateY(0) translateX(0);
+}
+
+.menu-toggle.opened .svg-menu-toggle .line-2 {
+  opacity: 0;
+}
+
+.menu-toggle.opened .svg-menu-toggle .line-3 {
+  -webkit-transform: rotate(-45deg) translateY(0em) translateX(0em);
+          transform: rotate(-45deg) translateY(0em) translateX(0em);
+}
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
