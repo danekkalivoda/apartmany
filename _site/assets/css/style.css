@@ -7569,6 +7569,10 @@ p:last-of-type {
   padding-top: 42.86%;
 }
 
+.transform-none {
+  transform: none;
+}
+
 /**
  * Here you would add any custom utilities you need that don't come out of the
  * box with Tailwind.

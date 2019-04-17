@@ -378,6 +378,68 @@ module.exports = {
       '0': 0,
       auto: 'auto',
     },
+    transform: { // defaults to this value
+      'none': 'none',
+    },
+    transformOrigin: { // defaults to these values
+      't': 'top',
+      'tr': 'top right',
+      'r': 'right',
+      'br': 'bottom right',
+      'b': 'bottom',
+      'bl': 'bottom left',
+      'l': 'left',
+      'tl': 'top left',
+    },
+    translate: { // defaults to {}
+      '1/2': '50%',
+      'full': '100%',
+    },
+    negativeTranslate: { // defaults to {}
+      '1/2': '50%',
+      'full': '100%',
+    },
+    scale: { // defaults to {}
+      '90': '0.9',
+      '100': '1',
+      '110': '1.1',
+    },
+    negativeScale: { // defaults to {}
+      '100': '1',
+    },
+    rotate: { // defaults to {}
+      '90': '90deg',
+      '180': '180deg',
+      '270': '270deg',
+    },
+    negativeRotate: { // defaults to {}
+      '90': '90deg',
+      '180': '180deg',
+      '270': '270deg',
+    },
+    skew: { // defaults to {}
+      '5': '5deg',
+    },
+    negativeSkew: { // defaults to {}
+      '5': '5deg',
+    },
+    perspective: { // defaults to {}
+      'none': 'none',
+      '250': '250px',
+      '500': '500px',
+      '750': '750px',
+      '1000': '1000px',
+    },
+    perspectiveOrigin: { // defaults to these values
+      't': 'top',
+      'tr': 'top right',
+      'r': 'right',
+      'br': 'bottom right',
+      'b': 'bottom',
+      'bl': 'bottom left',
+      'l': 'left',
+      'tl': 'top left',
+    },
   },
   variants: {
     appearance: ['responsive'],
@@ -444,6 +506,20 @@ module.exports = {
     wordBreak: ['responsive'],
     width: ['responsive'],
     zIndex: ['responsive'],
+    transform: ['responsive'],
+    transformOrigin: ['responsive'],
+    translate: ['responsive'],
+    negativeTranslate: ['responsive'],
+    scale: ['responsive'],
+    negativeScale: ['responsive'],
+    rotate: ['responsive'],
+    negativeRotate: ['responsive'],
+    skew: ['responsive'],
+    negativeSkew: ['responsive'],
+    perspective: ['responsive'],
+    perspectiveOrigin: ['responsive'],
+    transformStyle: ['responsive'],
+    backfaceVisibility: ['responsive'],
   },
   corePlugins: {},
   plugins: [
@@ -456,5 +532,8 @@ module.exports = {
         "21/9": [21, 9]
       }
     }),
+    require("tailwindcss-transforms")({
+      '3d': false, // defaults to false
+    })
   ],
 }
