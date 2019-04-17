@@ -1,8 +1,8 @@
 {% for section in page.sections%}
 
-<section class="{{section.section-background}}{% if section.padding-top %} pt-4 sm:pt-8{% endif %} sections-content">
+<section class="{% if section.padding-top %} pt-4 sm:pt-8{% endif %} pb-4 sm:pb-8 sections-content relative">
 
-  <div class="max-w-6xl mx-auto px-4 sm:px-8">
+  <div class="max-w-6xl mx-auto px-4 sm:px-8 relative z-10">
     {% if section.header and section.header != '' %}
       <h2 class="
         {{ section.header-alignment }}
@@ -82,6 +82,7 @@
       </div>
     {% endif %}
   </div>
+  <div class="{{section.section-background}} absolute inset-0 z-0"></div>
 
 </section>
 
