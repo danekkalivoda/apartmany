@@ -39,7 +39,7 @@ sections:
     header: Kdo jsem
     header-alignment: text-center
     header-padding-bottom: false
-    header-padding-top: true
+    header-padding-top: false
     subHeader: 'moje kariéra, moje sny…'
     type: blocks
   - block-margin-bottom: false
