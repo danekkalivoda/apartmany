@@ -3,6 +3,7 @@ layout: blog
 title: Nadpis článku 3
 date: 2019-03-16T21:18:30.324Z
 active: true
+image: /images/uploads/16276.jpeg
 ---
 Nulla eleifend, augue nec bibendum malesuada, orci elit fringilla purus, ac elementum erat sapien at nunc. Proin bibendum non tortor fringilla aliquet. Ut quis iaculis tortor. Ut facilisis neque vel nibh porttitor venenatis. Proin nisl tellus, rutrum sed diam sed, ultricies semper ipsum. Donec viverra, sapien a iaculis rhoncus, sapien mi porta metus, at mattis metus erat ut neque. Praesent consectetur lorem sed lectus fringilla, ut tincidunt ligula consectetur. Sed imperdiet sodales augue, et efficitur ipsum porta sed.
 
