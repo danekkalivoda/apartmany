@@ -16,7 +16,6 @@ collections:
       - {label: "Nadpis", name: "title", widget: "string"}
       - {label: "Datum", name: "date", widget: "datetime"}
       - {label: "Aktivní", name: "active", widget: "boolean", default: false}
-      - {label: "Featured Image", name: "thumbnail", widget: "string"}
       - {label: "Hlavní text", name: "body", widget: "markdown", buttons: [bold, italic, heading-two, quote, bulleted-list, numbered-list]}
   - label: "Stránky"
     name: "pages"
