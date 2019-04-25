@@ -32,5 +32,8 @@
     "start": "gulp serve"
   },
   "author": "Taylor Bryant",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "netlify-cli": "^2.11.14"
+  }
 }
