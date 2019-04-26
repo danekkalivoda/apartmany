@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Nadpis článku
-date: 'Friday, April 26, 2019 12:00 AM'
+date: Invalid date
 active: true
 image: /images/uploads/14052.jpeg
 ---
