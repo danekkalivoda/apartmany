@@ -1,7 +1,7 @@
 title: Tailwind & Jekyll rocks!
 description: A starter kit for using Tailwind with Jekyll
 
-plugins: [./_plugins/post.rb, ./_plugins/page.rb, ./_plugins/debug.rb]
+plugins: [./_plugins/post.rb, ./_plugins/page.rb, ./_plugins/debug.rb, jekyll-paginate]
 
 baseurl: ""
 url: "https://objective-perlman-ff907b.netlify.com/"
@@ -24,7 +24,10 @@ netlifycms: true
 # Compress HTML (in liquid via layouts/compress.html)
 compress_html:
   clippings: all
-  
+
+
+paginate: 5
+paginate_path: '/blog/page-:num/'
 
 # set some common post defaults
 defaults:
