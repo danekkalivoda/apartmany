@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Nadpis článku 2
-date: Invalid date
+date: 25-12-1995
 active: true
 image: /images/uploads/24331.jpeg
 ---
