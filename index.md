@@ -45,6 +45,7 @@ sections:
   - block-margin-bottom: false
     blocks:
       - header: ''
+        mobile-width-class: full
         posts-count: '3'
         type: blog-posts
     header: Z blogu
