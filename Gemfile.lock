@@ -29,6 +29,8 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-docs (3.8.5)
       jekyll (= 3.8.5)
+    jekyll-feed (0.12.1)
+      jekyll (>= 3.7, < 5.0)
     jekyll-paginate-v2 (2.0.0)
       jekyll (~> 3.0)
     jekyll-sass-converter (1.5.2)
@@ -65,6 +67,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8)
   jekyll-docs
+  jekyll-feed (~> 0.12.1)
   jekyll-paginate-v2
   jekyll-sitemap
 
