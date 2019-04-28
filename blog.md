@@ -1,0 +1,4 @@
+---
+layout: blog 
+paginate: true
+---
