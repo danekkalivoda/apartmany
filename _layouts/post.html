@@ -1,18 +1,15 @@
 ---
 layout: default
 ---
-{% assign author = site.data.authors[page.author] %}
 
-{% if page.active %}
+
 <section class="max-w-6xl mx-auto px-4">
   <h1 class="text-center text-3xl">{{ page.title }}</h1>
 
   <time datetime="{{ page.date }}">
     <small>
       <strong>{{ page.date | date_to_string }}</strong>
-      {% if author %}
-        by {{ author.name }}
-      {% endif %}
+
     </small>
   </time>
 </section>
@@ -37,4 +34,3 @@ layout: default
     {% endif %}
   </ul>
 </nav>
-{% endif %}

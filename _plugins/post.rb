@@ -14,7 +14,7 @@ module Jekyll
     # @see utils.slugify
 
     def url_placeholders
-      I18n.config.available_locales = :en
+      I18n.config.available_locales = :en_GB
       {
         collection:  collection.label,
         path:        cleaned_relative_path,
