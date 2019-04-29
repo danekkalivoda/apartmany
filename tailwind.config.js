@@ -378,6 +378,14 @@ module.exports = {
       '0': 0,
       auto: 'auto',
     },
+    translate: { // defaults to {}
+      '1/2': '50%',
+      'full': '100%',
+    },
+    negativeTranslate: { // defaults to {}
+      '1/2': '50%',
+      'full': '100%',
+    },
     skew: { // defaults to {}
       '1': '1deg',
       '2': '2deg',
@@ -452,6 +460,9 @@ module.exports = {
     wordBreak: ['responsive'],
     width: ['responsive'],
     zIndex: ['responsive'],
+    transform: ['responsive'],
+    transformOrigin: ['responsive'],
+    translate: ['responsive'],
     skew: ['responsive'],
     negativeSkew: ['responsive'],
   },

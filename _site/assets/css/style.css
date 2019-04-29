@@ -7605,6 +7605,38 @@ p:last-of-type {
   transform-origin: top left;
 }
 
+.translate-x-1\/2 {
+  transform: translateX(50%);
+}
+
+.translate-y-1\/2 {
+  transform: translateY(50%);
+}
+
+.translate-x-full {
+  transform: translateX(100%);
+}
+
+.translate-y-full {
+  transform: translateY(100%);
+}
+
+.-translate-x-1\/2 {
+  transform: translateX(-50%);
+}
+
+.-translate-y-1\/2 {
+  transform: translateY(-50%);
+}
+
+.-translate-x-full {
+  transform: translateX(-100%);
+}
+
+.-translate-y-full {
+  transform: translateY(-100%);
+}
+
 .skew-x-1 {
   transform: skewX(1deg);
 }
@@ -14466,6 +14498,38 @@ p:last-of-type {
     transform-origin: top left;
   }
 
+  .sm\:translate-x-1\/2 {
+    transform: translateX(50%);
+  }
+
+  .sm\:translate-y-1\/2 {
+    transform: translateY(50%);
+  }
+
+  .sm\:translate-x-full {
+    transform: translateX(100%);
+  }
+
+  .sm\:translate-y-full {
+    transform: translateY(100%);
+  }
+
+  .sm\:-translate-x-1\/2 {
+    transform: translateX(-50%);
+  }
+
+  .sm\:-translate-y-1\/2 {
+    transform: translateY(-50%);
+  }
+
+  .sm\:-translate-x-full {
+    transform: translateX(-100%);
+  }
+
+  .sm\:-translate-y-full {
+    transform: translateY(-100%);
+  }
+
   .sm\:skew-x-1 {
     transform: skewX(1deg);
   }
@@ -21311,6 +21375,38 @@ p:last-of-type {
 
   .md\:transform-tl {
     transform-origin: top left;
+  }
+
+  .md\:translate-x-1\/2 {
+    transform: translateX(50%);
+  }
+
+  .md\:translate-y-1\/2 {
+    transform: translateY(50%);
+  }
+
+  .md\:translate-x-full {
+    transform: translateX(100%);
+  }
+
+  .md\:translate-y-full {
+    transform: translateY(100%);
+  }
+
+  .md\:-translate-x-1\/2 {
+    transform: translateX(-50%);
+  }
+
+  .md\:-translate-y-1\/2 {
+    transform: translateY(-50%);
+  }
+
+  .md\:-translate-x-full {
+    transform: translateX(-100%);
+  }
+
+  .md\:-translate-y-full {
+    transform: translateY(-100%);
   }
 
   .md\:skew-x-1 {
@@ -28160,6 +28256,38 @@ p:last-of-type {
     transform-origin: top left;
   }
 
+  .lg\:translate-x-1\/2 {
+    transform: translateX(50%);
+  }
+
+  .lg\:translate-y-1\/2 {
+    transform: translateY(50%);
+  }
+
+  .lg\:translate-x-full {
+    transform: translateX(100%);
+  }
+
+  .lg\:translate-y-full {
+    transform: translateY(100%);
+  }
+
+  .lg\:-translate-x-1\/2 {
+    transform: translateX(-50%);
+  }
+
+  .lg\:-translate-y-1\/2 {
+    transform: translateY(-50%);
+  }
+
+  .lg\:-translate-x-full {
+    transform: translateX(-100%);
+  }
+
+  .lg\:-translate-y-full {
+    transform: translateY(-100%);
+  }
+
   .lg\:skew-x-1 {
     transform: skewX(1deg);
   }
@@ -35005,6 +35133,38 @@ p:last-of-type {
 
   .xl\:transform-tl {
     transform-origin: top left;
+  }
+
+  .xl\:translate-x-1\/2 {
+    transform: translateX(50%);
+  }
+
+  .xl\:translate-y-1\/2 {
+    transform: translateY(50%);
+  }
+
+  .xl\:translate-x-full {
+    transform: translateX(100%);
+  }
+
+  .xl\:translate-y-full {
+    transform: translateY(100%);
+  }
+
+  .xl\:-translate-x-1\/2 {
+    transform: translateX(-50%);
+  }
+
+  .xl\:-translate-y-1\/2 {
+    transform: translateY(-50%);
+  }
+
+  .xl\:-translate-x-full {
+    transform: translateX(-100%);
+  }
+
+  .xl\:-translate-y-full {
+    transform: translateY(-100%);
   }
 
   .xl\:skew-x-1 {
