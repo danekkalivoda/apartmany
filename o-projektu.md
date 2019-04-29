@@ -4,7 +4,7 @@ title: O projektu
 background: bg-white
 alignment: text-center
 light-texts: false
-margin-top: false
+margin-top: true
 margin-bottom: false
 active: true
 ---
