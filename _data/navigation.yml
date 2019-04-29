@@ -1,9 +1,5 @@
 links:
   - text: Úvod
     url: /
-  - text: O projektu
-    url: /o-projektu/
-  - text: Blog
-    url: /blog/
-  - text: Kontakt
-    url: /kontakt/
+  - text: O mě
+    url: /o-me/
