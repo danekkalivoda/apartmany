@@ -3,8 +3,7 @@ layout: post
 title: 'Dělej, co tě baví, s lidma, co tě baví.'
 date: 29-04-2019
 active: true
-image: >-
-  /images/uploads/57487963_650637155397766_4184371937032829766_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+image: /images/uploads/14052.jpeg
 sections:
   - block-margin-bottom: false
     blocks:
