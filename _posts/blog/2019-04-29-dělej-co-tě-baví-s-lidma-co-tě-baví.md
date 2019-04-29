@@ -5,7 +5,7 @@ date: 29-04-2019
 active: true
 image: /images/uploads/14052.jpeg
 sections:
-  - block-margin-bottom: false
+  - block-margin-bottom: true
     blocks:
       - mobile-width-class: full
         tablet-width-class: 3/4
@@ -16,6 +16,22 @@ sections:
           porttitor enim id scelerisque varius. Mauris in erat at odio venenatis
           pellentesque. Morbi nec efficitur velit. Cras blandit est non mauris
           blandit congue. Interdum et ma
+        type: texts
+      - alignment: text-center
+        aspect-ratio: aspect-ratio-square
+        image: >-
+          /images/uploads/57487963_650637155397766_4184371937032829766_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+        mobile-width-class: full
+        tablet-width-class: 1/2
+        type: media
+      - mobile-width-class: full
+        tablet-width-class: 3/4
+        text: >-
+          Proin a leo porttitor dolor vestibulum vestibulum quis rhoncus lorem.
+          In hac habitasse platea dictumst. Suspendisse ultricies, risus at
+          luctus porttitor, nibh lorem iaculis lectus, in porta arcu mi vitae
+          massa. Ut a est at justo dignissim pharetra. In mollis nunc quis metus
+          tempus, et feugiat massa commodo.
         type: texts
     padding-top: true
     type: blocks
