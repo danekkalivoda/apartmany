@@ -19,7 +19,9 @@ sections:
           blandit odio, quis consequat nulla. Donec nec neque gravida,
           vestibulum erat vel, dignissim sapien.
         type: texts
-      - image: >-
+      - alignment: text-center
+        aspect-ratio: aspect-ratio-square
+        image: >-
           /images/uploads/57487963_650637155397766_4184371937032829766_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
         mobile-width-class: full
         tablet-width-class: 1/2
