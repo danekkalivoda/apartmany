@@ -2,11 +2,12 @@
 layout: post
 title: 'Dělej, co tě baví, s lidma, co tě baví.'
 date: 29-04-2019
-active: false
+active: true
 image: >-
   /images/uploads/57487963_650637155397766_4184371937032829766_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
 sections:
-  - blocks:
+  - block-margin-bottom: false
+    blocks:
       - mobile-width-class: full
         tablet-width-class: 3/4
         text: >-
@@ -17,6 +18,7 @@ sections:
           pellentesque. Morbi nec efficitur velit. Cras blandit est non mauris
           blandit congue. Interdum et ma
         type: texts
+    padding-top: true
     type: blocks
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed justo sagittis, suscipit magna at, interdum magna.
