@@ -1,6 +1,5 @@
 {% assign psize = site.posts | size %}
 {% if psize != 0 %} 
-
     {% if block.header and block.header != "" %}
       <h2 class="font-normal text-2xl text-center">{{block.header}}</h2>
     {% endif %}
@@ -22,5 +21,4 @@
       </div>
       {% endfor %}
     </div>
-
 {% endif %}
