@@ -12,6 +12,7 @@
           </a>
           <div class="p-4 md:p-8">
             <h3 class="font-bold text-xl mb-2"><a href="{{ post.url }}" class="block text-green-500 hover:no-underline font-medium sm:text-lg mb-2 md:mb-4">{{ post.title }}</a></h3>
+            <div class="block mb-2 text-xs font-bold">{{ post.date | date: "%-d. %m. %Y" }}</div>
             <p class="text-gray-700 text-base pb-4">
               {{ post.content | strip_html | strip_newlines | truncate: 156}}
             </p>
