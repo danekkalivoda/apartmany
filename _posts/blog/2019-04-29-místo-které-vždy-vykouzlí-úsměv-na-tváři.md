@@ -5,7 +5,7 @@ date: 02-04-2019
 active: true
 image: /images/uploads/16276.jpeg
 sections:
-  - block-margin-bottom: true
+  - block-margin-bottom: false
     blocks:
       - mobile-width-class: full
         tablet-width-class: 3/4
@@ -27,7 +27,7 @@ sections:
           src="https://www.youtube.com/embed/mk9ZCiq_k0Q" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope;
           picture-in-picture" allowfullscreen></iframe>
-    padding-top: true
+    padding-top: false
     type: blocks
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed justo sagittis, suscipit magna at, interdum magna. Integer sed finibus sem, et maximus mi. Duis mi elit, tincidunt quis dolor vitae, semper tincidunt nibh. Curabitur eu sollicitudin quam.
