@@ -379,20 +379,36 @@ module.exports = {
       auto: 'auto',
     },
     translate: { // defaults to {}
+      '0': '0',
       '1/2': '50%',
       'full': '100%',
+      '10px': '10px'
     },
     negativeTranslate: { // defaults to {}
+      '0': '0',
       '1/2': '50%',
       'full': '100%',
+      '10px': '10px'
+    },
+    rotate: { // defaults to {}
+      '90': '90deg',
+      '180': '180deg',
+      '270': '270deg',
+    },
+    negativeRotate: { // defaults to {}
+      '90': '90deg',
+      '180': '180deg',
+      '270': '270deg',
     },
     skew: { // defaults to {}
       '1': '1deg',
       '2': '2deg',
+      '10': '10deg',
     },
     negativeSkew: { // defaults to {}
       '1': '1deg',
       '2': '2deg',
+      '10': '10deg',
     },
   },
   variants: {
@@ -404,7 +420,7 @@ module.exports = {
     backgroundSize: ['responsive'],
     borderCollapse: [],
     borderColor: ['responsive', 'hover', 'focus'],
-    borderRadius: ['responsive'],
+    borderRadius: ['responsive', 'hover'],
     borderStyle: ['responsive'],
     borderWidth: ['responsive'],
     cursor: ['responsive'],
@@ -460,9 +476,11 @@ module.exports = {
     wordBreak: ['responsive'],
     width: ['responsive'],
     zIndex: ['responsive'],
-    transform: ['responsive'],
+    transform: ['responsive', 'hover'],
     transformOrigin: ['responsive'],
-    translate: ['responsive'],
+    translate: ['responsive', 'hover'],
+    rotate: ['responsive'],
+    negativeRotate: ['responsive'],
     skew: ['responsive'],
     negativeSkew: ['responsive'],
   },
@@ -478,5 +496,8 @@ module.exports = {
       }
     }),
     require("tailwindcss-transforms")(),
+    require('tailwindcss-transition')({
+      standard: 'all .3s ease'  
+    })
   ],
 }

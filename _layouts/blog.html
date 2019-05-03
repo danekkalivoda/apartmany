@@ -3,39 +3,55 @@ layout: default
 ---
 
 <section class="max-w-6xl mx-auto pt-24 sm:pt-32 md:pt-40 px-8 sm:px-4 leading-normal">
-  <h1 class="text-center text-4xl">{{ page.title }}</h1>
-  <hr class="border-b border-green-500 w-8 m-auto mt-8">
+  <h1 class="text-center text-2xl md:text-3xl lg:text-4xl">
+    {{ page.title }}
+    <span class="block text-xs">Strana {{ paginator.page }}</span>
+  </h1>
+  <hr class="border-b border-green-500 w-8 m-auto mt-4 md:mt-8">
+  <div class="font-light text-center block mt-4 md:mt-8 ">
+      Sport enthusiast • Coffee addict • Nature lover
+  </div>
+  
+  <div class="font-light text-center italic text-gray-500">
+      „Let your smile change the world.“
+  </div>
 </section>
 
-<section class="max-w-6xl mx-auto p-8 bg-white rounded shadow mb-4">
-  <main class="leading-normal">
-    {{ content }}
+<section class="{% if page.margin-bottom %} mb-4 sm:mb-8{% endif %}{% if page.margin-top %} mt-4 sm:mt-8{% endif %}{% if page.light-texts %} text-white{% endif %} relative mt-4 md:mt-8">
+  <div class="max-w-6xl mx-auto px-4 sm:px-8 relative z-10">
+    <main class="flex flex-wrap justify-center -mx-2 sm:-mx-4">
 
-    <!-- This loops through the paginated posts -->
-    {% for post in paginator.posts %}
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <div class="content">
-        {{ post.content }}
+      <!-- This loops through the paginated posts -->
+      <div class="flex flex-col items-stretch  px-2 sm:px-4 w-full md:w- lg:w-">
+        <div class="md:flex flex-wrap justify-center md:-mx-2 mb-4 sm:mb-8">
+        {% for post in paginator.posts %}
+          {% include list-article.html post=post %}
+        {% endfor %}
+        </div>
       </div>
-    {% endfor %}
 
-    <!-- Pagination links -->
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">
-          Previous
-        </a>
-      {% else %}
-        <span class="previous">Previous</span>
-      {% endif %}
-      <span class="page_number ">
-        Page: {{ paginator.page }} of {{ paginator.total_pages }}
-      </span>
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-      {% else %}
-        <span class="next ">Next</span>
-      {% endif %}
-    </div>
-  </main>
+      <!-- Pagination links -->
+      <div class="flex w-full text-center mx-2 justify-between align-middle">
+        <div class="sm:w-1/4 lg:w-1/5 inline-flex">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="hover:bg-white bg-gray-100 text-green-500 font-medium w-full text-center inline-flex justify-center align-middle text-sm mb-4 md:mb-8 py-2 px-4 rounded transition">
+              <svg class="rotate-90 mr-2 fill-current w-3 h-3 inline-flex self-center" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><title>priority-low</title><g><path d="M14,4.586l-6,6-6-6L.586,6l6.707,6.707a1,1,0,0,0,1.414,0L15.414,6Z"></path></g></svg>
+              <span class="inline-flex text-black">Předchozí strana</span>
+            </a>
+          {% endif %}
+        </div>
+        <div class="hidden text-sm sm:inline-flex py-2 text-sm font-light">
+            Strana: {{ paginator.page }} z {{ paginator.total_pages }}
+        </div>
+        <div class="sm:w-1/4 lg:w-1/5 inline-flex">
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="hover:bg-white bg-gray-100 text-green-500 font-medium w-full text-center inline-flex justify-center align-middle text-sm mb-4 md:mb-8 py-2 px-4 rounded transition">
+              <span class="inline-flex text-black">Další strana</span>
+              <svg class="-rotate-90 ml-2 fill-current w-3 h-3 inline-flex self-center" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><title>priority-low</title><g><path d="M14,4.586l-6,6-6-6L.586,6l6.707,6.707a1,1,0,0,0,1.414,0L15.414,6Z"></path></g></svg>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </main>
+  </div>
 </section>

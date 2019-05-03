@@ -1,0 +1,17 @@
+<div class="inline-flex flex-row w-full md:w-1/3 pb-2 md:pb-4 md:px-2 transition translate-y-10px hover:translate-y-0">
+    <div class="flex flex-col items-stretch overflow-hidden transition rounded hover:bg-white hover:shadow ">
+        <a href="{{ post.url }}" class="block relative aspect-ratio-16/9">
+            <img class="w-full h-full absolute top-0 left-0 object-cover" src="/static{{ post.image }}?nf_resize=fit&w=800" alt="{{ post.title }}">
+        </a>
+        <div class="px-4 md:px-8 pt-4 md:pt-8">
+            <h3 class="font-bold text-xl mb-2"><a href="{{ post.url }}" class="block text-green-500 hover:no-underline font-medium sm:text-lg mb-2 md:mb-4">{{ post.title }}</a></h3>
+            <div class="block mb-2 text-xs font-bold">{{ post.date | date: "%-d. %m. %Y" }}</div>
+            <p class="text-gray-700 text-base pb-8">
+            {{ post.content | strip_html | strip_newlines | truncate: 156}}
+            </p>
+        </div>
+        <div class="mt-auto px-4 md:px-8 pb-4 md:pb-8">
+            <a href="{{ post.url }}" class="bg-white transition hover:bg-green-500 text-green-500 font-semibold text-sm hover:text-white py-2 px-4 border-2 border-green-500 hover:border-transparent rounded inline-block ">Číst dále</a>
+        </div>
+    </div>
+  </div>
