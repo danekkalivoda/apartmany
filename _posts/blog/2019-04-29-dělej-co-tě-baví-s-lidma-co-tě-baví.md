@@ -5,7 +5,7 @@ date: 29-04-2019
 active: true
 image: /images/uploads/14052.jpeg
 sections:
-  - block-margin-bottom: true
+  - block-margin-bottom: false
     blocks:
       - mobile-width-class: full
         tablet-width-class: 3/4
@@ -33,7 +33,7 @@ sections:
           massa. Ut a est at justo dignissim pharetra. In mollis nunc quis metus
           tempus, et feugiat massa commodo.
         type: texts
-    padding-top: true
+    padding-top: false
     type: blocks
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed justo sagittis, suscipit magna at, interdum magna.
