@@ -5,9 +5,9 @@ layout: default
 
 {% if page.active %}
   <section class="max-w-6xl mx-auto pt-24 sm:pt-32 lg:pt-40 px-8 sm:px-4 leading-normal">
-    <h1 class="text-center text-2xl md:text-3xl lg:text-4xl">{{ page.title }}</h1>
+    <h1 class="text-center text-xl md:text-3xl lg:text-4xl">{{ page.title }}</h1>
     <hr class="border-b border-green-500 w-8 m-auto mt-4 md:mt-8">
-    <div class="text-center block mt-4 md:mt-8 text-xs font-bold">{{ page.date | date: "%-d. %m. %Y" }}</div>
+    <div class="text-center block mt-4 md:mt-8 text-xs font-bold mb-2 sm:mb-4">{{ page.date | date: "%-d. %m. %Y" }}</div>
   </section>
 
   {% if post.content and post.content != "" %}
@@ -30,14 +30,16 @@ layout: default
 <div class="text-center">
   <div class="inline-flex">
     {% if page.previous.url %}
-    <a href="{{page.previous.url}}" rel="prev" class="bg-white hover:bg-green-500 text-green-500 font-medium text-sm mx-2 hover:text-white py-2 px-4 border border-gray-300 hover:border-transparent rounded">
-      {{page.previous.title}}
-    </a>
+      <a href="{{page.previous.url}}" class="bg-white flex hover:bg-green-500 text-green-500 font-medium text-sm mx-2 hover:text-white py-2 px-4 border border-gray-300 hover:border-transparent rounded transition">
+        <svg class="rotate-90 mr-1 fill-current w-3 h-3 flex-grow self-center" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><title>priority-low</title><g><path d="M14,4.586l-6,6-6-6L.586,6l6.707,6.707a1,1,0,0,0,1.414,0L15.414,6Z"></path></g></svg>
+        <span class="flex-none self-center">Předchozí článek</span>
+      </a>
     {% endif %}
     {% if page.next.url %}
-    <a href="{{page.next.url}}" rel="next" class="bg-white hover:bg-green-500 text-green-500 font-medium text-sm mx-2 hover:text-white py-2 px-4 border border-gray-300 hover:border-transparent rounded">
-        {{page.next.title}}
-    </a>
+      <a href="{{page.next.url}}" class="bg-white flex hover:bg-green-500 text-green-500 font-medium text-sm mx-2 hover:text-white py-2 px-4 border border-gray-300 hover:border-transparent rounded transition">
+        <span class="flex-grow self-center">Další článek</span>
+        <svg class="-rotate-90 ml-1 fill-current w-3 h-3 flex-none self-center" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><title>priority-low</title><g><path d="M14,4.586l-6,6-6-6L.586,6l6.707,6.707a1,1,0,0,0,1.414,0L15.414,6Z"></path></g></svg>
+      </a>
     {% endif %}
   </div>
 </div>

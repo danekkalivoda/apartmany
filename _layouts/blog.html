@@ -5,16 +5,9 @@ layout: default
 <section class="max-w-6xl mx-auto pt-24 sm:pt-32 md:pt-40 px-8 sm:px-4 leading-normal">
   <h1 class="text-center text-2xl md:text-3xl lg:text-4xl">
     {{ page.title }}
-    <span class="block text-xs">Strana {{ paginator.page }}</span>
+    <span class="block text-xs">Strana {{ paginator.page }} / {{ paginator.total_pages }}</span>
   </h1>
   <hr class="border-b border-green-500 w-8 m-auto mt-4 md:mt-8">
-  <div class="font-light text-center block mt-4 md:mt-8 ">
-      Sport enthusiast • Coffee addict • Nature lover
-  </div>
-  
-  <div class="font-light text-center italic text-gray-500">
-      „Let your smile change the world.“
-  </div>
 </section>
 
 <section class="{% if page.margin-bottom %} mb-4 sm:mb-8{% endif %}{% if page.margin-top %} mt-4 sm:mt-8{% endif %}{% if page.light-texts %} text-white{% endif %} relative mt-4 md:mt-8">
@@ -31,23 +24,20 @@ layout: default
       </div>
 
       <!-- Pagination links -->
-      <div class="flex w-full text-center mx-2 justify-between align-middle">
-        <div class="sm:w-1/4 lg:w-1/5 inline-flex">
+      <div class="flex w-full text-center mx-2 justify-center align-middle">
+        <div class="inline-flex">
           {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="hover:bg-white bg-gray-100 text-green-500 font-medium w-full text-center inline-flex justify-center align-middle text-sm mb-4 md:mb-8 py-2 px-4 rounded transition">
-              <svg class="rotate-90 mr-2 fill-current w-3 h-3 inline-flex self-center" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><title>priority-low</title><g><path d="M14,4.586l-6,6-6-6L.586,6l6.707,6.707a1,1,0,0,0,1.414,0L15.414,6Z"></path></g></svg>
-              <span class="inline-flex text-black">Předchozí strana</span>
+            <a href="{{ paginator.previous_page_path }}" class="bg-white flex hover:bg-green-500 text-green-500 font-medium text-sm mx-2 hover:text-white py-2 px-4 border border-gray-300 hover:border-transparent rounded transition">
+              <svg class="rotate-90 mr-2 fill-current w-3 h-3 flex-none self-center" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><title>priority-low</title><g><path d="M14,4.586l-6,6-6-6L.586,6l6.707,6.707a1,1,0,0,0,1.414,0L15.414,6Z"></path></g></svg>
+              <span class="self-center flex-grow">Předchozí strana</span>
             </a>
           {% endif %}
         </div>
-        <div class="hidden text-sm sm:inline-flex py-2 text-sm font-light">
-            Strana: {{ paginator.page }} z {{ paginator.total_pages }}
-        </div>
-        <div class="sm:w-1/4 lg:w-1/5 inline-flex">
+        <div class="inline-flex">
           {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="hover:bg-white bg-gray-100 text-green-500 font-medium w-full text-center inline-flex justify-center align-middle text-sm mb-4 md:mb-8 py-2 px-4 rounded transition">
-              <span class="inline-flex text-black">Další strana</span>
-              <svg class="-rotate-90 ml-2 fill-current w-3 h-3 inline-flex self-center" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><title>priority-low</title><g><path d="M14,4.586l-6,6-6-6L.586,6l6.707,6.707a1,1,0,0,0,1.414,0L15.414,6Z"></path></g></svg>
+            <a href="{{ paginator.next_page_path }}" class="bg-white flex hover:bg-green-500 text-green-500 font-medium text-sm mx-2 hover:text-white py-2 px-4 border border-gray-300 hover:border-transparent rounded transition">
+              <span class="self-center flex-grow">Další strana</span>
+              <svg class="-rotate-90 ml-2 fill-current w-3 h-3 flex-none self-center" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><title>priority-low</title><g><path d="M14,4.586l-6,6-6-6L.586,6l6.707,6.707a1,1,0,0,0,1.414,0L15.414,6Z"></path></g></svg>
             </a>
           {% endif %}
         </div>
