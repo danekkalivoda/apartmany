@@ -5,7 +5,7 @@ date: 02-04-2019
 active: true
 image: /images/uploads/16276.jpeg
 sections:
-  - block-margin-bottom: false
+  - block-margin-bottom: true
     blocks:
       - mobile-width-class: full
         tablet-width-class: 3/4
