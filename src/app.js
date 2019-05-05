@@ -1,12 +1,29 @@
+import lozad from 'lozad';
+
+(function() {
+    const observer = lozad('.lozad', {
+        load: function(el) {
+            el.src = el.dataset.src;
+            el.onload = function() {
+                el.classList.add('opacity-100')
+            }
+        },
+        rootMargin: '10px 0px', // syntax similar to that of CSS Margin
+        threshold: 0.1 // ratio of element convergence
+    });
+    observer.observe();
+})();
+
+
 function toggleClass(el, className){
     el.classList.toggle(className);
 }
 
 window.onload = function(){ 
     
-    body = document.getElementsByTagName('body')[0];
-    menuToggle = document.getElementById('menu-toggle');
-    menu = document.getElementById('menu');
+    let body = document.getElementsByTagName('body')[0];
+    let menuToggle = document.getElementById('menu-toggle');
+    let menu = document.getElementById('menu');
 
     menuToggle.addEventListener('click', function(event) {
         toggleClass(menu, 'hidden');

@@ -10,6 +10,8 @@ import sourcemaps from "gulp-sourcemaps";
 import atimport from "postcss-import";
 import tailwindcss from "tailwindcss";
 import postcssPresetEnv from "postcss-preset-env";
+import babel from "gulp-babel";
+import webpack from 'webpack-stream';
 import concat from "gulp-concat"
 
 
@@ -50,14 +52,26 @@ task("buildJekyll", () => {
 task("processJavascript", done => {
   browserSync.notify("Compiling javascript...");
   return src(rawJs)
+    .pipe(webpack({
+      output: {
+        filename: 'app.js',
+      },
+    }))
+    .pipe(babel({presets: ['@babel/env']}))
     .pipe(dest(jsRoot));
 });
+
 
 task("processStyles", done => {
   browserSync.notify("Compiling styles...");
 
   return src(rawStylesheet)
-    .pipe(postcss([atimport(), postcssPresetEnv({stage: 0}), tailwindcss(tailwindConfig)]))
+    .pipe(
+      postcss([atimport(), 
+      postcssPresetEnv({
+        stage: 0
+      }), 
+      tailwindcss(tailwindConfig)]))
     .pipe(gulpif(devBuild, sourcemaps.init()))
     .pipe(
       gulpif(

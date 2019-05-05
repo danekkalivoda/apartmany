@@ -310,8 +310,11 @@ module.exports = {
       screen: '100vh',
     },
     padding: theme => theme('spacing'),
-    margin: theme => ({ auto: 'auto', ...theme('spacing') }),
-    negativeMargin: theme => theme('spacing'),
+    margin: (theme, { negative }) => ({
+      auto: 'auto',
+      ...theme('spacing'),
+      ...negative(theme('spacing')),
+    }),
     objectPosition: {
       bottom: 'bottom',
       center: 'center',
@@ -497,7 +500,16 @@ module.exports = {
     }),
     require("tailwindcss-transforms")(),
     require('tailwindcss-transition')({
-      standard: 'all .3s ease'  
+      standard: 'all .3s ease',
+      transitions: {
+        'slow': 'all 1s ease',
+      } 
+    }),
+    require('tailwindcss-spinner')({
+      name: 'spinner', // change class name
+      color: '#000', // color you want to make the spinner
+      size: '1em', // size of the spinner (used for both width and height)
+      border: '2px', // border-width of the spinner (shouldn't be bigger than half the spinner's size)
     })
   ],
 }
