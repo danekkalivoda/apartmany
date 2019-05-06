@@ -107,6 +107,10 @@ sections:
     subHeader: co mě baví a jak ti můžu pomoci
     type: blocks
     vertical-alignment: justify-start
+  - header: Kontaktní formulář
+    header-alignment: text-center
+    redirect-to: /
+    type: contact-forms
 background: bg-gray-800
 light-texts: true
 active: true
