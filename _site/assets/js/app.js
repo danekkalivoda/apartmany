@@ -147,7 +147,7 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
   r.n(n)()(".lozad", {
     load: function load(t) {
       t.src = t.dataset.src, t.onload = function () {
-        t.classList.add("opacity-100");
+        t.classList.add("opacity-100"), t.nextElementSibling.classList.add("opacity-0");
       };
     },
     rootMargin: "10px 0px",

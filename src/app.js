@@ -5,7 +5,8 @@ import lozad from 'lozad';
         load: function(el) {
             el.src = el.dataset.src;
             el.onload = function() {
-                el.classList.add('opacity-100')
+                el.classList.add('opacity-100');
+                el.nextElementSibling.classList.add('opacity-0');
             }
         },
         rootMargin: '10px 0px', // syntax similar to that of CSS Margin
