@@ -507,7 +507,7 @@ module.exports = {
     }),
     require('tailwindcss-spinner')({
       name: 'spinner', // change class name
-      color: '#000', // color you want to make the spinner
+      color: '#4a5568', // color you want to make the spinner
       size: '1em', // size of the spinner (used for both width and height)
       border: '2px', // border-width of the spinner (shouldn't be bigger than half the spinner's size)
     })
