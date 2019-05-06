@@ -64,8 +64,8 @@
         {% endfor %}
       </div>
     {% endif %}
-
-    {% if section.form-fields and section.form-fields != '' %}
+    {{section}}
+    {% for contact-form in sections.type.contact-forms %}
       <div class="mx-auto w-full md:w-1/2">  
         <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post" class="w-full">
           <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
@@ -75,13 +75,14 @@
           <div class="flex flex-col items-stretch"></div>
             <input type="text" id="{{ form-field.label | slugify: 'latin' }}" name="{{ form-field.label | slugify: 'latin' }}">
           </div>
-          
+
           <textarea rows="5" id="{{ form-field.label | slugify: 'latin' }}" name="{{ form-field.label | slugify: 'latin' }}"></textarea>
           
           <input type='submit' value='Test form' />
         </form>
       </div>
-    {% endif %}
+    {% endfor %}
+
   </div>
   {% if section.section-background and section.section-background != "" %}
   <div class="{{section.section-background}} absolute inset-0 z-0 -skew-y-2"></div>

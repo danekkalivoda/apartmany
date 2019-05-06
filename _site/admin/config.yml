@@ -71,7 +71,6 @@ collections:
                   - { label: "Střed", value: "text-center" }
                   - { label: "Pravá", value: "text-right" }
               - {label: Po odeslání přesměrovat, name: redirect-to, widget: string, required: false}
-              - {label: Typ formuláře, name: "field-type", widget: "select", required: true, options: ["Běžný"]}
           - label: Bloky
             name: blocks
             widget: object
