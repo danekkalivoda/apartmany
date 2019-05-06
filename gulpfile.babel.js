@@ -56,6 +56,7 @@ task("processJavascript", done => {
       output: {
         filename: 'app.js',
       },
+      mode: 'production'
     }))
     .pipe(babel({presets: ['@babel/env']}))
     .pipe(dest(jsRoot));
@@ -77,7 +78,7 @@ task("processStyles", done => {
       gulpif(
         !devBuild,
         new purgecss({
-          content: ["_site/**/*.html", "_site/**/*.js"],
+          content: ["_site/**/*.html", "src/**/*.js"],
           extractors: [
             {
               extractor: TailwindExtractor,
