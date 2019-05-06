@@ -1,5 +1,5 @@
 links:
-  - text: Úvod
-    url: /
   - text: O mě
-    url: /o-me/
+    url: '/#kdo-jsem'
+  - text: Treningy
+    url: '/#moje-sporty'
