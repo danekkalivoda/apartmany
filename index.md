@@ -109,7 +109,7 @@ sections:
     vertical-alignment: justify-start
   - header: Kontaktní formulář
     header-alignment: text-center
-    redirect-to: /
+    redirect-to: /odeslany-formular
     type: contact-forms
 background: bg-gray-800
 light-texts: true
