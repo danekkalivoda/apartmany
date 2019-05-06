@@ -77,7 +77,7 @@ task("processStyles", done => {
       gulpif(
         !devBuild,
         new purgecss({
-          content: ["_site/**/*.html"],
+          content: ["_site/**/*.html", "_site/**/*.js"],
           extractors: [
             {
               extractor: TailwindExtractor,
