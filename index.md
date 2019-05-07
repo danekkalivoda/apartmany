@@ -111,6 +111,8 @@ sections:
     blocks:
       - header: Kontaktní formulář
         header-alignment: text-center
+        mobile-width-class: full
+        tablet-width-class: 3/4
         type: contact-forms
     padding-top: true
     type: blocks
