@@ -332,8 +332,8 @@ collections:
                     widget: object
                     fields:
                       - {label: Nadpis, name: header, widget: string, required: false}
-                      - label: Nadpis - zarovnání
-                        name: header-alignment
+                      - label: Zarovnání
+                        name: alignment
                         required: false
                         widget: select
                         options:
