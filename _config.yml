@@ -43,8 +43,10 @@ pagination:
 
   sort_field: 'date'
 
+  sort_reverse: false
+
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 12
+  per_page: 6
 
 
   # Limit how many pagenated pages to create (default: 0, means all)
