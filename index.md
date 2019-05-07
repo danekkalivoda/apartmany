@@ -109,7 +109,8 @@ sections:
     vertical-alignment: justify-start
   - block-margin-bottom: true
     blocks:
-      - header: Kontaktní formulář
+      - alignment: text-center
+        header: Kontaktní formulář
         header-alignment: text-center
         mobile-width-class: full
         tablet-width-class: 3/4
