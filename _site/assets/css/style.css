@@ -7971,6 +7971,14 @@ html {
   transform: skewY(2deg);
 }
 
+.skew-x-5 {
+  transform: skewX(5deg);
+}
+
+.skew-y-5 {
+  transform: skewY(5deg);
+}
+
 .skew-x-10 {
   transform: skewX(10deg);
 }
@@ -7993,6 +8001,14 @@ html {
 
 .-skew-y-2 {
   transform: skewY(-2deg);
+}
+
+.-skew-x-5 {
+  transform: skewX(-5deg);
+}
+
+.-skew-y-5 {
+  transform: skewY(-5deg);
 }
 
 .-skew-x-10 {
@@ -15241,6 +15257,14 @@ html {
     transform: skewY(2deg);
   }
 
+  .sm\:skew-x-5 {
+    transform: skewX(5deg);
+  }
+
+  .sm\:skew-y-5 {
+    transform: skewY(5deg);
+  }
+
   .sm\:skew-x-10 {
     transform: skewX(10deg);
   }
@@ -15263,6 +15287,14 @@ html {
 
   .sm\:-skew-y-2 {
     transform: skewY(-2deg);
+  }
+
+  .sm\:-skew-x-5 {
+    transform: skewX(-5deg);
+  }
+
+  .sm\:-skew-y-5 {
+    transform: skewY(-5deg);
   }
 
   .sm\:-skew-x-10 {
@@ -22458,6 +22490,14 @@ html {
     transform: skewY(2deg);
   }
 
+  .md\:skew-x-5 {
+    transform: skewX(5deg);
+  }
+
+  .md\:skew-y-5 {
+    transform: skewY(5deg);
+  }
+
   .md\:skew-x-10 {
     transform: skewX(10deg);
   }
@@ -22480,6 +22520,14 @@ html {
 
   .md\:-skew-y-2 {
     transform: skewY(-2deg);
+  }
+
+  .md\:-skew-x-5 {
+    transform: skewX(-5deg);
+  }
+
+  .md\:-skew-y-5 {
+    transform: skewY(-5deg);
   }
 
   .md\:-skew-x-10 {
@@ -29675,6 +29723,14 @@ html {
     transform: skewY(2deg);
   }
 
+  .lg\:skew-x-5 {
+    transform: skewX(5deg);
+  }
+
+  .lg\:skew-y-5 {
+    transform: skewY(5deg);
+  }
+
   .lg\:skew-x-10 {
     transform: skewX(10deg);
   }
@@ -29697,6 +29753,14 @@ html {
 
   .lg\:-skew-y-2 {
     transform: skewY(-2deg);
+  }
+
+  .lg\:-skew-x-5 {
+    transform: skewX(-5deg);
+  }
+
+  .lg\:-skew-y-5 {
+    transform: skewY(-5deg);
   }
 
   .lg\:-skew-x-10 {
@@ -36892,6 +36956,14 @@ html {
     transform: skewY(2deg);
   }
 
+  .xl\:skew-x-5 {
+    transform: skewX(5deg);
+  }
+
+  .xl\:skew-y-5 {
+    transform: skewY(5deg);
+  }
+
   .xl\:skew-x-10 {
     transform: skewX(10deg);
   }
@@ -36914,6 +36986,14 @@ html {
 
   .xl\:-skew-y-2 {
     transform: skewY(-2deg);
+  }
+
+  .xl\:-skew-x-5 {
+    transform: skewX(-5deg);
+  }
+
+  .xl\:-skew-y-5 {
+    transform: skewY(-5deg);
   }
 
   .xl\:-skew-x-10 {

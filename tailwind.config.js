@@ -406,11 +406,13 @@ module.exports = {
     skew: { // defaults to {}
       '1': '1deg',
       '2': '2deg',
+      '5': '5deg',
       '10': '10deg',
     },
     negativeSkew: { // defaults to {}
       '1': '1deg',
       '2': '2deg',
+      '5': '5deg',
       '10': '10deg',
     },
   },

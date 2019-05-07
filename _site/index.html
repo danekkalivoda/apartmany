@@ -60,16 +60,16 @@ layout: compress
 </header>
     
   	<section class="pt-20 mb-8 bg-black bg-cover bg-center bg-top lg:bg-center relative"  style="background-image: url(/static/images/uploads/andy-homepage.jpg)">
-  <div class="px-4 pt-64 sm:py-24 md:py-32 text-center sm:text-left max-w-6xl mx-auto relative z-10">
+  <div class="px-4 pt-12 sm:py-24 md:py-32 pb-10 lg:pb-48 text-center sm:text-left max-w-6xl mx-auto relative z-10">
     <div class="max-w-xs mx-auto sm:mx-4">
-      <h1 class="text-3xl md:text-4xl font-bold text-white mt-16">Ahoj, jsem Andy</h1>
-      <p class="text-white md:text-xl">pomůžu ti být lepší, zdravější...</p>
-      <p class="text-white text-xs md:text-sm xl:text-base pb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit nibh, laoreet sed mi vel, consectetur sollicitudin dui.</p>
+      <h1 class="text-3xl md:text-4xl font-bold text-white mt-0 sm:mt-16">Ahoj, jsem Andy</h1>
+      <p class="text-white md:text-xl pb-64 sm:pb-0">pomůžu ti být lepší, zdravější...</p>
+      <p class="text-white text-xs md:text-sm xl:text-base pb-4 opacity-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit nibh, laoreet sed mi vel, consectetur sollicitudin dui.</p>
       <a href="#" class="mb-16 sm:mb-4 bg-transparent hover:bg-white text-white font-semibold text-sm md:text-base hover:text-green-500 py-2 px-4 border border-white hover:border-transparent rounded inline-block">Co klientům nabízím</a>
     </div>
   </div>
-  <div class="absolute bottom-0 h-20 w-full -mb-10 z-0 -skew-y-2 bg-gray-100"></div>
-  <div class="absolute bottom-0 h-64 w-1/3 -mb-56 z-0 skew-y-2 bg-gray-100"></div>
+  <div class="absolute bottom-0 h-48 w-full -mb-32 z-0 skew-y-2 bg-gray-100"></div>
+  <div class="absolute bottom-0 right-0 h-48 w-1/3 -mb-32 z-0 -skew-y-5 bg-gray-100"></div>
 </section>
 
 
@@ -380,8 +380,8 @@ layout: compress
   </div>
   
   <div class="bg-gray-800 absolute inset-0 z-0 -skew-y-2"></div>
-  <div class="bg-gray-800 absolute top-0 h-64 w-1/3 z-0 skew-y-10"></div>
-  <div class="bg-gray-800 absolute bottom-0 h-64 right-0 w-1/3 z-0 skew-y-10"></div>
+  <div class="bg-gray-800 absolute top-0 h-64 w-1/3 z-0 skew-y-5"></div>
+  <div class="bg-gray-800 absolute bottom-0 h-64 right-0 w-1/3 z-0 skew-y-5"></div>
   
 </section>
 
@@ -398,31 +398,48 @@ layout: compress
     
       <div class="flex flex-wrap justify-center -mx-2 sm:-mx-4">
         
-          <div class="flex flex-col items-stretch justify-center px-2 sm:px-4 w- md:w- lg:w-">
+          <div class="flex flex-col items-stretch justify-center px-2 sm:px-4 w-full md:w-3/4 lg:w-">
             
             
             
             
             <div class="mx-auto w-full md:w-1/2">
-              
-                <h3 class=' font-bold'>Kontaktní formulář</h3>
+              <div class='  mb-4 sm:mb-8'>
                 
-              <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post" class="w-full">
-                <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-                <input type='hidden' name='redirect_to' value='' />
-                
-                <label class="w-full block" for="name">Jméno</label>
-                <div class="flex flex-col items-stretch">
-                  <input type="text" id="name" name="name">
-                </div>
-
-                <label class="w-full block" for="message">Zpráva</label>
-                <div class="flex flex-col items-stretch"></div>
-                  <textarea rows="5" id="message" name="message"></textarea>
-                </div>
-                
-                <input type='submit' value='Test form' />
-              </form>
+                  <h3 class=' font-bold pb-4'>Kontaktní formulář</h3>
+                  
+                <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post" class="w-full mt-2">
+                  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                  <input type='hidden' name='redirect_to' value='' />
+                  <div class="mb-4">
+                    <label class="block text-gray-500 font-medium mb-1 md:mb-0 pr-4" for="iname">
+                      Jméno
+                    </label>
+                    <input class="bg-white appearance-none border-2 border-gray-200 rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-green-500" id="name" name="name" type="text">
+                  </div>
+                  <div class="mb-4">
+                      <label class="block text-gray-500 font-medium mb-1 md:mb-0 pr-4" for="email">
+                        E-mail
+                      </label>
+                      <input class="bg-white appearance-none border-2 border-gray-200 rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-green-500" id="email" name="email" type="text">
+                  </div>
+                  <div class="mb-4">
+                      <label class="block text-gray-500 font-medium mb-1 md:mb-0 pr-4" for="phone">
+                        Telefon
+                      </label>
+                      <input class="bg-white appearance-none border-2 border-gray-200 rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-green-500" id="phone" name="phone" type="text">
+                    </div>
+                  <div class="mb-4">
+                    <label class="block text-gray-500 font-medium mb-1 md:mb-0 pr-4" for="message">
+                      Zpráva pro mě
+                    </label>
+                    <textarea rows="5" id="message" name="message" class="bg-white appearance-none border-2 border-gray-200 rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-green-500" type="textarea"></textarea>
+                  </div>
+                  <button class="shadow bg-green-500 hover:bg-green-700 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded transition" type="submit">
+                    Odeslat
+                  </button>
+                </form>
+              </div>
             </div>
             
           </div>
