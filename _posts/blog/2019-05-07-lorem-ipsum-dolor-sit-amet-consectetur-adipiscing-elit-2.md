@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-date: 07-05-2019
+date: 04-05-2019
 active: true
 image: /images/uploads/20181231_122648.jpg
 sections:
