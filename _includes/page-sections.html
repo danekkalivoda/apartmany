@@ -60,28 +60,33 @@
             {% if block.type == "blog-posts" %}
               {% include section-articles.html %}
             {% endif %}
+            {% if block.type == "contact-forms" %}
+            <div class="mx-auto w-full md:w-1/2">
+              {% if block.header and block.header != '' %}
+                <h3 class='{{block.font-size}} font-bold{% if block.light-texts%} text-white{% endif %}'>{{ block.header }}</h3>
+              {% endif %}  
+              <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post" class="w-full">
+                <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                <input type='hidden' name='redirect_to' value='{{ section.redirect-to }}' />
+                
+                <label class="w-full block" for="name">Jméno</label>
+                <div class="flex flex-col items-stretch">
+                  <input type="text" id="name" name="name">
+                </div>
+
+                <label class="w-full block" for="message">Zpráva</label>
+                <div class="flex flex-col items-stretch"></div>
+                  <textarea rows="5" id="message" name="message"></textarea>
+                </div>
+                
+                <input type='submit' value='Test form' />
+              </form>
+            </div>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
     {% endif %}
-    {% for contact-form in sections.type.contact-forms %}
-      <div class="mx-auto w-full md:w-1/2">  
-        <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post" class="w-full">
-          <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-          <input type='hidden' name='redirect_to' value='{{ section.redirect-to }}' />
-          
-          <label class="w-full block" for="{{ form-field.label | slugify: 'latin' }}">{{ form-field.label }}</label>
-          <div class="flex flex-col items-stretch"></div>
-            <input type="text" id="{{ form-field.label | slugify: 'latin' }}" name="{{ form-field.label | slugify: 'latin' }}">
-          </div>
-
-          <textarea rows="5" id="{{ form-field.label | slugify: 'latin' }}" name="{{ form-field.label | slugify: 'latin' }}"></textarea>
-          
-          <input type='submit' value='Test form' />
-        </form>
-      </div>
-    {% endfor %}
-
   </div>
   {% if section.section-background and section.section-background != "" %}
   <div class="{{section.section-background}} absolute inset-0 z-0 -skew-y-2"></div>
