@@ -66,32 +66,40 @@
                 {% if block.header and block.header != '' %}
                   <h3 class='{{block.font-size}} font-bold{% if block.light-texts%} text-white{% endif %} pb-4'>{{ block.header }}</h3>
                 {% endif %}  
-                <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post" class="w-full mt-2">
+                <form action="https://getsimpleform.com/messages?form_api_token=a9b2deaa804d5b3ea139b612c5a1b0b3" method="post" class="w-full mt-2">
                   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-                  <input type='hidden' name='redirect_to' value='{{ section.redirect-to }}' />
+                  <input type='hidden' name='redirect_to' value='https://elated-goodall-275fa8.netlify.com/odeslany-formular' />
                   <div class="mb-4">
-                    <label class="block text-gray-500 font-medium mb-1 md:mb-0 pr-4" for="iname">
-                      Jméno
-                    </label>
-                    <input class="bg-white appearance-none border-2 border-gray-200 rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-green-500" id="name" name="name" type="text">
+                    <div class="relative border rounded mb-4 appearance-none label-floating">
+                      <input class="w-full py-2 px-3 leading-normal rounded" id="name" name="name" type="text" placeholder="Jméno">
+                      <label class="absolute block top-0 left-0 w-full px-3 py-2 text-gray-500 leading-normal text-left" for="name">
+                        Jméno
+                      </label>
+                    </div>  
                   </div>
                   <div class="mb-4">
-                      <label class="block text-gray-500 font-medium mb-1 md:mb-0 pr-4" for="email">
+                    <div class="relative border rounded mb-4 appearance-none label-floating">
+                      <input class="w-full py-2 px-3 leading-normal rounded" id="email" name="email" type="text" placeholder="E-mail">
+                      <label class="absolute block top-0 left-0 w-full px-3 py-2 text-gray-500 leading-normal text-left" for="email">
                         E-mail
                       </label>
-                      <input class="bg-white appearance-none border-2 border-gray-200 rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-green-500" id="email" name="email" type="text">
+                    </div>  
                   </div>
                   <div class="mb-4">
-                      <label class="block text-gray-500 font-medium mb-1 md:mb-0 pr-4" for="phone">
+                    <div class="relative border rounded mb-4 appearance-none label-floating">
+                      <input class="w-full py-2 px-3 leading-normal rounded" id="phone" name="phone" type="text" placeholder="Telefon">
+                      <label class="absolute block top-0 left-0 w-full px-3 py-2 text-gray-500 leading-normal text-left" for="phone">
                         Telefon
                       </label>
-                      <input class="bg-white appearance-none border-2 border-gray-200 rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-green-500" id="phone" name="phone" type="text">
-                    </div>
+                    </div>  
+                  </div>
                   <div class="mb-4">
-                    <label class="block text-gray-500 font-medium mb-1 md:mb-0 pr-4" for="message">
-                      Zpráva pro mě
-                    </label>
-                    <textarea rows="5" id="message" name="message" class="bg-white appearance-none border-2 border-gray-200 rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-green-500" type="textarea"></textarea>
+                    <div class="relative border rounded mb-4 appearance-none label-floating">
+                      <textarea rows="5" class="w-full py-2 px-3 leading-normal rounded" id="message" name="message" type="text" placeholder="Zpráva pro mě"></textarea>
+                      <label class="absolute block top-0 left-0 w-full px-3 py-2 text-gray-500 leading-normal text-left" for="message">
+                          Zpráva pro mě
+                      </label>
+                    </div>  
                   </div>
                   <button class="shadow bg-green-500 hover:bg-green-700 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded transition" type="submit">
                     Odeslat
