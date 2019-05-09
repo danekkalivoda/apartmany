@@ -20,7 +20,7 @@ sections:
         aspect-ratio: aspect-ratio-16/9
         desktop-width-class: null
         mobile-width-class: full
-        tablet-width-class: 1/2
+        tablet-width-class: 2/3
         type: media
         video: >-
           <iframe width="560" height="315"
