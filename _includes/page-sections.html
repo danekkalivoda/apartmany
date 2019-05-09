@@ -44,7 +44,7 @@
               <div class="{{block.alignment}}{% if section.block-margin-bottom %} mb-4 sm:mb-8{% endif %}">
                 {% if block.image and block.image != "" %}
                     <div class="relative overflow-hidden {% if block.aspect-ratio and block.aspect-ratio != '' %} block {{block.aspect-ratio}}{% else %}inline-block{% endif %} {% if section.block-margin-bottom == false %}my-2 sm:my-4{% endif %}">
-                      <img data-src="/static{{ block.image }}" alt="{{ block.header }}" class="lozad z-10 transition-slow {% if block.aspect-ratio and block.aspect-ratio != '' %}w-full h-full absolute top-0 left-0 object-cover rounded{% else %}inline-block{% endif %}">
+                      <img data-src="/static{{ block.image }}" alt="{{ block.header }}" class="lozad z-10 transition-slow opacity-0 opacity-100 {% if block.aspect-ratio and block.aspect-ratio != '' %}w-full h-full absolute top-0 left-0 object-cover rounded{% else %}inline-block{% endif %}">
                       <div class="absolute w-full h-full -translate-y-1/2 z-0 transition-slow">
                         <div class="spinner"></div>
                       </div>
@@ -66,12 +66,12 @@
                 {% if block.header and block.header != '' %}
                   <h3 class='{{block.font-size}} font-bold{% if block.light-texts%} text-white{% endif %} pb-4'>{{ block.header }}</h3>
                 {% endif %}  
-                <form action="https://getsimpleform.com/messages?form_api_token=a9b2deaa804d5b3ea139b612c5a1b0b3" method="post" class="w-full mt-2">
+                <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post" class="w-full mt-2">
                   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
                   <input type='hidden' name='redirect_to' value='https://elated-goodall-275fa8.netlify.com/odeslany-formular' />
                   <div class="mb-4">
                     <div class="relative border rounded mb-4 appearance-none label-floating">
-                      <input class="w-full py-2 px-3 leading-normal rounded" id="name" name="name" type="text" placeholder="Jméno">
+                      <input class="w-full py-2 px-3 leading-normal rounded focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="Jméno" required>
                       <label class="absolute block top-0 left-0 w-full px-3 py-2 text-gray-500 leading-normal text-left" for="name">
                         Jméno
                       </label>
@@ -79,7 +79,7 @@
                   </div>
                   <div class="mb-4">
                     <div class="relative border rounded mb-4 appearance-none label-floating">
-                      <input class="w-full py-2 px-3 leading-normal rounded" id="email" name="email" type="text" placeholder="E-mail">
+                      <input class="w-full py-2 px-3 leading-normal rounded focus:outline-none focus:shadow-outline" id="email" name="email" type="text" placeholder="E-mail" required>
                       <label class="absolute block top-0 left-0 w-full px-3 py-2 text-gray-500 leading-normal text-left" for="email">
                         E-mail
                       </label>
@@ -87,7 +87,7 @@
                   </div>
                   <div class="mb-4">
                     <div class="relative border rounded mb-4 appearance-none label-floating">
-                      <input class="w-full py-2 px-3 leading-normal rounded" id="phone" name="phone" type="text" placeholder="Telefon">
+                      <input class="w-full py-2 px-3 leading-normal rounded focus:outline-none focus:shadow-outline" id="phone" name="phone" type="text" placeholder="Telefon">
                       <label class="absolute block top-0 left-0 w-full px-3 py-2 text-gray-500 leading-normal text-left" for="phone">
                         Telefon
                       </label>
@@ -95,7 +95,7 @@
                   </div>
                   <div class="mb-4">
                     <div class="relative border rounded mb-4 appearance-none label-floating">
-                      <textarea rows="5" class="w-full py-2 px-3 leading-normal rounded" id="message" name="message" type="text" placeholder="Zpráva pro mě"></textarea>
+                      <textarea rows="5" class="w-full py-2 px-3 leading-normal block rounded focus:outline-none focus:shadow-outline" id="message" name="message" type="text" placeholder="Zpráva pro mě" required></textarea>
                       <label class="absolute block top-0 left-0 w-full px-3 py-2 text-gray-500 leading-normal text-left" for="message">
                           Zpráva pro mě
                       </label>

@@ -56,7 +56,7 @@ html {
 }
 
 .label-floating input:not(:placeholder-shown), .label-floating textarea:not(:placeholder-shown) {
-	padding-top: 1.4rem;
+	@apply pt-6;
 }
 .label-floating input:not(:placeholder-shown) ~ label, .label-floating textarea:not(:placeholder-shown) ~ label {
 	font-size: 0.6rem;

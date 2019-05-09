@@ -13,6 +13,9 @@ import lozad from 'lozad';
         threshold: 0.1 // ratio of element convergence
     });
     observer.observe();
+    const lozadImage = document.querySelector('.lozad')
+    // ... trigger the load of a image before it appears on the viewport
+    observer.triggerLoad(lozadImage);
 })();
 
 
@@ -37,5 +40,11 @@ window.onload = function(){
             menuToggle.classList.remove("opened")
         }
     })
+    var hpImg = document.querySelectorAll("[data-hp-image]").complete;
 
+    console.log(hpImg)
+
+    hpImg.onload = function() {
+        alert("test");
+    }
 }

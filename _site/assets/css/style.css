@@ -683,7 +683,7 @@ html {
 }
 
 .label-floating input:not(:placeholder-shown), .label-floating textarea:not(:placeholder-shown) {
-  padding-top: 1.4rem;
+  padding-top: 1.5rem;
 }
 
 .label-floating input:not(:placeholder-shown) ~ label, .label-floating textarea:not(:placeholder-shown) ~ label {
@@ -6180,7 +6180,7 @@ html {
 }
 
 .shadow-outline {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+  box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
 }
 
 .shadow-none {
@@ -6212,7 +6212,7 @@ html {
 }
 
 .hover\:shadow-outline:hover {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+  box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
 }
 
 .hover\:shadow-none:hover {
@@ -6244,7 +6244,7 @@ html {
 }
 
 .focus\:shadow-outline:focus {
-  box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+  box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
 }
 
 .focus\:shadow-none:focus {
@@ -13490,7 +13490,7 @@ html {
   }
 
   .sm\:shadow-outline {
-    box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
   }
 
   .sm\:shadow-none {
@@ -13522,7 +13522,7 @@ html {
   }
 
   .sm\:hover\:shadow-outline:hover {
-    box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
   }
 
   .sm\:hover\:shadow-none:hover {
@@ -13554,7 +13554,7 @@ html {
   }
 
   .sm\:focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
   }
 
   .sm\:focus\:shadow-none:focus {
@@ -20723,7 +20723,7 @@ html {
   }
 
   .md\:shadow-outline {
-    box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
   }
 
   .md\:shadow-none {
@@ -20755,7 +20755,7 @@ html {
   }
 
   .md\:hover\:shadow-outline:hover {
-    box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
   }
 
   .md\:hover\:shadow-none:hover {
@@ -20787,7 +20787,7 @@ html {
   }
 
   .md\:focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
   }
 
   .md\:focus\:shadow-none:focus {
@@ -27956,7 +27956,7 @@ html {
   }
 
   .lg\:shadow-outline {
-    box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
   }
 
   .lg\:shadow-none {
@@ -27988,7 +27988,7 @@ html {
   }
 
   .lg\:hover\:shadow-outline:hover {
-    box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
   }
 
   .lg\:hover\:shadow-none:hover {
@@ -28020,7 +28020,7 @@ html {
   }
 
   .lg\:focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
   }
 
   .lg\:focus\:shadow-none:focus {
@@ -35189,7 +35189,7 @@ html {
   }
 
   .xl\:shadow-outline {
-    box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
   }
 
   .xl\:shadow-none {
@@ -35221,7 +35221,7 @@ html {
   }
 
   .xl\:hover\:shadow-outline:hover {
-    box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
   }
 
   .xl\:hover\:shadow-none:hover {
@@ -35253,7 +35253,7 @@ html {
   }
 
   .xl\:focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px rgba(66,153,225,0.5);
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
   }
 
   .xl\:focus\:shadow-none:focus {

@@ -59,7 +59,10 @@ layout: compress
 	</nav>
 </header>
     
-  	<section class="pt-20 mb-8 bg-black bg-cover bg-center bg-top lg:bg-center relative"  style="background-image: url(/static/images/uploads/andy-homepage.jpg)">
+  	<section class="pt-20 mb-8 bg-gray-300 bg-cover bg-center bg-top lg:bg-center relative" data-hp-image  style="background-image: url(/static/images/uploads/andy-homepage.jpg)">
+  <div class="absolute w-full h-full translate-y-1/2 z-0 transition-slow">
+    <div class="spinner"></div>
+  </div>
   <div class="px-4 pt-12 sm:py-24 md:py-32 pb-10 lg:pb-48 text-center sm:text-left max-w-6xl mx-auto relative z-10">
     <div class="max-w-xs mx-auto sm:mx-4">
       <h1 class="text-3xl md:text-4xl font-bold text-white mt-0 sm:mt-16">Ahoj, jsem Andy</h1>
@@ -273,7 +276,7 @@ layout: compress
               <div class="text-right mb-4 sm:mb-8">
                 
                     <div class="relative overflow-hidden inline-block ">
-                      <img data-src="/static/images/uploads/sport-1.svg" alt="" class="lozad z-10 transition-slow inline-block">
+                      <img data-src="/static/images/uploads/sport-1.svg" alt="" class="lozad z-10 transition-slow opacity-0 opacity-100 inline-block">
                       <div class="absolute w-full h-full -translate-y-1/2 z-0 transition-slow">
                         <div class="spinner"></div>
                       </div>
@@ -309,7 +312,7 @@ layout: compress
               <div class="text-right mb-4 sm:mb-8">
                 
                     <div class="relative overflow-hidden inline-block ">
-                      <img data-src="/static/images/uploads/sport-2.svg" alt="" class="lozad z-10 transition-slow inline-block">
+                      <img data-src="/static/images/uploads/sport-2.svg" alt="" class="lozad z-10 transition-slow opacity-0 opacity-100 inline-block">
                       <div class="absolute w-full h-full -translate-y-1/2 z-0 transition-slow">
                         <div class="spinner"></div>
                       </div>
@@ -345,7 +348,7 @@ layout: compress
               <div class="text-right mb-4 sm:mb-8">
                 
                     <div class="relative overflow-hidden inline-block ">
-                      <img data-src="/static/images/uploads/sport-3.svg" alt="" class="lozad z-10 transition-slow inline-block">
+                      <img data-src="/static/images/uploads/sport-3.svg" alt="" class="lozad z-10 transition-slow opacity-0 opacity-100 inline-block">
                       <div class="absolute w-full h-full -translate-y-1/2 z-0 transition-slow">
                         <div class="spinner"></div>
                       </div>
@@ -408,12 +411,12 @@ layout: compress
                 
                   <h3 class=' font-bold pb-4'>Kontaktní formulář</h3>
                   
-                <form action="https://getsimpleform.com/messages?form_api_token=a9b2deaa804d5b3ea139b612c5a1b0b3" method="post" class="w-full mt-2">
+                <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post" class="w-full mt-2">
                   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
                   <input type='hidden' name='redirect_to' value='https://elated-goodall-275fa8.netlify.com/odeslany-formular' />
                   <div class="mb-4">
                     <div class="relative border rounded mb-4 appearance-none label-floating">
-                      <input class="w-full py-2 px-3 leading-normal rounded" id="name" name="name" type="text" placeholder="Jméno">
+                      <input class="w-full py-2 px-3 leading-normal rounded focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="Jméno" required>
                       <label class="absolute block top-0 left-0 w-full px-3 py-2 text-gray-500 leading-normal text-left" for="name">
                         Jméno
                       </label>
@@ -421,7 +424,7 @@ layout: compress
                   </div>
                   <div class="mb-4">
                     <div class="relative border rounded mb-4 appearance-none label-floating">
-                      <input class="w-full py-2 px-3 leading-normal rounded" id="email" name="email" type="text" placeholder="E-mail">
+                      <input class="w-full py-2 px-3 leading-normal rounded focus:outline-none focus:shadow-outline" id="email" name="email" type="text" placeholder="E-mail" required>
                       <label class="absolute block top-0 left-0 w-full px-3 py-2 text-gray-500 leading-normal text-left" for="email">
                         E-mail
                       </label>
@@ -429,7 +432,7 @@ layout: compress
                   </div>
                   <div class="mb-4">
                     <div class="relative border rounded mb-4 appearance-none label-floating">
-                      <input class="w-full py-2 px-3 leading-normal rounded" id="phone" name="phone" type="text" placeholder="Telefon">
+                      <input class="w-full py-2 px-3 leading-normal rounded focus:outline-none focus:shadow-outline" id="phone" name="phone" type="text" placeholder="Telefon">
                       <label class="absolute block top-0 left-0 w-full px-3 py-2 text-gray-500 leading-normal text-left" for="phone">
                         Telefon
                       </label>
@@ -437,7 +440,7 @@ layout: compress
                   </div>
                   <div class="mb-4">
                     <div class="relative border rounded mb-4 appearance-none label-floating">
-                      <textarea rows="5" class="w-full py-2 px-3 leading-normal rounded" id="message" name="message" type="text" placeholder="Zpráva pro mě"></textarea>
+                      <textarea rows="5" class="w-full py-2 px-3 leading-normal block rounded focus:outline-none focus:shadow-outline" id="message" name="message" type="text" placeholder="Zpráva pro mě" required></textarea>
                       <label class="absolute block top-0 left-0 w-full px-3 py-2 text-gray-500 leading-normal text-left" for="message">
                           Zpráva pro mě
                       </label>
