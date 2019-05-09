@@ -10,7 +10,7 @@
         <div class="px-4 md:px-8 pt-4 md:pt-8">
             <h3 class="font-bold text-xl mb-2"><a href="{{ post.url }}" class="block text-green-500 hover:no-underline font-medium sm:text-lg mb-2 md:mb-4">{{ post.title }}</a></h3>
             <div class="block mb-2 text-xs font-bold">{{ post.date | date: "%-d. %m. %Y" }}</div>
-            <p class="text-gray-700 text-base pb-8">
+            <p class="text-gray-700 text-sm pb-8">
             {{ post.content | strip_html | strip_newlines | truncate: 156}}
             </p>
         </div>
