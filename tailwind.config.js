@@ -381,6 +381,7 @@ module.exports = {
       '0': 0,
       auto: 'auto',
     },
+    transformOrigin: {},
     translate: { // defaults to {}
       '0': '0',
       '1/2': '50%',
@@ -393,12 +394,19 @@ module.exports = {
       'full': '100%',
       '10px': '10px'
     },
+    scale: { // defaults to {}
+      '90': '0.9',
+      '100': '1',
+      '110': '1.1',
+    },
     rotate: { // defaults to {}
+      '45': '45deg',
       '90': '90deg',
       '180': '180deg',
       '270': '270deg',
     },
     negativeRotate: { // defaults to {}
+      '45': '45deg',
       '90': '90deg',
       '180': '180deg',
       '270': '270deg',
@@ -408,18 +416,20 @@ module.exports = {
       '2': '2deg',
       '5': '5deg',
       '10': '10deg',
+      '30': '30deg',
     },
     negativeSkew: { // defaults to {}
       '1': '1deg',
       '2': '2deg',
       '5': '5deg',
       '10': '10deg',
+      '30': '30deg',
     },
   },
   variants: {
     appearance: ['responsive'],
     backgroundAttachment: ['responsive'],
-    backgroundColor: ['responsive', 'hover', 'focus'],
+    backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
     backgroundPosition: ['responsive'],
     backgroundRepeat: ['responsive'],
     backgroundSize: ['responsive'],
@@ -457,12 +467,12 @@ module.exports = {
     opacity: ['responsive'],
     outline: ['focus'],
     overflow: ['responsive'],
-    padding: ['responsive'],
+    padding: ['responsive', 'group-hover'],
     pointerEvents: ['responsive'],
     position: ['responsive'],
     inset: ['responsive'],
     resize: ['responsive'],
-    boxShadow: ['responsive', 'hover', 'focus'],
+    boxShadow: ['responsive', 'hover', 'focus', 'group-hover'],
     fill: [],
     stroke: [],
     tableLayout: ['responsive'],
@@ -483,7 +493,9 @@ module.exports = {
     zIndex: ['responsive'],
     transform: ['responsive', 'hover'],
     transformOrigin: ['responsive'],
-    translate: ['responsive', 'hover'],
+    translate: ['responsive', 'hover', 'group-hover'],
+    scale: ['responsive', 'group-hover'],
+    negativeScale: ['responsive', 'group-hover'],
     rotate: ['responsive'],
     negativeRotate: ['responsive'],
     skew: ['responsive'],
@@ -512,6 +524,6 @@ module.exports = {
       color: '#4a5568', // color you want to make the spinner
       size: '1em', // size of the spinner (used for both width and height)
       border: '2px', // border-width of the spinner (shouldn't be bigger than half the spinner's size)
-    })
+    }),
   ],
 }

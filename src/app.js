@@ -1,4 +1,10 @@
 import lozad from 'lozad';
+import Vue from '../node_modules/vue/dist/vue.min';
+import Gallery from './components/gallery.vue';
+
+new Vue({
+  render: h => h(Gallery),
+}).$mount(`#app`);
 
 (function() {
     const observer = lozad('.lozad', {
@@ -40,11 +46,4 @@ window.onload = function(){
             menuToggle.classList.remove("opened")
         }
     })
-    var hpImg = document.querySelectorAll("[data-hp-image]").complete;
-
-    console.log(hpImg)
-
-    hpImg.onload = function() {
-        alert("test");
-    }
 }

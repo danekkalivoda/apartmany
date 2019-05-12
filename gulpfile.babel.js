@@ -12,9 +12,12 @@ import tailwindcss from "tailwindcss";
 import postcssPresetEnv from "postcss-preset-env";
 import babel from "gulp-babel";
 import webpack from 'webpack-stream';
-import concat from "gulp-concat"
+import concat from "gulp-concat";
+import CompressionPlugin from "compression-webpack-plugin";
+import uglify from "gulp-uglify";
 
 
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const rawStylesheet = "src/style.css";
 const rawJs = "src/app.js";
 const siteRoot = "_site";
@@ -53,12 +56,51 @@ task("processJavascript", done => {
   browserSync.notify("Compiling javascript...");
   return src(rawJs)
     .pipe(webpack({
+      module: {
+        rules: [
+          {
+            test: /\.(png|jpg|gif|svg)$/i,
+            use: [
+              {
+                loader: 'url-loader',
+                options: {
+                  limit: 8192
+                }
+              }
+            ]
+          },
+          {
+            test: /\.vue$/,
+            loader: 'vue-loader'
+          },
+          // this will apply to both plain `.js` files
+          // AND `<script>` blocks in `.vue` files
+          {
+            test: /\.js$/,
+            loader: 'babel-loader'
+          },
+          // this will apply to both plain `.css` files
+          // AND `<style>` blocks in `.vue` files
+          {
+            test: /\.css$/,
+            use: [
+              'vue-style-loader',
+              'css-loader'
+            ]
+          }
+        ]
+      },
+      plugins: [
+        // make sure to include the plugin!
+        new VueLoaderPlugin(),
+      ],
       output: {
         filename: 'app.js',
       },
       mode: 'production'
     }))
     .pipe(babel({presets: ['@babel/env']}))
+    .pipe(uglify())
     .pipe(dest(jsRoot));
 });
 

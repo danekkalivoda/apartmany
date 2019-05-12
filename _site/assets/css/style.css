@@ -1889,6 +1889,378 @@ html {
   background-color: #702459;
 }
 
+.group:hover .group-hover\:bg-transparent {
+  background-color: transparent;
+}
+
+.group:hover .group-hover\:bg-black {
+  background-color: #000;
+}
+
+.group:hover .group-hover\:bg-white {
+  background-color: #fff;
+}
+
+.group:hover .group-hover\:bg-gray-100 {
+  background-color: #f7fafc;
+}
+
+.group:hover .group-hover\:bg-gray-200 {
+  background-color: #edf2f7;
+}
+
+.group:hover .group-hover\:bg-gray-300 {
+  background-color: #e2e8f0;
+}
+
+.group:hover .group-hover\:bg-gray-400 {
+  background-color: #cbd5e0;
+}
+
+.group:hover .group-hover\:bg-gray-500 {
+  background-color: #a0aec0;
+}
+
+.group:hover .group-hover\:bg-gray-600 {
+  background-color: #718096;
+}
+
+.group:hover .group-hover\:bg-gray-700 {
+  background-color: #4a5568;
+}
+
+.group:hover .group-hover\:bg-gray-800 {
+  background-color: #2d3748;
+}
+
+.group:hover .group-hover\:bg-gray-900 {
+  background-color: #1a202c;
+}
+
+.group:hover .group-hover\:bg-red-100 {
+  background-color: #fff5f5;
+}
+
+.group:hover .group-hover\:bg-red-200 {
+  background-color: #fed7d7;
+}
+
+.group:hover .group-hover\:bg-red-300 {
+  background-color: #feb2b2;
+}
+
+.group:hover .group-hover\:bg-red-400 {
+  background-color: #fc8181;
+}
+
+.group:hover .group-hover\:bg-red-500 {
+  background-color: #f56565;
+}
+
+.group:hover .group-hover\:bg-red-600 {
+  background-color: #e53e3e;
+}
+
+.group:hover .group-hover\:bg-red-700 {
+  background-color: #c53030;
+}
+
+.group:hover .group-hover\:bg-red-800 {
+  background-color: #9b2c2c;
+}
+
+.group:hover .group-hover\:bg-red-900 {
+  background-color: #742a2a;
+}
+
+.group:hover .group-hover\:bg-orange-100 {
+  background-color: #fffaf0;
+}
+
+.group:hover .group-hover\:bg-orange-200 {
+  background-color: #feebc8;
+}
+
+.group:hover .group-hover\:bg-orange-300 {
+  background-color: #fbd38d;
+}
+
+.group:hover .group-hover\:bg-orange-400 {
+  background-color: #f6ad55;
+}
+
+.group:hover .group-hover\:bg-orange-500 {
+  background-color: #ed8936;
+}
+
+.group:hover .group-hover\:bg-orange-600 {
+  background-color: #dd6b20;
+}
+
+.group:hover .group-hover\:bg-orange-700 {
+  background-color: #c05621;
+}
+
+.group:hover .group-hover\:bg-orange-800 {
+  background-color: #9c4221;
+}
+
+.group:hover .group-hover\:bg-orange-900 {
+  background-color: #7b341e;
+}
+
+.group:hover .group-hover\:bg-yellow-100 {
+  background-color: #fffff0;
+}
+
+.group:hover .group-hover\:bg-yellow-200 {
+  background-color: #fefcbf;
+}
+
+.group:hover .group-hover\:bg-yellow-300 {
+  background-color: #faf089;
+}
+
+.group:hover .group-hover\:bg-yellow-400 {
+  background-color: #f6e05e;
+}
+
+.group:hover .group-hover\:bg-yellow-500 {
+  background-color: #ecc94b;
+}
+
+.group:hover .group-hover\:bg-yellow-600 {
+  background-color: #d69e2e;
+}
+
+.group:hover .group-hover\:bg-yellow-700 {
+  background-color: #b7791f;
+}
+
+.group:hover .group-hover\:bg-yellow-800 {
+  background-color: #975a16;
+}
+
+.group:hover .group-hover\:bg-yellow-900 {
+  background-color: #744210;
+}
+
+.group:hover .group-hover\:bg-green-100 {
+  background-color: #f0fff4;
+}
+
+.group:hover .group-hover\:bg-green-200 {
+  background-color: #c6f6d5;
+}
+
+.group:hover .group-hover\:bg-green-300 {
+  background-color: #9ae6b4;
+}
+
+.group:hover .group-hover\:bg-green-400 {
+  background-color: #52AF41;
+}
+
+.group:hover .group-hover\:bg-green-500 {
+  background-color: #52AF41;
+}
+
+.group:hover .group-hover\:bg-green-600 {
+  background-color: #38a169;
+}
+
+.group:hover .group-hover\:bg-green-700 {
+  background-color: #2f855a;
+}
+
+.group:hover .group-hover\:bg-green-800 {
+  background-color: #276749;
+}
+
+.group:hover .group-hover\:bg-green-900 {
+  background-color: #22543d;
+}
+
+.group:hover .group-hover\:bg-teal-100 {
+  background-color: #e6fffa;
+}
+
+.group:hover .group-hover\:bg-teal-200 {
+  background-color: #b2f5ea;
+}
+
+.group:hover .group-hover\:bg-teal-300 {
+  background-color: #81e6d9;
+}
+
+.group:hover .group-hover\:bg-teal-400 {
+  background-color: #4fd1c5;
+}
+
+.group:hover .group-hover\:bg-teal-500 {
+  background-color: #38b2ac;
+}
+
+.group:hover .group-hover\:bg-teal-600 {
+  background-color: #319795;
+}
+
+.group:hover .group-hover\:bg-teal-700 {
+  background-color: #2c7a7b;
+}
+
+.group:hover .group-hover\:bg-teal-800 {
+  background-color: #285e61;
+}
+
+.group:hover .group-hover\:bg-teal-900 {
+  background-color: #234e52;
+}
+
+.group:hover .group-hover\:bg-blue-100 {
+  background-color: #ebf8ff;
+}
+
+.group:hover .group-hover\:bg-blue-200 {
+  background-color: #bee3f8;
+}
+
+.group:hover .group-hover\:bg-blue-300 {
+  background-color: #90cdf4;
+}
+
+.group:hover .group-hover\:bg-blue-400 {
+  background-color: #63b3ed;
+}
+
+.group:hover .group-hover\:bg-blue-500 {
+  background-color: #4299e1;
+}
+
+.group:hover .group-hover\:bg-blue-600 {
+  background-color: #3182ce;
+}
+
+.group:hover .group-hover\:bg-blue-700 {
+  background-color: #2b6cb0;
+}
+
+.group:hover .group-hover\:bg-blue-800 {
+  background-color: #2c5282;
+}
+
+.group:hover .group-hover\:bg-blue-900 {
+  background-color: #2a4365;
+}
+
+.group:hover .group-hover\:bg-indigo-100 {
+  background-color: #ebf4ff;
+}
+
+.group:hover .group-hover\:bg-indigo-200 {
+  background-color: #c3dafe;
+}
+
+.group:hover .group-hover\:bg-indigo-300 {
+  background-color: #a3bffa;
+}
+
+.group:hover .group-hover\:bg-indigo-400 {
+  background-color: #7f9cf5;
+}
+
+.group:hover .group-hover\:bg-indigo-500 {
+  background-color: #667eea;
+}
+
+.group:hover .group-hover\:bg-indigo-600 {
+  background-color: #5a67d8;
+}
+
+.group:hover .group-hover\:bg-indigo-700 {
+  background-color: #4c51bf;
+}
+
+.group:hover .group-hover\:bg-indigo-800 {
+  background-color: #434190;
+}
+
+.group:hover .group-hover\:bg-indigo-900 {
+  background-color: #3c366b;
+}
+
+.group:hover .group-hover\:bg-purple-100 {
+  background-color: #faf5ff;
+}
+
+.group:hover .group-hover\:bg-purple-200 {
+  background-color: #e9d8fd;
+}
+
+.group:hover .group-hover\:bg-purple-300 {
+  background-color: #d6bcfa;
+}
+
+.group:hover .group-hover\:bg-purple-400 {
+  background-color: #b794f4;
+}
+
+.group:hover .group-hover\:bg-purple-500 {
+  background-color: #9f7aea;
+}
+
+.group:hover .group-hover\:bg-purple-600 {
+  background-color: #805ad5;
+}
+
+.group:hover .group-hover\:bg-purple-700 {
+  background-color: #6b46c1;
+}
+
+.group:hover .group-hover\:bg-purple-800 {
+  background-color: #553c9a;
+}
+
+.group:hover .group-hover\:bg-purple-900 {
+  background-color: #44337a;
+}
+
+.group:hover .group-hover\:bg-pink-100 {
+  background-color: #fff5f7;
+}
+
+.group:hover .group-hover\:bg-pink-200 {
+  background-color: #fed7e2;
+}
+
+.group:hover .group-hover\:bg-pink-300 {
+  background-color: #fbb6ce;
+}
+
+.group:hover .group-hover\:bg-pink-400 {
+  background-color: #f687b3;
+}
+
+.group:hover .group-hover\:bg-pink-500 {
+  background-color: #ed64a6;
+}
+
+.group:hover .group-hover\:bg-pink-600 {
+  background-color: #d53f8c;
+}
+
+.group:hover .group-hover\:bg-pink-700 {
+  background-color: #b83280;
+}
+
+.group:hover .group-hover\:bg-pink-800 {
+  background-color: #97266d;
+}
+
+.group:hover .group-hover\:bg-pink-900 {
+  background-color: #702459;
+}
+
 .bg-bottom {
   background-position: bottom;
 }
@@ -6045,6 +6417,576 @@ html {
   padding-left: 1px;
 }
 
+.group:hover .group-hover\:p-0 {
+  padding: 0;
+}
+
+.group:hover .group-hover\:p-1 {
+  padding: 0.25rem;
+}
+
+.group:hover .group-hover\:p-2 {
+  padding: 0.5rem;
+}
+
+.group:hover .group-hover\:p-3 {
+  padding: 0.75rem;
+}
+
+.group:hover .group-hover\:p-4 {
+  padding: 1rem;
+}
+
+.group:hover .group-hover\:p-5 {
+  padding: 1.25rem;
+}
+
+.group:hover .group-hover\:p-6 {
+  padding: 1.5rem;
+}
+
+.group:hover .group-hover\:p-8 {
+  padding: 2rem;
+}
+
+.group:hover .group-hover\:p-10 {
+  padding: 2.5rem;
+}
+
+.group:hover .group-hover\:p-12 {
+  padding: 3rem;
+}
+
+.group:hover .group-hover\:p-16 {
+  padding: 4rem;
+}
+
+.group:hover .group-hover\:p-20 {
+  padding: 5rem;
+}
+
+.group:hover .group-hover\:p-24 {
+  padding: 6rem;
+}
+
+.group:hover .group-hover\:p-32 {
+  padding: 8rem;
+}
+
+.group:hover .group-hover\:p-40 {
+  padding: 10rem;
+}
+
+.group:hover .group-hover\:p-48 {
+  padding: 12rem;
+}
+
+.group:hover .group-hover\:p-56 {
+  padding: 14rem;
+}
+
+.group:hover .group-hover\:p-64 {
+  padding: 16rem;
+}
+
+.group:hover .group-hover\:p-px {
+  padding: 1px;
+}
+
+.group:hover .group-hover\:py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.group:hover .group-hover\:px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.group:hover .group-hover\:py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.group:hover .group-hover\:px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.group:hover .group-hover\:py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.group:hover .group-hover\:px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.group:hover .group-hover\:py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.group:hover .group-hover\:px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.group:hover .group-hover\:py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.group:hover .group-hover\:px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.group:hover .group-hover\:py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.group:hover .group-hover\:px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.group:hover .group-hover\:py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.group:hover .group-hover\:px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.group:hover .group-hover\:py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.group:hover .group-hover\:px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.group:hover .group-hover\:py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.group:hover .group-hover\:px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.group:hover .group-hover\:py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.group:hover .group-hover\:px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.group:hover .group-hover\:py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.group:hover .group-hover\:px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.group:hover .group-hover\:py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.group:hover .group-hover\:px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.group:hover .group-hover\:py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.group:hover .group-hover\:px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.group:hover .group-hover\:py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.group:hover .group-hover\:px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.group:hover .group-hover\:py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.group:hover .group-hover\:px-40 {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.group:hover .group-hover\:py-48 {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.group:hover .group-hover\:px-48 {
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.group:hover .group-hover\:py-56 {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
+.group:hover .group-hover\:px-56 {
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+
+.group:hover .group-hover\:py-64 {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+
+.group:hover .group-hover\:px-64 {
+  padding-left: 16rem;
+  padding-right: 16rem;
+}
+
+.group:hover .group-hover\:py-px {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.group:hover .group-hover\:px-px {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.group:hover .group-hover\:pt-0 {
+  padding-top: 0;
+}
+
+.group:hover .group-hover\:pr-0 {
+  padding-right: 0;
+}
+
+.group:hover .group-hover\:pb-0 {
+  padding-bottom: 0;
+}
+
+.group:hover .group-hover\:pl-0 {
+  padding-left: 0;
+}
+
+.group:hover .group-hover\:pt-1 {
+  padding-top: 0.25rem;
+}
+
+.group:hover .group-hover\:pr-1 {
+  padding-right: 0.25rem;
+}
+
+.group:hover .group-hover\:pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.group:hover .group-hover\:pl-1 {
+  padding-left: 0.25rem;
+}
+
+.group:hover .group-hover\:pt-2 {
+  padding-top: 0.5rem;
+}
+
+.group:hover .group-hover\:pr-2 {
+  padding-right: 0.5rem;
+}
+
+.group:hover .group-hover\:pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.group:hover .group-hover\:pl-2 {
+  padding-left: 0.5rem;
+}
+
+.group:hover .group-hover\:pt-3 {
+  padding-top: 0.75rem;
+}
+
+.group:hover .group-hover\:pr-3 {
+  padding-right: 0.75rem;
+}
+
+.group:hover .group-hover\:pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.group:hover .group-hover\:pl-3 {
+  padding-left: 0.75rem;
+}
+
+.group:hover .group-hover\:pt-4 {
+  padding-top: 1rem;
+}
+
+.group:hover .group-hover\:pr-4 {
+  padding-right: 1rem;
+}
+
+.group:hover .group-hover\:pb-4 {
+  padding-bottom: 1rem;
+}
+
+.group:hover .group-hover\:pl-4 {
+  padding-left: 1rem;
+}
+
+.group:hover .group-hover\:pt-5 {
+  padding-top: 1.25rem;
+}
+
+.group:hover .group-hover\:pr-5 {
+  padding-right: 1.25rem;
+}
+
+.group:hover .group-hover\:pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.group:hover .group-hover\:pl-5 {
+  padding-left: 1.25rem;
+}
+
+.group:hover .group-hover\:pt-6 {
+  padding-top: 1.5rem;
+}
+
+.group:hover .group-hover\:pr-6 {
+  padding-right: 1.5rem;
+}
+
+.group:hover .group-hover\:pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.group:hover .group-hover\:pl-6 {
+  padding-left: 1.5rem;
+}
+
+.group:hover .group-hover\:pt-8 {
+  padding-top: 2rem;
+}
+
+.group:hover .group-hover\:pr-8 {
+  padding-right: 2rem;
+}
+
+.group:hover .group-hover\:pb-8 {
+  padding-bottom: 2rem;
+}
+
+.group:hover .group-hover\:pl-8 {
+  padding-left: 2rem;
+}
+
+.group:hover .group-hover\:pt-10 {
+  padding-top: 2.5rem;
+}
+
+.group:hover .group-hover\:pr-10 {
+  padding-right: 2.5rem;
+}
+
+.group:hover .group-hover\:pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.group:hover .group-hover\:pl-10 {
+  padding-left: 2.5rem;
+}
+
+.group:hover .group-hover\:pt-12 {
+  padding-top: 3rem;
+}
+
+.group:hover .group-hover\:pr-12 {
+  padding-right: 3rem;
+}
+
+.group:hover .group-hover\:pb-12 {
+  padding-bottom: 3rem;
+}
+
+.group:hover .group-hover\:pl-12 {
+  padding-left: 3rem;
+}
+
+.group:hover .group-hover\:pt-16 {
+  padding-top: 4rem;
+}
+
+.group:hover .group-hover\:pr-16 {
+  padding-right: 4rem;
+}
+
+.group:hover .group-hover\:pb-16 {
+  padding-bottom: 4rem;
+}
+
+.group:hover .group-hover\:pl-16 {
+  padding-left: 4rem;
+}
+
+.group:hover .group-hover\:pt-20 {
+  padding-top: 5rem;
+}
+
+.group:hover .group-hover\:pr-20 {
+  padding-right: 5rem;
+}
+
+.group:hover .group-hover\:pb-20 {
+  padding-bottom: 5rem;
+}
+
+.group:hover .group-hover\:pl-20 {
+  padding-left: 5rem;
+}
+
+.group:hover .group-hover\:pt-24 {
+  padding-top: 6rem;
+}
+
+.group:hover .group-hover\:pr-24 {
+  padding-right: 6rem;
+}
+
+.group:hover .group-hover\:pb-24 {
+  padding-bottom: 6rem;
+}
+
+.group:hover .group-hover\:pl-24 {
+  padding-left: 6rem;
+}
+
+.group:hover .group-hover\:pt-32 {
+  padding-top: 8rem;
+}
+
+.group:hover .group-hover\:pr-32 {
+  padding-right: 8rem;
+}
+
+.group:hover .group-hover\:pb-32 {
+  padding-bottom: 8rem;
+}
+
+.group:hover .group-hover\:pl-32 {
+  padding-left: 8rem;
+}
+
+.group:hover .group-hover\:pt-40 {
+  padding-top: 10rem;
+}
+
+.group:hover .group-hover\:pr-40 {
+  padding-right: 10rem;
+}
+
+.group:hover .group-hover\:pb-40 {
+  padding-bottom: 10rem;
+}
+
+.group:hover .group-hover\:pl-40 {
+  padding-left: 10rem;
+}
+
+.group:hover .group-hover\:pt-48 {
+  padding-top: 12rem;
+}
+
+.group:hover .group-hover\:pr-48 {
+  padding-right: 12rem;
+}
+
+.group:hover .group-hover\:pb-48 {
+  padding-bottom: 12rem;
+}
+
+.group:hover .group-hover\:pl-48 {
+  padding-left: 12rem;
+}
+
+.group:hover .group-hover\:pt-56 {
+  padding-top: 14rem;
+}
+
+.group:hover .group-hover\:pr-56 {
+  padding-right: 14rem;
+}
+
+.group:hover .group-hover\:pb-56 {
+  padding-bottom: 14rem;
+}
+
+.group:hover .group-hover\:pl-56 {
+  padding-left: 14rem;
+}
+
+.group:hover .group-hover\:pt-64 {
+  padding-top: 16rem;
+}
+
+.group:hover .group-hover\:pr-64 {
+  padding-right: 16rem;
+}
+
+.group:hover .group-hover\:pb-64 {
+  padding-bottom: 16rem;
+}
+
+.group:hover .group-hover\:pl-64 {
+  padding-left: 16rem;
+}
+
+.group:hover .group-hover\:pt-px {
+  padding-top: 1px;
+}
+
+.group:hover .group-hover\:pr-px {
+  padding-right: 1px;
+}
+
+.group:hover .group-hover\:pb-px {
+  padding-bottom: 1px;
+}
+
+.group:hover .group-hover\:pl-px {
+  padding-left: 1px;
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -6248,6 +7190,38 @@ html {
 }
 
 .focus\:shadow-none:focus {
+  box-shadow: none;
+}
+
+.group:hover .group-hover\:shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+}
+
+.group:hover .group-hover\:shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+}
+
+.group:hover .group-hover\:shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+}
+
+.group:hover .group-hover\:shadow-xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04);
+}
+
+.group:hover .group-hover\:shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25);
+}
+
+.group:hover .group-hover\:shadow-inner {
+  box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.06);
+}
+
+.group:hover .group-hover\:shadow-outline {
+  box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
+}
+
+.group:hover .group-hover\:shadow-none {
   box-shadow: none;
 }
 
@@ -7812,38 +8786,6 @@ html {
   transform: none;
 }
 
-.transform-t {
-  transform-origin: top;
-}
-
-.transform-tr {
-  transform-origin: top right;
-}
-
-.transform-r {
-  transform-origin: right;
-}
-
-.transform-br {
-  transform-origin: bottom right;
-}
-
-.transform-b {
-  transform-origin: bottom;
-}
-
-.transform-bl {
-  transform-origin: bottom left;
-}
-
-.transform-l {
-  transform-origin: left;
-}
-
-.transform-tl {
-  transform-origin: top left;
-}
-
 .translate-x-0 {
   transform: translateX(0);
 }
@@ -7908,6 +8850,38 @@ html {
   transform: translateY(10px);
 }
 
+.group:hover .group-hover\:translate-x-0 {
+  transform: translateX(0);
+}
+
+.group:hover .group-hover\:translate-y-0 {
+  transform: translateY(0);
+}
+
+.group:hover .group-hover\:translate-x-1\/2 {
+  transform: translateX(50%);
+}
+
+.group:hover .group-hover\:translate-y-1\/2 {
+  transform: translateY(50%);
+}
+
+.group:hover .group-hover\:translate-x-full {
+  transform: translateX(100%);
+}
+
+.group:hover .group-hover\:translate-y-full {
+  transform: translateY(100%);
+}
+
+.group:hover .group-hover\:translate-x-10px {
+  transform: translateX(10px);
+}
+
+.group:hover .group-hover\:translate-y-10px {
+  transform: translateY(10px);
+}
+
 .-translate-x-0 {
   transform: translateX(-0);
 }
@@ -7940,6 +8914,154 @@ html {
   transform: translateY(-10px);
 }
 
+.scale-90 {
+  transform: scale(0.9);
+}
+
+.scale-x-90 {
+  transform: scaleX(0.9);
+}
+
+.scale-y-90 {
+  transform: scaleY(0.9);
+}
+
+.scale-100 {
+  transform: scale(1);
+}
+
+.scale-x-100 {
+  transform: scaleX(1);
+}
+
+.scale-y-100 {
+  transform: scaleY(1);
+}
+
+.scale-110 {
+  transform: scale(1.1);
+}
+
+.scale-x-110 {
+  transform: scaleX(1.1);
+}
+
+.scale-y-110 {
+  transform: scaleY(1.1);
+}
+
+.group:hover .group-hover\:scale-90 {
+  transform: scale(0.9);
+}
+
+.group:hover .group-hover\:scale-x-90 {
+  transform: scaleX(0.9);
+}
+
+.group:hover .group-hover\:scale-y-90 {
+  transform: scaleY(0.9);
+}
+
+.group:hover .group-hover\:scale-100 {
+  transform: scale(1);
+}
+
+.group:hover .group-hover\:scale-x-100 {
+  transform: scaleX(1);
+}
+
+.group:hover .group-hover\:scale-y-100 {
+  transform: scaleY(1);
+}
+
+.group:hover .group-hover\:scale-110 {
+  transform: scale(1.1);
+}
+
+.group:hover .group-hover\:scale-x-110 {
+  transform: scaleX(1.1);
+}
+
+.group:hover .group-hover\:scale-y-110 {
+  transform: scaleY(1.1);
+}
+
+.-scale-90 {
+  transform: scale(-0.9);
+}
+
+.-scale-x-90 {
+  transform: scaleX(-0.9);
+}
+
+.-scale-y-90 {
+  transform: scaleY(-0.9);
+}
+
+.-scale-100 {
+  transform: scale(-1);
+}
+
+.-scale-x-100 {
+  transform: scaleX(-1);
+}
+
+.-scale-y-100 {
+  transform: scaleY(-1);
+}
+
+.-scale-110 {
+  transform: scale(-1.1);
+}
+
+.-scale-x-110 {
+  transform: scaleX(-1.1);
+}
+
+.-scale-y-110 {
+  transform: scaleY(-1.1);
+}
+
+.group:hover .group-hover\:-scale-90 {
+  transform: scale(-0.9);
+}
+
+.group:hover .group-hover\:-scale-x-90 {
+  transform: scaleX(-0.9);
+}
+
+.group:hover .group-hover\:-scale-y-90 {
+  transform: scaleY(-0.9);
+}
+
+.group:hover .group-hover\:-scale-100 {
+  transform: scale(-1);
+}
+
+.group:hover .group-hover\:-scale-x-100 {
+  transform: scaleX(-1);
+}
+
+.group:hover .group-hover\:-scale-y-100 {
+  transform: scaleY(-1);
+}
+
+.group:hover .group-hover\:-scale-110 {
+  transform: scale(-1.1);
+}
+
+.group:hover .group-hover\:-scale-x-110 {
+  transform: scaleX(-1.1);
+}
+
+.group:hover .group-hover\:-scale-y-110 {
+  transform: scaleY(-1.1);
+}
+
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
 .rotate-90 {
   transform: rotate(90deg);
 }
@@ -7950,6 +9072,10 @@ html {
 
 .rotate-270 {
   transform: rotate(270deg);
+}
+
+.-rotate-45 {
+  transform: rotate(-45deg);
 }
 
 .-rotate-90 {
@@ -7996,6 +9122,14 @@ html {
   transform: skewY(10deg);
 }
 
+.skew-x-30 {
+  transform: skewX(30deg);
+}
+
+.skew-y-30 {
+  transform: skewY(30deg);
+}
+
 .-skew-x-1 {
   transform: skewX(-1deg);
 }
@@ -8026,6 +9160,14 @@ html {
 
 .-skew-y-10 {
   transform: skewY(-10deg);
+}
+
+.-skew-x-30 {
+  transform: skewX(-30deg);
+}
+
+.-skew-y-30 {
+  transform: skewY(-30deg);
 }
 
 .transition-slow {
@@ -9212,6 +10354,378 @@ html {
   }
 
   .sm\:focus\:bg-pink-900:focus {
+    background-color: #702459;
+  }
+
+  .group:hover .sm\:group-hover\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .group:hover .sm\:group-hover\:bg-black {
+    background-color: #000;
+  }
+
+  .group:hover .sm\:group-hover\:bg-white {
+    background-color: #fff;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-100 {
+    background-color: #f7fafc;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-200 {
+    background-color: #edf2f7;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-300 {
+    background-color: #e2e8f0;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-400 {
+    background-color: #cbd5e0;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-500 {
+    background-color: #a0aec0;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-600 {
+    background-color: #718096;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-700 {
+    background-color: #4a5568;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-800 {
+    background-color: #2d3748;
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-900 {
+    background-color: #1a202c;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-100 {
+    background-color: #fff5f5;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-200 {
+    background-color: #fed7d7;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-300 {
+    background-color: #feb2b2;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-400 {
+    background-color: #fc8181;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-500 {
+    background-color: #f56565;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-600 {
+    background-color: #e53e3e;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-700 {
+    background-color: #c53030;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-800 {
+    background-color: #9b2c2c;
+  }
+
+  .group:hover .sm\:group-hover\:bg-red-900 {
+    background-color: #742a2a;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-100 {
+    background-color: #fffaf0;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-200 {
+    background-color: #feebc8;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-300 {
+    background-color: #fbd38d;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-400 {
+    background-color: #f6ad55;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-500 {
+    background-color: #ed8936;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-600 {
+    background-color: #dd6b20;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-700 {
+    background-color: #c05621;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-800 {
+    background-color: #9c4221;
+  }
+
+  .group:hover .sm\:group-hover\:bg-orange-900 {
+    background-color: #7b341e;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-100 {
+    background-color: #fffff0;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-200 {
+    background-color: #fefcbf;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-300 {
+    background-color: #faf089;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-400 {
+    background-color: #f6e05e;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-500 {
+    background-color: #ecc94b;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-600 {
+    background-color: #d69e2e;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-700 {
+    background-color: #b7791f;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-800 {
+    background-color: #975a16;
+  }
+
+  .group:hover .sm\:group-hover\:bg-yellow-900 {
+    background-color: #744210;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-100 {
+    background-color: #f0fff4;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-200 {
+    background-color: #c6f6d5;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-300 {
+    background-color: #9ae6b4;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-400 {
+    background-color: #52AF41;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-500 {
+    background-color: #52AF41;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-600 {
+    background-color: #38a169;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-700 {
+    background-color: #2f855a;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-800 {
+    background-color: #276749;
+  }
+
+  .group:hover .sm\:group-hover\:bg-green-900 {
+    background-color: #22543d;
+  }
+
+  .group:hover .sm\:group-hover\:bg-teal-100 {
+    background-color: #e6fffa;
+  }
+
+  .group:hover .sm\:group-hover\:bg-teal-200 {
+    background-color: #b2f5ea;
+  }
+
+  .group:hover .sm\:group-hover\:bg-teal-300 {
+    background-color: #81e6d9;
+  }
+
+  .group:hover .sm\:group-hover\:bg-teal-400 {
+    background-color: #4fd1c5;
+  }
+
+  .group:hover .sm\:group-hover\:bg-teal-500 {
+    background-color: #38b2ac;
+  }
+
+  .group:hover .sm\:group-hover\:bg-teal-600 {
+    background-color: #319795;
+  }
+
+  .group:hover .sm\:group-hover\:bg-teal-700 {
+    background-color: #2c7a7b;
+  }
+
+  .group:hover .sm\:group-hover\:bg-teal-800 {
+    background-color: #285e61;
+  }
+
+  .group:hover .sm\:group-hover\:bg-teal-900 {
+    background-color: #234e52;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-100 {
+    background-color: #ebf8ff;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-200 {
+    background-color: #bee3f8;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-300 {
+    background-color: #90cdf4;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-400 {
+    background-color: #63b3ed;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-500 {
+    background-color: #4299e1;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-600 {
+    background-color: #3182ce;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-700 {
+    background-color: #2b6cb0;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-800 {
+    background-color: #2c5282;
+  }
+
+  .group:hover .sm\:group-hover\:bg-blue-900 {
+    background-color: #2a4365;
+  }
+
+  .group:hover .sm\:group-hover\:bg-indigo-100 {
+    background-color: #ebf4ff;
+  }
+
+  .group:hover .sm\:group-hover\:bg-indigo-200 {
+    background-color: #c3dafe;
+  }
+
+  .group:hover .sm\:group-hover\:bg-indigo-300 {
+    background-color: #a3bffa;
+  }
+
+  .group:hover .sm\:group-hover\:bg-indigo-400 {
+    background-color: #7f9cf5;
+  }
+
+  .group:hover .sm\:group-hover\:bg-indigo-500 {
+    background-color: #667eea;
+  }
+
+  .group:hover .sm\:group-hover\:bg-indigo-600 {
+    background-color: #5a67d8;
+  }
+
+  .group:hover .sm\:group-hover\:bg-indigo-700 {
+    background-color: #4c51bf;
+  }
+
+  .group:hover .sm\:group-hover\:bg-indigo-800 {
+    background-color: #434190;
+  }
+
+  .group:hover .sm\:group-hover\:bg-indigo-900 {
+    background-color: #3c366b;
+  }
+
+  .group:hover .sm\:group-hover\:bg-purple-100 {
+    background-color: #faf5ff;
+  }
+
+  .group:hover .sm\:group-hover\:bg-purple-200 {
+    background-color: #e9d8fd;
+  }
+
+  .group:hover .sm\:group-hover\:bg-purple-300 {
+    background-color: #d6bcfa;
+  }
+
+  .group:hover .sm\:group-hover\:bg-purple-400 {
+    background-color: #b794f4;
+  }
+
+  .group:hover .sm\:group-hover\:bg-purple-500 {
+    background-color: #9f7aea;
+  }
+
+  .group:hover .sm\:group-hover\:bg-purple-600 {
+    background-color: #805ad5;
+  }
+
+  .group:hover .sm\:group-hover\:bg-purple-700 {
+    background-color: #6b46c1;
+  }
+
+  .group:hover .sm\:group-hover\:bg-purple-800 {
+    background-color: #553c9a;
+  }
+
+  .group:hover .sm\:group-hover\:bg-purple-900 {
+    background-color: #44337a;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-100 {
+    background-color: #fff5f7;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-200 {
+    background-color: #fed7e2;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-300 {
+    background-color: #fbb6ce;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-400 {
+    background-color: #f687b3;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-500 {
+    background-color: #ed64a6;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-600 {
+    background-color: #d53f8c;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-700 {
+    background-color: #b83280;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-800 {
+    background-color: #97266d;
+  }
+
+  .group:hover .sm\:group-hover\:bg-pink-900 {
     background-color: #702459;
   }
 
@@ -13355,6 +14869,576 @@ html {
     padding-left: 1px;
   }
 
+  .group:hover .sm\:group-hover\:p-0 {
+    padding: 0;
+  }
+
+  .group:hover .sm\:group-hover\:p-1 {
+    padding: 0.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-2 {
+    padding: 0.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-3 {
+    padding: 0.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-4 {
+    padding: 1rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-8 {
+    padding: 2rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-12 {
+    padding: 3rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-16 {
+    padding: 4rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-20 {
+    padding: 5rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-24 {
+    padding: 6rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-32 {
+    padding: 8rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-40 {
+    padding: 10rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-48 {
+    padding: 12rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-56 {
+    padding: 14rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-64 {
+    padding: 16rem;
+  }
+
+  .group:hover .sm\:group-hover\:p-px {
+    padding: 1px;
+  }
+
+  .group:hover .sm\:group-hover\:py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .group:hover .sm\:group-hover\:px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .group:hover .sm\:group-hover\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-48 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-48 {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-56 {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-56 {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-64 {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+  }
+
+  .group:hover .sm\:group-hover\:px-64 {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
+  .group:hover .sm\:group-hover\:py-px {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .group:hover .sm\:group-hover\:px-px {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .group:hover .sm\:group-hover\:pt-0 {
+    padding-top: 0;
+  }
+
+  .group:hover .sm\:group-hover\:pr-0 {
+    padding-right: 0;
+  }
+
+  .group:hover .sm\:group-hover\:pb-0 {
+    padding-bottom: 0;
+  }
+
+  .group:hover .sm\:group-hover\:pl-0 {
+    padding-left: 0;
+  }
+
+  .group:hover .sm\:group-hover\:pt-1 {
+    padding-top: 0.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-1 {
+    padding-right: 0.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-1 {
+    padding-bottom: 0.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-1 {
+    padding-left: 0.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-2 {
+    padding-top: 0.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-2 {
+    padding-right: 0.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-2 {
+    padding-left: 0.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-3 {
+    padding-right: 0.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-3 {
+    padding-bottom: 0.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-3 {
+    padding-left: 0.75rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-4 {
+    padding-top: 1rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-4 {
+    padding-bottom: 1rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-5 {
+    padding-top: 1.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-5 {
+    padding-right: 1.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-5 {
+    padding-left: 1.25rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-6 {
+    padding-top: 1.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-6 {
+    padding-right: 1.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-8 {
+    padding-right: 2rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-8 {
+    padding-left: 2rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-12 {
+    padding-left: 3rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-20 {
+    padding-left: 5rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-24 {
+    padding-top: 6rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-24 {
+    padding-right: 6rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-24 {
+    padding-left: 6rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-32 {
+    padding-right: 8rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-32 {
+    padding-left: 8rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-40 {
+    padding-top: 10rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-40 {
+    padding-right: 10rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-40 {
+    padding-bottom: 10rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-40 {
+    padding-left: 10rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-48 {
+    padding-top: 12rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-48 {
+    padding-right: 12rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-48 {
+    padding-bottom: 12rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-48 {
+    padding-left: 12rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-56 {
+    padding-top: 14rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-56 {
+    padding-right: 14rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-56 {
+    padding-bottom: 14rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-56 {
+    padding-left: 14rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-64 {
+    padding-top: 16rem;
+  }
+
+  .group:hover .sm\:group-hover\:pr-64 {
+    padding-right: 16rem;
+  }
+
+  .group:hover .sm\:group-hover\:pb-64 {
+    padding-bottom: 16rem;
+  }
+
+  .group:hover .sm\:group-hover\:pl-64 {
+    padding-left: 16rem;
+  }
+
+  .group:hover .sm\:group-hover\:pt-px {
+    padding-top: 1px;
+  }
+
+  .group:hover .sm\:group-hover\:pr-px {
+    padding-right: 1px;
+  }
+
+  .group:hover .sm\:group-hover\:pb-px {
+    padding-bottom: 1px;
+  }
+
+  .group:hover .sm\:group-hover\:pl-px {
+    padding-left: 1px;
+  }
+
   .sm\:pointer-events-none {
     pointer-events: none;
   }
@@ -13558,6 +15642,38 @@ html {
   }
 
   .sm\:focus\:shadow-none:focus {
+    box-shadow: none;
+  }
+
+  .group:hover .sm\:group-hover\:shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+  }
+
+  .group:hover .sm\:group-hover\:shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+  }
+
+  .group:hover .sm\:group-hover\:shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+  }
+
+  .group:hover .sm\:group-hover\:shadow-xl {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04);
+  }
+
+  .group:hover .sm\:group-hover\:shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25);
+  }
+
+  .group:hover .sm\:group-hover\:shadow-inner {
+    box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.06);
+  }
+
+  .group:hover .sm\:group-hover\:shadow-outline {
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
+  }
+
+  .group:hover .sm\:group-hover\:shadow-none {
     box-shadow: none;
   }
 
@@ -15098,38 +17214,6 @@ html {
     transform: none;
   }
 
-  .sm\:transform-t {
-    transform-origin: top;
-  }
-
-  .sm\:transform-tr {
-    transform-origin: top right;
-  }
-
-  .sm\:transform-r {
-    transform-origin: right;
-  }
-
-  .sm\:transform-br {
-    transform-origin: bottom right;
-  }
-
-  .sm\:transform-b {
-    transform-origin: bottom;
-  }
-
-  .sm\:transform-bl {
-    transform-origin: bottom left;
-  }
-
-  .sm\:transform-l {
-    transform-origin: left;
-  }
-
-  .sm\:transform-tl {
-    transform-origin: top left;
-  }
-
   .sm\:translate-x-0 {
     transform: translateX(0);
   }
@@ -15194,6 +17278,38 @@ html {
     transform: translateY(10px);
   }
 
+  .group:hover .sm\:group-hover\:translate-x-0 {
+    transform: translateX(0);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-0 {
+    transform: translateY(0);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-1\/2 {
+    transform: translateX(50%);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-1\/2 {
+    transform: translateY(50%);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-full {
+    transform: translateX(100%);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-full {
+    transform: translateY(100%);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-10px {
+    transform: translateX(10px);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-10px {
+    transform: translateY(10px);
+  }
+
   .sm\:-translate-x-0 {
     transform: translateX(-0);
   }
@@ -15226,6 +17342,154 @@ html {
     transform: translateY(-10px);
   }
 
+  .sm\:scale-90 {
+    transform: scale(0.9);
+  }
+
+  .sm\:scale-x-90 {
+    transform: scaleX(0.9);
+  }
+
+  .sm\:scale-y-90 {
+    transform: scaleY(0.9);
+  }
+
+  .sm\:scale-100 {
+    transform: scale(1);
+  }
+
+  .sm\:scale-x-100 {
+    transform: scaleX(1);
+  }
+
+  .sm\:scale-y-100 {
+    transform: scaleY(1);
+  }
+
+  .sm\:scale-110 {
+    transform: scale(1.1);
+  }
+
+  .sm\:scale-x-110 {
+    transform: scaleX(1.1);
+  }
+
+  .sm\:scale-y-110 {
+    transform: scaleY(1.1);
+  }
+
+  .group:hover .sm\:group-hover\:scale-90 {
+    transform: scale(0.9);
+  }
+
+  .group:hover .sm\:group-hover\:scale-x-90 {
+    transform: scaleX(0.9);
+  }
+
+  .group:hover .sm\:group-hover\:scale-y-90 {
+    transform: scaleY(0.9);
+  }
+
+  .group:hover .sm\:group-hover\:scale-100 {
+    transform: scale(1);
+  }
+
+  .group:hover .sm\:group-hover\:scale-x-100 {
+    transform: scaleX(1);
+  }
+
+  .group:hover .sm\:group-hover\:scale-y-100 {
+    transform: scaleY(1);
+  }
+
+  .group:hover .sm\:group-hover\:scale-110 {
+    transform: scale(1.1);
+  }
+
+  .group:hover .sm\:group-hover\:scale-x-110 {
+    transform: scaleX(1.1);
+  }
+
+  .group:hover .sm\:group-hover\:scale-y-110 {
+    transform: scaleY(1.1);
+  }
+
+  .sm\:-scale-90 {
+    transform: scale(-0.9);
+  }
+
+  .sm\:-scale-x-90 {
+    transform: scaleX(-0.9);
+  }
+
+  .sm\:-scale-y-90 {
+    transform: scaleY(-0.9);
+  }
+
+  .sm\:-scale-100 {
+    transform: scale(-1);
+  }
+
+  .sm\:-scale-x-100 {
+    transform: scaleX(-1);
+  }
+
+  .sm\:-scale-y-100 {
+    transform: scaleY(-1);
+  }
+
+  .sm\:-scale-110 {
+    transform: scale(-1.1);
+  }
+
+  .sm\:-scale-x-110 {
+    transform: scaleX(-1.1);
+  }
+
+  .sm\:-scale-y-110 {
+    transform: scaleY(-1.1);
+  }
+
+  .group:hover .sm\:group-hover\:-scale-90 {
+    transform: scale(-0.9);
+  }
+
+  .group:hover .sm\:group-hover\:-scale-x-90 {
+    transform: scaleX(-0.9);
+  }
+
+  .group:hover .sm\:group-hover\:-scale-y-90 {
+    transform: scaleY(-0.9);
+  }
+
+  .group:hover .sm\:group-hover\:-scale-100 {
+    transform: scale(-1);
+  }
+
+  .group:hover .sm\:group-hover\:-scale-x-100 {
+    transform: scaleX(-1);
+  }
+
+  .group:hover .sm\:group-hover\:-scale-y-100 {
+    transform: scaleY(-1);
+  }
+
+  .group:hover .sm\:group-hover\:-scale-110 {
+    transform: scale(-1.1);
+  }
+
+  .group:hover .sm\:group-hover\:-scale-x-110 {
+    transform: scaleX(-1.1);
+  }
+
+  .group:hover .sm\:group-hover\:-scale-y-110 {
+    transform: scaleY(-1.1);
+  }
+
+  .sm\:rotate-45 {
+    transform: rotate(45deg);
+  }
+
   .sm\:rotate-90 {
     transform: rotate(90deg);
   }
@@ -15236,6 +17500,10 @@ html {
 
   .sm\:rotate-270 {
     transform: rotate(270deg);
+  }
+
+  .sm\:-rotate-45 {
+    transform: rotate(-45deg);
   }
 
   .sm\:-rotate-90 {
@@ -15282,6 +17550,14 @@ html {
     transform: skewY(10deg);
   }
 
+  .sm\:skew-x-30 {
+    transform: skewX(30deg);
+  }
+
+  .sm\:skew-y-30 {
+    transform: skewY(30deg);
+  }
+
   .sm\:-skew-x-1 {
     transform: skewX(-1deg);
   }
@@ -15312,6 +17588,14 @@ html {
 
   .sm\:-skew-y-10 {
     transform: skewY(-10deg);
+  }
+
+  .sm\:-skew-x-30 {
+    transform: skewX(-30deg);
+  }
+
+  .sm\:-skew-y-30 {
+    transform: skewY(-30deg);
   }
 }
 
@@ -16445,6 +18729,378 @@ html {
   }
 
   .md\:focus\:bg-pink-900:focus {
+    background-color: #702459;
+  }
+
+  .group:hover .md\:group-hover\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .group:hover .md\:group-hover\:bg-black {
+    background-color: #000;
+  }
+
+  .group:hover .md\:group-hover\:bg-white {
+    background-color: #fff;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-100 {
+    background-color: #f7fafc;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-200 {
+    background-color: #edf2f7;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-300 {
+    background-color: #e2e8f0;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-400 {
+    background-color: #cbd5e0;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-500 {
+    background-color: #a0aec0;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-600 {
+    background-color: #718096;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-700 {
+    background-color: #4a5568;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-800 {
+    background-color: #2d3748;
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-900 {
+    background-color: #1a202c;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-100 {
+    background-color: #fff5f5;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-200 {
+    background-color: #fed7d7;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-300 {
+    background-color: #feb2b2;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-400 {
+    background-color: #fc8181;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-500 {
+    background-color: #f56565;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-600 {
+    background-color: #e53e3e;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-700 {
+    background-color: #c53030;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-800 {
+    background-color: #9b2c2c;
+  }
+
+  .group:hover .md\:group-hover\:bg-red-900 {
+    background-color: #742a2a;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-100 {
+    background-color: #fffaf0;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-200 {
+    background-color: #feebc8;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-300 {
+    background-color: #fbd38d;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-400 {
+    background-color: #f6ad55;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-500 {
+    background-color: #ed8936;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-600 {
+    background-color: #dd6b20;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-700 {
+    background-color: #c05621;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-800 {
+    background-color: #9c4221;
+  }
+
+  .group:hover .md\:group-hover\:bg-orange-900 {
+    background-color: #7b341e;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-100 {
+    background-color: #fffff0;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-200 {
+    background-color: #fefcbf;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-300 {
+    background-color: #faf089;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-400 {
+    background-color: #f6e05e;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-500 {
+    background-color: #ecc94b;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-600 {
+    background-color: #d69e2e;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-700 {
+    background-color: #b7791f;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-800 {
+    background-color: #975a16;
+  }
+
+  .group:hover .md\:group-hover\:bg-yellow-900 {
+    background-color: #744210;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-100 {
+    background-color: #f0fff4;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-200 {
+    background-color: #c6f6d5;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-300 {
+    background-color: #9ae6b4;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-400 {
+    background-color: #52AF41;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-500 {
+    background-color: #52AF41;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-600 {
+    background-color: #38a169;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-700 {
+    background-color: #2f855a;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-800 {
+    background-color: #276749;
+  }
+
+  .group:hover .md\:group-hover\:bg-green-900 {
+    background-color: #22543d;
+  }
+
+  .group:hover .md\:group-hover\:bg-teal-100 {
+    background-color: #e6fffa;
+  }
+
+  .group:hover .md\:group-hover\:bg-teal-200 {
+    background-color: #b2f5ea;
+  }
+
+  .group:hover .md\:group-hover\:bg-teal-300 {
+    background-color: #81e6d9;
+  }
+
+  .group:hover .md\:group-hover\:bg-teal-400 {
+    background-color: #4fd1c5;
+  }
+
+  .group:hover .md\:group-hover\:bg-teal-500 {
+    background-color: #38b2ac;
+  }
+
+  .group:hover .md\:group-hover\:bg-teal-600 {
+    background-color: #319795;
+  }
+
+  .group:hover .md\:group-hover\:bg-teal-700 {
+    background-color: #2c7a7b;
+  }
+
+  .group:hover .md\:group-hover\:bg-teal-800 {
+    background-color: #285e61;
+  }
+
+  .group:hover .md\:group-hover\:bg-teal-900 {
+    background-color: #234e52;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-100 {
+    background-color: #ebf8ff;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-200 {
+    background-color: #bee3f8;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-300 {
+    background-color: #90cdf4;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-400 {
+    background-color: #63b3ed;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-500 {
+    background-color: #4299e1;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-600 {
+    background-color: #3182ce;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-700 {
+    background-color: #2b6cb0;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-800 {
+    background-color: #2c5282;
+  }
+
+  .group:hover .md\:group-hover\:bg-blue-900 {
+    background-color: #2a4365;
+  }
+
+  .group:hover .md\:group-hover\:bg-indigo-100 {
+    background-color: #ebf4ff;
+  }
+
+  .group:hover .md\:group-hover\:bg-indigo-200 {
+    background-color: #c3dafe;
+  }
+
+  .group:hover .md\:group-hover\:bg-indigo-300 {
+    background-color: #a3bffa;
+  }
+
+  .group:hover .md\:group-hover\:bg-indigo-400 {
+    background-color: #7f9cf5;
+  }
+
+  .group:hover .md\:group-hover\:bg-indigo-500 {
+    background-color: #667eea;
+  }
+
+  .group:hover .md\:group-hover\:bg-indigo-600 {
+    background-color: #5a67d8;
+  }
+
+  .group:hover .md\:group-hover\:bg-indigo-700 {
+    background-color: #4c51bf;
+  }
+
+  .group:hover .md\:group-hover\:bg-indigo-800 {
+    background-color: #434190;
+  }
+
+  .group:hover .md\:group-hover\:bg-indigo-900 {
+    background-color: #3c366b;
+  }
+
+  .group:hover .md\:group-hover\:bg-purple-100 {
+    background-color: #faf5ff;
+  }
+
+  .group:hover .md\:group-hover\:bg-purple-200 {
+    background-color: #e9d8fd;
+  }
+
+  .group:hover .md\:group-hover\:bg-purple-300 {
+    background-color: #d6bcfa;
+  }
+
+  .group:hover .md\:group-hover\:bg-purple-400 {
+    background-color: #b794f4;
+  }
+
+  .group:hover .md\:group-hover\:bg-purple-500 {
+    background-color: #9f7aea;
+  }
+
+  .group:hover .md\:group-hover\:bg-purple-600 {
+    background-color: #805ad5;
+  }
+
+  .group:hover .md\:group-hover\:bg-purple-700 {
+    background-color: #6b46c1;
+  }
+
+  .group:hover .md\:group-hover\:bg-purple-800 {
+    background-color: #553c9a;
+  }
+
+  .group:hover .md\:group-hover\:bg-purple-900 {
+    background-color: #44337a;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-100 {
+    background-color: #fff5f7;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-200 {
+    background-color: #fed7e2;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-300 {
+    background-color: #fbb6ce;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-400 {
+    background-color: #f687b3;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-500 {
+    background-color: #ed64a6;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-600 {
+    background-color: #d53f8c;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-700 {
+    background-color: #b83280;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-800 {
+    background-color: #97266d;
+  }
+
+  .group:hover .md\:group-hover\:bg-pink-900 {
     background-color: #702459;
   }
 
@@ -20588,6 +23244,576 @@ html {
     padding-left: 1px;
   }
 
+  .group:hover .md\:group-hover\:p-0 {
+    padding: 0;
+  }
+
+  .group:hover .md\:group-hover\:p-1 {
+    padding: 0.25rem;
+  }
+
+  .group:hover .md\:group-hover\:p-2 {
+    padding: 0.5rem;
+  }
+
+  .group:hover .md\:group-hover\:p-3 {
+    padding: 0.75rem;
+  }
+
+  .group:hover .md\:group-hover\:p-4 {
+    padding: 1rem;
+  }
+
+  .group:hover .md\:group-hover\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .group:hover .md\:group-hover\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .group:hover .md\:group-hover\:p-8 {
+    padding: 2rem;
+  }
+
+  .group:hover .md\:group-hover\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .group:hover .md\:group-hover\:p-12 {
+    padding: 3rem;
+  }
+
+  .group:hover .md\:group-hover\:p-16 {
+    padding: 4rem;
+  }
+
+  .group:hover .md\:group-hover\:p-20 {
+    padding: 5rem;
+  }
+
+  .group:hover .md\:group-hover\:p-24 {
+    padding: 6rem;
+  }
+
+  .group:hover .md\:group-hover\:p-32 {
+    padding: 8rem;
+  }
+
+  .group:hover .md\:group-hover\:p-40 {
+    padding: 10rem;
+  }
+
+  .group:hover .md\:group-hover\:p-48 {
+    padding: 12rem;
+  }
+
+  .group:hover .md\:group-hover\:p-56 {
+    padding: 14rem;
+  }
+
+  .group:hover .md\:group-hover\:p-64 {
+    padding: 16rem;
+  }
+
+  .group:hover .md\:group-hover\:p-px {
+    padding: 1px;
+  }
+
+  .group:hover .md\:group-hover\:py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .group:hover .md\:group-hover\:px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .group:hover .md\:group-hover\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .group:hover .md\:group-hover\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .group:hover .md\:group-hover\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .group:hover .md\:group-hover\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .group:hover .md\:group-hover\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .group:hover .md\:group-hover\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .group:hover .md\:group-hover\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .group:hover .md\:group-hover\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .group:hover .md\:group-hover\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .group:hover .md\:group-hover\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .group:hover .md\:group-hover\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .group:hover .md\:group-hover\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .group:hover .md\:group-hover\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .group:hover .md\:group-hover\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .group:hover .md\:group-hover\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .group:hover .md\:group-hover\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .group:hover .md\:group-hover\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .group:hover .md\:group-hover\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .group:hover .md\:group-hover\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .group:hover .md\:group-hover\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .group:hover .md\:group-hover\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .group:hover .md\:group-hover\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .group:hover .md\:group-hover\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .group:hover .md\:group-hover\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .group:hover .md\:group-hover\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .group:hover .md\:group-hover\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .group:hover .md\:group-hover\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .group:hover .md\:group-hover\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .group:hover .md\:group-hover\:py-48 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .group:hover .md\:group-hover\:px-48 {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  .group:hover .md\:group-hover\:py-56 {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+  }
+
+  .group:hover .md\:group-hover\:px-56 {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+
+  .group:hover .md\:group-hover\:py-64 {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+  }
+
+  .group:hover .md\:group-hover\:px-64 {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
+  .group:hover .md\:group-hover\:py-px {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .group:hover .md\:group-hover\:px-px {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .group:hover .md\:group-hover\:pt-0 {
+    padding-top: 0;
+  }
+
+  .group:hover .md\:group-hover\:pr-0 {
+    padding-right: 0;
+  }
+
+  .group:hover .md\:group-hover\:pb-0 {
+    padding-bottom: 0;
+  }
+
+  .group:hover .md\:group-hover\:pl-0 {
+    padding-left: 0;
+  }
+
+  .group:hover .md\:group-hover\:pt-1 {
+    padding-top: 0.25rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-1 {
+    padding-right: 0.25rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-1 {
+    padding-bottom: 0.25rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-1 {
+    padding-left: 0.25rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-2 {
+    padding-top: 0.5rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-2 {
+    padding-right: 0.5rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-2 {
+    padding-left: 0.5rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-3 {
+    padding-right: 0.75rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-3 {
+    padding-bottom: 0.75rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-3 {
+    padding-left: 0.75rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-4 {
+    padding-top: 1rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-4 {
+    padding-bottom: 1rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-5 {
+    padding-top: 1.25rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-5 {
+    padding-right: 1.25rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-5 {
+    padding-left: 1.25rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-6 {
+    padding-top: 1.5rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-6 {
+    padding-right: 1.5rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-8 {
+    padding-right: 2rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-8 {
+    padding-left: 2rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-12 {
+    padding-left: 3rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-20 {
+    padding-left: 5rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-24 {
+    padding-top: 6rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-24 {
+    padding-right: 6rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-24 {
+    padding-left: 6rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-32 {
+    padding-right: 8rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-32 {
+    padding-left: 8rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-40 {
+    padding-top: 10rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-40 {
+    padding-right: 10rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-40 {
+    padding-bottom: 10rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-40 {
+    padding-left: 10rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-48 {
+    padding-top: 12rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-48 {
+    padding-right: 12rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-48 {
+    padding-bottom: 12rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-48 {
+    padding-left: 12rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-56 {
+    padding-top: 14rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-56 {
+    padding-right: 14rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-56 {
+    padding-bottom: 14rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-56 {
+    padding-left: 14rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-64 {
+    padding-top: 16rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-64 {
+    padding-right: 16rem;
+  }
+
+  .group:hover .md\:group-hover\:pb-64 {
+    padding-bottom: 16rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-64 {
+    padding-left: 16rem;
+  }
+
+  .group:hover .md\:group-hover\:pt-px {
+    padding-top: 1px;
+  }
+
+  .group:hover .md\:group-hover\:pr-px {
+    padding-right: 1px;
+  }
+
+  .group:hover .md\:group-hover\:pb-px {
+    padding-bottom: 1px;
+  }
+
+  .group:hover .md\:group-hover\:pl-px {
+    padding-left: 1px;
+  }
+
   .md\:pointer-events-none {
     pointer-events: none;
   }
@@ -20791,6 +24017,38 @@ html {
   }
 
   .md\:focus\:shadow-none:focus {
+    box-shadow: none;
+  }
+
+  .group:hover .md\:group-hover\:shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+  }
+
+  .group:hover .md\:group-hover\:shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+  }
+
+  .group:hover .md\:group-hover\:shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+  }
+
+  .group:hover .md\:group-hover\:shadow-xl {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04);
+  }
+
+  .group:hover .md\:group-hover\:shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25);
+  }
+
+  .group:hover .md\:group-hover\:shadow-inner {
+    box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.06);
+  }
+
+  .group:hover .md\:group-hover\:shadow-outline {
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
+  }
+
+  .group:hover .md\:group-hover\:shadow-none {
     box-shadow: none;
   }
 
@@ -22331,38 +25589,6 @@ html {
     transform: none;
   }
 
-  .md\:transform-t {
-    transform-origin: top;
-  }
-
-  .md\:transform-tr {
-    transform-origin: top right;
-  }
-
-  .md\:transform-r {
-    transform-origin: right;
-  }
-
-  .md\:transform-br {
-    transform-origin: bottom right;
-  }
-
-  .md\:transform-b {
-    transform-origin: bottom;
-  }
-
-  .md\:transform-bl {
-    transform-origin: bottom left;
-  }
-
-  .md\:transform-l {
-    transform-origin: left;
-  }
-
-  .md\:transform-tl {
-    transform-origin: top left;
-  }
-
   .md\:translate-x-0 {
     transform: translateX(0);
   }
@@ -22427,6 +25653,38 @@ html {
     transform: translateY(10px);
   }
 
+  .group:hover .md\:group-hover\:translate-x-0 {
+    transform: translateX(0);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-0 {
+    transform: translateY(0);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-1\/2 {
+    transform: translateX(50%);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-1\/2 {
+    transform: translateY(50%);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-full {
+    transform: translateX(100%);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-full {
+    transform: translateY(100%);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-10px {
+    transform: translateX(10px);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-10px {
+    transform: translateY(10px);
+  }
+
   .md\:-translate-x-0 {
     transform: translateX(-0);
   }
@@ -22459,6 +25717,154 @@ html {
     transform: translateY(-10px);
   }
 
+  .md\:scale-90 {
+    transform: scale(0.9);
+  }
+
+  .md\:scale-x-90 {
+    transform: scaleX(0.9);
+  }
+
+  .md\:scale-y-90 {
+    transform: scaleY(0.9);
+  }
+
+  .md\:scale-100 {
+    transform: scale(1);
+  }
+
+  .md\:scale-x-100 {
+    transform: scaleX(1);
+  }
+
+  .md\:scale-y-100 {
+    transform: scaleY(1);
+  }
+
+  .md\:scale-110 {
+    transform: scale(1.1);
+  }
+
+  .md\:scale-x-110 {
+    transform: scaleX(1.1);
+  }
+
+  .md\:scale-y-110 {
+    transform: scaleY(1.1);
+  }
+
+  .group:hover .md\:group-hover\:scale-90 {
+    transform: scale(0.9);
+  }
+
+  .group:hover .md\:group-hover\:scale-x-90 {
+    transform: scaleX(0.9);
+  }
+
+  .group:hover .md\:group-hover\:scale-y-90 {
+    transform: scaleY(0.9);
+  }
+
+  .group:hover .md\:group-hover\:scale-100 {
+    transform: scale(1);
+  }
+
+  .group:hover .md\:group-hover\:scale-x-100 {
+    transform: scaleX(1);
+  }
+
+  .group:hover .md\:group-hover\:scale-y-100 {
+    transform: scaleY(1);
+  }
+
+  .group:hover .md\:group-hover\:scale-110 {
+    transform: scale(1.1);
+  }
+
+  .group:hover .md\:group-hover\:scale-x-110 {
+    transform: scaleX(1.1);
+  }
+
+  .group:hover .md\:group-hover\:scale-y-110 {
+    transform: scaleY(1.1);
+  }
+
+  .md\:-scale-90 {
+    transform: scale(-0.9);
+  }
+
+  .md\:-scale-x-90 {
+    transform: scaleX(-0.9);
+  }
+
+  .md\:-scale-y-90 {
+    transform: scaleY(-0.9);
+  }
+
+  .md\:-scale-100 {
+    transform: scale(-1);
+  }
+
+  .md\:-scale-x-100 {
+    transform: scaleX(-1);
+  }
+
+  .md\:-scale-y-100 {
+    transform: scaleY(-1);
+  }
+
+  .md\:-scale-110 {
+    transform: scale(-1.1);
+  }
+
+  .md\:-scale-x-110 {
+    transform: scaleX(-1.1);
+  }
+
+  .md\:-scale-y-110 {
+    transform: scaleY(-1.1);
+  }
+
+  .group:hover .md\:group-hover\:-scale-90 {
+    transform: scale(-0.9);
+  }
+
+  .group:hover .md\:group-hover\:-scale-x-90 {
+    transform: scaleX(-0.9);
+  }
+
+  .group:hover .md\:group-hover\:-scale-y-90 {
+    transform: scaleY(-0.9);
+  }
+
+  .group:hover .md\:group-hover\:-scale-100 {
+    transform: scale(-1);
+  }
+
+  .group:hover .md\:group-hover\:-scale-x-100 {
+    transform: scaleX(-1);
+  }
+
+  .group:hover .md\:group-hover\:-scale-y-100 {
+    transform: scaleY(-1);
+  }
+
+  .group:hover .md\:group-hover\:-scale-110 {
+    transform: scale(-1.1);
+  }
+
+  .group:hover .md\:group-hover\:-scale-x-110 {
+    transform: scaleX(-1.1);
+  }
+
+  .group:hover .md\:group-hover\:-scale-y-110 {
+    transform: scaleY(-1.1);
+  }
+
+  .md\:rotate-45 {
+    transform: rotate(45deg);
+  }
+
   .md\:rotate-90 {
     transform: rotate(90deg);
   }
@@ -22469,6 +25875,10 @@ html {
 
   .md\:rotate-270 {
     transform: rotate(270deg);
+  }
+
+  .md\:-rotate-45 {
+    transform: rotate(-45deg);
   }
 
   .md\:-rotate-90 {
@@ -22515,6 +25925,14 @@ html {
     transform: skewY(10deg);
   }
 
+  .md\:skew-x-30 {
+    transform: skewX(30deg);
+  }
+
+  .md\:skew-y-30 {
+    transform: skewY(30deg);
+  }
+
   .md\:-skew-x-1 {
     transform: skewX(-1deg);
   }
@@ -22545,6 +25963,14 @@ html {
 
   .md\:-skew-y-10 {
     transform: skewY(-10deg);
+  }
+
+  .md\:-skew-x-30 {
+    transform: skewX(-30deg);
+  }
+
+  .md\:-skew-y-30 {
+    transform: skewY(-30deg);
   }
 }
 
@@ -23678,6 +27104,378 @@ html {
   }
 
   .lg\:focus\:bg-pink-900:focus {
+    background-color: #702459;
+  }
+
+  .group:hover .lg\:group-hover\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .group:hover .lg\:group-hover\:bg-black {
+    background-color: #000;
+  }
+
+  .group:hover .lg\:group-hover\:bg-white {
+    background-color: #fff;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-100 {
+    background-color: #f7fafc;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-200 {
+    background-color: #edf2f7;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-300 {
+    background-color: #e2e8f0;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-400 {
+    background-color: #cbd5e0;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-500 {
+    background-color: #a0aec0;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-600 {
+    background-color: #718096;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-700 {
+    background-color: #4a5568;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-800 {
+    background-color: #2d3748;
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-900 {
+    background-color: #1a202c;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-100 {
+    background-color: #fff5f5;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-200 {
+    background-color: #fed7d7;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-300 {
+    background-color: #feb2b2;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-400 {
+    background-color: #fc8181;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-500 {
+    background-color: #f56565;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-600 {
+    background-color: #e53e3e;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-700 {
+    background-color: #c53030;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-800 {
+    background-color: #9b2c2c;
+  }
+
+  .group:hover .lg\:group-hover\:bg-red-900 {
+    background-color: #742a2a;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-100 {
+    background-color: #fffaf0;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-200 {
+    background-color: #feebc8;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-300 {
+    background-color: #fbd38d;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-400 {
+    background-color: #f6ad55;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-500 {
+    background-color: #ed8936;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-600 {
+    background-color: #dd6b20;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-700 {
+    background-color: #c05621;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-800 {
+    background-color: #9c4221;
+  }
+
+  .group:hover .lg\:group-hover\:bg-orange-900 {
+    background-color: #7b341e;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-100 {
+    background-color: #fffff0;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-200 {
+    background-color: #fefcbf;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-300 {
+    background-color: #faf089;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-400 {
+    background-color: #f6e05e;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-500 {
+    background-color: #ecc94b;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-600 {
+    background-color: #d69e2e;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-700 {
+    background-color: #b7791f;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-800 {
+    background-color: #975a16;
+  }
+
+  .group:hover .lg\:group-hover\:bg-yellow-900 {
+    background-color: #744210;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-100 {
+    background-color: #f0fff4;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-200 {
+    background-color: #c6f6d5;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-300 {
+    background-color: #9ae6b4;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-400 {
+    background-color: #52AF41;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-500 {
+    background-color: #52AF41;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-600 {
+    background-color: #38a169;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-700 {
+    background-color: #2f855a;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-800 {
+    background-color: #276749;
+  }
+
+  .group:hover .lg\:group-hover\:bg-green-900 {
+    background-color: #22543d;
+  }
+
+  .group:hover .lg\:group-hover\:bg-teal-100 {
+    background-color: #e6fffa;
+  }
+
+  .group:hover .lg\:group-hover\:bg-teal-200 {
+    background-color: #b2f5ea;
+  }
+
+  .group:hover .lg\:group-hover\:bg-teal-300 {
+    background-color: #81e6d9;
+  }
+
+  .group:hover .lg\:group-hover\:bg-teal-400 {
+    background-color: #4fd1c5;
+  }
+
+  .group:hover .lg\:group-hover\:bg-teal-500 {
+    background-color: #38b2ac;
+  }
+
+  .group:hover .lg\:group-hover\:bg-teal-600 {
+    background-color: #319795;
+  }
+
+  .group:hover .lg\:group-hover\:bg-teal-700 {
+    background-color: #2c7a7b;
+  }
+
+  .group:hover .lg\:group-hover\:bg-teal-800 {
+    background-color: #285e61;
+  }
+
+  .group:hover .lg\:group-hover\:bg-teal-900 {
+    background-color: #234e52;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-100 {
+    background-color: #ebf8ff;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-200 {
+    background-color: #bee3f8;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-300 {
+    background-color: #90cdf4;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-400 {
+    background-color: #63b3ed;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-500 {
+    background-color: #4299e1;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-600 {
+    background-color: #3182ce;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-700 {
+    background-color: #2b6cb0;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-800 {
+    background-color: #2c5282;
+  }
+
+  .group:hover .lg\:group-hover\:bg-blue-900 {
+    background-color: #2a4365;
+  }
+
+  .group:hover .lg\:group-hover\:bg-indigo-100 {
+    background-color: #ebf4ff;
+  }
+
+  .group:hover .lg\:group-hover\:bg-indigo-200 {
+    background-color: #c3dafe;
+  }
+
+  .group:hover .lg\:group-hover\:bg-indigo-300 {
+    background-color: #a3bffa;
+  }
+
+  .group:hover .lg\:group-hover\:bg-indigo-400 {
+    background-color: #7f9cf5;
+  }
+
+  .group:hover .lg\:group-hover\:bg-indigo-500 {
+    background-color: #667eea;
+  }
+
+  .group:hover .lg\:group-hover\:bg-indigo-600 {
+    background-color: #5a67d8;
+  }
+
+  .group:hover .lg\:group-hover\:bg-indigo-700 {
+    background-color: #4c51bf;
+  }
+
+  .group:hover .lg\:group-hover\:bg-indigo-800 {
+    background-color: #434190;
+  }
+
+  .group:hover .lg\:group-hover\:bg-indigo-900 {
+    background-color: #3c366b;
+  }
+
+  .group:hover .lg\:group-hover\:bg-purple-100 {
+    background-color: #faf5ff;
+  }
+
+  .group:hover .lg\:group-hover\:bg-purple-200 {
+    background-color: #e9d8fd;
+  }
+
+  .group:hover .lg\:group-hover\:bg-purple-300 {
+    background-color: #d6bcfa;
+  }
+
+  .group:hover .lg\:group-hover\:bg-purple-400 {
+    background-color: #b794f4;
+  }
+
+  .group:hover .lg\:group-hover\:bg-purple-500 {
+    background-color: #9f7aea;
+  }
+
+  .group:hover .lg\:group-hover\:bg-purple-600 {
+    background-color: #805ad5;
+  }
+
+  .group:hover .lg\:group-hover\:bg-purple-700 {
+    background-color: #6b46c1;
+  }
+
+  .group:hover .lg\:group-hover\:bg-purple-800 {
+    background-color: #553c9a;
+  }
+
+  .group:hover .lg\:group-hover\:bg-purple-900 {
+    background-color: #44337a;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-100 {
+    background-color: #fff5f7;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-200 {
+    background-color: #fed7e2;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-300 {
+    background-color: #fbb6ce;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-400 {
+    background-color: #f687b3;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-500 {
+    background-color: #ed64a6;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-600 {
+    background-color: #d53f8c;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-700 {
+    background-color: #b83280;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-800 {
+    background-color: #97266d;
+  }
+
+  .group:hover .lg\:group-hover\:bg-pink-900 {
     background-color: #702459;
   }
 
@@ -27821,6 +31619,576 @@ html {
     padding-left: 1px;
   }
 
+  .group:hover .lg\:group-hover\:p-0 {
+    padding: 0;
+  }
+
+  .group:hover .lg\:group-hover\:p-1 {
+    padding: 0.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-2 {
+    padding: 0.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-3 {
+    padding: 0.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-4 {
+    padding: 1rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-8 {
+    padding: 2rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-12 {
+    padding: 3rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-16 {
+    padding: 4rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-20 {
+    padding: 5rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-24 {
+    padding: 6rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-32 {
+    padding: 8rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-40 {
+    padding: 10rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-48 {
+    padding: 12rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-56 {
+    padding: 14rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-64 {
+    padding: 16rem;
+  }
+
+  .group:hover .lg\:group-hover\:p-px {
+    padding: 1px;
+  }
+
+  .group:hover .lg\:group-hover\:py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .group:hover .lg\:group-hover\:px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .group:hover .lg\:group-hover\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-48 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-48 {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-56 {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-56 {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-64 {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+  }
+
+  .group:hover .lg\:group-hover\:px-64 {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
+  .group:hover .lg\:group-hover\:py-px {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .group:hover .lg\:group-hover\:px-px {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .group:hover .lg\:group-hover\:pt-0 {
+    padding-top: 0;
+  }
+
+  .group:hover .lg\:group-hover\:pr-0 {
+    padding-right: 0;
+  }
+
+  .group:hover .lg\:group-hover\:pb-0 {
+    padding-bottom: 0;
+  }
+
+  .group:hover .lg\:group-hover\:pl-0 {
+    padding-left: 0;
+  }
+
+  .group:hover .lg\:group-hover\:pt-1 {
+    padding-top: 0.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-1 {
+    padding-right: 0.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-1 {
+    padding-bottom: 0.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-1 {
+    padding-left: 0.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-2 {
+    padding-top: 0.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-2 {
+    padding-right: 0.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-2 {
+    padding-left: 0.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-3 {
+    padding-right: 0.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-3 {
+    padding-bottom: 0.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-3 {
+    padding-left: 0.75rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-4 {
+    padding-top: 1rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-4 {
+    padding-bottom: 1rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-5 {
+    padding-top: 1.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-5 {
+    padding-right: 1.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-5 {
+    padding-left: 1.25rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-6 {
+    padding-top: 1.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-6 {
+    padding-right: 1.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-8 {
+    padding-right: 2rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-8 {
+    padding-left: 2rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-12 {
+    padding-left: 3rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-20 {
+    padding-left: 5rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-24 {
+    padding-top: 6rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-24 {
+    padding-right: 6rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-24 {
+    padding-left: 6rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-32 {
+    padding-right: 8rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-32 {
+    padding-left: 8rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-40 {
+    padding-top: 10rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-40 {
+    padding-right: 10rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-40 {
+    padding-bottom: 10rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-40 {
+    padding-left: 10rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-48 {
+    padding-top: 12rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-48 {
+    padding-right: 12rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-48 {
+    padding-bottom: 12rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-48 {
+    padding-left: 12rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-56 {
+    padding-top: 14rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-56 {
+    padding-right: 14rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-56 {
+    padding-bottom: 14rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-56 {
+    padding-left: 14rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-64 {
+    padding-top: 16rem;
+  }
+
+  .group:hover .lg\:group-hover\:pr-64 {
+    padding-right: 16rem;
+  }
+
+  .group:hover .lg\:group-hover\:pb-64 {
+    padding-bottom: 16rem;
+  }
+
+  .group:hover .lg\:group-hover\:pl-64 {
+    padding-left: 16rem;
+  }
+
+  .group:hover .lg\:group-hover\:pt-px {
+    padding-top: 1px;
+  }
+
+  .group:hover .lg\:group-hover\:pr-px {
+    padding-right: 1px;
+  }
+
+  .group:hover .lg\:group-hover\:pb-px {
+    padding-bottom: 1px;
+  }
+
+  .group:hover .lg\:group-hover\:pl-px {
+    padding-left: 1px;
+  }
+
   .lg\:pointer-events-none {
     pointer-events: none;
   }
@@ -28024,6 +32392,38 @@ html {
   }
 
   .lg\:focus\:shadow-none:focus {
+    box-shadow: none;
+  }
+
+  .group:hover .lg\:group-hover\:shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+  }
+
+  .group:hover .lg\:group-hover\:shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+  }
+
+  .group:hover .lg\:group-hover\:shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+  }
+
+  .group:hover .lg\:group-hover\:shadow-xl {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04);
+  }
+
+  .group:hover .lg\:group-hover\:shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25);
+  }
+
+  .group:hover .lg\:group-hover\:shadow-inner {
+    box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.06);
+  }
+
+  .group:hover .lg\:group-hover\:shadow-outline {
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
+  }
+
+  .group:hover .lg\:group-hover\:shadow-none {
     box-shadow: none;
   }
 
@@ -29564,38 +33964,6 @@ html {
     transform: none;
   }
 
-  .lg\:transform-t {
-    transform-origin: top;
-  }
-
-  .lg\:transform-tr {
-    transform-origin: top right;
-  }
-
-  .lg\:transform-r {
-    transform-origin: right;
-  }
-
-  .lg\:transform-br {
-    transform-origin: bottom right;
-  }
-
-  .lg\:transform-b {
-    transform-origin: bottom;
-  }
-
-  .lg\:transform-bl {
-    transform-origin: bottom left;
-  }
-
-  .lg\:transform-l {
-    transform-origin: left;
-  }
-
-  .lg\:transform-tl {
-    transform-origin: top left;
-  }
-
   .lg\:translate-x-0 {
     transform: translateX(0);
   }
@@ -29660,6 +34028,38 @@ html {
     transform: translateY(10px);
   }
 
+  .group:hover .lg\:group-hover\:translate-x-0 {
+    transform: translateX(0);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-0 {
+    transform: translateY(0);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-1\/2 {
+    transform: translateX(50%);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-1\/2 {
+    transform: translateY(50%);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-full {
+    transform: translateX(100%);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-full {
+    transform: translateY(100%);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-10px {
+    transform: translateX(10px);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-10px {
+    transform: translateY(10px);
+  }
+
   .lg\:-translate-x-0 {
     transform: translateX(-0);
   }
@@ -29692,6 +34092,154 @@ html {
     transform: translateY(-10px);
   }
 
+  .lg\:scale-90 {
+    transform: scale(0.9);
+  }
+
+  .lg\:scale-x-90 {
+    transform: scaleX(0.9);
+  }
+
+  .lg\:scale-y-90 {
+    transform: scaleY(0.9);
+  }
+
+  .lg\:scale-100 {
+    transform: scale(1);
+  }
+
+  .lg\:scale-x-100 {
+    transform: scaleX(1);
+  }
+
+  .lg\:scale-y-100 {
+    transform: scaleY(1);
+  }
+
+  .lg\:scale-110 {
+    transform: scale(1.1);
+  }
+
+  .lg\:scale-x-110 {
+    transform: scaleX(1.1);
+  }
+
+  .lg\:scale-y-110 {
+    transform: scaleY(1.1);
+  }
+
+  .group:hover .lg\:group-hover\:scale-90 {
+    transform: scale(0.9);
+  }
+
+  .group:hover .lg\:group-hover\:scale-x-90 {
+    transform: scaleX(0.9);
+  }
+
+  .group:hover .lg\:group-hover\:scale-y-90 {
+    transform: scaleY(0.9);
+  }
+
+  .group:hover .lg\:group-hover\:scale-100 {
+    transform: scale(1);
+  }
+
+  .group:hover .lg\:group-hover\:scale-x-100 {
+    transform: scaleX(1);
+  }
+
+  .group:hover .lg\:group-hover\:scale-y-100 {
+    transform: scaleY(1);
+  }
+
+  .group:hover .lg\:group-hover\:scale-110 {
+    transform: scale(1.1);
+  }
+
+  .group:hover .lg\:group-hover\:scale-x-110 {
+    transform: scaleX(1.1);
+  }
+
+  .group:hover .lg\:group-hover\:scale-y-110 {
+    transform: scaleY(1.1);
+  }
+
+  .lg\:-scale-90 {
+    transform: scale(-0.9);
+  }
+
+  .lg\:-scale-x-90 {
+    transform: scaleX(-0.9);
+  }
+
+  .lg\:-scale-y-90 {
+    transform: scaleY(-0.9);
+  }
+
+  .lg\:-scale-100 {
+    transform: scale(-1);
+  }
+
+  .lg\:-scale-x-100 {
+    transform: scaleX(-1);
+  }
+
+  .lg\:-scale-y-100 {
+    transform: scaleY(-1);
+  }
+
+  .lg\:-scale-110 {
+    transform: scale(-1.1);
+  }
+
+  .lg\:-scale-x-110 {
+    transform: scaleX(-1.1);
+  }
+
+  .lg\:-scale-y-110 {
+    transform: scaleY(-1.1);
+  }
+
+  .group:hover .lg\:group-hover\:-scale-90 {
+    transform: scale(-0.9);
+  }
+
+  .group:hover .lg\:group-hover\:-scale-x-90 {
+    transform: scaleX(-0.9);
+  }
+
+  .group:hover .lg\:group-hover\:-scale-y-90 {
+    transform: scaleY(-0.9);
+  }
+
+  .group:hover .lg\:group-hover\:-scale-100 {
+    transform: scale(-1);
+  }
+
+  .group:hover .lg\:group-hover\:-scale-x-100 {
+    transform: scaleX(-1);
+  }
+
+  .group:hover .lg\:group-hover\:-scale-y-100 {
+    transform: scaleY(-1);
+  }
+
+  .group:hover .lg\:group-hover\:-scale-110 {
+    transform: scale(-1.1);
+  }
+
+  .group:hover .lg\:group-hover\:-scale-x-110 {
+    transform: scaleX(-1.1);
+  }
+
+  .group:hover .lg\:group-hover\:-scale-y-110 {
+    transform: scaleY(-1.1);
+  }
+
+  .lg\:rotate-45 {
+    transform: rotate(45deg);
+  }
+
   .lg\:rotate-90 {
     transform: rotate(90deg);
   }
@@ -29702,6 +34250,10 @@ html {
 
   .lg\:rotate-270 {
     transform: rotate(270deg);
+  }
+
+  .lg\:-rotate-45 {
+    transform: rotate(-45deg);
   }
 
   .lg\:-rotate-90 {
@@ -29748,6 +34300,14 @@ html {
     transform: skewY(10deg);
   }
 
+  .lg\:skew-x-30 {
+    transform: skewX(30deg);
+  }
+
+  .lg\:skew-y-30 {
+    transform: skewY(30deg);
+  }
+
   .lg\:-skew-x-1 {
     transform: skewX(-1deg);
   }
@@ -29778,6 +34338,14 @@ html {
 
   .lg\:-skew-y-10 {
     transform: skewY(-10deg);
+  }
+
+  .lg\:-skew-x-30 {
+    transform: skewX(-30deg);
+  }
+
+  .lg\:-skew-y-30 {
+    transform: skewY(-30deg);
   }
 }
 
@@ -30911,6 +35479,378 @@ html {
   }
 
   .xl\:focus\:bg-pink-900:focus {
+    background-color: #702459;
+  }
+
+  .group:hover .xl\:group-hover\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .group:hover .xl\:group-hover\:bg-black {
+    background-color: #000;
+  }
+
+  .group:hover .xl\:group-hover\:bg-white {
+    background-color: #fff;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-100 {
+    background-color: #f7fafc;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-200 {
+    background-color: #edf2f7;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-300 {
+    background-color: #e2e8f0;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-400 {
+    background-color: #cbd5e0;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-500 {
+    background-color: #a0aec0;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-600 {
+    background-color: #718096;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-700 {
+    background-color: #4a5568;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-800 {
+    background-color: #2d3748;
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-900 {
+    background-color: #1a202c;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-100 {
+    background-color: #fff5f5;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-200 {
+    background-color: #fed7d7;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-300 {
+    background-color: #feb2b2;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-400 {
+    background-color: #fc8181;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-500 {
+    background-color: #f56565;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-600 {
+    background-color: #e53e3e;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-700 {
+    background-color: #c53030;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-800 {
+    background-color: #9b2c2c;
+  }
+
+  .group:hover .xl\:group-hover\:bg-red-900 {
+    background-color: #742a2a;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-100 {
+    background-color: #fffaf0;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-200 {
+    background-color: #feebc8;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-300 {
+    background-color: #fbd38d;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-400 {
+    background-color: #f6ad55;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-500 {
+    background-color: #ed8936;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-600 {
+    background-color: #dd6b20;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-700 {
+    background-color: #c05621;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-800 {
+    background-color: #9c4221;
+  }
+
+  .group:hover .xl\:group-hover\:bg-orange-900 {
+    background-color: #7b341e;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-100 {
+    background-color: #fffff0;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-200 {
+    background-color: #fefcbf;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-300 {
+    background-color: #faf089;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-400 {
+    background-color: #f6e05e;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-500 {
+    background-color: #ecc94b;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-600 {
+    background-color: #d69e2e;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-700 {
+    background-color: #b7791f;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-800 {
+    background-color: #975a16;
+  }
+
+  .group:hover .xl\:group-hover\:bg-yellow-900 {
+    background-color: #744210;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-100 {
+    background-color: #f0fff4;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-200 {
+    background-color: #c6f6d5;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-300 {
+    background-color: #9ae6b4;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-400 {
+    background-color: #52AF41;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-500 {
+    background-color: #52AF41;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-600 {
+    background-color: #38a169;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-700 {
+    background-color: #2f855a;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-800 {
+    background-color: #276749;
+  }
+
+  .group:hover .xl\:group-hover\:bg-green-900 {
+    background-color: #22543d;
+  }
+
+  .group:hover .xl\:group-hover\:bg-teal-100 {
+    background-color: #e6fffa;
+  }
+
+  .group:hover .xl\:group-hover\:bg-teal-200 {
+    background-color: #b2f5ea;
+  }
+
+  .group:hover .xl\:group-hover\:bg-teal-300 {
+    background-color: #81e6d9;
+  }
+
+  .group:hover .xl\:group-hover\:bg-teal-400 {
+    background-color: #4fd1c5;
+  }
+
+  .group:hover .xl\:group-hover\:bg-teal-500 {
+    background-color: #38b2ac;
+  }
+
+  .group:hover .xl\:group-hover\:bg-teal-600 {
+    background-color: #319795;
+  }
+
+  .group:hover .xl\:group-hover\:bg-teal-700 {
+    background-color: #2c7a7b;
+  }
+
+  .group:hover .xl\:group-hover\:bg-teal-800 {
+    background-color: #285e61;
+  }
+
+  .group:hover .xl\:group-hover\:bg-teal-900 {
+    background-color: #234e52;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-100 {
+    background-color: #ebf8ff;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-200 {
+    background-color: #bee3f8;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-300 {
+    background-color: #90cdf4;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-400 {
+    background-color: #63b3ed;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-500 {
+    background-color: #4299e1;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-600 {
+    background-color: #3182ce;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-700 {
+    background-color: #2b6cb0;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-800 {
+    background-color: #2c5282;
+  }
+
+  .group:hover .xl\:group-hover\:bg-blue-900 {
+    background-color: #2a4365;
+  }
+
+  .group:hover .xl\:group-hover\:bg-indigo-100 {
+    background-color: #ebf4ff;
+  }
+
+  .group:hover .xl\:group-hover\:bg-indigo-200 {
+    background-color: #c3dafe;
+  }
+
+  .group:hover .xl\:group-hover\:bg-indigo-300 {
+    background-color: #a3bffa;
+  }
+
+  .group:hover .xl\:group-hover\:bg-indigo-400 {
+    background-color: #7f9cf5;
+  }
+
+  .group:hover .xl\:group-hover\:bg-indigo-500 {
+    background-color: #667eea;
+  }
+
+  .group:hover .xl\:group-hover\:bg-indigo-600 {
+    background-color: #5a67d8;
+  }
+
+  .group:hover .xl\:group-hover\:bg-indigo-700 {
+    background-color: #4c51bf;
+  }
+
+  .group:hover .xl\:group-hover\:bg-indigo-800 {
+    background-color: #434190;
+  }
+
+  .group:hover .xl\:group-hover\:bg-indigo-900 {
+    background-color: #3c366b;
+  }
+
+  .group:hover .xl\:group-hover\:bg-purple-100 {
+    background-color: #faf5ff;
+  }
+
+  .group:hover .xl\:group-hover\:bg-purple-200 {
+    background-color: #e9d8fd;
+  }
+
+  .group:hover .xl\:group-hover\:bg-purple-300 {
+    background-color: #d6bcfa;
+  }
+
+  .group:hover .xl\:group-hover\:bg-purple-400 {
+    background-color: #b794f4;
+  }
+
+  .group:hover .xl\:group-hover\:bg-purple-500 {
+    background-color: #9f7aea;
+  }
+
+  .group:hover .xl\:group-hover\:bg-purple-600 {
+    background-color: #805ad5;
+  }
+
+  .group:hover .xl\:group-hover\:bg-purple-700 {
+    background-color: #6b46c1;
+  }
+
+  .group:hover .xl\:group-hover\:bg-purple-800 {
+    background-color: #553c9a;
+  }
+
+  .group:hover .xl\:group-hover\:bg-purple-900 {
+    background-color: #44337a;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-100 {
+    background-color: #fff5f7;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-200 {
+    background-color: #fed7e2;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-300 {
+    background-color: #fbb6ce;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-400 {
+    background-color: #f687b3;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-500 {
+    background-color: #ed64a6;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-600 {
+    background-color: #d53f8c;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-700 {
+    background-color: #b83280;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-800 {
+    background-color: #97266d;
+  }
+
+  .group:hover .xl\:group-hover\:bg-pink-900 {
     background-color: #702459;
   }
 
@@ -35054,6 +39994,576 @@ html {
     padding-left: 1px;
   }
 
+  .group:hover .xl\:group-hover\:p-0 {
+    padding: 0;
+  }
+
+  .group:hover .xl\:group-hover\:p-1 {
+    padding: 0.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-2 {
+    padding: 0.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-3 {
+    padding: 0.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-4 {
+    padding: 1rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-8 {
+    padding: 2rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-12 {
+    padding: 3rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-16 {
+    padding: 4rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-20 {
+    padding: 5rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-24 {
+    padding: 6rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-32 {
+    padding: 8rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-40 {
+    padding: 10rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-48 {
+    padding: 12rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-56 {
+    padding: 14rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-64 {
+    padding: 16rem;
+  }
+
+  .group:hover .xl\:group-hover\:p-px {
+    padding: 1px;
+  }
+
+  .group:hover .xl\:group-hover\:py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .group:hover .xl\:group-hover\:px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .group:hover .xl\:group-hover\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-48 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-48 {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-56 {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-56 {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-64 {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+  }
+
+  .group:hover .xl\:group-hover\:px-64 {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
+  .group:hover .xl\:group-hover\:py-px {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .group:hover .xl\:group-hover\:px-px {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .group:hover .xl\:group-hover\:pt-0 {
+    padding-top: 0;
+  }
+
+  .group:hover .xl\:group-hover\:pr-0 {
+    padding-right: 0;
+  }
+
+  .group:hover .xl\:group-hover\:pb-0 {
+    padding-bottom: 0;
+  }
+
+  .group:hover .xl\:group-hover\:pl-0 {
+    padding-left: 0;
+  }
+
+  .group:hover .xl\:group-hover\:pt-1 {
+    padding-top: 0.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-1 {
+    padding-right: 0.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-1 {
+    padding-bottom: 0.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-1 {
+    padding-left: 0.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-2 {
+    padding-top: 0.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-2 {
+    padding-right: 0.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-2 {
+    padding-left: 0.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-3 {
+    padding-right: 0.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-3 {
+    padding-bottom: 0.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-3 {
+    padding-left: 0.75rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-4 {
+    padding-top: 1rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-4 {
+    padding-bottom: 1rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-5 {
+    padding-top: 1.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-5 {
+    padding-right: 1.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-5 {
+    padding-left: 1.25rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-6 {
+    padding-top: 1.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-6 {
+    padding-right: 1.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-8 {
+    padding-right: 2rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-8 {
+    padding-left: 2rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-12 {
+    padding-left: 3rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-20 {
+    padding-left: 5rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-24 {
+    padding-top: 6rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-24 {
+    padding-right: 6rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-24 {
+    padding-left: 6rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-32 {
+    padding-right: 8rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-32 {
+    padding-left: 8rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-40 {
+    padding-top: 10rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-40 {
+    padding-right: 10rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-40 {
+    padding-bottom: 10rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-40 {
+    padding-left: 10rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-48 {
+    padding-top: 12rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-48 {
+    padding-right: 12rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-48 {
+    padding-bottom: 12rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-48 {
+    padding-left: 12rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-56 {
+    padding-top: 14rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-56 {
+    padding-right: 14rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-56 {
+    padding-bottom: 14rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-56 {
+    padding-left: 14rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-64 {
+    padding-top: 16rem;
+  }
+
+  .group:hover .xl\:group-hover\:pr-64 {
+    padding-right: 16rem;
+  }
+
+  .group:hover .xl\:group-hover\:pb-64 {
+    padding-bottom: 16rem;
+  }
+
+  .group:hover .xl\:group-hover\:pl-64 {
+    padding-left: 16rem;
+  }
+
+  .group:hover .xl\:group-hover\:pt-px {
+    padding-top: 1px;
+  }
+
+  .group:hover .xl\:group-hover\:pr-px {
+    padding-right: 1px;
+  }
+
+  .group:hover .xl\:group-hover\:pb-px {
+    padding-bottom: 1px;
+  }
+
+  .group:hover .xl\:group-hover\:pl-px {
+    padding-left: 1px;
+  }
+
   .xl\:pointer-events-none {
     pointer-events: none;
   }
@@ -35257,6 +40767,38 @@ html {
   }
 
   .xl\:focus\:shadow-none:focus {
+    box-shadow: none;
+  }
+
+  .group:hover .xl\:group-hover\:shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+  }
+
+  .group:hover .xl\:group-hover\:shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+  }
+
+  .group:hover .xl\:group-hover\:shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+  }
+
+  .group:hover .xl\:group-hover\:shadow-xl {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04);
+  }
+
+  .group:hover .xl\:group-hover\:shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25);
+  }
+
+  .group:hover .xl\:group-hover\:shadow-inner {
+    box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.06);
+  }
+
+  .group:hover .xl\:group-hover\:shadow-outline {
+    box-shadow: 0 0 0 3px rgba(81,175,65,0.5);
+  }
+
+  .group:hover .xl\:group-hover\:shadow-none {
     box-shadow: none;
   }
 
@@ -36797,38 +42339,6 @@ html {
     transform: none;
   }
 
-  .xl\:transform-t {
-    transform-origin: top;
-  }
-
-  .xl\:transform-tr {
-    transform-origin: top right;
-  }
-
-  .xl\:transform-r {
-    transform-origin: right;
-  }
-
-  .xl\:transform-br {
-    transform-origin: bottom right;
-  }
-
-  .xl\:transform-b {
-    transform-origin: bottom;
-  }
-
-  .xl\:transform-bl {
-    transform-origin: bottom left;
-  }
-
-  .xl\:transform-l {
-    transform-origin: left;
-  }
-
-  .xl\:transform-tl {
-    transform-origin: top left;
-  }
-
   .xl\:translate-x-0 {
     transform: translateX(0);
   }
@@ -36893,6 +42403,38 @@ html {
     transform: translateY(10px);
   }
 
+  .group:hover .xl\:group-hover\:translate-x-0 {
+    transform: translateX(0);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-0 {
+    transform: translateY(0);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-1\/2 {
+    transform: translateX(50%);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-1\/2 {
+    transform: translateY(50%);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-full {
+    transform: translateX(100%);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-full {
+    transform: translateY(100%);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-10px {
+    transform: translateX(10px);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-10px {
+    transform: translateY(10px);
+  }
+
   .xl\:-translate-x-0 {
     transform: translateX(-0);
   }
@@ -36925,6 +42467,154 @@ html {
     transform: translateY(-10px);
   }
 
+  .xl\:scale-90 {
+    transform: scale(0.9);
+  }
+
+  .xl\:scale-x-90 {
+    transform: scaleX(0.9);
+  }
+
+  .xl\:scale-y-90 {
+    transform: scaleY(0.9);
+  }
+
+  .xl\:scale-100 {
+    transform: scale(1);
+  }
+
+  .xl\:scale-x-100 {
+    transform: scaleX(1);
+  }
+
+  .xl\:scale-y-100 {
+    transform: scaleY(1);
+  }
+
+  .xl\:scale-110 {
+    transform: scale(1.1);
+  }
+
+  .xl\:scale-x-110 {
+    transform: scaleX(1.1);
+  }
+
+  .xl\:scale-y-110 {
+    transform: scaleY(1.1);
+  }
+
+  .group:hover .xl\:group-hover\:scale-90 {
+    transform: scale(0.9);
+  }
+
+  .group:hover .xl\:group-hover\:scale-x-90 {
+    transform: scaleX(0.9);
+  }
+
+  .group:hover .xl\:group-hover\:scale-y-90 {
+    transform: scaleY(0.9);
+  }
+
+  .group:hover .xl\:group-hover\:scale-100 {
+    transform: scale(1);
+  }
+
+  .group:hover .xl\:group-hover\:scale-x-100 {
+    transform: scaleX(1);
+  }
+
+  .group:hover .xl\:group-hover\:scale-y-100 {
+    transform: scaleY(1);
+  }
+
+  .group:hover .xl\:group-hover\:scale-110 {
+    transform: scale(1.1);
+  }
+
+  .group:hover .xl\:group-hover\:scale-x-110 {
+    transform: scaleX(1.1);
+  }
+
+  .group:hover .xl\:group-hover\:scale-y-110 {
+    transform: scaleY(1.1);
+  }
+
+  .xl\:-scale-90 {
+    transform: scale(-0.9);
+  }
+
+  .xl\:-scale-x-90 {
+    transform: scaleX(-0.9);
+  }
+
+  .xl\:-scale-y-90 {
+    transform: scaleY(-0.9);
+  }
+
+  .xl\:-scale-100 {
+    transform: scale(-1);
+  }
+
+  .xl\:-scale-x-100 {
+    transform: scaleX(-1);
+  }
+
+  .xl\:-scale-y-100 {
+    transform: scaleY(-1);
+  }
+
+  .xl\:-scale-110 {
+    transform: scale(-1.1);
+  }
+
+  .xl\:-scale-x-110 {
+    transform: scaleX(-1.1);
+  }
+
+  .xl\:-scale-y-110 {
+    transform: scaleY(-1.1);
+  }
+
+  .group:hover .xl\:group-hover\:-scale-90 {
+    transform: scale(-0.9);
+  }
+
+  .group:hover .xl\:group-hover\:-scale-x-90 {
+    transform: scaleX(-0.9);
+  }
+
+  .group:hover .xl\:group-hover\:-scale-y-90 {
+    transform: scaleY(-0.9);
+  }
+
+  .group:hover .xl\:group-hover\:-scale-100 {
+    transform: scale(-1);
+  }
+
+  .group:hover .xl\:group-hover\:-scale-x-100 {
+    transform: scaleX(-1);
+  }
+
+  .group:hover .xl\:group-hover\:-scale-y-100 {
+    transform: scaleY(-1);
+  }
+
+  .group:hover .xl\:group-hover\:-scale-110 {
+    transform: scale(-1.1);
+  }
+
+  .group:hover .xl\:group-hover\:-scale-x-110 {
+    transform: scaleX(-1.1);
+  }
+
+  .group:hover .xl\:group-hover\:-scale-y-110 {
+    transform: scaleY(-1.1);
+  }
+
+  .xl\:rotate-45 {
+    transform: rotate(45deg);
+  }
+
   .xl\:rotate-90 {
     transform: rotate(90deg);
   }
@@ -36935,6 +42625,10 @@ html {
 
   .xl\:rotate-270 {
     transform: rotate(270deg);
+  }
+
+  .xl\:-rotate-45 {
+    transform: rotate(-45deg);
   }
 
   .xl\:-rotate-90 {
@@ -36981,6 +42675,14 @@ html {
     transform: skewY(10deg);
   }
 
+  .xl\:skew-x-30 {
+    transform: skewX(30deg);
+  }
+
+  .xl\:skew-y-30 {
+    transform: skewY(30deg);
+  }
+
   .xl\:-skew-x-1 {
     transform: skewX(-1deg);
   }
@@ -37011,6 +42713,14 @@ html {
 
   .xl\:-skew-y-10 {
     transform: skewY(-10deg);
+  }
+
+  .xl\:-skew-x-30 {
+    transform: skewX(-30deg);
+  }
+
+  .xl\:-skew-y-30 {
+    transform: skewY(-30deg);
   }
 }
 
