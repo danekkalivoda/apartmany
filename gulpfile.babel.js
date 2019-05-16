@@ -156,6 +156,7 @@ task("startServer", () => {
       "**/*.md",
       "**/*.png",
       "**/*.yml",
+      "**/*.vue",
       "!_site/**/*",
       "!node_modules"
     ],
