@@ -110,12 +110,15 @@ sections:
   - block-margin-bottom: true
     blocks:
       - alignment: text-center
-        header: Kontaktní formulář
+        header: ''
         header-alignment: text-center
         mobile-width-class: full
         tablet-width-class: 3/4
         type: contact-forms
+    header: Kontaktní formulář
+    header-alignment: text-center
     padding-top: true
+    subHeader: napište mi
     type: blocks
     vertical-alignment: justify-center
 background: bg-gray-800
