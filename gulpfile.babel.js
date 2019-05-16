@@ -120,11 +120,11 @@ task("processStyles", done => {
       gulpif(
         !devBuild,
         new purgecss({
-          content: ["_site/**/*.html", "src/**/*.js"],
+          content: ["_site/**/*.html", "src/**/*.js", "src/**/*.vue"],
           extractors: [
             {
               extractor: TailwindExtractor,
-              extensions: ["html", "js"]
+              extensions: ["html", "js", "vue"]
             }
           ]
         })
