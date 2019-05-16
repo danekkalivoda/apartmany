@@ -19,8 +19,8 @@ layout: compress
 
   <body class="bg-gray-100">
 
-    <header class="fixed top-0 left-0 w-full bg-white shadow z-30">
-	<nav class="flex items-center justify-between flex-wrap py-3 sm:py-6 px-3 sm:px-6 max-w-6xl mx-auto">
+    <header class="fixed w-full z-40">
+	<nav class="flex items-center justify-between flex-wrap pt-3 pb-3 sm:pt-4 sm:pb-6 px-3 sm:px-6 max-w-6xl mx-auto relative z-10">
 	  <a class="flex flex-col text-left flex-no-shrink text-green-500 mr-6 no-underline" href="/">
 			<span class="font-semibold text-xl tracking-tight uppercase block">Andrea Skolková</span>
 			<span class="font-light text-xxs md:text-xs tracking-tighter uppercase text-gray-500 block">Osobní trenér & marketingový specialista</span>
@@ -47,6 +47,9 @@ layout: compress
     <a href="/#moje-sporty" class="block py-3 lg:inline-block lg:p-0 text-gray-800 font-medium uppercase hover:text-green-600 hover:underline lg:ml-8 xl:ml-16">Treningy</a>
     
 
+    <a href="/#kontaktni-formular" class="block py-3 lg:inline-block lg:p-0 text-gray-800 font-medium uppercase hover:text-green-600 hover:underline lg:ml-8 xl:ml-16">Napište mi</a>
+    
+
 			<a href="/blog" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 mt-3 lg:mt-0 lg:ml-8 xl:ml-16 rounded transition inline-flex fill-current uppercase self-start">
 					<svg height="24" viewBox="0 0 24 24" width="24" class="h-5 w-5 mr-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="pencil"><path d="m0 0h24v24h-24z"/></clipPath><g clip-path="url(#pencil)"><path d="m49.586-74.477-6.164-6.164-16.6 16.6-1.233 7.4 7.4-1.233 1.19-1.19zm-6.164-4.109 4.109 4.111-2.056 2.055-4.111-4.109zm-3.084 3.086 4.111 4.109-11.3 11.3-4.113-4.109zm-12.986 17.1.775-4.65 3.873 3.868z" transform="translate(-25.586 80.641)"/></g></svg>
 					<spa>Blog</spa>
@@ -58,6 +61,8 @@ layout: compress
 	    </div>
 	  </div>
 	</nav>
+	<div class="absolute top-0 left-0 w-full h-full bg-white shadow-md -skew-y-1"></div>
+	<div class="absolute top-0 left-0 w-1/2 h-full bg-white"></div>
 </header>
     
   	<section class="max-w-6xl mx-auto pt-24 sm:pt-32 px-8 sm:px-4 leading-normal">
@@ -78,12 +83,14 @@ layout: compress
         
           <div class="inline-flex flex-row w-full md:w-1/3 pb-2 md:pb-4 md:px-2 group">
     <div class="flex flex-col items-stretch overflow-hidden transition translate-y-10px group-hover:bg-white group-hover:shadow-lg group-hover:translate-y-0">
-            <a href="/blog/crossfitove-nadeje-nadchazejici-ery/" class="block relative overflow-hidden aspect-ratio-16/9 group-hover:scale-110 transition">
-                <img class="lozad w-full h-full absolute top-0 left-0 object-cover z-10 transition-slow opacity-0" data-src="/static/images/uploads/24331.jpeg?nf_resize=fit&w=800" alt="CrossFitové naděje nadcházející éry.">
-                <div class="absolute w-full h-full -translate-y-1/2 z-0">
-                    <div class="spinner"></div>
-                </div>
-            </a>
+            <div class="group overflow-hidden">
+                <a href="/blog/crossfitove-nadeje-nadchazejici-ery/" class="block relative overflow-hidden aspect-ratio-16/9 transition group-hover:scale-110">
+                    <img class="lozad w-full h-full absolute top-0 left-0 object-cover z-10 transition-slow opacity-0" data-src="/static/images/uploads/24331.jpeg?nf_resize=fit&w=800" alt="CrossFitové naděje nadcházející éry.">
+                    <div class="absolute w-full h-full -translate-y-1/2 z-0">
+                        <div class="spinner"></div>
+                    </div>
+                </a>
+            </div>
         <div class="px-4 md:px-8 pt-4 md:pt-8">
             <h3 class="font-bold text-xl mb-2"><a href="/blog/crossfitove-nadeje-nadchazejici-ery/" class="block text-green-500 hover:no-underline font-medium sm:text-lg mb-2 md:mb-4">CrossFitové naděje nadcházející éry.</a></h3>
             <div class="block mb-2 text-xs font-bold">29. 04. 2019</div>
@@ -99,12 +106,14 @@ layout: compress
         
           <div class="inline-flex flex-row w-full md:w-1/3 pb-2 md:pb-4 md:px-2 group">
     <div class="flex flex-col items-stretch overflow-hidden transition translate-y-10px group-hover:bg-white group-hover:shadow-lg group-hover:translate-y-0">
-            <a href="/blog/misto-ktere-vzdy-vykouzli-usmev-na-tvari/" class="block relative overflow-hidden aspect-ratio-16/9 group-hover:scale-110 transition">
-                <img class="lozad w-full h-full absolute top-0 left-0 object-cover z-10 transition-slow opacity-0" data-src="/static/images/uploads/16276.jpeg?nf_resize=fit&w=800" alt="Místo, které vždy vykouzlí úsměv na tváři. ">
-                <div class="absolute w-full h-full -translate-y-1/2 z-0">
-                    <div class="spinner"></div>
-                </div>
-            </a>
+            <div class="group overflow-hidden">
+                <a href="/blog/misto-ktere-vzdy-vykouzli-usmev-na-tvari/" class="block relative overflow-hidden aspect-ratio-16/9 transition group-hover:scale-110">
+                    <img class="lozad w-full h-full absolute top-0 left-0 object-cover z-10 transition-slow opacity-0" data-src="/static/images/uploads/16276.jpeg?nf_resize=fit&w=800" alt="Místo, které vždy vykouzlí úsměv na tváři. ">
+                    <div class="absolute w-full h-full -translate-y-1/2 z-0">
+                        <div class="spinner"></div>
+                    </div>
+                </a>
+            </div>
         <div class="px-4 md:px-8 pt-4 md:pt-8">
             <h3 class="font-bold text-xl mb-2"><a href="/blog/misto-ktere-vzdy-vykouzli-usmev-na-tvari/" class="block text-green-500 hover:no-underline font-medium sm:text-lg mb-2 md:mb-4">Místo, které vždy vykouzlí úsměv na tváři. </a></h3>
             <div class="block mb-2 text-xs font-bold">2. 04. 2019</div>

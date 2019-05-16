@@ -19,8 +19,8 @@ layout: compress
 
   <body class="bg-gray-100">
 
-    <header class="fixed top-0 left-0 w-full bg-white shadow z-30">
-	<nav class="flex items-center justify-between flex-wrap py-3 sm:py-6 px-3 sm:px-6 max-w-6xl mx-auto">
+    <header class="fixed w-full z-40">
+	<nav class="flex items-center justify-between flex-wrap pt-3 pb-3 sm:pt-4 sm:pb-6 px-3 sm:px-6 max-w-6xl mx-auto relative z-10">
 	  <a class="flex flex-col text-left flex-no-shrink text-green-500 mr-6 no-underline" href="/">
 			<span class="font-semibold text-xl tracking-tight uppercase block">Andrea Skolková</span>
 			<span class="font-light text-xxs md:text-xs tracking-tighter uppercase text-gray-500 block">Osobní trenér & marketingový specialista</span>
@@ -47,6 +47,9 @@ layout: compress
     <a href="/#moje-sporty" class="block py-3 lg:inline-block lg:p-0 text-gray-800 font-medium uppercase hover:text-green-600 hover:underline lg:ml-8 xl:ml-16">Treningy</a>
     
 
+    <a href="/#kontaktni-formular" class="block py-3 lg:inline-block lg:p-0 text-gray-800 font-medium uppercase hover:text-green-600 hover:underline lg:ml-8 xl:ml-16">Napište mi</a>
+    
+
 			<a href="/blog" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 mt-3 lg:mt-0 lg:ml-8 xl:ml-16 rounded transition inline-flex fill-current uppercase self-start">
 					<svg height="24" viewBox="0 0 24 24" width="24" class="h-5 w-5 mr-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="pencil"><path d="m0 0h24v24h-24z"/></clipPath><g clip-path="url(#pencil)"><path d="m49.586-74.477-6.164-6.164-16.6 16.6-1.233 7.4 7.4-1.233 1.19-1.19zm-6.164-4.109 4.109 4.111-2.056 2.055-4.111-4.109zm-3.084 3.086 4.111 4.109-11.3 11.3-4.113-4.109zm-12.986 17.1.775-4.65 3.873 3.868z" transform="translate(-25.586 80.641)"/></g></svg>
 					<spa>Blog</spa>
@@ -58,24 +61,27 @@ layout: compress
 	    </div>
 	  </div>
 	</nav>
+	<div class="absolute top-0 left-0 w-full h-full bg-white shadow-md -skew-y-1"></div>
+	<div class="absolute top-0 left-0 w-1/2 h-full bg-white"></div>
 </header>
     
-  	<section class="pt-20 mb-8 bg-gray-300 bg-top lg:bg-center relative" data-image-type="homepage">
-  <img data-src="/static/images/uploads/andy-homepage-pure.jpg" class="lozad w-full h-full absolute top-0 left-0 object-cover z-0 transition-slow opacity-0">
-  <div class="absolute w-full h-full translate-y-1/2 -mt-10 z-0 transition-slow">
-    <div class="spinner"></div>
+  	<section class="pt-20 bg-green-500 sm:bg-gray-300 bg-top lg:bg-center relative overflow-hidden" data-image-type="homepage">
+  <div class="relative rounded-full w-40 h-40 m-auto mt-8 overflow-hidden sm:absolute sm:w-full sm:h-full sm:mt-0 sm:rounded-none sm:-mt-20">
+    <img data-src="/static/images/uploads/andy-homepage-pure.jpg" class="lozad w-full h-full absolute top-0 object-cover z-0 transition-slow opacity-0">
+    <div class="absolute w-full h-full translate-y-1/2 z-0 transition-slow">
+      <div class="spinner"></div>
+    </div>
   </div>
-  <div class="px-4 pt-12 sm:py-24 md:py-32 pb-10 lg:pb-48 text-center sm:text-left max-w-6xl mx-auto relative z-30">
-    <div class="max-w-xs mx-auto sm:mx-4">
-      <h1 class="text-3xl md:text-4xl font-bold text-white mt-0 sm:mt-16">Ahoj, jsem Andy</h1>
-      <p class="text-white md:text-xl pb-64 sm:pb-0">pomůžu ti být lepší, zdravější...</p>
-      <p class="text-white text-xs md:text-sm xl:text-base pb-4 opacity-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit nibh, laoreet sed mi vel, consectetur sollicitudin dui.</p>
+  <div class="px-4 pt-4 sm:pt-12 md:pt-12 lg:pt-24 sm:pb-24 md:pb-20 lg:pb-40 text-center sm:text-left max-w-6xl mx-auto relative z-30">
+    <div class="max-w-xs mx-auto sm:pr-16 md:pr-8 lg:pr-0 sm:mx-2">
+      <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white lg:mt-12">Ahoj, jsem Andy</h1>
+      <p class="text-white text-sm lg:text-xl sm:pb-0">pomůžu ti být lepší, zdravější...</p>
+      <p class="text-white sm:pr-12 md:pr-0 text-xs md:text-sm xl:text-base pb-4 opacity-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit nibh, laoreet sed mi vel, consectetur sollicitudin dui.</p>
       <a href="#" class="mb-16 sm:mb-4 bg-transparent hover:bg-white text-white font-semibold text-sm md:text-base hover:text-green-500 py-2 px-4 border border-white hover:border-transparent rounded inline-block">Co klientům nabízím</a>
     </div>
   </div>
-  <div class="absolute bottom-0 h-48 w-full -mb-32 z-0 skew-y-2 bg-gray-100 z-20"></div>
-  <div class="absolute bottom-0 h-full w-1/2 -ml-32 -mb-16 z-0 skew-x-10 bg-black opacity-25 z-10"></div>
-  <div class="absolute bottom-0 h-48 right-0 w-1/3 -mb-32 z-0 -skew-y-5 bg-gray-100 z-20"></div>
+  <div class="absolute hidden sm:block bottom-0 sm:h-full w-1/2 md:w-88 lg:w-2/5 xl:w-1/2 -ml-8 sm:-ml-12 md:-ml-4 lg:-ml-8 xl:-ml-32 -mb-16 z-0 skew-x-10 bg-black opacity-25 z-10"></div>
+  <div class="absolute bottom-0 h-48 w-full -mb-40 sm:-mb-32 z-0 -skew-y-1 bg-gray-100 z-20"></div>
 </section>
 
 
@@ -170,12 +176,14 @@ layout: compress
       
         <div class="inline-flex flex-row w-full md:w-1/3 pb-2 md:pb-4 md:px-2 group">
     <div class="flex flex-col items-stretch overflow-hidden transition translate-y-10px group-hover:bg-white group-hover:shadow-lg group-hover:translate-y-0">
-            <a href="/blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit/" class="block relative overflow-hidden aspect-ratio-16/9 group-hover:scale-110 transition">
-                <img class="lozad w-full h-full absolute top-0 left-0 object-cover z-10 transition-slow opacity-0" data-src="/static/images/uploads/4986.jpg?nf_resize=fit&w=800" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
-                <div class="absolute w-full h-full -translate-y-1/2 z-0">
-                    <div class="spinner"></div>
-                </div>
-            </a>
+            <div class="group overflow-hidden">
+                <a href="/blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit/" class="block relative overflow-hidden aspect-ratio-16/9 transition group-hover:scale-110">
+                    <img class="lozad w-full h-full absolute top-0 left-0 object-cover z-10 transition-slow opacity-0" data-src="/static/images/uploads/4986.jpg?nf_resize=fit&w=800" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                    <div class="absolute w-full h-full -translate-y-1/2 z-0">
+                        <div class="spinner"></div>
+                    </div>
+                </a>
+            </div>
         <div class="px-4 md:px-8 pt-4 md:pt-8">
             <h3 class="font-bold text-xl mb-2"><a href="/blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit/" class="block text-green-500 hover:no-underline font-medium sm:text-lg mb-2 md:mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h3>
             <div class="block mb-2 text-xs font-bold">6. 05. 2019</div>
@@ -191,12 +199,14 @@ layout: compress
       
         <div class="inline-flex flex-row w-full md:w-1/3 pb-2 md:pb-4 md:px-2 group">
     <div class="flex flex-col items-stretch overflow-hidden transition translate-y-10px group-hover:bg-white group-hover:shadow-lg group-hover:translate-y-0">
-            <a href="/blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-1/" class="block relative overflow-hidden aspect-ratio-16/9 group-hover:scale-110 transition">
-                <img class="lozad w-full h-full absolute top-0 left-0 object-cover z-10 transition-slow opacity-0" data-src="/static/images/uploads/20150701_090349.jpg?nf_resize=fit&w=800" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
-                <div class="absolute w-full h-full -translate-y-1/2 z-0">
-                    <div class="spinner"></div>
-                </div>
-            </a>
+            <div class="group overflow-hidden">
+                <a href="/blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-1/" class="block relative overflow-hidden aspect-ratio-16/9 transition group-hover:scale-110">
+                    <img class="lozad w-full h-full absolute top-0 left-0 object-cover z-10 transition-slow opacity-0" data-src="/static/images/uploads/20150701_090349.jpg?nf_resize=fit&w=800" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                    <div class="absolute w-full h-full -translate-y-1/2 z-0">
+                        <div class="spinner"></div>
+                    </div>
+                </a>
+            </div>
         <div class="px-4 md:px-8 pt-4 md:pt-8">
             <h3 class="font-bold text-xl mb-2"><a href="/blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-1/" class="block text-green-500 hover:no-underline font-medium sm:text-lg mb-2 md:mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h3>
             <div class="block mb-2 text-xs font-bold">5. 05. 2019</div>
@@ -212,12 +222,14 @@ layout: compress
       
         <div class="inline-flex flex-row w-full md:w-1/3 pb-2 md:pb-4 md:px-2 group">
     <div class="flex flex-col items-stretch overflow-hidden transition translate-y-10px group-hover:bg-white group-hover:shadow-lg group-hover:translate-y-0">
-            <a href="/blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-2/" class="block relative overflow-hidden aspect-ratio-16/9 group-hover:scale-110 transition">
-                <img class="lozad w-full h-full absolute top-0 left-0 object-cover z-10 transition-slow opacity-0" data-src="/static/images/uploads/20181231_122648.jpg?nf_resize=fit&w=800" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
-                <div class="absolute w-full h-full -translate-y-1/2 z-0">
-                    <div class="spinner"></div>
-                </div>
-            </a>
+            <div class="group overflow-hidden">
+                <a href="/blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-2/" class="block relative overflow-hidden aspect-ratio-16/9 transition group-hover:scale-110">
+                    <img class="lozad w-full h-full absolute top-0 left-0 object-cover z-10 transition-slow opacity-0" data-src="/static/images/uploads/20181231_122648.jpg?nf_resize=fit&w=800" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                    <div class="absolute w-full h-full -translate-y-1/2 z-0">
+                        <div class="spinner"></div>
+                    </div>
+                </a>
+            </div>
         <div class="px-4 md:px-8 pt-4 md:pt-8">
             <h3 class="font-bold text-xl mb-2"><a href="/blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-2/" class="block text-green-500 hover:no-underline font-medium sm:text-lg mb-2 md:mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h3>
             <div class="block mb-2 text-xs font-bold">4. 05. 2019</div>
@@ -382,9 +394,7 @@ layout: compress
     
   </div>
   
-  <div class="bg-gray-800 absolute inset-0 z-0 -skew-y-2"></div>
-  <div class="bg-gray-800 absolute top-0 h-64 w-1/3 z-0 skew-y-5"></div>
-  <div class="bg-gray-800 absolute bottom-0 h-64 right-0 w-1/3 z-0 skew-y-5"></div>
+  <div class="bg-gray-800 absolute inset-0 z-0 -skew-y-1"></div>
   
 </section>
 
@@ -394,6 +404,20 @@ layout: compress
 
   <div class="max-w-6xl mx-auto px-4 sm:px-8 relative z-10">
     
+      <h2 class="
+        text-center
+        
+        
+        text-green-500 text-2xl font-medium relative">
+        <a name="kontaktni-formular" class="absolute -mt-24 sm:-mt-32"></a>
+        Kontaktní formulář
+      </h2>
+    
+    
+      <p class="text-center font-normal text-lg text-gray-600">
+        napište mi
+      </p>
+      <hr class="border-b border-green-500 w-10 my-6">
     
 
     
@@ -408,8 +432,6 @@ layout: compress
             
             <div class="mx-auto w-full md:w-1/2">
               <div class='text-center  mb-4 sm:mb-8'>
-                
-                  <h3 class=' font-bold pb-4'>Kontaktní formulář</h3>
                   
                 <form action="https://getsimpleform.com/messages?form_api_token=9d24dc44dc61e45779226ca35e65732e" method="post" class="w-full mt-2">
                   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->

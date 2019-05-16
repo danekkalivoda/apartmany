@@ -101,7 +101,7 @@ task("processJavascript", done => {
     }))
     .pipe(babel({presets: ['@babel/env']}))
     .pipe(uglify())
-    .pipe(dest(jsRoot));
+    .pipe(dest(jsRoot))
 });
 
 
@@ -159,7 +159,7 @@ task("startServer", () => {
       "!_site/**/*",
       "!node_modules"
     ],
-    { interval: 500 },
+    { interval: 1000 },
     buildSite
   );
 });
