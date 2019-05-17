@@ -23,18 +23,6 @@ sections:
           pohltil a nadšení mi zůstalo do teď. A co se týče studia, má schopnost
           učení se nových pohybů a vykonávání všemožných sportů se rapidně
           zlepšila.
-
-
-          Co mám na CrossFitu nejraději? To, že člověka vede k lepšímu já a
-          zlepšuje jeho život v mnoha ohledech. To, že nás v pohybovém hledisku
-          připravuje komplexně a všestranně a trénink je pokaždé jiný. Skvělou
-          partu lidí v gymu.
-
-
-          Mým snem vždy bylo pomáhat lidem. Díky koučování nyní pomáhám lidem
-          hýbat se optimálně, cítit se zdravěji a lépe ve svém vlastním těle.
-          Není nic lepšího než spokojený klient, který odchází s pocitem
-          naplnění, nadšením z tréninku a o něco zdravější a výkonnější.
         type: texts
     header: Kdo jsem
     header-alignment: text-center
@@ -68,6 +56,23 @@ sections:
     padding-top: true
     section-background: bg-white
     type: gallery
+  - blocks:
+      - desktop-width-class: 2/3
+        mobile-width-class: full
+        tablet-width-class: 3/4
+        text: >-
+          Co mám na CrossFitu nejraději? To, že člověka vede k lepšímu já a
+          zlepšuje jeho život v mnoha ohledech. To, že nás v pohybovém hledisku
+          připravuje komplexně a všestranně a trénink je pokaždé jiný. Skvělou
+          partu lidí v gymu.
+
+
+          Mým snem vždy bylo pomáhat lidem. Díky koučování nyní pomáhám lidem
+          hýbat se optimálně, cítit se zdravěji a lépe ve svém vlastním těle.
+          Není nic lepšího než spokojený klient, který odchází s pocitem
+          naplnění, nadšením z tréninku a o něco zdravější a výkonnější.
+        type: texts
+    type: blocks
   - block-margin-bottom: false
     blocks:
       - header: ''
