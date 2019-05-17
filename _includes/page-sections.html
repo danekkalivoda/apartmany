@@ -1,6 +1,6 @@
 {% for section in page.sections%}
 
-<section class="{% if section.padding-top %} pt-4 sm:pt-8{% endif %} pb-4 sm:pb-8 sections-content relative">
+<section class="{% if section.padding-top %} pt-4 sm:pt-8{% endif %} pb-4 sm:pb-8 sections-content relative {% if section.images and section.images != '' %}z-50{% endif %}">
 
   <div class="max-w-6xl mx-auto px-4 sm:px-8 relative z-10">
     {% if section.header and section.header != '' %}
@@ -21,9 +21,14 @@
     {% endif %}
 
     {% if section.images and section.images != '' %}
-      {% for image in section.images %}
-        <img src="/static{{ image }}">
-      {% endfor %}
+      <script src="{{ "assets/js/gallery.js" | relative_url }}" defer></script>
+      <div id="app">
+          <gallery :images="[
+            {% for image in section.images %}
+              '/static{{ image }}',
+            {% endfor %}
+          ]"></gallery>
+      </div>
     {% endif %}
 
     {% if section.blocks and section.blocks != '' %}

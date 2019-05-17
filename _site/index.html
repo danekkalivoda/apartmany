@@ -86,7 +86,7 @@ layout: compress
 
 
 
-<section class=" pb-4 sm:pb-8 sections-content relative">
+<section class=" pb-4 sm:pb-8 sections-content relative ">
 
   <div class="max-w-6xl mx-auto px-4 sm:px-8 relative z-10">
     
@@ -140,7 +140,7 @@ layout: compress
 
 
 
-<section class=" pb-4 sm:pb-8 sections-content relative">
+<section class=" pb-4 sm:pb-8 sections-content relative ">
 
   <div class="max-w-6xl mx-auto px-4 sm:px-8 relative z-10">
     
@@ -266,7 +266,7 @@ layout: compress
 
 
 
-<section class=" pt-4 sm:pt-8 pb-4 sm:pb-8 sections-content relative">
+<section class=" pt-4 sm:pt-8 pb-4 sm:pb-8 sections-content relative ">
 
   <div class="max-w-6xl mx-auto px-4 sm:px-8 relative z-10">
     
@@ -409,7 +409,7 @@ layout: compress
 
 
 
-<section class=" pt-4 sm:pt-8 pb-4 sm:pb-8 sections-content relative">
+<section class=" pt-4 sm:pt-8 pb-4 sm:pb-8 sections-content relative ">
 
   <div class="max-w-6xl mx-auto px-4 sm:px-8 relative z-10">
     
@@ -494,7 +494,7 @@ layout: compress
 
 
 
-<section class=" pb-4 sm:pb-8 sections-content relative">
+<section class=" pb-4 sm:pb-8 sections-content relative z-50">
 
   <div class="max-w-6xl mx-auto px-4 sm:px-8 relative z-10">
     
@@ -510,35 +510,32 @@ layout: compress
     
 
     
-      
-        <img src="/static/images/uploads/58440215_862216644128290_384652235976068986_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg">
-      
-        <img src="/static/images/uploads/58468829_1131734367005477_2345377136038034256_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg">
-      
-        <img src="/static/images/uploads/58698691_309798223266595_8263718462561372915_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg">
-      
-        <img src="/static/images/uploads/58701426_2368509106718208_4363321952472828338_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg">
-      
-        <img src="/static/images/uploads/58831710_632429803895880_8708515538167130996_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg">
-      
-        <img src="/static/images/uploads/59356669_622964171513259_9222697751949121018_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg">
-      
-        <img src="/static/images/uploads/59374335_1493787037424889_1176222775475607940_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg">
-      
-        <img src="/static/images/uploads/59407991_1328411820641643_6575651673599581230_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg">
-      
-        <img src="/static/images/uploads/59770368_125486408642320_4135907508334830233_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg">
-      
-        <img src="/static/images/uploads/59858445_141801000275141_1999096492130208792_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg">
-      
-        <img src="/static/images/uploads/57487963_650637155397766_4184371937032829766_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg">
-      
-        <img src="/static/images/uploads/14052.jpeg">
-      
-        <img src="/static/images/uploads/16276.jpeg">
-      
-        <img src="/static/images/uploads/20150701_090349.jpg">
-      
+      <script src="/assets/js/gallery.js" defer></script>
+      <div id="app">
+          <gallery :images="[
+            
+              '/static/images/uploads/58440215_862216644128290_384652235976068986_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg',
+            
+              '/static/images/uploads/58468829_1131734367005477_2345377136038034256_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg',
+            
+              '/static/images/uploads/58698691_309798223266595_8263718462561372915_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg',
+            
+              '/static/images/uploads/58701426_2368509106718208_4363321952472828338_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg',
+            
+              '/static/images/uploads/58831710_632429803895880_8708515538167130996_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg',
+            
+              '/static/images/uploads/59356669_622964171513259_9222697751949121018_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg',
+            
+              '/static/images/uploads/59374335_1493787037424889_1176222775475607940_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg',
+            
+              '/static/images/uploads/59407991_1328411820641643_6575651673599581230_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg',
+            
+              '/static/images/uploads/59770368_125486408642320_4135907508334830233_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg',
+            
+              '/static/images/uploads/59858445_141801000275141_1999096492130208792_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg',
+            
+          ]"></gallery>
+      </div>
     
 
     
@@ -549,18 +546,6 @@ layout: compress
 
 
 
-
-<script src="/assets/js/gallery.js" defer></script>
-
-<div id="app">
-  <gallery :images="[
-  'https://dummyimage.com/800/ffffff/000000',
-  'https://dummyimage.com/1600/ffffff/000000',
-  'https://dummyimage.com/1280/000000/ffffff',
-  'https://dummyimage.com/400/000000/ffffff',
-  'https://dummyimage.com/300/000000/ffffff',
-]"></gallery>
-</div>
 
     <footer>
 	<div class="max-w-6xl mx-auto p-8 text-center text-sm md:text-base">

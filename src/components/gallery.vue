@@ -1,5 +1,5 @@
 <template>
-  <div class="m-auto max-w-3xl">
+  <div>
     <gallery :images="images" :index="index" @close="index = null"></gallery>
     <div class="inline-flex w-1/5"
       v-for="(image, imageIndex) in images"
