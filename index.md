@@ -42,6 +42,32 @@ sections:
     header-padding-top: false
     subHeader: 'moje kariéra, moje sny…'
     type: blocks
+  - header: ''
+    images:
+      - >-
+        /images/uploads/58440215_862216644128290_384652235976068986_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+      - >-
+        /images/uploads/58468829_1131734367005477_2345377136038034256_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+      - >-
+        /images/uploads/58698691_309798223266595_8263718462561372915_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+      - >-
+        /images/uploads/58701426_2368509106718208_4363321952472828338_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+      - >-
+        /images/uploads/58831710_632429803895880_8708515538167130996_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+      - >-
+        /images/uploads/59356669_622964171513259_9222697751949121018_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+      - >-
+        /images/uploads/59374335_1493787037424889_1176222775475607940_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+      - >-
+        /images/uploads/59407991_1328411820641643_6575651673599581230_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+      - >-
+        /images/uploads/59770368_125486408642320_4135907508334830233_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+      - >-
+        /images/uploads/59858445_141801000275141_1999096492130208792_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+    margin-y: false
+    padding-top: true
+    section-background: bg-white
+    type: gallery
   - block-margin-bottom: false
     blocks:
       - header: ''
@@ -121,32 +147,6 @@ sections:
     subHeader: napište mi
     type: blocks
     vertical-alignment: justify-center
-  - header: ''
-    images:
-      - >-
-        /images/uploads/58440215_862216644128290_384652235976068986_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
-      - >-
-        /images/uploads/58468829_1131734367005477_2345377136038034256_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
-      - >-
-        /images/uploads/58698691_309798223266595_8263718462561372915_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
-      - >-
-        /images/uploads/58701426_2368509106718208_4363321952472828338_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
-      - >-
-        /images/uploads/58831710_632429803895880_8708515538167130996_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
-      - >-
-        /images/uploads/59356669_622964171513259_9222697751949121018_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
-      - >-
-        /images/uploads/59374335_1493787037424889_1176222775475607940_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
-      - >-
-        /images/uploads/59407991_1328411820641643_6575651673599581230_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
-      - >-
-        /images/uploads/59770368_125486408642320_4135907508334830233_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
-      - >-
-        /images/uploads/59858445_141801000275141_1999096492130208792_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
-    margin-y: false
-    padding-top: true
-    section-background: bg-white
-    type: gallery
 background: bg-gray-800
 light-texts: true
 active: true
