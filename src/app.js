@@ -18,6 +18,18 @@ import lozad from 'lozad';
     observer.triggerLoad(lozadImage);
 })();
 
+var header = document.getElementById('header');
+var body = document.getElementById('pageBody');
+var observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutationRecord) {
+        if (body.getAttribute("style")==""){
+            header.classList.remove('-translate-y-full', '-mt-24');
+        } else {
+            header.classList.add('-translate-y-full', '-mt-24');
+        } 
+    });    
+});
+observer.observe(body, { attributes : true, attributeFilter : ['style'] });
 
 function toggleClass(el, className){
     el.classList.toggle(className);
