@@ -143,11 +143,6 @@ sections:
         /images/uploads/59770368_125486408642320_4135907508334830233_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
       - >-
         /images/uploads/59858445_141801000275141_1999096492130208792_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
-      - >-
-        /images/uploads/57487963_650637155397766_4184371937032829766_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
-      - /images/uploads/14052.jpeg
-      - /images/uploads/16276.jpeg
-      - /images/uploads/20150701_090349.jpg
     type: gallery
 background: bg-gray-800
 light-texts: true
