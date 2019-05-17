@@ -144,6 +144,7 @@ sections:
       - >-
         /images/uploads/59858445_141801000275141_1999096492130208792_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
     margin-y: false
+    padding-top: true
     section-background: bg-white
     type: gallery
 background: bg-gray-800
