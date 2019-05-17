@@ -2,7 +2,7 @@
 layout: home
 title: 'Ahoj, jsem Andy'
 sections:
-  - block-margin-bottom: true
+  - block-margin-bottom: false
     blocks:
       - desktop-width-class: 2/3
         mobile-width-class: full
@@ -72,6 +72,7 @@ sections:
           Není nic lepšího než spokojený klient, který odchází s pocitem
           naplnění, nadšením z tréninku a o něco zdravější a výkonnější.
         type: texts
+    padding-top: true
     type: blocks
   - block-margin-bottom: false
     blocks:
