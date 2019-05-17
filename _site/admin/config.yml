@@ -227,7 +227,10 @@ collections:
                   - { label: "Světlé", value: "bg-white" }
                   - { label: "Tmavé", value: "bg-gray-800" }
               - {label: "Světlé texty", name: "light-texts", widget: "boolean", default: false, required: false}
-              - {label: "Odsazení", name: "margin-y", widget: "boolean", default: false, required: false}
+              - {label: "Horní odsazení nadpisu", name: "header-padding-top", widget: "boolean", default: false, required: false}
+              - {label: "Dolní odsazení nadpisu", name: "header-padding-bottom", widget: "boolean", default: false, required: false}
+              - {label: "Horní odsazení sekce", name: "padding-top", widget: "boolean", default: false, required: false}
+              - {label: "Dolní odsazení bloků", name: "block-margin-bottom", widget: "boolean", default: false, required: false}
               - label: Fotky
                 name: images
                 widget: list
