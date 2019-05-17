@@ -9050,6 +9050,166 @@ html {
   transform: translateY(0);
 }
 
+.translate-x-1 {
+  transform: translateX(0.25rem);
+}
+
+.translate-y-1 {
+  transform: translateY(0.25rem);
+}
+
+.translate-x-2 {
+  transform: translateX(0.5rem);
+}
+
+.translate-y-2 {
+  transform: translateY(0.5rem);
+}
+
+.translate-x-3 {
+  transform: translateX(0.75rem);
+}
+
+.translate-y-3 {
+  transform: translateY(0.75rem);
+}
+
+.translate-x-4 {
+  transform: translateX(1rem);
+}
+
+.translate-y-4 {
+  transform: translateY(1rem);
+}
+
+.translate-x-5 {
+  transform: translateX(1.25rem);
+}
+
+.translate-y-5 {
+  transform: translateY(1.25rem);
+}
+
+.translate-x-6 {
+  transform: translateX(1.5rem);
+}
+
+.translate-y-6 {
+  transform: translateY(1.5rem);
+}
+
+.translate-x-8 {
+  transform: translateX(2rem);
+}
+
+.translate-y-8 {
+  transform: translateY(2rem);
+}
+
+.translate-x-10 {
+  transform: translateX(2.5rem);
+}
+
+.translate-y-10 {
+  transform: translateY(2.5rem);
+}
+
+.translate-x-12 {
+  transform: translateX(3rem);
+}
+
+.translate-y-12 {
+  transform: translateY(3rem);
+}
+
+.translate-x-16 {
+  transform: translateX(4rem);
+}
+
+.translate-y-16 {
+  transform: translateY(4rem);
+}
+
+.translate-x-20 {
+  transform: translateX(5rem);
+}
+
+.translate-y-20 {
+  transform: translateY(5rem);
+}
+
+.translate-x-24 {
+  transform: translateX(6rem);
+}
+
+.translate-y-24 {
+  transform: translateY(6rem);
+}
+
+.translate-x-32 {
+  transform: translateX(8rem);
+}
+
+.translate-y-32 {
+  transform: translateY(8rem);
+}
+
+.translate-x-40 {
+  transform: translateX(10rem);
+}
+
+.translate-y-40 {
+  transform: translateY(10rem);
+}
+
+.translate-x-48 {
+  transform: translateX(12rem);
+}
+
+.translate-y-48 {
+  transform: translateY(12rem);
+}
+
+.translate-x-56 {
+  transform: translateX(14rem);
+}
+
+.translate-y-56 {
+  transform: translateY(14rem);
+}
+
+.translate-x-64 {
+  transform: translateX(16rem);
+}
+
+.translate-y-64 {
+  transform: translateY(16rem);
+}
+
+.translate-x-72 {
+  transform: translateX(18rem);
+}
+
+.translate-y-72 {
+  transform: translateY(18rem);
+}
+
+.translate-x-88 {
+  transform: translateX(22rem);
+}
+
+.translate-y-88 {
+  transform: translateY(22rem);
+}
+
+.translate-x-px {
+  transform: translateX(1px);
+}
+
+.translate-y-px {
+  transform: translateY(1px);
+}
+
 .translate-x-1\/2 {
   transform: translateX(50%);
 }
@@ -9080,6 +9240,166 @@ html {
 
 .hover\:translate-y-0:hover {
   transform: translateY(0);
+}
+
+.hover\:translate-x-1:hover {
+  transform: translateX(0.25rem);
+}
+
+.hover\:translate-y-1:hover {
+  transform: translateY(0.25rem);
+}
+
+.hover\:translate-x-2:hover {
+  transform: translateX(0.5rem);
+}
+
+.hover\:translate-y-2:hover {
+  transform: translateY(0.5rem);
+}
+
+.hover\:translate-x-3:hover {
+  transform: translateX(0.75rem);
+}
+
+.hover\:translate-y-3:hover {
+  transform: translateY(0.75rem);
+}
+
+.hover\:translate-x-4:hover {
+  transform: translateX(1rem);
+}
+
+.hover\:translate-y-4:hover {
+  transform: translateY(1rem);
+}
+
+.hover\:translate-x-5:hover {
+  transform: translateX(1.25rem);
+}
+
+.hover\:translate-y-5:hover {
+  transform: translateY(1.25rem);
+}
+
+.hover\:translate-x-6:hover {
+  transform: translateX(1.5rem);
+}
+
+.hover\:translate-y-6:hover {
+  transform: translateY(1.5rem);
+}
+
+.hover\:translate-x-8:hover {
+  transform: translateX(2rem);
+}
+
+.hover\:translate-y-8:hover {
+  transform: translateY(2rem);
+}
+
+.hover\:translate-x-10:hover {
+  transform: translateX(2.5rem);
+}
+
+.hover\:translate-y-10:hover {
+  transform: translateY(2.5rem);
+}
+
+.hover\:translate-x-12:hover {
+  transform: translateX(3rem);
+}
+
+.hover\:translate-y-12:hover {
+  transform: translateY(3rem);
+}
+
+.hover\:translate-x-16:hover {
+  transform: translateX(4rem);
+}
+
+.hover\:translate-y-16:hover {
+  transform: translateY(4rem);
+}
+
+.hover\:translate-x-20:hover {
+  transform: translateX(5rem);
+}
+
+.hover\:translate-y-20:hover {
+  transform: translateY(5rem);
+}
+
+.hover\:translate-x-24:hover {
+  transform: translateX(6rem);
+}
+
+.hover\:translate-y-24:hover {
+  transform: translateY(6rem);
+}
+
+.hover\:translate-x-32:hover {
+  transform: translateX(8rem);
+}
+
+.hover\:translate-y-32:hover {
+  transform: translateY(8rem);
+}
+
+.hover\:translate-x-40:hover {
+  transform: translateX(10rem);
+}
+
+.hover\:translate-y-40:hover {
+  transform: translateY(10rem);
+}
+
+.hover\:translate-x-48:hover {
+  transform: translateX(12rem);
+}
+
+.hover\:translate-y-48:hover {
+  transform: translateY(12rem);
+}
+
+.hover\:translate-x-56:hover {
+  transform: translateX(14rem);
+}
+
+.hover\:translate-y-56:hover {
+  transform: translateY(14rem);
+}
+
+.hover\:translate-x-64:hover {
+  transform: translateX(16rem);
+}
+
+.hover\:translate-y-64:hover {
+  transform: translateY(16rem);
+}
+
+.hover\:translate-x-72:hover {
+  transform: translateX(18rem);
+}
+
+.hover\:translate-y-72:hover {
+  transform: translateY(18rem);
+}
+
+.hover\:translate-x-88:hover {
+  transform: translateX(22rem);
+}
+
+.hover\:translate-y-88:hover {
+  transform: translateY(22rem);
+}
+
+.hover\:translate-x-px:hover {
+  transform: translateX(1px);
+}
+
+.hover\:translate-y-px:hover {
+  transform: translateY(1px);
 }
 
 .hover\:translate-x-1\/2:hover {
@@ -9114,6 +9434,166 @@ html {
   transform: translateY(0);
 }
 
+.group:hover .group-hover\:translate-x-1 {
+  transform: translateX(0.25rem);
+}
+
+.group:hover .group-hover\:translate-y-1 {
+  transform: translateY(0.25rem);
+}
+
+.group:hover .group-hover\:translate-x-2 {
+  transform: translateX(0.5rem);
+}
+
+.group:hover .group-hover\:translate-y-2 {
+  transform: translateY(0.5rem);
+}
+
+.group:hover .group-hover\:translate-x-3 {
+  transform: translateX(0.75rem);
+}
+
+.group:hover .group-hover\:translate-y-3 {
+  transform: translateY(0.75rem);
+}
+
+.group:hover .group-hover\:translate-x-4 {
+  transform: translateX(1rem);
+}
+
+.group:hover .group-hover\:translate-y-4 {
+  transform: translateY(1rem);
+}
+
+.group:hover .group-hover\:translate-x-5 {
+  transform: translateX(1.25rem);
+}
+
+.group:hover .group-hover\:translate-y-5 {
+  transform: translateY(1.25rem);
+}
+
+.group:hover .group-hover\:translate-x-6 {
+  transform: translateX(1.5rem);
+}
+
+.group:hover .group-hover\:translate-y-6 {
+  transform: translateY(1.5rem);
+}
+
+.group:hover .group-hover\:translate-x-8 {
+  transform: translateX(2rem);
+}
+
+.group:hover .group-hover\:translate-y-8 {
+  transform: translateY(2rem);
+}
+
+.group:hover .group-hover\:translate-x-10 {
+  transform: translateX(2.5rem);
+}
+
+.group:hover .group-hover\:translate-y-10 {
+  transform: translateY(2.5rem);
+}
+
+.group:hover .group-hover\:translate-x-12 {
+  transform: translateX(3rem);
+}
+
+.group:hover .group-hover\:translate-y-12 {
+  transform: translateY(3rem);
+}
+
+.group:hover .group-hover\:translate-x-16 {
+  transform: translateX(4rem);
+}
+
+.group:hover .group-hover\:translate-y-16 {
+  transform: translateY(4rem);
+}
+
+.group:hover .group-hover\:translate-x-20 {
+  transform: translateX(5rem);
+}
+
+.group:hover .group-hover\:translate-y-20 {
+  transform: translateY(5rem);
+}
+
+.group:hover .group-hover\:translate-x-24 {
+  transform: translateX(6rem);
+}
+
+.group:hover .group-hover\:translate-y-24 {
+  transform: translateY(6rem);
+}
+
+.group:hover .group-hover\:translate-x-32 {
+  transform: translateX(8rem);
+}
+
+.group:hover .group-hover\:translate-y-32 {
+  transform: translateY(8rem);
+}
+
+.group:hover .group-hover\:translate-x-40 {
+  transform: translateX(10rem);
+}
+
+.group:hover .group-hover\:translate-y-40 {
+  transform: translateY(10rem);
+}
+
+.group:hover .group-hover\:translate-x-48 {
+  transform: translateX(12rem);
+}
+
+.group:hover .group-hover\:translate-y-48 {
+  transform: translateY(12rem);
+}
+
+.group:hover .group-hover\:translate-x-56 {
+  transform: translateX(14rem);
+}
+
+.group:hover .group-hover\:translate-y-56 {
+  transform: translateY(14rem);
+}
+
+.group:hover .group-hover\:translate-x-64 {
+  transform: translateX(16rem);
+}
+
+.group:hover .group-hover\:translate-y-64 {
+  transform: translateY(16rem);
+}
+
+.group:hover .group-hover\:translate-x-72 {
+  transform: translateX(18rem);
+}
+
+.group:hover .group-hover\:translate-y-72 {
+  transform: translateY(18rem);
+}
+
+.group:hover .group-hover\:translate-x-88 {
+  transform: translateX(22rem);
+}
+
+.group:hover .group-hover\:translate-y-88 {
+  transform: translateY(22rem);
+}
+
+.group:hover .group-hover\:translate-x-px {
+  transform: translateX(1px);
+}
+
+.group:hover .group-hover\:translate-y-px {
+  transform: translateY(1px);
+}
+
 .group:hover .group-hover\:translate-x-1\/2 {
   transform: translateX(50%);
 }
@@ -9146,6 +9626,166 @@ html {
   transform: translateY(-0);
 }
 
+.-translate-x-1 {
+  transform: translateX(-0.25rem);
+}
+
+.-translate-y-1 {
+  transform: translateY(-0.25rem);
+}
+
+.-translate-x-2 {
+  transform: translateX(-0.5rem);
+}
+
+.-translate-y-2 {
+  transform: translateY(-0.5rem);
+}
+
+.-translate-x-3 {
+  transform: translateX(-0.75rem);
+}
+
+.-translate-y-3 {
+  transform: translateY(-0.75rem);
+}
+
+.-translate-x-4 {
+  transform: translateX(-1rem);
+}
+
+.-translate-y-4 {
+  transform: translateY(-1rem);
+}
+
+.-translate-x-5 {
+  transform: translateX(-1.25rem);
+}
+
+.-translate-y-5 {
+  transform: translateY(-1.25rem);
+}
+
+.-translate-x-6 {
+  transform: translateX(-1.5rem);
+}
+
+.-translate-y-6 {
+  transform: translateY(-1.5rem);
+}
+
+.-translate-x-8 {
+  transform: translateX(-2rem);
+}
+
+.-translate-y-8 {
+  transform: translateY(-2rem);
+}
+
+.-translate-x-10 {
+  transform: translateX(-2.5rem);
+}
+
+.-translate-y-10 {
+  transform: translateY(-2.5rem);
+}
+
+.-translate-x-12 {
+  transform: translateX(-3rem);
+}
+
+.-translate-y-12 {
+  transform: translateY(-3rem);
+}
+
+.-translate-x-16 {
+  transform: translateX(-4rem);
+}
+
+.-translate-y-16 {
+  transform: translateY(-4rem);
+}
+
+.-translate-x-20 {
+  transform: translateX(-5rem);
+}
+
+.-translate-y-20 {
+  transform: translateY(-5rem);
+}
+
+.-translate-x-24 {
+  transform: translateX(-6rem);
+}
+
+.-translate-y-24 {
+  transform: translateY(-6rem);
+}
+
+.-translate-x-32 {
+  transform: translateX(-8rem);
+}
+
+.-translate-y-32 {
+  transform: translateY(-8rem);
+}
+
+.-translate-x-40 {
+  transform: translateX(-10rem);
+}
+
+.-translate-y-40 {
+  transform: translateY(-10rem);
+}
+
+.-translate-x-48 {
+  transform: translateX(-12rem);
+}
+
+.-translate-y-48 {
+  transform: translateY(-12rem);
+}
+
+.-translate-x-56 {
+  transform: translateX(-14rem);
+}
+
+.-translate-y-56 {
+  transform: translateY(-14rem);
+}
+
+.-translate-x-64 {
+  transform: translateX(-16rem);
+}
+
+.-translate-y-64 {
+  transform: translateY(-16rem);
+}
+
+.-translate-x-72 {
+  transform: translateX(-18rem);
+}
+
+.-translate-y-72 {
+  transform: translateY(-18rem);
+}
+
+.-translate-x-88 {
+  transform: translateX(-22rem);
+}
+
+.-translate-y-88 {
+  transform: translateY(-22rem);
+}
+
+.-translate-x-px {
+  transform: translateX(-1px);
+}
+
+.-translate-y-px {
+  transform: translateY(-1px);
+}
+
 .-translate-x-1\/2 {
   transform: translateX(-50%);
 }
@@ -9167,6 +9807,390 @@ html {
 }
 
 .-translate-y-10px {
+  transform: translateY(-10px);
+}
+
+.hover\:-translate-x-0:hover {
+  transform: translateX(-0);
+}
+
+.hover\:-translate-y-0:hover {
+  transform: translateY(-0);
+}
+
+.hover\:-translate-x-1:hover {
+  transform: translateX(-0.25rem);
+}
+
+.hover\:-translate-y-1:hover {
+  transform: translateY(-0.25rem);
+}
+
+.hover\:-translate-x-2:hover {
+  transform: translateX(-0.5rem);
+}
+
+.hover\:-translate-y-2:hover {
+  transform: translateY(-0.5rem);
+}
+
+.hover\:-translate-x-3:hover {
+  transform: translateX(-0.75rem);
+}
+
+.hover\:-translate-y-3:hover {
+  transform: translateY(-0.75rem);
+}
+
+.hover\:-translate-x-4:hover {
+  transform: translateX(-1rem);
+}
+
+.hover\:-translate-y-4:hover {
+  transform: translateY(-1rem);
+}
+
+.hover\:-translate-x-5:hover {
+  transform: translateX(-1.25rem);
+}
+
+.hover\:-translate-y-5:hover {
+  transform: translateY(-1.25rem);
+}
+
+.hover\:-translate-x-6:hover {
+  transform: translateX(-1.5rem);
+}
+
+.hover\:-translate-y-6:hover {
+  transform: translateY(-1.5rem);
+}
+
+.hover\:-translate-x-8:hover {
+  transform: translateX(-2rem);
+}
+
+.hover\:-translate-y-8:hover {
+  transform: translateY(-2rem);
+}
+
+.hover\:-translate-x-10:hover {
+  transform: translateX(-2.5rem);
+}
+
+.hover\:-translate-y-10:hover {
+  transform: translateY(-2.5rem);
+}
+
+.hover\:-translate-x-12:hover {
+  transform: translateX(-3rem);
+}
+
+.hover\:-translate-y-12:hover {
+  transform: translateY(-3rem);
+}
+
+.hover\:-translate-x-16:hover {
+  transform: translateX(-4rem);
+}
+
+.hover\:-translate-y-16:hover {
+  transform: translateY(-4rem);
+}
+
+.hover\:-translate-x-20:hover {
+  transform: translateX(-5rem);
+}
+
+.hover\:-translate-y-20:hover {
+  transform: translateY(-5rem);
+}
+
+.hover\:-translate-x-24:hover {
+  transform: translateX(-6rem);
+}
+
+.hover\:-translate-y-24:hover {
+  transform: translateY(-6rem);
+}
+
+.hover\:-translate-x-32:hover {
+  transform: translateX(-8rem);
+}
+
+.hover\:-translate-y-32:hover {
+  transform: translateY(-8rem);
+}
+
+.hover\:-translate-x-40:hover {
+  transform: translateX(-10rem);
+}
+
+.hover\:-translate-y-40:hover {
+  transform: translateY(-10rem);
+}
+
+.hover\:-translate-x-48:hover {
+  transform: translateX(-12rem);
+}
+
+.hover\:-translate-y-48:hover {
+  transform: translateY(-12rem);
+}
+
+.hover\:-translate-x-56:hover {
+  transform: translateX(-14rem);
+}
+
+.hover\:-translate-y-56:hover {
+  transform: translateY(-14rem);
+}
+
+.hover\:-translate-x-64:hover {
+  transform: translateX(-16rem);
+}
+
+.hover\:-translate-y-64:hover {
+  transform: translateY(-16rem);
+}
+
+.hover\:-translate-x-72:hover {
+  transform: translateX(-18rem);
+}
+
+.hover\:-translate-y-72:hover {
+  transform: translateY(-18rem);
+}
+
+.hover\:-translate-x-88:hover {
+  transform: translateX(-22rem);
+}
+
+.hover\:-translate-y-88:hover {
+  transform: translateY(-22rem);
+}
+
+.hover\:-translate-x-px:hover {
+  transform: translateX(-1px);
+}
+
+.hover\:-translate-y-px:hover {
+  transform: translateY(-1px);
+}
+
+.hover\:-translate-x-1\/2:hover {
+  transform: translateX(-50%);
+}
+
+.hover\:-translate-y-1\/2:hover {
+  transform: translateY(-50%);
+}
+
+.hover\:-translate-x-full:hover {
+  transform: translateX(-100%);
+}
+
+.hover\:-translate-y-full:hover {
+  transform: translateY(-100%);
+}
+
+.hover\:-translate-x-10px:hover {
+  transform: translateX(-10px);
+}
+
+.hover\:-translate-y-10px:hover {
+  transform: translateY(-10px);
+}
+
+.group:hover .group-hover\:-translate-x-0 {
+  transform: translateX(-0);
+}
+
+.group:hover .group-hover\:-translate-y-0 {
+  transform: translateY(-0);
+}
+
+.group:hover .group-hover\:-translate-x-1 {
+  transform: translateX(-0.25rem);
+}
+
+.group:hover .group-hover\:-translate-y-1 {
+  transform: translateY(-0.25rem);
+}
+
+.group:hover .group-hover\:-translate-x-2 {
+  transform: translateX(-0.5rem);
+}
+
+.group:hover .group-hover\:-translate-y-2 {
+  transform: translateY(-0.5rem);
+}
+
+.group:hover .group-hover\:-translate-x-3 {
+  transform: translateX(-0.75rem);
+}
+
+.group:hover .group-hover\:-translate-y-3 {
+  transform: translateY(-0.75rem);
+}
+
+.group:hover .group-hover\:-translate-x-4 {
+  transform: translateX(-1rem);
+}
+
+.group:hover .group-hover\:-translate-y-4 {
+  transform: translateY(-1rem);
+}
+
+.group:hover .group-hover\:-translate-x-5 {
+  transform: translateX(-1.25rem);
+}
+
+.group:hover .group-hover\:-translate-y-5 {
+  transform: translateY(-1.25rem);
+}
+
+.group:hover .group-hover\:-translate-x-6 {
+  transform: translateX(-1.5rem);
+}
+
+.group:hover .group-hover\:-translate-y-6 {
+  transform: translateY(-1.5rem);
+}
+
+.group:hover .group-hover\:-translate-x-8 {
+  transform: translateX(-2rem);
+}
+
+.group:hover .group-hover\:-translate-y-8 {
+  transform: translateY(-2rem);
+}
+
+.group:hover .group-hover\:-translate-x-10 {
+  transform: translateX(-2.5rem);
+}
+
+.group:hover .group-hover\:-translate-y-10 {
+  transform: translateY(-2.5rem);
+}
+
+.group:hover .group-hover\:-translate-x-12 {
+  transform: translateX(-3rem);
+}
+
+.group:hover .group-hover\:-translate-y-12 {
+  transform: translateY(-3rem);
+}
+
+.group:hover .group-hover\:-translate-x-16 {
+  transform: translateX(-4rem);
+}
+
+.group:hover .group-hover\:-translate-y-16 {
+  transform: translateY(-4rem);
+}
+
+.group:hover .group-hover\:-translate-x-20 {
+  transform: translateX(-5rem);
+}
+
+.group:hover .group-hover\:-translate-y-20 {
+  transform: translateY(-5rem);
+}
+
+.group:hover .group-hover\:-translate-x-24 {
+  transform: translateX(-6rem);
+}
+
+.group:hover .group-hover\:-translate-y-24 {
+  transform: translateY(-6rem);
+}
+
+.group:hover .group-hover\:-translate-x-32 {
+  transform: translateX(-8rem);
+}
+
+.group:hover .group-hover\:-translate-y-32 {
+  transform: translateY(-8rem);
+}
+
+.group:hover .group-hover\:-translate-x-40 {
+  transform: translateX(-10rem);
+}
+
+.group:hover .group-hover\:-translate-y-40 {
+  transform: translateY(-10rem);
+}
+
+.group:hover .group-hover\:-translate-x-48 {
+  transform: translateX(-12rem);
+}
+
+.group:hover .group-hover\:-translate-y-48 {
+  transform: translateY(-12rem);
+}
+
+.group:hover .group-hover\:-translate-x-56 {
+  transform: translateX(-14rem);
+}
+
+.group:hover .group-hover\:-translate-y-56 {
+  transform: translateY(-14rem);
+}
+
+.group:hover .group-hover\:-translate-x-64 {
+  transform: translateX(-16rem);
+}
+
+.group:hover .group-hover\:-translate-y-64 {
+  transform: translateY(-16rem);
+}
+
+.group:hover .group-hover\:-translate-x-72 {
+  transform: translateX(-18rem);
+}
+
+.group:hover .group-hover\:-translate-y-72 {
+  transform: translateY(-18rem);
+}
+
+.group:hover .group-hover\:-translate-x-88 {
+  transform: translateX(-22rem);
+}
+
+.group:hover .group-hover\:-translate-y-88 {
+  transform: translateY(-22rem);
+}
+
+.group:hover .group-hover\:-translate-x-px {
+  transform: translateX(-1px);
+}
+
+.group:hover .group-hover\:-translate-y-px {
+  transform: translateY(-1px);
+}
+
+.group:hover .group-hover\:-translate-x-1\/2 {
+  transform: translateX(-50%);
+}
+
+.group:hover .group-hover\:-translate-y-1\/2 {
+  transform: translateY(-50%);
+}
+
+.group:hover .group-hover\:-translate-x-full {
+  transform: translateX(-100%);
+}
+
+.group:hover .group-hover\:-translate-y-full {
+  transform: translateY(-100%);
+}
+
+.group:hover .group-hover\:-translate-x-10px {
+  transform: translateX(-10px);
+}
+
+.group:hover .group-hover\:-translate-y-10px {
   transform: translateY(-10px);
 }
 
@@ -17734,6 +18758,166 @@ html {
     transform: translateY(0);
   }
 
+  .sm\:translate-x-1 {
+    transform: translateX(0.25rem);
+  }
+
+  .sm\:translate-y-1 {
+    transform: translateY(0.25rem);
+  }
+
+  .sm\:translate-x-2 {
+    transform: translateX(0.5rem);
+  }
+
+  .sm\:translate-y-2 {
+    transform: translateY(0.5rem);
+  }
+
+  .sm\:translate-x-3 {
+    transform: translateX(0.75rem);
+  }
+
+  .sm\:translate-y-3 {
+    transform: translateY(0.75rem);
+  }
+
+  .sm\:translate-x-4 {
+    transform: translateX(1rem);
+  }
+
+  .sm\:translate-y-4 {
+    transform: translateY(1rem);
+  }
+
+  .sm\:translate-x-5 {
+    transform: translateX(1.25rem);
+  }
+
+  .sm\:translate-y-5 {
+    transform: translateY(1.25rem);
+  }
+
+  .sm\:translate-x-6 {
+    transform: translateX(1.5rem);
+  }
+
+  .sm\:translate-y-6 {
+    transform: translateY(1.5rem);
+  }
+
+  .sm\:translate-x-8 {
+    transform: translateX(2rem);
+  }
+
+  .sm\:translate-y-8 {
+    transform: translateY(2rem);
+  }
+
+  .sm\:translate-x-10 {
+    transform: translateX(2.5rem);
+  }
+
+  .sm\:translate-y-10 {
+    transform: translateY(2.5rem);
+  }
+
+  .sm\:translate-x-12 {
+    transform: translateX(3rem);
+  }
+
+  .sm\:translate-y-12 {
+    transform: translateY(3rem);
+  }
+
+  .sm\:translate-x-16 {
+    transform: translateX(4rem);
+  }
+
+  .sm\:translate-y-16 {
+    transform: translateY(4rem);
+  }
+
+  .sm\:translate-x-20 {
+    transform: translateX(5rem);
+  }
+
+  .sm\:translate-y-20 {
+    transform: translateY(5rem);
+  }
+
+  .sm\:translate-x-24 {
+    transform: translateX(6rem);
+  }
+
+  .sm\:translate-y-24 {
+    transform: translateY(6rem);
+  }
+
+  .sm\:translate-x-32 {
+    transform: translateX(8rem);
+  }
+
+  .sm\:translate-y-32 {
+    transform: translateY(8rem);
+  }
+
+  .sm\:translate-x-40 {
+    transform: translateX(10rem);
+  }
+
+  .sm\:translate-y-40 {
+    transform: translateY(10rem);
+  }
+
+  .sm\:translate-x-48 {
+    transform: translateX(12rem);
+  }
+
+  .sm\:translate-y-48 {
+    transform: translateY(12rem);
+  }
+
+  .sm\:translate-x-56 {
+    transform: translateX(14rem);
+  }
+
+  .sm\:translate-y-56 {
+    transform: translateY(14rem);
+  }
+
+  .sm\:translate-x-64 {
+    transform: translateX(16rem);
+  }
+
+  .sm\:translate-y-64 {
+    transform: translateY(16rem);
+  }
+
+  .sm\:translate-x-72 {
+    transform: translateX(18rem);
+  }
+
+  .sm\:translate-y-72 {
+    transform: translateY(18rem);
+  }
+
+  .sm\:translate-x-88 {
+    transform: translateX(22rem);
+  }
+
+  .sm\:translate-y-88 {
+    transform: translateY(22rem);
+  }
+
+  .sm\:translate-x-px {
+    transform: translateX(1px);
+  }
+
+  .sm\:translate-y-px {
+    transform: translateY(1px);
+  }
+
   .sm\:translate-x-1\/2 {
     transform: translateX(50%);
   }
@@ -17764,6 +18948,166 @@ html {
 
   .sm\:hover\:translate-y-0:hover {
     transform: translateY(0);
+  }
+
+  .sm\:hover\:translate-x-1:hover {
+    transform: translateX(0.25rem);
+  }
+
+  .sm\:hover\:translate-y-1:hover {
+    transform: translateY(0.25rem);
+  }
+
+  .sm\:hover\:translate-x-2:hover {
+    transform: translateX(0.5rem);
+  }
+
+  .sm\:hover\:translate-y-2:hover {
+    transform: translateY(0.5rem);
+  }
+
+  .sm\:hover\:translate-x-3:hover {
+    transform: translateX(0.75rem);
+  }
+
+  .sm\:hover\:translate-y-3:hover {
+    transform: translateY(0.75rem);
+  }
+
+  .sm\:hover\:translate-x-4:hover {
+    transform: translateX(1rem);
+  }
+
+  .sm\:hover\:translate-y-4:hover {
+    transform: translateY(1rem);
+  }
+
+  .sm\:hover\:translate-x-5:hover {
+    transform: translateX(1.25rem);
+  }
+
+  .sm\:hover\:translate-y-5:hover {
+    transform: translateY(1.25rem);
+  }
+
+  .sm\:hover\:translate-x-6:hover {
+    transform: translateX(1.5rem);
+  }
+
+  .sm\:hover\:translate-y-6:hover {
+    transform: translateY(1.5rem);
+  }
+
+  .sm\:hover\:translate-x-8:hover {
+    transform: translateX(2rem);
+  }
+
+  .sm\:hover\:translate-y-8:hover {
+    transform: translateY(2rem);
+  }
+
+  .sm\:hover\:translate-x-10:hover {
+    transform: translateX(2.5rem);
+  }
+
+  .sm\:hover\:translate-y-10:hover {
+    transform: translateY(2.5rem);
+  }
+
+  .sm\:hover\:translate-x-12:hover {
+    transform: translateX(3rem);
+  }
+
+  .sm\:hover\:translate-y-12:hover {
+    transform: translateY(3rem);
+  }
+
+  .sm\:hover\:translate-x-16:hover {
+    transform: translateX(4rem);
+  }
+
+  .sm\:hover\:translate-y-16:hover {
+    transform: translateY(4rem);
+  }
+
+  .sm\:hover\:translate-x-20:hover {
+    transform: translateX(5rem);
+  }
+
+  .sm\:hover\:translate-y-20:hover {
+    transform: translateY(5rem);
+  }
+
+  .sm\:hover\:translate-x-24:hover {
+    transform: translateX(6rem);
+  }
+
+  .sm\:hover\:translate-y-24:hover {
+    transform: translateY(6rem);
+  }
+
+  .sm\:hover\:translate-x-32:hover {
+    transform: translateX(8rem);
+  }
+
+  .sm\:hover\:translate-y-32:hover {
+    transform: translateY(8rem);
+  }
+
+  .sm\:hover\:translate-x-40:hover {
+    transform: translateX(10rem);
+  }
+
+  .sm\:hover\:translate-y-40:hover {
+    transform: translateY(10rem);
+  }
+
+  .sm\:hover\:translate-x-48:hover {
+    transform: translateX(12rem);
+  }
+
+  .sm\:hover\:translate-y-48:hover {
+    transform: translateY(12rem);
+  }
+
+  .sm\:hover\:translate-x-56:hover {
+    transform: translateX(14rem);
+  }
+
+  .sm\:hover\:translate-y-56:hover {
+    transform: translateY(14rem);
+  }
+
+  .sm\:hover\:translate-x-64:hover {
+    transform: translateX(16rem);
+  }
+
+  .sm\:hover\:translate-y-64:hover {
+    transform: translateY(16rem);
+  }
+
+  .sm\:hover\:translate-x-72:hover {
+    transform: translateX(18rem);
+  }
+
+  .sm\:hover\:translate-y-72:hover {
+    transform: translateY(18rem);
+  }
+
+  .sm\:hover\:translate-x-88:hover {
+    transform: translateX(22rem);
+  }
+
+  .sm\:hover\:translate-y-88:hover {
+    transform: translateY(22rem);
+  }
+
+  .sm\:hover\:translate-x-px:hover {
+    transform: translateX(1px);
+  }
+
+  .sm\:hover\:translate-y-px:hover {
+    transform: translateY(1px);
   }
 
   .sm\:hover\:translate-x-1\/2:hover {
@@ -17798,6 +19142,166 @@ html {
     transform: translateY(0);
   }
 
+  .group:hover .sm\:group-hover\:translate-x-1 {
+    transform: translateX(0.25rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-1 {
+    transform: translateY(0.25rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-2 {
+    transform: translateX(0.5rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-2 {
+    transform: translateY(0.5rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-3 {
+    transform: translateX(0.75rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-3 {
+    transform: translateY(0.75rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-4 {
+    transform: translateX(1rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-4 {
+    transform: translateY(1rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-5 {
+    transform: translateX(1.25rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-5 {
+    transform: translateY(1.25rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-6 {
+    transform: translateX(1.5rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-6 {
+    transform: translateY(1.5rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-8 {
+    transform: translateX(2rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-8 {
+    transform: translateY(2rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-10 {
+    transform: translateX(2.5rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-10 {
+    transform: translateY(2.5rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-12 {
+    transform: translateX(3rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-12 {
+    transform: translateY(3rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-16 {
+    transform: translateX(4rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-16 {
+    transform: translateY(4rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-20 {
+    transform: translateX(5rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-20 {
+    transform: translateY(5rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-24 {
+    transform: translateX(6rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-24 {
+    transform: translateY(6rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-32 {
+    transform: translateX(8rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-32 {
+    transform: translateY(8rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-40 {
+    transform: translateX(10rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-40 {
+    transform: translateY(10rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-48 {
+    transform: translateX(12rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-48 {
+    transform: translateY(12rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-56 {
+    transform: translateX(14rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-56 {
+    transform: translateY(14rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-64 {
+    transform: translateX(16rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-64 {
+    transform: translateY(16rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-72 {
+    transform: translateX(18rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-72 {
+    transform: translateY(18rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-88 {
+    transform: translateX(22rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-88 {
+    transform: translateY(22rem);
+  }
+
+  .group:hover .sm\:group-hover\:translate-x-px {
+    transform: translateX(1px);
+  }
+
+  .group:hover .sm\:group-hover\:translate-y-px {
+    transform: translateY(1px);
+  }
+
   .group:hover .sm\:group-hover\:translate-x-1\/2 {
     transform: translateX(50%);
   }
@@ -17830,6 +19334,166 @@ html {
     transform: translateY(-0);
   }
 
+  .sm\:-translate-x-1 {
+    transform: translateX(-0.25rem);
+  }
+
+  .sm\:-translate-y-1 {
+    transform: translateY(-0.25rem);
+  }
+
+  .sm\:-translate-x-2 {
+    transform: translateX(-0.5rem);
+  }
+
+  .sm\:-translate-y-2 {
+    transform: translateY(-0.5rem);
+  }
+
+  .sm\:-translate-x-3 {
+    transform: translateX(-0.75rem);
+  }
+
+  .sm\:-translate-y-3 {
+    transform: translateY(-0.75rem);
+  }
+
+  .sm\:-translate-x-4 {
+    transform: translateX(-1rem);
+  }
+
+  .sm\:-translate-y-4 {
+    transform: translateY(-1rem);
+  }
+
+  .sm\:-translate-x-5 {
+    transform: translateX(-1.25rem);
+  }
+
+  .sm\:-translate-y-5 {
+    transform: translateY(-1.25rem);
+  }
+
+  .sm\:-translate-x-6 {
+    transform: translateX(-1.5rem);
+  }
+
+  .sm\:-translate-y-6 {
+    transform: translateY(-1.5rem);
+  }
+
+  .sm\:-translate-x-8 {
+    transform: translateX(-2rem);
+  }
+
+  .sm\:-translate-y-8 {
+    transform: translateY(-2rem);
+  }
+
+  .sm\:-translate-x-10 {
+    transform: translateX(-2.5rem);
+  }
+
+  .sm\:-translate-y-10 {
+    transform: translateY(-2.5rem);
+  }
+
+  .sm\:-translate-x-12 {
+    transform: translateX(-3rem);
+  }
+
+  .sm\:-translate-y-12 {
+    transform: translateY(-3rem);
+  }
+
+  .sm\:-translate-x-16 {
+    transform: translateX(-4rem);
+  }
+
+  .sm\:-translate-y-16 {
+    transform: translateY(-4rem);
+  }
+
+  .sm\:-translate-x-20 {
+    transform: translateX(-5rem);
+  }
+
+  .sm\:-translate-y-20 {
+    transform: translateY(-5rem);
+  }
+
+  .sm\:-translate-x-24 {
+    transform: translateX(-6rem);
+  }
+
+  .sm\:-translate-y-24 {
+    transform: translateY(-6rem);
+  }
+
+  .sm\:-translate-x-32 {
+    transform: translateX(-8rem);
+  }
+
+  .sm\:-translate-y-32 {
+    transform: translateY(-8rem);
+  }
+
+  .sm\:-translate-x-40 {
+    transform: translateX(-10rem);
+  }
+
+  .sm\:-translate-y-40 {
+    transform: translateY(-10rem);
+  }
+
+  .sm\:-translate-x-48 {
+    transform: translateX(-12rem);
+  }
+
+  .sm\:-translate-y-48 {
+    transform: translateY(-12rem);
+  }
+
+  .sm\:-translate-x-56 {
+    transform: translateX(-14rem);
+  }
+
+  .sm\:-translate-y-56 {
+    transform: translateY(-14rem);
+  }
+
+  .sm\:-translate-x-64 {
+    transform: translateX(-16rem);
+  }
+
+  .sm\:-translate-y-64 {
+    transform: translateY(-16rem);
+  }
+
+  .sm\:-translate-x-72 {
+    transform: translateX(-18rem);
+  }
+
+  .sm\:-translate-y-72 {
+    transform: translateY(-18rem);
+  }
+
+  .sm\:-translate-x-88 {
+    transform: translateX(-22rem);
+  }
+
+  .sm\:-translate-y-88 {
+    transform: translateY(-22rem);
+  }
+
+  .sm\:-translate-x-px {
+    transform: translateX(-1px);
+  }
+
+  .sm\:-translate-y-px {
+    transform: translateY(-1px);
+  }
+
   .sm\:-translate-x-1\/2 {
     transform: translateX(-50%);
   }
@@ -17851,6 +19515,390 @@ html {
   }
 
   .sm\:-translate-y-10px {
+    transform: translateY(-10px);
+  }
+
+  .sm\:hover\:-translate-x-0:hover {
+    transform: translateX(-0);
+  }
+
+  .sm\:hover\:-translate-y-0:hover {
+    transform: translateY(-0);
+  }
+
+  .sm\:hover\:-translate-x-1:hover {
+    transform: translateX(-0.25rem);
+  }
+
+  .sm\:hover\:-translate-y-1:hover {
+    transform: translateY(-0.25rem);
+  }
+
+  .sm\:hover\:-translate-x-2:hover {
+    transform: translateX(-0.5rem);
+  }
+
+  .sm\:hover\:-translate-y-2:hover {
+    transform: translateY(-0.5rem);
+  }
+
+  .sm\:hover\:-translate-x-3:hover {
+    transform: translateX(-0.75rem);
+  }
+
+  .sm\:hover\:-translate-y-3:hover {
+    transform: translateY(-0.75rem);
+  }
+
+  .sm\:hover\:-translate-x-4:hover {
+    transform: translateX(-1rem);
+  }
+
+  .sm\:hover\:-translate-y-4:hover {
+    transform: translateY(-1rem);
+  }
+
+  .sm\:hover\:-translate-x-5:hover {
+    transform: translateX(-1.25rem);
+  }
+
+  .sm\:hover\:-translate-y-5:hover {
+    transform: translateY(-1.25rem);
+  }
+
+  .sm\:hover\:-translate-x-6:hover {
+    transform: translateX(-1.5rem);
+  }
+
+  .sm\:hover\:-translate-y-6:hover {
+    transform: translateY(-1.5rem);
+  }
+
+  .sm\:hover\:-translate-x-8:hover {
+    transform: translateX(-2rem);
+  }
+
+  .sm\:hover\:-translate-y-8:hover {
+    transform: translateY(-2rem);
+  }
+
+  .sm\:hover\:-translate-x-10:hover {
+    transform: translateX(-2.5rem);
+  }
+
+  .sm\:hover\:-translate-y-10:hover {
+    transform: translateY(-2.5rem);
+  }
+
+  .sm\:hover\:-translate-x-12:hover {
+    transform: translateX(-3rem);
+  }
+
+  .sm\:hover\:-translate-y-12:hover {
+    transform: translateY(-3rem);
+  }
+
+  .sm\:hover\:-translate-x-16:hover {
+    transform: translateX(-4rem);
+  }
+
+  .sm\:hover\:-translate-y-16:hover {
+    transform: translateY(-4rem);
+  }
+
+  .sm\:hover\:-translate-x-20:hover {
+    transform: translateX(-5rem);
+  }
+
+  .sm\:hover\:-translate-y-20:hover {
+    transform: translateY(-5rem);
+  }
+
+  .sm\:hover\:-translate-x-24:hover {
+    transform: translateX(-6rem);
+  }
+
+  .sm\:hover\:-translate-y-24:hover {
+    transform: translateY(-6rem);
+  }
+
+  .sm\:hover\:-translate-x-32:hover {
+    transform: translateX(-8rem);
+  }
+
+  .sm\:hover\:-translate-y-32:hover {
+    transform: translateY(-8rem);
+  }
+
+  .sm\:hover\:-translate-x-40:hover {
+    transform: translateX(-10rem);
+  }
+
+  .sm\:hover\:-translate-y-40:hover {
+    transform: translateY(-10rem);
+  }
+
+  .sm\:hover\:-translate-x-48:hover {
+    transform: translateX(-12rem);
+  }
+
+  .sm\:hover\:-translate-y-48:hover {
+    transform: translateY(-12rem);
+  }
+
+  .sm\:hover\:-translate-x-56:hover {
+    transform: translateX(-14rem);
+  }
+
+  .sm\:hover\:-translate-y-56:hover {
+    transform: translateY(-14rem);
+  }
+
+  .sm\:hover\:-translate-x-64:hover {
+    transform: translateX(-16rem);
+  }
+
+  .sm\:hover\:-translate-y-64:hover {
+    transform: translateY(-16rem);
+  }
+
+  .sm\:hover\:-translate-x-72:hover {
+    transform: translateX(-18rem);
+  }
+
+  .sm\:hover\:-translate-y-72:hover {
+    transform: translateY(-18rem);
+  }
+
+  .sm\:hover\:-translate-x-88:hover {
+    transform: translateX(-22rem);
+  }
+
+  .sm\:hover\:-translate-y-88:hover {
+    transform: translateY(-22rem);
+  }
+
+  .sm\:hover\:-translate-x-px:hover {
+    transform: translateX(-1px);
+  }
+
+  .sm\:hover\:-translate-y-px:hover {
+    transform: translateY(-1px);
+  }
+
+  .sm\:hover\:-translate-x-1\/2:hover {
+    transform: translateX(-50%);
+  }
+
+  .sm\:hover\:-translate-y-1\/2:hover {
+    transform: translateY(-50%);
+  }
+
+  .sm\:hover\:-translate-x-full:hover {
+    transform: translateX(-100%);
+  }
+
+  .sm\:hover\:-translate-y-full:hover {
+    transform: translateY(-100%);
+  }
+
+  .sm\:hover\:-translate-x-10px:hover {
+    transform: translateX(-10px);
+  }
+
+  .sm\:hover\:-translate-y-10px:hover {
+    transform: translateY(-10px);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-0 {
+    transform: translateX(-0);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-0 {
+    transform: translateY(-0);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-1 {
+    transform: translateX(-0.25rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-1 {
+    transform: translateY(-0.25rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-2 {
+    transform: translateX(-0.5rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-2 {
+    transform: translateY(-0.5rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-3 {
+    transform: translateX(-0.75rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-3 {
+    transform: translateY(-0.75rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-4 {
+    transform: translateX(-1rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-4 {
+    transform: translateY(-1rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-5 {
+    transform: translateX(-1.25rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-5 {
+    transform: translateY(-1.25rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-6 {
+    transform: translateX(-1.5rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-6 {
+    transform: translateY(-1.5rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-8 {
+    transform: translateX(-2rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-8 {
+    transform: translateY(-2rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-10 {
+    transform: translateX(-2.5rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-10 {
+    transform: translateY(-2.5rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-12 {
+    transform: translateX(-3rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-12 {
+    transform: translateY(-3rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-16 {
+    transform: translateX(-4rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-16 {
+    transform: translateY(-4rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-20 {
+    transform: translateX(-5rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-20 {
+    transform: translateY(-5rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-24 {
+    transform: translateX(-6rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-24 {
+    transform: translateY(-6rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-32 {
+    transform: translateX(-8rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-32 {
+    transform: translateY(-8rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-40 {
+    transform: translateX(-10rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-40 {
+    transform: translateY(-10rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-48 {
+    transform: translateX(-12rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-48 {
+    transform: translateY(-12rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-56 {
+    transform: translateX(-14rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-56 {
+    transform: translateY(-14rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-64 {
+    transform: translateX(-16rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-64 {
+    transform: translateY(-16rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-72 {
+    transform: translateX(-18rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-72 {
+    transform: translateY(-18rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-88 {
+    transform: translateX(-22rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-88 {
+    transform: translateY(-22rem);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-px {
+    transform: translateX(-1px);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-px {
+    transform: translateY(-1px);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-1\/2 {
+    transform: translateX(-50%);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-1\/2 {
+    transform: translateY(-50%);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-full {
+    transform: translateX(-100%);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-full {
+    transform: translateY(-100%);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-x-10px {
+    transform: translateX(-10px);
+  }
+
+  .group:hover .sm\:group-hover\:-translate-y-10px {
     transform: translateY(-10px);
   }
 
@@ -26365,6 +28413,166 @@ html {
     transform: translateY(0);
   }
 
+  .md\:translate-x-1 {
+    transform: translateX(0.25rem);
+  }
+
+  .md\:translate-y-1 {
+    transform: translateY(0.25rem);
+  }
+
+  .md\:translate-x-2 {
+    transform: translateX(0.5rem);
+  }
+
+  .md\:translate-y-2 {
+    transform: translateY(0.5rem);
+  }
+
+  .md\:translate-x-3 {
+    transform: translateX(0.75rem);
+  }
+
+  .md\:translate-y-3 {
+    transform: translateY(0.75rem);
+  }
+
+  .md\:translate-x-4 {
+    transform: translateX(1rem);
+  }
+
+  .md\:translate-y-4 {
+    transform: translateY(1rem);
+  }
+
+  .md\:translate-x-5 {
+    transform: translateX(1.25rem);
+  }
+
+  .md\:translate-y-5 {
+    transform: translateY(1.25rem);
+  }
+
+  .md\:translate-x-6 {
+    transform: translateX(1.5rem);
+  }
+
+  .md\:translate-y-6 {
+    transform: translateY(1.5rem);
+  }
+
+  .md\:translate-x-8 {
+    transform: translateX(2rem);
+  }
+
+  .md\:translate-y-8 {
+    transform: translateY(2rem);
+  }
+
+  .md\:translate-x-10 {
+    transform: translateX(2.5rem);
+  }
+
+  .md\:translate-y-10 {
+    transform: translateY(2.5rem);
+  }
+
+  .md\:translate-x-12 {
+    transform: translateX(3rem);
+  }
+
+  .md\:translate-y-12 {
+    transform: translateY(3rem);
+  }
+
+  .md\:translate-x-16 {
+    transform: translateX(4rem);
+  }
+
+  .md\:translate-y-16 {
+    transform: translateY(4rem);
+  }
+
+  .md\:translate-x-20 {
+    transform: translateX(5rem);
+  }
+
+  .md\:translate-y-20 {
+    transform: translateY(5rem);
+  }
+
+  .md\:translate-x-24 {
+    transform: translateX(6rem);
+  }
+
+  .md\:translate-y-24 {
+    transform: translateY(6rem);
+  }
+
+  .md\:translate-x-32 {
+    transform: translateX(8rem);
+  }
+
+  .md\:translate-y-32 {
+    transform: translateY(8rem);
+  }
+
+  .md\:translate-x-40 {
+    transform: translateX(10rem);
+  }
+
+  .md\:translate-y-40 {
+    transform: translateY(10rem);
+  }
+
+  .md\:translate-x-48 {
+    transform: translateX(12rem);
+  }
+
+  .md\:translate-y-48 {
+    transform: translateY(12rem);
+  }
+
+  .md\:translate-x-56 {
+    transform: translateX(14rem);
+  }
+
+  .md\:translate-y-56 {
+    transform: translateY(14rem);
+  }
+
+  .md\:translate-x-64 {
+    transform: translateX(16rem);
+  }
+
+  .md\:translate-y-64 {
+    transform: translateY(16rem);
+  }
+
+  .md\:translate-x-72 {
+    transform: translateX(18rem);
+  }
+
+  .md\:translate-y-72 {
+    transform: translateY(18rem);
+  }
+
+  .md\:translate-x-88 {
+    transform: translateX(22rem);
+  }
+
+  .md\:translate-y-88 {
+    transform: translateY(22rem);
+  }
+
+  .md\:translate-x-px {
+    transform: translateX(1px);
+  }
+
+  .md\:translate-y-px {
+    transform: translateY(1px);
+  }
+
   .md\:translate-x-1\/2 {
     transform: translateX(50%);
   }
@@ -26395,6 +28603,166 @@ html {
 
   .md\:hover\:translate-y-0:hover {
     transform: translateY(0);
+  }
+
+  .md\:hover\:translate-x-1:hover {
+    transform: translateX(0.25rem);
+  }
+
+  .md\:hover\:translate-y-1:hover {
+    transform: translateY(0.25rem);
+  }
+
+  .md\:hover\:translate-x-2:hover {
+    transform: translateX(0.5rem);
+  }
+
+  .md\:hover\:translate-y-2:hover {
+    transform: translateY(0.5rem);
+  }
+
+  .md\:hover\:translate-x-3:hover {
+    transform: translateX(0.75rem);
+  }
+
+  .md\:hover\:translate-y-3:hover {
+    transform: translateY(0.75rem);
+  }
+
+  .md\:hover\:translate-x-4:hover {
+    transform: translateX(1rem);
+  }
+
+  .md\:hover\:translate-y-4:hover {
+    transform: translateY(1rem);
+  }
+
+  .md\:hover\:translate-x-5:hover {
+    transform: translateX(1.25rem);
+  }
+
+  .md\:hover\:translate-y-5:hover {
+    transform: translateY(1.25rem);
+  }
+
+  .md\:hover\:translate-x-6:hover {
+    transform: translateX(1.5rem);
+  }
+
+  .md\:hover\:translate-y-6:hover {
+    transform: translateY(1.5rem);
+  }
+
+  .md\:hover\:translate-x-8:hover {
+    transform: translateX(2rem);
+  }
+
+  .md\:hover\:translate-y-8:hover {
+    transform: translateY(2rem);
+  }
+
+  .md\:hover\:translate-x-10:hover {
+    transform: translateX(2.5rem);
+  }
+
+  .md\:hover\:translate-y-10:hover {
+    transform: translateY(2.5rem);
+  }
+
+  .md\:hover\:translate-x-12:hover {
+    transform: translateX(3rem);
+  }
+
+  .md\:hover\:translate-y-12:hover {
+    transform: translateY(3rem);
+  }
+
+  .md\:hover\:translate-x-16:hover {
+    transform: translateX(4rem);
+  }
+
+  .md\:hover\:translate-y-16:hover {
+    transform: translateY(4rem);
+  }
+
+  .md\:hover\:translate-x-20:hover {
+    transform: translateX(5rem);
+  }
+
+  .md\:hover\:translate-y-20:hover {
+    transform: translateY(5rem);
+  }
+
+  .md\:hover\:translate-x-24:hover {
+    transform: translateX(6rem);
+  }
+
+  .md\:hover\:translate-y-24:hover {
+    transform: translateY(6rem);
+  }
+
+  .md\:hover\:translate-x-32:hover {
+    transform: translateX(8rem);
+  }
+
+  .md\:hover\:translate-y-32:hover {
+    transform: translateY(8rem);
+  }
+
+  .md\:hover\:translate-x-40:hover {
+    transform: translateX(10rem);
+  }
+
+  .md\:hover\:translate-y-40:hover {
+    transform: translateY(10rem);
+  }
+
+  .md\:hover\:translate-x-48:hover {
+    transform: translateX(12rem);
+  }
+
+  .md\:hover\:translate-y-48:hover {
+    transform: translateY(12rem);
+  }
+
+  .md\:hover\:translate-x-56:hover {
+    transform: translateX(14rem);
+  }
+
+  .md\:hover\:translate-y-56:hover {
+    transform: translateY(14rem);
+  }
+
+  .md\:hover\:translate-x-64:hover {
+    transform: translateX(16rem);
+  }
+
+  .md\:hover\:translate-y-64:hover {
+    transform: translateY(16rem);
+  }
+
+  .md\:hover\:translate-x-72:hover {
+    transform: translateX(18rem);
+  }
+
+  .md\:hover\:translate-y-72:hover {
+    transform: translateY(18rem);
+  }
+
+  .md\:hover\:translate-x-88:hover {
+    transform: translateX(22rem);
+  }
+
+  .md\:hover\:translate-y-88:hover {
+    transform: translateY(22rem);
+  }
+
+  .md\:hover\:translate-x-px:hover {
+    transform: translateX(1px);
+  }
+
+  .md\:hover\:translate-y-px:hover {
+    transform: translateY(1px);
   }
 
   .md\:hover\:translate-x-1\/2:hover {
@@ -26429,6 +28797,166 @@ html {
     transform: translateY(0);
   }
 
+  .group:hover .md\:group-hover\:translate-x-1 {
+    transform: translateX(0.25rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-1 {
+    transform: translateY(0.25rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-2 {
+    transform: translateX(0.5rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-2 {
+    transform: translateY(0.5rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-3 {
+    transform: translateX(0.75rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-3 {
+    transform: translateY(0.75rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-4 {
+    transform: translateX(1rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-4 {
+    transform: translateY(1rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-5 {
+    transform: translateX(1.25rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-5 {
+    transform: translateY(1.25rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-6 {
+    transform: translateX(1.5rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-6 {
+    transform: translateY(1.5rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-8 {
+    transform: translateX(2rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-8 {
+    transform: translateY(2rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-10 {
+    transform: translateX(2.5rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-10 {
+    transform: translateY(2.5rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-12 {
+    transform: translateX(3rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-12 {
+    transform: translateY(3rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-16 {
+    transform: translateX(4rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-16 {
+    transform: translateY(4rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-20 {
+    transform: translateX(5rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-20 {
+    transform: translateY(5rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-24 {
+    transform: translateX(6rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-24 {
+    transform: translateY(6rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-32 {
+    transform: translateX(8rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-32 {
+    transform: translateY(8rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-40 {
+    transform: translateX(10rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-40 {
+    transform: translateY(10rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-48 {
+    transform: translateX(12rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-48 {
+    transform: translateY(12rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-56 {
+    transform: translateX(14rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-56 {
+    transform: translateY(14rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-64 {
+    transform: translateX(16rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-64 {
+    transform: translateY(16rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-72 {
+    transform: translateX(18rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-72 {
+    transform: translateY(18rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-88 {
+    transform: translateX(22rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-88 {
+    transform: translateY(22rem);
+  }
+
+  .group:hover .md\:group-hover\:translate-x-px {
+    transform: translateX(1px);
+  }
+
+  .group:hover .md\:group-hover\:translate-y-px {
+    transform: translateY(1px);
+  }
+
   .group:hover .md\:group-hover\:translate-x-1\/2 {
     transform: translateX(50%);
   }
@@ -26461,6 +28989,166 @@ html {
     transform: translateY(-0);
   }
 
+  .md\:-translate-x-1 {
+    transform: translateX(-0.25rem);
+  }
+
+  .md\:-translate-y-1 {
+    transform: translateY(-0.25rem);
+  }
+
+  .md\:-translate-x-2 {
+    transform: translateX(-0.5rem);
+  }
+
+  .md\:-translate-y-2 {
+    transform: translateY(-0.5rem);
+  }
+
+  .md\:-translate-x-3 {
+    transform: translateX(-0.75rem);
+  }
+
+  .md\:-translate-y-3 {
+    transform: translateY(-0.75rem);
+  }
+
+  .md\:-translate-x-4 {
+    transform: translateX(-1rem);
+  }
+
+  .md\:-translate-y-4 {
+    transform: translateY(-1rem);
+  }
+
+  .md\:-translate-x-5 {
+    transform: translateX(-1.25rem);
+  }
+
+  .md\:-translate-y-5 {
+    transform: translateY(-1.25rem);
+  }
+
+  .md\:-translate-x-6 {
+    transform: translateX(-1.5rem);
+  }
+
+  .md\:-translate-y-6 {
+    transform: translateY(-1.5rem);
+  }
+
+  .md\:-translate-x-8 {
+    transform: translateX(-2rem);
+  }
+
+  .md\:-translate-y-8 {
+    transform: translateY(-2rem);
+  }
+
+  .md\:-translate-x-10 {
+    transform: translateX(-2.5rem);
+  }
+
+  .md\:-translate-y-10 {
+    transform: translateY(-2.5rem);
+  }
+
+  .md\:-translate-x-12 {
+    transform: translateX(-3rem);
+  }
+
+  .md\:-translate-y-12 {
+    transform: translateY(-3rem);
+  }
+
+  .md\:-translate-x-16 {
+    transform: translateX(-4rem);
+  }
+
+  .md\:-translate-y-16 {
+    transform: translateY(-4rem);
+  }
+
+  .md\:-translate-x-20 {
+    transform: translateX(-5rem);
+  }
+
+  .md\:-translate-y-20 {
+    transform: translateY(-5rem);
+  }
+
+  .md\:-translate-x-24 {
+    transform: translateX(-6rem);
+  }
+
+  .md\:-translate-y-24 {
+    transform: translateY(-6rem);
+  }
+
+  .md\:-translate-x-32 {
+    transform: translateX(-8rem);
+  }
+
+  .md\:-translate-y-32 {
+    transform: translateY(-8rem);
+  }
+
+  .md\:-translate-x-40 {
+    transform: translateX(-10rem);
+  }
+
+  .md\:-translate-y-40 {
+    transform: translateY(-10rem);
+  }
+
+  .md\:-translate-x-48 {
+    transform: translateX(-12rem);
+  }
+
+  .md\:-translate-y-48 {
+    transform: translateY(-12rem);
+  }
+
+  .md\:-translate-x-56 {
+    transform: translateX(-14rem);
+  }
+
+  .md\:-translate-y-56 {
+    transform: translateY(-14rem);
+  }
+
+  .md\:-translate-x-64 {
+    transform: translateX(-16rem);
+  }
+
+  .md\:-translate-y-64 {
+    transform: translateY(-16rem);
+  }
+
+  .md\:-translate-x-72 {
+    transform: translateX(-18rem);
+  }
+
+  .md\:-translate-y-72 {
+    transform: translateY(-18rem);
+  }
+
+  .md\:-translate-x-88 {
+    transform: translateX(-22rem);
+  }
+
+  .md\:-translate-y-88 {
+    transform: translateY(-22rem);
+  }
+
+  .md\:-translate-x-px {
+    transform: translateX(-1px);
+  }
+
+  .md\:-translate-y-px {
+    transform: translateY(-1px);
+  }
+
   .md\:-translate-x-1\/2 {
     transform: translateX(-50%);
   }
@@ -26482,6 +29170,390 @@ html {
   }
 
   .md\:-translate-y-10px {
+    transform: translateY(-10px);
+  }
+
+  .md\:hover\:-translate-x-0:hover {
+    transform: translateX(-0);
+  }
+
+  .md\:hover\:-translate-y-0:hover {
+    transform: translateY(-0);
+  }
+
+  .md\:hover\:-translate-x-1:hover {
+    transform: translateX(-0.25rem);
+  }
+
+  .md\:hover\:-translate-y-1:hover {
+    transform: translateY(-0.25rem);
+  }
+
+  .md\:hover\:-translate-x-2:hover {
+    transform: translateX(-0.5rem);
+  }
+
+  .md\:hover\:-translate-y-2:hover {
+    transform: translateY(-0.5rem);
+  }
+
+  .md\:hover\:-translate-x-3:hover {
+    transform: translateX(-0.75rem);
+  }
+
+  .md\:hover\:-translate-y-3:hover {
+    transform: translateY(-0.75rem);
+  }
+
+  .md\:hover\:-translate-x-4:hover {
+    transform: translateX(-1rem);
+  }
+
+  .md\:hover\:-translate-y-4:hover {
+    transform: translateY(-1rem);
+  }
+
+  .md\:hover\:-translate-x-5:hover {
+    transform: translateX(-1.25rem);
+  }
+
+  .md\:hover\:-translate-y-5:hover {
+    transform: translateY(-1.25rem);
+  }
+
+  .md\:hover\:-translate-x-6:hover {
+    transform: translateX(-1.5rem);
+  }
+
+  .md\:hover\:-translate-y-6:hover {
+    transform: translateY(-1.5rem);
+  }
+
+  .md\:hover\:-translate-x-8:hover {
+    transform: translateX(-2rem);
+  }
+
+  .md\:hover\:-translate-y-8:hover {
+    transform: translateY(-2rem);
+  }
+
+  .md\:hover\:-translate-x-10:hover {
+    transform: translateX(-2.5rem);
+  }
+
+  .md\:hover\:-translate-y-10:hover {
+    transform: translateY(-2.5rem);
+  }
+
+  .md\:hover\:-translate-x-12:hover {
+    transform: translateX(-3rem);
+  }
+
+  .md\:hover\:-translate-y-12:hover {
+    transform: translateY(-3rem);
+  }
+
+  .md\:hover\:-translate-x-16:hover {
+    transform: translateX(-4rem);
+  }
+
+  .md\:hover\:-translate-y-16:hover {
+    transform: translateY(-4rem);
+  }
+
+  .md\:hover\:-translate-x-20:hover {
+    transform: translateX(-5rem);
+  }
+
+  .md\:hover\:-translate-y-20:hover {
+    transform: translateY(-5rem);
+  }
+
+  .md\:hover\:-translate-x-24:hover {
+    transform: translateX(-6rem);
+  }
+
+  .md\:hover\:-translate-y-24:hover {
+    transform: translateY(-6rem);
+  }
+
+  .md\:hover\:-translate-x-32:hover {
+    transform: translateX(-8rem);
+  }
+
+  .md\:hover\:-translate-y-32:hover {
+    transform: translateY(-8rem);
+  }
+
+  .md\:hover\:-translate-x-40:hover {
+    transform: translateX(-10rem);
+  }
+
+  .md\:hover\:-translate-y-40:hover {
+    transform: translateY(-10rem);
+  }
+
+  .md\:hover\:-translate-x-48:hover {
+    transform: translateX(-12rem);
+  }
+
+  .md\:hover\:-translate-y-48:hover {
+    transform: translateY(-12rem);
+  }
+
+  .md\:hover\:-translate-x-56:hover {
+    transform: translateX(-14rem);
+  }
+
+  .md\:hover\:-translate-y-56:hover {
+    transform: translateY(-14rem);
+  }
+
+  .md\:hover\:-translate-x-64:hover {
+    transform: translateX(-16rem);
+  }
+
+  .md\:hover\:-translate-y-64:hover {
+    transform: translateY(-16rem);
+  }
+
+  .md\:hover\:-translate-x-72:hover {
+    transform: translateX(-18rem);
+  }
+
+  .md\:hover\:-translate-y-72:hover {
+    transform: translateY(-18rem);
+  }
+
+  .md\:hover\:-translate-x-88:hover {
+    transform: translateX(-22rem);
+  }
+
+  .md\:hover\:-translate-y-88:hover {
+    transform: translateY(-22rem);
+  }
+
+  .md\:hover\:-translate-x-px:hover {
+    transform: translateX(-1px);
+  }
+
+  .md\:hover\:-translate-y-px:hover {
+    transform: translateY(-1px);
+  }
+
+  .md\:hover\:-translate-x-1\/2:hover {
+    transform: translateX(-50%);
+  }
+
+  .md\:hover\:-translate-y-1\/2:hover {
+    transform: translateY(-50%);
+  }
+
+  .md\:hover\:-translate-x-full:hover {
+    transform: translateX(-100%);
+  }
+
+  .md\:hover\:-translate-y-full:hover {
+    transform: translateY(-100%);
+  }
+
+  .md\:hover\:-translate-x-10px:hover {
+    transform: translateX(-10px);
+  }
+
+  .md\:hover\:-translate-y-10px:hover {
+    transform: translateY(-10px);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-0 {
+    transform: translateX(-0);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-0 {
+    transform: translateY(-0);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-1 {
+    transform: translateX(-0.25rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-1 {
+    transform: translateY(-0.25rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-2 {
+    transform: translateX(-0.5rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-2 {
+    transform: translateY(-0.5rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-3 {
+    transform: translateX(-0.75rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-3 {
+    transform: translateY(-0.75rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-4 {
+    transform: translateX(-1rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-4 {
+    transform: translateY(-1rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-5 {
+    transform: translateX(-1.25rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-5 {
+    transform: translateY(-1.25rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-6 {
+    transform: translateX(-1.5rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-6 {
+    transform: translateY(-1.5rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-8 {
+    transform: translateX(-2rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-8 {
+    transform: translateY(-2rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-10 {
+    transform: translateX(-2.5rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-10 {
+    transform: translateY(-2.5rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-12 {
+    transform: translateX(-3rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-12 {
+    transform: translateY(-3rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-16 {
+    transform: translateX(-4rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-16 {
+    transform: translateY(-4rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-20 {
+    transform: translateX(-5rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-20 {
+    transform: translateY(-5rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-24 {
+    transform: translateX(-6rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-24 {
+    transform: translateY(-6rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-32 {
+    transform: translateX(-8rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-32 {
+    transform: translateY(-8rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-40 {
+    transform: translateX(-10rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-40 {
+    transform: translateY(-10rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-48 {
+    transform: translateX(-12rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-48 {
+    transform: translateY(-12rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-56 {
+    transform: translateX(-14rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-56 {
+    transform: translateY(-14rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-64 {
+    transform: translateX(-16rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-64 {
+    transform: translateY(-16rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-72 {
+    transform: translateX(-18rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-72 {
+    transform: translateY(-18rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-88 {
+    transform: translateX(-22rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-88 {
+    transform: translateY(-22rem);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-px {
+    transform: translateX(-1px);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-px {
+    transform: translateY(-1px);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-1\/2 {
+    transform: translateX(-50%);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-1\/2 {
+    transform: translateY(-50%);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-full {
+    transform: translateX(-100%);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-full {
+    transform: translateY(-100%);
+  }
+
+  .group:hover .md\:group-hover\:-translate-x-10px {
+    transform: translateX(-10px);
+  }
+
+  .group:hover .md\:group-hover\:-translate-y-10px {
     transform: translateY(-10px);
   }
 
@@ -34996,6 +38068,166 @@ html {
     transform: translateY(0);
   }
 
+  .lg\:translate-x-1 {
+    transform: translateX(0.25rem);
+  }
+
+  .lg\:translate-y-1 {
+    transform: translateY(0.25rem);
+  }
+
+  .lg\:translate-x-2 {
+    transform: translateX(0.5rem);
+  }
+
+  .lg\:translate-y-2 {
+    transform: translateY(0.5rem);
+  }
+
+  .lg\:translate-x-3 {
+    transform: translateX(0.75rem);
+  }
+
+  .lg\:translate-y-3 {
+    transform: translateY(0.75rem);
+  }
+
+  .lg\:translate-x-4 {
+    transform: translateX(1rem);
+  }
+
+  .lg\:translate-y-4 {
+    transform: translateY(1rem);
+  }
+
+  .lg\:translate-x-5 {
+    transform: translateX(1.25rem);
+  }
+
+  .lg\:translate-y-5 {
+    transform: translateY(1.25rem);
+  }
+
+  .lg\:translate-x-6 {
+    transform: translateX(1.5rem);
+  }
+
+  .lg\:translate-y-6 {
+    transform: translateY(1.5rem);
+  }
+
+  .lg\:translate-x-8 {
+    transform: translateX(2rem);
+  }
+
+  .lg\:translate-y-8 {
+    transform: translateY(2rem);
+  }
+
+  .lg\:translate-x-10 {
+    transform: translateX(2.5rem);
+  }
+
+  .lg\:translate-y-10 {
+    transform: translateY(2.5rem);
+  }
+
+  .lg\:translate-x-12 {
+    transform: translateX(3rem);
+  }
+
+  .lg\:translate-y-12 {
+    transform: translateY(3rem);
+  }
+
+  .lg\:translate-x-16 {
+    transform: translateX(4rem);
+  }
+
+  .lg\:translate-y-16 {
+    transform: translateY(4rem);
+  }
+
+  .lg\:translate-x-20 {
+    transform: translateX(5rem);
+  }
+
+  .lg\:translate-y-20 {
+    transform: translateY(5rem);
+  }
+
+  .lg\:translate-x-24 {
+    transform: translateX(6rem);
+  }
+
+  .lg\:translate-y-24 {
+    transform: translateY(6rem);
+  }
+
+  .lg\:translate-x-32 {
+    transform: translateX(8rem);
+  }
+
+  .lg\:translate-y-32 {
+    transform: translateY(8rem);
+  }
+
+  .lg\:translate-x-40 {
+    transform: translateX(10rem);
+  }
+
+  .lg\:translate-y-40 {
+    transform: translateY(10rem);
+  }
+
+  .lg\:translate-x-48 {
+    transform: translateX(12rem);
+  }
+
+  .lg\:translate-y-48 {
+    transform: translateY(12rem);
+  }
+
+  .lg\:translate-x-56 {
+    transform: translateX(14rem);
+  }
+
+  .lg\:translate-y-56 {
+    transform: translateY(14rem);
+  }
+
+  .lg\:translate-x-64 {
+    transform: translateX(16rem);
+  }
+
+  .lg\:translate-y-64 {
+    transform: translateY(16rem);
+  }
+
+  .lg\:translate-x-72 {
+    transform: translateX(18rem);
+  }
+
+  .lg\:translate-y-72 {
+    transform: translateY(18rem);
+  }
+
+  .lg\:translate-x-88 {
+    transform: translateX(22rem);
+  }
+
+  .lg\:translate-y-88 {
+    transform: translateY(22rem);
+  }
+
+  .lg\:translate-x-px {
+    transform: translateX(1px);
+  }
+
+  .lg\:translate-y-px {
+    transform: translateY(1px);
+  }
+
   .lg\:translate-x-1\/2 {
     transform: translateX(50%);
   }
@@ -35026,6 +38258,166 @@ html {
 
   .lg\:hover\:translate-y-0:hover {
     transform: translateY(0);
+  }
+
+  .lg\:hover\:translate-x-1:hover {
+    transform: translateX(0.25rem);
+  }
+
+  .lg\:hover\:translate-y-1:hover {
+    transform: translateY(0.25rem);
+  }
+
+  .lg\:hover\:translate-x-2:hover {
+    transform: translateX(0.5rem);
+  }
+
+  .lg\:hover\:translate-y-2:hover {
+    transform: translateY(0.5rem);
+  }
+
+  .lg\:hover\:translate-x-3:hover {
+    transform: translateX(0.75rem);
+  }
+
+  .lg\:hover\:translate-y-3:hover {
+    transform: translateY(0.75rem);
+  }
+
+  .lg\:hover\:translate-x-4:hover {
+    transform: translateX(1rem);
+  }
+
+  .lg\:hover\:translate-y-4:hover {
+    transform: translateY(1rem);
+  }
+
+  .lg\:hover\:translate-x-5:hover {
+    transform: translateX(1.25rem);
+  }
+
+  .lg\:hover\:translate-y-5:hover {
+    transform: translateY(1.25rem);
+  }
+
+  .lg\:hover\:translate-x-6:hover {
+    transform: translateX(1.5rem);
+  }
+
+  .lg\:hover\:translate-y-6:hover {
+    transform: translateY(1.5rem);
+  }
+
+  .lg\:hover\:translate-x-8:hover {
+    transform: translateX(2rem);
+  }
+
+  .lg\:hover\:translate-y-8:hover {
+    transform: translateY(2rem);
+  }
+
+  .lg\:hover\:translate-x-10:hover {
+    transform: translateX(2.5rem);
+  }
+
+  .lg\:hover\:translate-y-10:hover {
+    transform: translateY(2.5rem);
+  }
+
+  .lg\:hover\:translate-x-12:hover {
+    transform: translateX(3rem);
+  }
+
+  .lg\:hover\:translate-y-12:hover {
+    transform: translateY(3rem);
+  }
+
+  .lg\:hover\:translate-x-16:hover {
+    transform: translateX(4rem);
+  }
+
+  .lg\:hover\:translate-y-16:hover {
+    transform: translateY(4rem);
+  }
+
+  .lg\:hover\:translate-x-20:hover {
+    transform: translateX(5rem);
+  }
+
+  .lg\:hover\:translate-y-20:hover {
+    transform: translateY(5rem);
+  }
+
+  .lg\:hover\:translate-x-24:hover {
+    transform: translateX(6rem);
+  }
+
+  .lg\:hover\:translate-y-24:hover {
+    transform: translateY(6rem);
+  }
+
+  .lg\:hover\:translate-x-32:hover {
+    transform: translateX(8rem);
+  }
+
+  .lg\:hover\:translate-y-32:hover {
+    transform: translateY(8rem);
+  }
+
+  .lg\:hover\:translate-x-40:hover {
+    transform: translateX(10rem);
+  }
+
+  .lg\:hover\:translate-y-40:hover {
+    transform: translateY(10rem);
+  }
+
+  .lg\:hover\:translate-x-48:hover {
+    transform: translateX(12rem);
+  }
+
+  .lg\:hover\:translate-y-48:hover {
+    transform: translateY(12rem);
+  }
+
+  .lg\:hover\:translate-x-56:hover {
+    transform: translateX(14rem);
+  }
+
+  .lg\:hover\:translate-y-56:hover {
+    transform: translateY(14rem);
+  }
+
+  .lg\:hover\:translate-x-64:hover {
+    transform: translateX(16rem);
+  }
+
+  .lg\:hover\:translate-y-64:hover {
+    transform: translateY(16rem);
+  }
+
+  .lg\:hover\:translate-x-72:hover {
+    transform: translateX(18rem);
+  }
+
+  .lg\:hover\:translate-y-72:hover {
+    transform: translateY(18rem);
+  }
+
+  .lg\:hover\:translate-x-88:hover {
+    transform: translateX(22rem);
+  }
+
+  .lg\:hover\:translate-y-88:hover {
+    transform: translateY(22rem);
+  }
+
+  .lg\:hover\:translate-x-px:hover {
+    transform: translateX(1px);
+  }
+
+  .lg\:hover\:translate-y-px:hover {
+    transform: translateY(1px);
   }
 
   .lg\:hover\:translate-x-1\/2:hover {
@@ -35060,6 +38452,166 @@ html {
     transform: translateY(0);
   }
 
+  .group:hover .lg\:group-hover\:translate-x-1 {
+    transform: translateX(0.25rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-1 {
+    transform: translateY(0.25rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-2 {
+    transform: translateX(0.5rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-2 {
+    transform: translateY(0.5rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-3 {
+    transform: translateX(0.75rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-3 {
+    transform: translateY(0.75rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-4 {
+    transform: translateX(1rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-4 {
+    transform: translateY(1rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-5 {
+    transform: translateX(1.25rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-5 {
+    transform: translateY(1.25rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-6 {
+    transform: translateX(1.5rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-6 {
+    transform: translateY(1.5rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-8 {
+    transform: translateX(2rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-8 {
+    transform: translateY(2rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-10 {
+    transform: translateX(2.5rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-10 {
+    transform: translateY(2.5rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-12 {
+    transform: translateX(3rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-12 {
+    transform: translateY(3rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-16 {
+    transform: translateX(4rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-16 {
+    transform: translateY(4rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-20 {
+    transform: translateX(5rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-20 {
+    transform: translateY(5rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-24 {
+    transform: translateX(6rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-24 {
+    transform: translateY(6rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-32 {
+    transform: translateX(8rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-32 {
+    transform: translateY(8rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-40 {
+    transform: translateX(10rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-40 {
+    transform: translateY(10rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-48 {
+    transform: translateX(12rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-48 {
+    transform: translateY(12rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-56 {
+    transform: translateX(14rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-56 {
+    transform: translateY(14rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-64 {
+    transform: translateX(16rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-64 {
+    transform: translateY(16rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-72 {
+    transform: translateX(18rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-72 {
+    transform: translateY(18rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-88 {
+    transform: translateX(22rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-88 {
+    transform: translateY(22rem);
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-px {
+    transform: translateX(1px);
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-px {
+    transform: translateY(1px);
+  }
+
   .group:hover .lg\:group-hover\:translate-x-1\/2 {
     transform: translateX(50%);
   }
@@ -35092,6 +38644,166 @@ html {
     transform: translateY(-0);
   }
 
+  .lg\:-translate-x-1 {
+    transform: translateX(-0.25rem);
+  }
+
+  .lg\:-translate-y-1 {
+    transform: translateY(-0.25rem);
+  }
+
+  .lg\:-translate-x-2 {
+    transform: translateX(-0.5rem);
+  }
+
+  .lg\:-translate-y-2 {
+    transform: translateY(-0.5rem);
+  }
+
+  .lg\:-translate-x-3 {
+    transform: translateX(-0.75rem);
+  }
+
+  .lg\:-translate-y-3 {
+    transform: translateY(-0.75rem);
+  }
+
+  .lg\:-translate-x-4 {
+    transform: translateX(-1rem);
+  }
+
+  .lg\:-translate-y-4 {
+    transform: translateY(-1rem);
+  }
+
+  .lg\:-translate-x-5 {
+    transform: translateX(-1.25rem);
+  }
+
+  .lg\:-translate-y-5 {
+    transform: translateY(-1.25rem);
+  }
+
+  .lg\:-translate-x-6 {
+    transform: translateX(-1.5rem);
+  }
+
+  .lg\:-translate-y-6 {
+    transform: translateY(-1.5rem);
+  }
+
+  .lg\:-translate-x-8 {
+    transform: translateX(-2rem);
+  }
+
+  .lg\:-translate-y-8 {
+    transform: translateY(-2rem);
+  }
+
+  .lg\:-translate-x-10 {
+    transform: translateX(-2.5rem);
+  }
+
+  .lg\:-translate-y-10 {
+    transform: translateY(-2.5rem);
+  }
+
+  .lg\:-translate-x-12 {
+    transform: translateX(-3rem);
+  }
+
+  .lg\:-translate-y-12 {
+    transform: translateY(-3rem);
+  }
+
+  .lg\:-translate-x-16 {
+    transform: translateX(-4rem);
+  }
+
+  .lg\:-translate-y-16 {
+    transform: translateY(-4rem);
+  }
+
+  .lg\:-translate-x-20 {
+    transform: translateX(-5rem);
+  }
+
+  .lg\:-translate-y-20 {
+    transform: translateY(-5rem);
+  }
+
+  .lg\:-translate-x-24 {
+    transform: translateX(-6rem);
+  }
+
+  .lg\:-translate-y-24 {
+    transform: translateY(-6rem);
+  }
+
+  .lg\:-translate-x-32 {
+    transform: translateX(-8rem);
+  }
+
+  .lg\:-translate-y-32 {
+    transform: translateY(-8rem);
+  }
+
+  .lg\:-translate-x-40 {
+    transform: translateX(-10rem);
+  }
+
+  .lg\:-translate-y-40 {
+    transform: translateY(-10rem);
+  }
+
+  .lg\:-translate-x-48 {
+    transform: translateX(-12rem);
+  }
+
+  .lg\:-translate-y-48 {
+    transform: translateY(-12rem);
+  }
+
+  .lg\:-translate-x-56 {
+    transform: translateX(-14rem);
+  }
+
+  .lg\:-translate-y-56 {
+    transform: translateY(-14rem);
+  }
+
+  .lg\:-translate-x-64 {
+    transform: translateX(-16rem);
+  }
+
+  .lg\:-translate-y-64 {
+    transform: translateY(-16rem);
+  }
+
+  .lg\:-translate-x-72 {
+    transform: translateX(-18rem);
+  }
+
+  .lg\:-translate-y-72 {
+    transform: translateY(-18rem);
+  }
+
+  .lg\:-translate-x-88 {
+    transform: translateX(-22rem);
+  }
+
+  .lg\:-translate-y-88 {
+    transform: translateY(-22rem);
+  }
+
+  .lg\:-translate-x-px {
+    transform: translateX(-1px);
+  }
+
+  .lg\:-translate-y-px {
+    transform: translateY(-1px);
+  }
+
   .lg\:-translate-x-1\/2 {
     transform: translateX(-50%);
   }
@@ -35113,6 +38825,390 @@ html {
   }
 
   .lg\:-translate-y-10px {
+    transform: translateY(-10px);
+  }
+
+  .lg\:hover\:-translate-x-0:hover {
+    transform: translateX(-0);
+  }
+
+  .lg\:hover\:-translate-y-0:hover {
+    transform: translateY(-0);
+  }
+
+  .lg\:hover\:-translate-x-1:hover {
+    transform: translateX(-0.25rem);
+  }
+
+  .lg\:hover\:-translate-y-1:hover {
+    transform: translateY(-0.25rem);
+  }
+
+  .lg\:hover\:-translate-x-2:hover {
+    transform: translateX(-0.5rem);
+  }
+
+  .lg\:hover\:-translate-y-2:hover {
+    transform: translateY(-0.5rem);
+  }
+
+  .lg\:hover\:-translate-x-3:hover {
+    transform: translateX(-0.75rem);
+  }
+
+  .lg\:hover\:-translate-y-3:hover {
+    transform: translateY(-0.75rem);
+  }
+
+  .lg\:hover\:-translate-x-4:hover {
+    transform: translateX(-1rem);
+  }
+
+  .lg\:hover\:-translate-y-4:hover {
+    transform: translateY(-1rem);
+  }
+
+  .lg\:hover\:-translate-x-5:hover {
+    transform: translateX(-1.25rem);
+  }
+
+  .lg\:hover\:-translate-y-5:hover {
+    transform: translateY(-1.25rem);
+  }
+
+  .lg\:hover\:-translate-x-6:hover {
+    transform: translateX(-1.5rem);
+  }
+
+  .lg\:hover\:-translate-y-6:hover {
+    transform: translateY(-1.5rem);
+  }
+
+  .lg\:hover\:-translate-x-8:hover {
+    transform: translateX(-2rem);
+  }
+
+  .lg\:hover\:-translate-y-8:hover {
+    transform: translateY(-2rem);
+  }
+
+  .lg\:hover\:-translate-x-10:hover {
+    transform: translateX(-2.5rem);
+  }
+
+  .lg\:hover\:-translate-y-10:hover {
+    transform: translateY(-2.5rem);
+  }
+
+  .lg\:hover\:-translate-x-12:hover {
+    transform: translateX(-3rem);
+  }
+
+  .lg\:hover\:-translate-y-12:hover {
+    transform: translateY(-3rem);
+  }
+
+  .lg\:hover\:-translate-x-16:hover {
+    transform: translateX(-4rem);
+  }
+
+  .lg\:hover\:-translate-y-16:hover {
+    transform: translateY(-4rem);
+  }
+
+  .lg\:hover\:-translate-x-20:hover {
+    transform: translateX(-5rem);
+  }
+
+  .lg\:hover\:-translate-y-20:hover {
+    transform: translateY(-5rem);
+  }
+
+  .lg\:hover\:-translate-x-24:hover {
+    transform: translateX(-6rem);
+  }
+
+  .lg\:hover\:-translate-y-24:hover {
+    transform: translateY(-6rem);
+  }
+
+  .lg\:hover\:-translate-x-32:hover {
+    transform: translateX(-8rem);
+  }
+
+  .lg\:hover\:-translate-y-32:hover {
+    transform: translateY(-8rem);
+  }
+
+  .lg\:hover\:-translate-x-40:hover {
+    transform: translateX(-10rem);
+  }
+
+  .lg\:hover\:-translate-y-40:hover {
+    transform: translateY(-10rem);
+  }
+
+  .lg\:hover\:-translate-x-48:hover {
+    transform: translateX(-12rem);
+  }
+
+  .lg\:hover\:-translate-y-48:hover {
+    transform: translateY(-12rem);
+  }
+
+  .lg\:hover\:-translate-x-56:hover {
+    transform: translateX(-14rem);
+  }
+
+  .lg\:hover\:-translate-y-56:hover {
+    transform: translateY(-14rem);
+  }
+
+  .lg\:hover\:-translate-x-64:hover {
+    transform: translateX(-16rem);
+  }
+
+  .lg\:hover\:-translate-y-64:hover {
+    transform: translateY(-16rem);
+  }
+
+  .lg\:hover\:-translate-x-72:hover {
+    transform: translateX(-18rem);
+  }
+
+  .lg\:hover\:-translate-y-72:hover {
+    transform: translateY(-18rem);
+  }
+
+  .lg\:hover\:-translate-x-88:hover {
+    transform: translateX(-22rem);
+  }
+
+  .lg\:hover\:-translate-y-88:hover {
+    transform: translateY(-22rem);
+  }
+
+  .lg\:hover\:-translate-x-px:hover {
+    transform: translateX(-1px);
+  }
+
+  .lg\:hover\:-translate-y-px:hover {
+    transform: translateY(-1px);
+  }
+
+  .lg\:hover\:-translate-x-1\/2:hover {
+    transform: translateX(-50%);
+  }
+
+  .lg\:hover\:-translate-y-1\/2:hover {
+    transform: translateY(-50%);
+  }
+
+  .lg\:hover\:-translate-x-full:hover {
+    transform: translateX(-100%);
+  }
+
+  .lg\:hover\:-translate-y-full:hover {
+    transform: translateY(-100%);
+  }
+
+  .lg\:hover\:-translate-x-10px:hover {
+    transform: translateX(-10px);
+  }
+
+  .lg\:hover\:-translate-y-10px:hover {
+    transform: translateY(-10px);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-0 {
+    transform: translateX(-0);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-0 {
+    transform: translateY(-0);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-1 {
+    transform: translateX(-0.25rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-1 {
+    transform: translateY(-0.25rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-2 {
+    transform: translateX(-0.5rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-2 {
+    transform: translateY(-0.5rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-3 {
+    transform: translateX(-0.75rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-3 {
+    transform: translateY(-0.75rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-4 {
+    transform: translateX(-1rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-4 {
+    transform: translateY(-1rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-5 {
+    transform: translateX(-1.25rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-5 {
+    transform: translateY(-1.25rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-6 {
+    transform: translateX(-1.5rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-6 {
+    transform: translateY(-1.5rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-8 {
+    transform: translateX(-2rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-8 {
+    transform: translateY(-2rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-10 {
+    transform: translateX(-2.5rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-10 {
+    transform: translateY(-2.5rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-12 {
+    transform: translateX(-3rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-12 {
+    transform: translateY(-3rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-16 {
+    transform: translateX(-4rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-16 {
+    transform: translateY(-4rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-20 {
+    transform: translateX(-5rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-20 {
+    transform: translateY(-5rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-24 {
+    transform: translateX(-6rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-24 {
+    transform: translateY(-6rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-32 {
+    transform: translateX(-8rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-32 {
+    transform: translateY(-8rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-40 {
+    transform: translateX(-10rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-40 {
+    transform: translateY(-10rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-48 {
+    transform: translateX(-12rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-48 {
+    transform: translateY(-12rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-56 {
+    transform: translateX(-14rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-56 {
+    transform: translateY(-14rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-64 {
+    transform: translateX(-16rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-64 {
+    transform: translateY(-16rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-72 {
+    transform: translateX(-18rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-72 {
+    transform: translateY(-18rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-88 {
+    transform: translateX(-22rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-88 {
+    transform: translateY(-22rem);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-px {
+    transform: translateX(-1px);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-px {
+    transform: translateY(-1px);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-1\/2 {
+    transform: translateX(-50%);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-1\/2 {
+    transform: translateY(-50%);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-full {
+    transform: translateX(-100%);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-full {
+    transform: translateY(-100%);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-x-10px {
+    transform: translateX(-10px);
+  }
+
+  .group:hover .lg\:group-hover\:-translate-y-10px {
     transform: translateY(-10px);
   }
 
@@ -43627,6 +47723,166 @@ html {
     transform: translateY(0);
   }
 
+  .xl\:translate-x-1 {
+    transform: translateX(0.25rem);
+  }
+
+  .xl\:translate-y-1 {
+    transform: translateY(0.25rem);
+  }
+
+  .xl\:translate-x-2 {
+    transform: translateX(0.5rem);
+  }
+
+  .xl\:translate-y-2 {
+    transform: translateY(0.5rem);
+  }
+
+  .xl\:translate-x-3 {
+    transform: translateX(0.75rem);
+  }
+
+  .xl\:translate-y-3 {
+    transform: translateY(0.75rem);
+  }
+
+  .xl\:translate-x-4 {
+    transform: translateX(1rem);
+  }
+
+  .xl\:translate-y-4 {
+    transform: translateY(1rem);
+  }
+
+  .xl\:translate-x-5 {
+    transform: translateX(1.25rem);
+  }
+
+  .xl\:translate-y-5 {
+    transform: translateY(1.25rem);
+  }
+
+  .xl\:translate-x-6 {
+    transform: translateX(1.5rem);
+  }
+
+  .xl\:translate-y-6 {
+    transform: translateY(1.5rem);
+  }
+
+  .xl\:translate-x-8 {
+    transform: translateX(2rem);
+  }
+
+  .xl\:translate-y-8 {
+    transform: translateY(2rem);
+  }
+
+  .xl\:translate-x-10 {
+    transform: translateX(2.5rem);
+  }
+
+  .xl\:translate-y-10 {
+    transform: translateY(2.5rem);
+  }
+
+  .xl\:translate-x-12 {
+    transform: translateX(3rem);
+  }
+
+  .xl\:translate-y-12 {
+    transform: translateY(3rem);
+  }
+
+  .xl\:translate-x-16 {
+    transform: translateX(4rem);
+  }
+
+  .xl\:translate-y-16 {
+    transform: translateY(4rem);
+  }
+
+  .xl\:translate-x-20 {
+    transform: translateX(5rem);
+  }
+
+  .xl\:translate-y-20 {
+    transform: translateY(5rem);
+  }
+
+  .xl\:translate-x-24 {
+    transform: translateX(6rem);
+  }
+
+  .xl\:translate-y-24 {
+    transform: translateY(6rem);
+  }
+
+  .xl\:translate-x-32 {
+    transform: translateX(8rem);
+  }
+
+  .xl\:translate-y-32 {
+    transform: translateY(8rem);
+  }
+
+  .xl\:translate-x-40 {
+    transform: translateX(10rem);
+  }
+
+  .xl\:translate-y-40 {
+    transform: translateY(10rem);
+  }
+
+  .xl\:translate-x-48 {
+    transform: translateX(12rem);
+  }
+
+  .xl\:translate-y-48 {
+    transform: translateY(12rem);
+  }
+
+  .xl\:translate-x-56 {
+    transform: translateX(14rem);
+  }
+
+  .xl\:translate-y-56 {
+    transform: translateY(14rem);
+  }
+
+  .xl\:translate-x-64 {
+    transform: translateX(16rem);
+  }
+
+  .xl\:translate-y-64 {
+    transform: translateY(16rem);
+  }
+
+  .xl\:translate-x-72 {
+    transform: translateX(18rem);
+  }
+
+  .xl\:translate-y-72 {
+    transform: translateY(18rem);
+  }
+
+  .xl\:translate-x-88 {
+    transform: translateX(22rem);
+  }
+
+  .xl\:translate-y-88 {
+    transform: translateY(22rem);
+  }
+
+  .xl\:translate-x-px {
+    transform: translateX(1px);
+  }
+
+  .xl\:translate-y-px {
+    transform: translateY(1px);
+  }
+
   .xl\:translate-x-1\/2 {
     transform: translateX(50%);
   }
@@ -43657,6 +47913,166 @@ html {
 
   .xl\:hover\:translate-y-0:hover {
     transform: translateY(0);
+  }
+
+  .xl\:hover\:translate-x-1:hover {
+    transform: translateX(0.25rem);
+  }
+
+  .xl\:hover\:translate-y-1:hover {
+    transform: translateY(0.25rem);
+  }
+
+  .xl\:hover\:translate-x-2:hover {
+    transform: translateX(0.5rem);
+  }
+
+  .xl\:hover\:translate-y-2:hover {
+    transform: translateY(0.5rem);
+  }
+
+  .xl\:hover\:translate-x-3:hover {
+    transform: translateX(0.75rem);
+  }
+
+  .xl\:hover\:translate-y-3:hover {
+    transform: translateY(0.75rem);
+  }
+
+  .xl\:hover\:translate-x-4:hover {
+    transform: translateX(1rem);
+  }
+
+  .xl\:hover\:translate-y-4:hover {
+    transform: translateY(1rem);
+  }
+
+  .xl\:hover\:translate-x-5:hover {
+    transform: translateX(1.25rem);
+  }
+
+  .xl\:hover\:translate-y-5:hover {
+    transform: translateY(1.25rem);
+  }
+
+  .xl\:hover\:translate-x-6:hover {
+    transform: translateX(1.5rem);
+  }
+
+  .xl\:hover\:translate-y-6:hover {
+    transform: translateY(1.5rem);
+  }
+
+  .xl\:hover\:translate-x-8:hover {
+    transform: translateX(2rem);
+  }
+
+  .xl\:hover\:translate-y-8:hover {
+    transform: translateY(2rem);
+  }
+
+  .xl\:hover\:translate-x-10:hover {
+    transform: translateX(2.5rem);
+  }
+
+  .xl\:hover\:translate-y-10:hover {
+    transform: translateY(2.5rem);
+  }
+
+  .xl\:hover\:translate-x-12:hover {
+    transform: translateX(3rem);
+  }
+
+  .xl\:hover\:translate-y-12:hover {
+    transform: translateY(3rem);
+  }
+
+  .xl\:hover\:translate-x-16:hover {
+    transform: translateX(4rem);
+  }
+
+  .xl\:hover\:translate-y-16:hover {
+    transform: translateY(4rem);
+  }
+
+  .xl\:hover\:translate-x-20:hover {
+    transform: translateX(5rem);
+  }
+
+  .xl\:hover\:translate-y-20:hover {
+    transform: translateY(5rem);
+  }
+
+  .xl\:hover\:translate-x-24:hover {
+    transform: translateX(6rem);
+  }
+
+  .xl\:hover\:translate-y-24:hover {
+    transform: translateY(6rem);
+  }
+
+  .xl\:hover\:translate-x-32:hover {
+    transform: translateX(8rem);
+  }
+
+  .xl\:hover\:translate-y-32:hover {
+    transform: translateY(8rem);
+  }
+
+  .xl\:hover\:translate-x-40:hover {
+    transform: translateX(10rem);
+  }
+
+  .xl\:hover\:translate-y-40:hover {
+    transform: translateY(10rem);
+  }
+
+  .xl\:hover\:translate-x-48:hover {
+    transform: translateX(12rem);
+  }
+
+  .xl\:hover\:translate-y-48:hover {
+    transform: translateY(12rem);
+  }
+
+  .xl\:hover\:translate-x-56:hover {
+    transform: translateX(14rem);
+  }
+
+  .xl\:hover\:translate-y-56:hover {
+    transform: translateY(14rem);
+  }
+
+  .xl\:hover\:translate-x-64:hover {
+    transform: translateX(16rem);
+  }
+
+  .xl\:hover\:translate-y-64:hover {
+    transform: translateY(16rem);
+  }
+
+  .xl\:hover\:translate-x-72:hover {
+    transform: translateX(18rem);
+  }
+
+  .xl\:hover\:translate-y-72:hover {
+    transform: translateY(18rem);
+  }
+
+  .xl\:hover\:translate-x-88:hover {
+    transform: translateX(22rem);
+  }
+
+  .xl\:hover\:translate-y-88:hover {
+    transform: translateY(22rem);
+  }
+
+  .xl\:hover\:translate-x-px:hover {
+    transform: translateX(1px);
+  }
+
+  .xl\:hover\:translate-y-px:hover {
+    transform: translateY(1px);
   }
 
   .xl\:hover\:translate-x-1\/2:hover {
@@ -43691,6 +48107,166 @@ html {
     transform: translateY(0);
   }
 
+  .group:hover .xl\:group-hover\:translate-x-1 {
+    transform: translateX(0.25rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-1 {
+    transform: translateY(0.25rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-2 {
+    transform: translateX(0.5rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-2 {
+    transform: translateY(0.5rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-3 {
+    transform: translateX(0.75rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-3 {
+    transform: translateY(0.75rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-4 {
+    transform: translateX(1rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-4 {
+    transform: translateY(1rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-5 {
+    transform: translateX(1.25rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-5 {
+    transform: translateY(1.25rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-6 {
+    transform: translateX(1.5rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-6 {
+    transform: translateY(1.5rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-8 {
+    transform: translateX(2rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-8 {
+    transform: translateY(2rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-10 {
+    transform: translateX(2.5rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-10 {
+    transform: translateY(2.5rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-12 {
+    transform: translateX(3rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-12 {
+    transform: translateY(3rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-16 {
+    transform: translateX(4rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-16 {
+    transform: translateY(4rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-20 {
+    transform: translateX(5rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-20 {
+    transform: translateY(5rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-24 {
+    transform: translateX(6rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-24 {
+    transform: translateY(6rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-32 {
+    transform: translateX(8rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-32 {
+    transform: translateY(8rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-40 {
+    transform: translateX(10rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-40 {
+    transform: translateY(10rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-48 {
+    transform: translateX(12rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-48 {
+    transform: translateY(12rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-56 {
+    transform: translateX(14rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-56 {
+    transform: translateY(14rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-64 {
+    transform: translateX(16rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-64 {
+    transform: translateY(16rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-72 {
+    transform: translateX(18rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-72 {
+    transform: translateY(18rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-88 {
+    transform: translateX(22rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-88 {
+    transform: translateY(22rem);
+  }
+
+  .group:hover .xl\:group-hover\:translate-x-px {
+    transform: translateX(1px);
+  }
+
+  .group:hover .xl\:group-hover\:translate-y-px {
+    transform: translateY(1px);
+  }
+
   .group:hover .xl\:group-hover\:translate-x-1\/2 {
     transform: translateX(50%);
   }
@@ -43723,6 +48299,166 @@ html {
     transform: translateY(-0);
   }
 
+  .xl\:-translate-x-1 {
+    transform: translateX(-0.25rem);
+  }
+
+  .xl\:-translate-y-1 {
+    transform: translateY(-0.25rem);
+  }
+
+  .xl\:-translate-x-2 {
+    transform: translateX(-0.5rem);
+  }
+
+  .xl\:-translate-y-2 {
+    transform: translateY(-0.5rem);
+  }
+
+  .xl\:-translate-x-3 {
+    transform: translateX(-0.75rem);
+  }
+
+  .xl\:-translate-y-3 {
+    transform: translateY(-0.75rem);
+  }
+
+  .xl\:-translate-x-4 {
+    transform: translateX(-1rem);
+  }
+
+  .xl\:-translate-y-4 {
+    transform: translateY(-1rem);
+  }
+
+  .xl\:-translate-x-5 {
+    transform: translateX(-1.25rem);
+  }
+
+  .xl\:-translate-y-5 {
+    transform: translateY(-1.25rem);
+  }
+
+  .xl\:-translate-x-6 {
+    transform: translateX(-1.5rem);
+  }
+
+  .xl\:-translate-y-6 {
+    transform: translateY(-1.5rem);
+  }
+
+  .xl\:-translate-x-8 {
+    transform: translateX(-2rem);
+  }
+
+  .xl\:-translate-y-8 {
+    transform: translateY(-2rem);
+  }
+
+  .xl\:-translate-x-10 {
+    transform: translateX(-2.5rem);
+  }
+
+  .xl\:-translate-y-10 {
+    transform: translateY(-2.5rem);
+  }
+
+  .xl\:-translate-x-12 {
+    transform: translateX(-3rem);
+  }
+
+  .xl\:-translate-y-12 {
+    transform: translateY(-3rem);
+  }
+
+  .xl\:-translate-x-16 {
+    transform: translateX(-4rem);
+  }
+
+  .xl\:-translate-y-16 {
+    transform: translateY(-4rem);
+  }
+
+  .xl\:-translate-x-20 {
+    transform: translateX(-5rem);
+  }
+
+  .xl\:-translate-y-20 {
+    transform: translateY(-5rem);
+  }
+
+  .xl\:-translate-x-24 {
+    transform: translateX(-6rem);
+  }
+
+  .xl\:-translate-y-24 {
+    transform: translateY(-6rem);
+  }
+
+  .xl\:-translate-x-32 {
+    transform: translateX(-8rem);
+  }
+
+  .xl\:-translate-y-32 {
+    transform: translateY(-8rem);
+  }
+
+  .xl\:-translate-x-40 {
+    transform: translateX(-10rem);
+  }
+
+  .xl\:-translate-y-40 {
+    transform: translateY(-10rem);
+  }
+
+  .xl\:-translate-x-48 {
+    transform: translateX(-12rem);
+  }
+
+  .xl\:-translate-y-48 {
+    transform: translateY(-12rem);
+  }
+
+  .xl\:-translate-x-56 {
+    transform: translateX(-14rem);
+  }
+
+  .xl\:-translate-y-56 {
+    transform: translateY(-14rem);
+  }
+
+  .xl\:-translate-x-64 {
+    transform: translateX(-16rem);
+  }
+
+  .xl\:-translate-y-64 {
+    transform: translateY(-16rem);
+  }
+
+  .xl\:-translate-x-72 {
+    transform: translateX(-18rem);
+  }
+
+  .xl\:-translate-y-72 {
+    transform: translateY(-18rem);
+  }
+
+  .xl\:-translate-x-88 {
+    transform: translateX(-22rem);
+  }
+
+  .xl\:-translate-y-88 {
+    transform: translateY(-22rem);
+  }
+
+  .xl\:-translate-x-px {
+    transform: translateX(-1px);
+  }
+
+  .xl\:-translate-y-px {
+    transform: translateY(-1px);
+  }
+
   .xl\:-translate-x-1\/2 {
     transform: translateX(-50%);
   }
@@ -43744,6 +48480,390 @@ html {
   }
 
   .xl\:-translate-y-10px {
+    transform: translateY(-10px);
+  }
+
+  .xl\:hover\:-translate-x-0:hover {
+    transform: translateX(-0);
+  }
+
+  .xl\:hover\:-translate-y-0:hover {
+    transform: translateY(-0);
+  }
+
+  .xl\:hover\:-translate-x-1:hover {
+    transform: translateX(-0.25rem);
+  }
+
+  .xl\:hover\:-translate-y-1:hover {
+    transform: translateY(-0.25rem);
+  }
+
+  .xl\:hover\:-translate-x-2:hover {
+    transform: translateX(-0.5rem);
+  }
+
+  .xl\:hover\:-translate-y-2:hover {
+    transform: translateY(-0.5rem);
+  }
+
+  .xl\:hover\:-translate-x-3:hover {
+    transform: translateX(-0.75rem);
+  }
+
+  .xl\:hover\:-translate-y-3:hover {
+    transform: translateY(-0.75rem);
+  }
+
+  .xl\:hover\:-translate-x-4:hover {
+    transform: translateX(-1rem);
+  }
+
+  .xl\:hover\:-translate-y-4:hover {
+    transform: translateY(-1rem);
+  }
+
+  .xl\:hover\:-translate-x-5:hover {
+    transform: translateX(-1.25rem);
+  }
+
+  .xl\:hover\:-translate-y-5:hover {
+    transform: translateY(-1.25rem);
+  }
+
+  .xl\:hover\:-translate-x-6:hover {
+    transform: translateX(-1.5rem);
+  }
+
+  .xl\:hover\:-translate-y-6:hover {
+    transform: translateY(-1.5rem);
+  }
+
+  .xl\:hover\:-translate-x-8:hover {
+    transform: translateX(-2rem);
+  }
+
+  .xl\:hover\:-translate-y-8:hover {
+    transform: translateY(-2rem);
+  }
+
+  .xl\:hover\:-translate-x-10:hover {
+    transform: translateX(-2.5rem);
+  }
+
+  .xl\:hover\:-translate-y-10:hover {
+    transform: translateY(-2.5rem);
+  }
+
+  .xl\:hover\:-translate-x-12:hover {
+    transform: translateX(-3rem);
+  }
+
+  .xl\:hover\:-translate-y-12:hover {
+    transform: translateY(-3rem);
+  }
+
+  .xl\:hover\:-translate-x-16:hover {
+    transform: translateX(-4rem);
+  }
+
+  .xl\:hover\:-translate-y-16:hover {
+    transform: translateY(-4rem);
+  }
+
+  .xl\:hover\:-translate-x-20:hover {
+    transform: translateX(-5rem);
+  }
+
+  .xl\:hover\:-translate-y-20:hover {
+    transform: translateY(-5rem);
+  }
+
+  .xl\:hover\:-translate-x-24:hover {
+    transform: translateX(-6rem);
+  }
+
+  .xl\:hover\:-translate-y-24:hover {
+    transform: translateY(-6rem);
+  }
+
+  .xl\:hover\:-translate-x-32:hover {
+    transform: translateX(-8rem);
+  }
+
+  .xl\:hover\:-translate-y-32:hover {
+    transform: translateY(-8rem);
+  }
+
+  .xl\:hover\:-translate-x-40:hover {
+    transform: translateX(-10rem);
+  }
+
+  .xl\:hover\:-translate-y-40:hover {
+    transform: translateY(-10rem);
+  }
+
+  .xl\:hover\:-translate-x-48:hover {
+    transform: translateX(-12rem);
+  }
+
+  .xl\:hover\:-translate-y-48:hover {
+    transform: translateY(-12rem);
+  }
+
+  .xl\:hover\:-translate-x-56:hover {
+    transform: translateX(-14rem);
+  }
+
+  .xl\:hover\:-translate-y-56:hover {
+    transform: translateY(-14rem);
+  }
+
+  .xl\:hover\:-translate-x-64:hover {
+    transform: translateX(-16rem);
+  }
+
+  .xl\:hover\:-translate-y-64:hover {
+    transform: translateY(-16rem);
+  }
+
+  .xl\:hover\:-translate-x-72:hover {
+    transform: translateX(-18rem);
+  }
+
+  .xl\:hover\:-translate-y-72:hover {
+    transform: translateY(-18rem);
+  }
+
+  .xl\:hover\:-translate-x-88:hover {
+    transform: translateX(-22rem);
+  }
+
+  .xl\:hover\:-translate-y-88:hover {
+    transform: translateY(-22rem);
+  }
+
+  .xl\:hover\:-translate-x-px:hover {
+    transform: translateX(-1px);
+  }
+
+  .xl\:hover\:-translate-y-px:hover {
+    transform: translateY(-1px);
+  }
+
+  .xl\:hover\:-translate-x-1\/2:hover {
+    transform: translateX(-50%);
+  }
+
+  .xl\:hover\:-translate-y-1\/2:hover {
+    transform: translateY(-50%);
+  }
+
+  .xl\:hover\:-translate-x-full:hover {
+    transform: translateX(-100%);
+  }
+
+  .xl\:hover\:-translate-y-full:hover {
+    transform: translateY(-100%);
+  }
+
+  .xl\:hover\:-translate-x-10px:hover {
+    transform: translateX(-10px);
+  }
+
+  .xl\:hover\:-translate-y-10px:hover {
+    transform: translateY(-10px);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-0 {
+    transform: translateX(-0);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-0 {
+    transform: translateY(-0);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-1 {
+    transform: translateX(-0.25rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-1 {
+    transform: translateY(-0.25rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-2 {
+    transform: translateX(-0.5rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-2 {
+    transform: translateY(-0.5rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-3 {
+    transform: translateX(-0.75rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-3 {
+    transform: translateY(-0.75rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-4 {
+    transform: translateX(-1rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-4 {
+    transform: translateY(-1rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-5 {
+    transform: translateX(-1.25rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-5 {
+    transform: translateY(-1.25rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-6 {
+    transform: translateX(-1.5rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-6 {
+    transform: translateY(-1.5rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-8 {
+    transform: translateX(-2rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-8 {
+    transform: translateY(-2rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-10 {
+    transform: translateX(-2.5rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-10 {
+    transform: translateY(-2.5rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-12 {
+    transform: translateX(-3rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-12 {
+    transform: translateY(-3rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-16 {
+    transform: translateX(-4rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-16 {
+    transform: translateY(-4rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-20 {
+    transform: translateX(-5rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-20 {
+    transform: translateY(-5rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-24 {
+    transform: translateX(-6rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-24 {
+    transform: translateY(-6rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-32 {
+    transform: translateX(-8rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-32 {
+    transform: translateY(-8rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-40 {
+    transform: translateX(-10rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-40 {
+    transform: translateY(-10rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-48 {
+    transform: translateX(-12rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-48 {
+    transform: translateY(-12rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-56 {
+    transform: translateX(-14rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-56 {
+    transform: translateY(-14rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-64 {
+    transform: translateX(-16rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-64 {
+    transform: translateY(-16rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-72 {
+    transform: translateX(-18rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-72 {
+    transform: translateY(-18rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-88 {
+    transform: translateX(-22rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-88 {
+    transform: translateY(-22rem);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-px {
+    transform: translateX(-1px);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-px {
+    transform: translateY(-1px);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-1\/2 {
+    transform: translateX(-50%);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-1\/2 {
+    transform: translateY(-50%);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-full {
+    transform: translateX(-100%);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-full {
+    transform: translateY(-100%);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-x-10px {
+    transform: translateX(-10px);
+  }
+
+  .group:hover .xl\:group-hover\:-translate-y-10px {
     transform: translateY(-10px);
   }
 

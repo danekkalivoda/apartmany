@@ -384,18 +384,20 @@ module.exports = {
       auto: 'auto',
     },
     transformOrigin: {},
-    translate: { // defaults to {}
+    translate: theme => ({ // defaults to {}
       '0': '0',
+      ...theme('spacing'),
+      '1/2': '50%',
+      'full': '100%',
+      '10px': '10px',
+    }),
+    negativeTranslate: theme => ({ // defaults to {}
+      '0': '0',
+      ...theme('spacing'),
       '1/2': '50%',
       'full': '100%',
       '10px': '10px'
-    },
-    negativeTranslate: { // defaults to {}
-      '0': '0',
-      '1/2': '50%',
-      'full': '100%',
-      '10px': '10px'
-    },
+    }),
     scale: { // defaults to {}
       '90': '0.9',
       '100': '1',
@@ -496,6 +498,7 @@ module.exports = {
     transform: ['responsive', 'hover'],
     transformOrigin: ['responsive'],
     translate: ['responsive', 'hover', 'group-hover'],
+    negativeTranslate: ['responsive', 'hover', 'group-hover'],
     scale: ['responsive', 'group-hover'],
     negativeScale: ['responsive', 'group-hover'],
     rotate: ['responsive'],

@@ -1,10 +1,4 @@
 import lozad from 'lozad';
-import Vue from '../node_modules/vue/dist/vue.min';
-import Gallery from './components/gallery.vue';
-
-new Vue({
-  render: h => h(Gallery),
-}).$mount(`#app`);
 
 (function() {
     const observer = lozad('.lozad', {

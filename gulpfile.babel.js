@@ -20,6 +20,7 @@ import uglify from "gulp-uglify";
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const rawStylesheet = "src/style.css";
 const rawJs = "src/app.js";
+const rawJsBundles = "src/*.js";
 const siteRoot = "_site";
 const cssRoot = `${siteRoot}/assets/css/`;
 const jsRoot = `${siteRoot}/assets/js/`;
@@ -52,9 +53,16 @@ task("buildJekyll", () => {
   return spawn("bundle", args, { stdio: "inherit" });
 });
 
-task("processJavascript", done => {
-  browserSync.notify("Compiling javascript...");
-  return src(rawJs)
+// task("processJavascript", done => {
+//   browserSync.notify("Compiling javascript...");
+//   return src(rawJs)
+//     .pipe(babel({presets: ['@babel/env']}))
+//     .pipe(dest(jsRoot))
+// });
+
+task("processJavascriptBundles", done => {
+  browserSync.notify("Compiling javascriptBundles...");
+  return src(rawJsBundles)
     .pipe(webpack({
       module: {
         rules: [
@@ -91,19 +99,22 @@ task("processJavascript", done => {
         ]
       },
       plugins: [
-        // make sure to include the plugin!
         new VueLoaderPlugin(),
       ],
+      entry: {
+        app: ['./src/app.js'],
+        gallery: ['./src/gallery.js']
+      },
       output: {
-        filename: 'app.js',
+        filename: '[name].js',
       },
       mode: 'production'
     }))
     .pipe(babel({presets: ['@babel/env']}))
     .pipe(uglify())
     .pipe(dest(jsRoot))
+    .pipe(browserSync.reload({stream: true}))
 });
-
 
 task("processStyles", done => {
   browserSync.notify("Compiling styles...");
@@ -160,12 +171,12 @@ task("startServer", () => {
       "!_site/**/*",
       "!node_modules"
     ],
-    { interval: 1000 },
+    { interval: 500 },
     buildSite
   );
 });
 
-const buildSite = series("buildJekyll", "processStyles", "processJavascript");
+const buildSite = series("buildJekyll", "processStyles", "processJavascriptBundles");
 
 exports.serve = series(buildSite, "startServer");
 exports.default = series(buildSite);
