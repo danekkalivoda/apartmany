@@ -76,6 +76,7 @@ sections:
         type: blog-posts
     header: Z blogu
     header-alignment: text-center
+    padding-top: true
     subHeader: Píšu a ráda...
     type: blocks
   - block-margin-bottom: true
