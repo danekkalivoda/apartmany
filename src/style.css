@@ -38,9 +38,6 @@
 html{
 	height: 100%;
 }
-.svgblur{
-	filter: url(#blur);
-}
 h1{
 	@apply font-light;
 }

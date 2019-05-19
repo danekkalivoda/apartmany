@@ -11,7 +11,7 @@ const updateValues = ({
     if (scroll.changed) {
         let progressState = Math.round((scroll.top / (document.body.scrollHeight - size.y)) * 100);
         let progressBar = document.getElementById("progressBar");
-        progressBar.style.transform = "translate3d(" + (-(100 - progressState)) + '%, 0, 0)';
+        progressBar.style.transform = "translateX(" + (-(100 - progressState)) + '%)';
     }
 };
 watchViewport(updateValues);

@@ -664,11 +664,6 @@ html{
   height: 100%;
 }
 
-.svgblur{
-  -webkit-filter: url(#blur);
-  filter: url(#blur);
-}
-
 h1{
   font-weight: 300;
 }
