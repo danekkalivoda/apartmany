@@ -35,6 +35,12 @@
  * @import "components/buttons";
  * @import "components/forms";
  */
+html{
+	height: 100%;
+}
+.svgblur{
+	filter: url(#blur);
+}
 h1{
 	@apply font-light;
 }

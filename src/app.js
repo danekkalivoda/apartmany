@@ -1,4 +1,20 @@
 import lozad from 'lozad';
+import { 
+    watchViewport, 
+    getViewportState
+} from 'tornis';
+
+const state = getViewportState();
+const updateValues = ({
+    size, scroll
+}) => {
+    if (scroll.changed) {
+        let progressState = Math.round((scroll.top / (document.body.scrollHeight - size.y)) * 100);
+        let progressBar = document.getElementById("progressBar");
+        progressBar.style.transform = "translate3d(" + (-(100 - progressState)) + '%, 0, 0)';
+    }
+};
+watchViewport(updateValues);
 
 (function() {
     const observer = lozad('.lozad', {
@@ -51,5 +67,6 @@ window.onload = function(){
             menu.classList.add("hidden")
             menuToggle.classList.remove("opened")
         }
-    })
-}
+    });
+
+};

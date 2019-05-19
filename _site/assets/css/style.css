@@ -660,6 +660,15 @@ video {
  * @import "components/forms";
  */
 
+html{
+  height: 100%;
+}
+
+.svgblur{
+  -webkit-filter: url(#blur);
+  filter: url(#blur);
+}
+
 h1{
   font-weight: 300;
 }
@@ -10452,6 +10461,10 @@ html {
 
 .transition-slow {
   transition: all 1s ease;
+}
+
+.transition-fast {
+  transition: all 100ms ease;
 }
 
 .transition {

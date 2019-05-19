@@ -522,6 +522,7 @@ module.exports = {
       standard: 'all .3s ease',
       transitions: {
         'slow': 'all 1s ease',
+        'fast': 'all 100ms ease',
       } 
     }),
     require('tailwindcss-spinner')({

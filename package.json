@@ -37,6 +37,7 @@
     "tailwindcss-transforms": "^2.0.0-beta.1",
     "tailwindcss-transition": "^1.0.5",
     "tar": "^4.4.8",
+    "tornis": "^0.1.2",
     "uglifyjs-webpack-plugin": "^2.1.2",
     "url-loader": "^1.1.2",
     "vue": "2.6.10",

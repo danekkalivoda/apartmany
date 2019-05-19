@@ -2,7 +2,7 @@
 
 <section class="{% if section.padding-top %} pt-4 sm:pt-8{% endif %} pb-4 sm:pb-8 sections-content relative {% if section.images and section.images != '' %}z-40{% endif %}">
 
-  <div class="max-w-6xl mx-auto px-4 sm:px-8 relative z-10">
+  <div class="max-w-6xl mx-auto px-3 sm:px-6 relative z-10">
     {% if section.header and section.header != '' %}
       <h2 class="
         {{ section.header-alignment }}
@@ -22,7 +22,7 @@
 
     {% if section.images and section.images != '' %}
       <script src="{{ "assets/js/gallery.js" | relative_url }}" defer></script>
-      <div id="app">
+      <div id="app" class="-mx-1 sm:-mx-2">
           <gallery :images="[
             {% for image in section.images %}
               '/static{{ image }}?nf_resize=fit&w=800',
