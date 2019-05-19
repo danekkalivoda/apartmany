@@ -8,7 +8,7 @@ sections:
   - block-margin-bottom: false
     blocks:
       - mobile-width-class: full
-        tablet-width-class: 1/2
+        tablet-width-class: 2/3
         text: >-
           Integer sed finibus sem, et maximus mi. Duis mi elit, tincidunt quis
           dolor vitae, semper tincidunt nibh. Curabitur eu sollicitudin quam.
@@ -22,10 +22,10 @@ sections:
         image: >-
           /images/uploads/57487963_650637155397766_4184371937032829766_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
         mobile-width-class: full
-        tablet-width-class: 1/2
+        tablet-width-class: 2/3
         type: media
       - mobile-width-class: full
-        tablet-width-class: 1/2
+        tablet-width-class: 2/3
         text: >-
           Proin a leo porttitor dolor vestibulum vestibulum quis rhoncus lorem.
           In hac habitasse platea dictumst. Suspendisse ultricies, risus at
