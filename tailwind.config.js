@@ -429,6 +429,21 @@ module.exports = {
       '10': '10deg',
       '30': '30deg',
     },
+    linearGradients: {
+      directions: { // defaults to these values
+        't': 'to top',
+        'tr': 'to top right',
+        'r': 'to right',
+        'br': 'to bottom right',
+        'b': 'to bottom',
+        'bl': 'to bottom left',
+        'l': 'to left',
+        'tl': 'to top left',
+      },
+      colors: { // defaults to {}
+        'black-transparent-25': ['rgba(0, 0, 0, 0) 0%', 'rgba(0, 0, 0, 0.5) 40%'],
+      },
+    },
   },
   variants: {
     appearance: ['responsive'],
@@ -505,6 +520,7 @@ module.exports = {
     negativeRotate: ['responsive'],
     skew: ['responsive'],
     negativeSkew: ['responsive'],
+    linearGradients: ['responsive'],
   },
   corePlugins: {},
   plugins: [
@@ -531,5 +547,6 @@ module.exports = {
       size: '1em', // size of the spinner (used for both width and height)
       border: '2px', // border-width of the spinner (shouldn't be bigger than half the spinner's size)
     }),
+    require('tailwindcss-gradients')(),
   ],
 }
