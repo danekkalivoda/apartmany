@@ -2,7 +2,7 @@
 layout: post
 title: 'Místo, které vždy vykouzlí úsměv na tváři. '
 date: 02-04-2019
-published: true
+active: true
 image: /images/uploads/16276.jpeg
 sections:
   - block-margin-bottom: true
