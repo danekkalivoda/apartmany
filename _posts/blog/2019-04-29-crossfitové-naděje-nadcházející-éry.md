@@ -2,7 +2,7 @@
 layout: post
 title: CrossFitové naděje nadcházející éry.
 date: 29-04-2019
-active: true
+published: false
 image: /images/uploads/24331.jpeg
 sections:
   - block-margin-bottom: false

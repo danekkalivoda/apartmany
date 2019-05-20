@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kontakt
-active: true
+published: true
 background: bg-gray-800
 light-texts: true
 margin-top: true

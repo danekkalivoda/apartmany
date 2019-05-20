@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Odeslaný formulář
-active: true
+published: true
 '': false
 margin-top: false
 margin-bottom: false

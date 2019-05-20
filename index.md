@@ -156,6 +156,6 @@ sections:
     vertical-alignment: justify-center
 background: bg-gray-800
 light-texts: true
-active: true
+published: true
 ---
 
