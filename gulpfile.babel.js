@@ -121,11 +121,16 @@ task("processStyles", done => {
 
   return src(rawStylesheet)
     .pipe(
-      postcss([atimport(), 
-      postcssPresetEnv({
-        stage: 0
-      }), 
-      tailwindcss(tailwindConfig)]))
+      postcss([
+        atimport(), 
+        postcssPresetEnv({
+          stage: 0
+        }), 
+        tailwindcss(
+          tailwindConfig
+        )]
+      )
+    )
     .pipe(gulpif(devBuild, sourcemaps.init()))
     .pipe(
       gulpif(

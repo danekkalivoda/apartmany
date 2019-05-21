@@ -1,6 +1,10 @@
 {% for section in page.sections%}
 
-<section class="{% if section.padding-top %} pt-4 sm:pt-8{% endif %} pb-4 sm:pb-8 sections-content relative {% if section.images and section.images != '' %}z-40{% endif %}">
+<section 
+  class="{% if section.padding-top %} pt-4 sm:pt-8{% endif %} pb-4 sm:pb-8 sections-content relative {% if section.images and section.images != '' %}z-40{% endif %}" 
+  data-sal="slide-up"
+  data-sal-delay="50" 
+  data-sal-duration="700">
 
   <div class="max-w-6xl mx-auto px-3 sm:px-6 relative z-10">
     {% if section.header and section.header != '' %}

@@ -3,6 +3,12 @@ import {
     watchViewport, 
     getViewportState
 } from 'tornis';
+import sal from 'sal.js';
+
+sal({
+    threshold: 0.2,
+    rootMargin: "0% 70%",
+});
 
 const state = getViewportState();
 const updateValues = ({
@@ -29,7 +35,7 @@ watchViewport(updateValues);
         threshold: 0.1 // ratio of element convergence
     });
     observer.observe();
-    const lozadImage = document.querySelector('.lozad')
+    const lozadImage = document.querySelector('.lozad');
     // ... trigger the load of a image before it appears on the viewport
     observer.triggerLoad(lozadImage);
 })();

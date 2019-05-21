@@ -404,12 +404,14 @@ module.exports = {
       '110': '1.1',
     },
     rotate: { // defaults to {}
+      '1': '1deg',
       '45': '45deg',
       '90': '90deg',
       '180': '180deg',
       '270': '270deg',
     },
     negativeRotate: { // defaults to {}
+      '1': '1deg',
       '45': '45deg',
       '90': '90deg',
       '180': '180deg',
@@ -441,7 +443,7 @@ module.exports = {
         'tl': 'to top left',
       },
       colors: { // defaults to {}
-        'black-transparent-25': ['rgba(0, 0, 0, 0) 0%', 'rgba(0, 0, 0, 0.5) 40%'],
+        'black-transparent-25': ['rgba(74, 85, 104, 0) 0%', 'rgba(0, 0, 0, 0.5) 50%'],
       },
     },
   },
