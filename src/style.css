@@ -110,6 +110,7 @@ html {
 
 
 /** sal styling **/
+/* purgecss start ignore */
 [data-sal] {
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s
@@ -591,66 +592,7 @@ body.sal-disabled [data-sal|=slide] {
 	-webkit-transform: none;
 	transform: none
 }
-
-[data-sal|=zoom] {
-	opacity: 0;
-	-webkit-transition-property: opacity, -webkit-transform;
-	transition-property: opacity, -webkit-transform;
-	transition-property: opacity, transform;
-	transition-property: opacity, transform, -webkit-transform
-}
-
-[data-sal=zoom-in] {
-	-webkit-transform: scale(.5);
-	transform: scale(.5)
-}
-
-[data-sal=zoom-out] {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1)
-}
-
-[data-sal|=zoom].sal-animate,
-body.sal-disabled [data-sal|=zoom] {
-	opacity: 1;
-	-webkit-transform: none;
-	transform: none
-}
-
-[data-sal|=flip] {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transition-property: -webkit-transform;
-	transition-property: -webkit-transform;
-	transition-property: transform;
-	transition-property: transform, -webkit-transform
-}
-
-[data-sal=flip-left] {
-	-webkit-transform: perspective(2000px) rotateY(-91deg);
-	transform: perspective(2000px) rotateY(-91deg)
-}
-
-[data-sal=flip-right] {
-	-webkit-transform: perspective(2000px) rotateY(91deg);
-	transform: perspective(2000px) rotateY(91deg)
-}
-
-[data-sal=flip-up] {
-	-webkit-transform: perspective(2000px) rotateX(-91deg);
-	transform: perspective(2000px) rotateX(-91deg)
-}
-
-[data-sal=flip-down] {
-	-webkit-transform: perspective(2000px) rotateX(91deg);
-	transform: perspective(2000px) rotateX(91deg)
-}
-
-[data-sal|=flip].sal-animate,
-body.sal-disabled [data-sal|=flip] {
-	-webkit-transform: none;
-	transform: none
-}
+/* purgecss end ignore */
 
 /**
  * This injects all of Tailwind's utility classes, generated based on your
