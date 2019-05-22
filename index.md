@@ -28,6 +28,7 @@ sections:
     header-alignment: text-center
     header-padding-bottom: false
     header-padding-top: false
+    padding-top: true
     subHeader: 'moje kariéra, moje sny…'
     type: blocks
   - header: ''
