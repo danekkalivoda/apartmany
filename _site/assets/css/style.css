@@ -1810,6 +1810,10 @@ body.sal-disabled [data-sal|=slide] {
   transform: rotate(-90deg);
 }
 
+.skew-y-1 {
+  transform: skewY(1deg);
+}
+
 .skew-y-2 {
   transform: skewY(2deg);
 }
@@ -1942,12 +1946,12 @@ body.sal-disabled [data-sal|=slide] {
     margin-bottom: 2rem;
   }
 
-  .sm\:-ml-12 {
-    margin-left: -3rem;
+  .sm\:-mt-12 {
+    margin-top: -3rem;
   }
 
-  .sm\:-mt-20 {
-    margin-top: -5rem;
+  .sm\:-ml-12 {
+    margin-left: -3rem;
   }
 
   .sm\:-mt-32 {
@@ -1995,6 +1999,10 @@ body.sal-disabled [data-sal|=slide] {
 
   .sm\:pt-10 {
     padding-top: 2.5rem;
+  }
+
+  .sm\:pb-10 {
+    padding-bottom: 2.5rem;
   }
 
   .sm\:pt-12 {
@@ -2061,8 +2069,8 @@ body.sal-disabled [data-sal|=slide] {
     margin-top: 2rem;
   }
 
-  .md\:-ml-4 {
-    margin-left: -1rem;
+  .md\:-ml-8 {
+    margin-left: -2rem;
   }
 
   .md\:px-2 {
@@ -2095,16 +2103,8 @@ body.sal-disabled [data-sal|=slide] {
     padding-bottom: 2rem;
   }
 
-  .md\:pt-12 {
-    padding-top: 3rem;
-  }
-
   .md\:pt-16 {
     padding-top: 4rem;
-  }
-
-  .md\:pb-20 {
-    padding-bottom: 5rem;
   }
 
   .md\:pb-32 {
@@ -2231,8 +2231,8 @@ body.sal-disabled [data-sal|=slide] {
     padding-top: 6rem;
   }
 
-  .lg\:pb-40 {
-    padding-bottom: 10rem;
+  .lg\:pb-24 {
+    padding-bottom: 6rem;
   }
 
   .lg\:pb-48 {
