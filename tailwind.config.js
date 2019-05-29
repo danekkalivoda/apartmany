@@ -383,6 +383,9 @@ module.exports = {
       '0': 0,
       auto: 'auto',
     },
+    transform: { // defaults to this value
+      'none': 'none',
+    },
     transformOrigin: {},
     translate: theme => ({ // defaults to {}
       '0': '0',
@@ -390,13 +393,9 @@ module.exports = {
       '1/2': '50%',
       'full': '100%',
       '10px': '10px',
-    }),
-    negativeTranslate: theme => ({ // defaults to {}
-      '0': '0',
-      ...theme('spacing'),
-      '1/2': '50%',
-      'full': '100%',
-      '10px': '10px'
+      '-1/2': '-50%',
+      '-full': '-100%',
+      '-10px': '-10px',
     }),
     scale: { // defaults to {}
       '90': '0.9',
@@ -409,13 +408,11 @@ module.exports = {
       '90': '90deg',
       '180': '180deg',
       '270': '270deg',
-    },
-    negativeRotate: { // defaults to {}
-      '1': '1deg',
-      '45': '45deg',
-      '90': '90deg',
-      '180': '180deg',
-      '270': '270deg',
+      '-1': '-1deg',
+      '-45': '-45deg',
+      '-90': '-90deg',
+      '-180': '-180deg',
+      '-270': '-270deg',
     },
     skew: { // defaults to {}
       '1': '1deg',
@@ -423,13 +420,11 @@ module.exports = {
       '5': '5deg',
       '10': '10deg',
       '30': '30deg',
-    },
-    negativeSkew: { // defaults to {}
-      '1': '1deg',
-      '2': '2deg',
-      '5': '5deg',
-      '10': '10deg',
-      '30': '30deg',
+      '-1': '-1deg',
+      '-2': '-2deg',
+      '-5': '-5deg',
+      '-10': '-10deg',
+      '-30': '-30deg',
     },
     linearGradients: {
       directions: { // defaults to these values
@@ -515,13 +510,9 @@ module.exports = {
     transform: ['responsive', 'hover'],
     transformOrigin: ['responsive'],
     translate: ['responsive', 'hover', 'group-hover'],
-    negativeTranslate: ['responsive', 'hover', 'group-hover'],
     scale: ['responsive', 'group-hover'],
-    negativeScale: ['responsive', 'group-hover'],
     rotate: ['responsive'],
-    negativeRotate: ['responsive'],
     skew: ['responsive'],
-    negativeSkew: ['responsive'],
     linearGradients: ['responsive'],
   },
   corePlugins: {},

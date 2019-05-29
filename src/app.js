@@ -4,6 +4,7 @@ import {
     getViewportState
 } from 'tornis';
 import sal from 'sal.js';
+import VanillaTilt from 'vanilla-tilt';
 
 sal({
     threshold: 0.2,
@@ -27,7 +28,7 @@ watchViewport(updateValues);
         load: function(el) {
             el.src = el.dataset.src;
             el.onload = function() {
-                el.classList.add('opacity-100');
+                el.classList.remove('opacity-0');
                 el.nextElementSibling.classList.add('opacity-0');
             }
         },
@@ -74,5 +75,6 @@ window.onload = function(){
             menuToggle.classList.remove("opened")
         }
     });
-
+    const element = document.querySelectorAll(".js-tilt");
+    VanillaTilt.init(element);
 };

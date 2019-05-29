@@ -1,7 +1,8 @@
 <template>
   <div class="flex flex-wrap w-full">
     <gallery :images="images" :index="index" @close="index = null"></gallery>
-    <div class="inline-flex w-1/3 sm:w-1/4 md:w-1/5 group cursor-pointer"
+    <div class="inline-flex w-1/3 sm:w-1/4 md:w-1/5 group cursor-pointer js-tilt"
+      data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="300"
       v-for="(image, imageIndex) in images"
       :key="imageIndex"
       @click="index = imageIndex">
