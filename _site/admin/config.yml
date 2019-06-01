@@ -225,6 +225,13 @@ collections:
                   - { label: "Levá", value: "text-left" }
                   - { label: "Střed", value: "text-center" }
                   - { label: "Pravá", value: "text-right" }
+              - label: Rozložení
+                name: template
+                required: false
+                widget: select
+                options:
+                  - { label: "Vyberte", value: "" }
+                  - { label: "Varianta 1", value: "template-1" }
               - label: Pozadí
                 name: section-background
                 required: false
