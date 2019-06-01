@@ -56,6 +56,7 @@ sections:
     margin-y: false
     padding-top: true
     section-background: bg-white
+    template: template-1
     type: gallery
   - blocks:
       - desktop-width-class: 2/3
