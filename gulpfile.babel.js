@@ -5,6 +5,7 @@ import cssnano from "cssnano";
 import { dest, series, src, task, watch } from "gulp";
 import gulpif from "gulp-if";
 import postcss from "gulp-postcss";
+import postcssNested from 'postcss-nested';
 import purgecss from "gulp-purgecss";
 import sourcemaps from "gulp-sourcemaps";
 import atimport from "postcss-import";
@@ -122,7 +123,8 @@ task("processStyles", done => {
   return src(rawStylesheet)
     .pipe(
       postcss([
-        atimport(), 
+        atimport(),
+        postcssNested(), 
         postcssPresetEnv({
           stage: 0
         }), 

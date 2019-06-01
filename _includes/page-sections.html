@@ -31,7 +31,7 @@
             {% for image in section.images %}
               '/static{{ image }}?nf_resize=fit&w=800',
             {% endfor %}
-          ]"></gallery>
+          ]" template="{{section.template}}"></gallery>
       </div>
     {% endif %}
 
