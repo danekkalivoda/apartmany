@@ -592,7 +592,6 @@ body.sal-disabled [data-sal|=slide] {
 	-webkit-transform: none;
 	transform: none
 }
-/* purgecss end ignore */
 
 .template-1 {
 	display: grid;
@@ -617,6 +616,8 @@ body.sal-disabled [data-sal|=slide] {
 		.template-1-grid-11 { grid-area: 6 / 2 / 7 / 3; } 
 	} 
 }
+
+/* purgecss end ignore */
 
 /**
  * This injects all of Tailwind's utility classes, generated based on your
