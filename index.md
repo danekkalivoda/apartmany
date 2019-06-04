@@ -34,6 +34,8 @@ sections:
   - header: ''
     images:
       - >-
+        /images/uploads/61710346_678390805954697_8099998670453269156_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+      - >-
         /images/uploads/58831710_632429803895880_8708515538167130996_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
       - >-
         /images/uploads/58440215_862216644128290_384652235976068986_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
@@ -53,6 +55,8 @@ sections:
         /images/uploads/59770368_125486408642320_4135907508334830233_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
       - >-
         /images/uploads/59858445_141801000275141_1999096492130208792_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
+      - >-
+        /images/uploads/59684468_1269504499865704_7548984779098730027_n.jpg-_nc_ht-instagram.fprg2-1.fna.fbcdn.jpeg
     margin-y: false
     padding-top: true
     section-background: bg-white
