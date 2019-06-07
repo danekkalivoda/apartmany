@@ -47,7 +47,8 @@
     "vue-loader": "^15.7.0",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.10",
-    "webpack-stream": "^5.2.1"
+    "webpack-stream": "^5.2.1",
+    "js-yaml": ">=3.13.1"
   },
   "scripts": {
     "build": "NODE_ENV=production gulp",
